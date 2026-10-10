@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
-const PORT = process.env.PORT || 7000;
+const PORT = process.env.PORT || 10000;
 
-// Manifest configuration for Stremio / Nuvio
+// Manifest configuration
 const manifest = {
     id: "org.aindmael.hagemaru.addon",
     version: "1.0.0",
@@ -64,8 +64,7 @@ app.get('/', (req, res) => {
     res.send("Nuvio / Stremio Addon Server is Running Live!");
 });
 
-// Start Server
+// Start Server (Hanya panggil sekali sahaja)
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
-app.listen(PORT, () => console.log(`Server cloud berjalan di port ${PORT}`));
