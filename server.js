@@ -3,12 +3,12 @@ const app = express();
 const PORT = process.env.PORT || 10000;
 
 // ==========================================
-// 1. MANIFEST ADDON (VERSION 3.0.0)
+// 1. MANIFEST ADDON (VERSION 3.1.0)
 // ==========================================
 const manifest = {
     id: "org.aindmael.hagemaru.addon",
-    version: "3.0.0",
-    name: "DaRyz Collection",
+    version: "3.1.0",
+    name: "DaRyz Collection Addon",
     description: "Addon Stremio/Nuvio dengan katalog tersusun mengikut tajuk siri.",
     resources: ["catalog", "stream", "meta"],
     types: ["series"],
