@@ -25,7 +25,7 @@ function createEpisodes(list) {
 // ==========================================
 const manifest = {
     id: "org.aindmael.hagemaru.addon",
-    version: "3.2.0",
+    version: "3.3.0",
     name: "DaRyz Collection Addon",
     description: "Addon Stremio/Nuvio dengan katalog tersusun mengikut tajuk siri.",
     resources: ["catalog", "stream", "meta"],
@@ -34,9 +34,10 @@ const manifest = {
         "hagemaru_series", "ninja_boy_series", "doraemon_series", "pokemon_journeys_series",
         "midori_days_series", "anak_anak_sidek_series", "ueki_series", "ginban_series",
         "black_cat_series", "digimon_savers_series", "digimon_01_series", "shin_chan_series",
-        "akhir_zaman_series", "kd_malay_series", "kd_eng_series"
+        "akhir_zaman_series", "kd_malay_series", "kd_eng_series", "filem_dakwah_sengketa_series"
     ],
     catalogs: [
+        { type: "series", id: "filem_dakwah_sengketa_catalog", name: "Filem Dakwah - Sengketa" },
         { type: "series", id: "hagemaru_catalog", name: "Hagemaru" },
         { type: "series", id: "ninja_boy_catalog", name: "Ninja Boy" },
         { type: "series", id: "doraemon_catalog", name: "Doraemon" },
@@ -59,6 +60,17 @@ const manifest = {
 // 2. DATABASE SENARAI SIRI & EPISOD
 // ==========================================
 const seriesDatabase = {
+    "filem_dakwah_sengketa_catalog": {
+        id: "filem_dakwah_sengketa_series",
+        catalogId: "filem_dakwah_sengketa_catalog",
+        name: "Filem Dakwah - Sengketa",
+        poster: "https://i.postimg.cc/SQTDgV7K/Sengketa.jpg",
+        description: "Koleksi Filem Dakwah - Sengketa.",
+        episodes: createEpisodes([
+            { title: "Sengketa 1", url: "https://files.catbox.moe/6qk9eh.mp4" },
+            { title: "Sengketa 2", url: "https://files.catbox.moe/4uiyst.mp4" }
+        ])
+    },
     "hagemaru_catalog": {
         id: "hagemaru_series",
         catalogId: "hagemaru_catalog",
