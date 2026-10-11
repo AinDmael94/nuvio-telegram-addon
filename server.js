@@ -22,7 +22,7 @@ const manifest = {
 };
 
 // ==========================================
-// 2. SENARAI SIRI / ANIME (DIPECAHKAN SATU PER SATU)
+// 2. SENARAI SIRI / ANIME
 // ==========================================
 
 // --- SIRI 1: HAGEMARU ---
@@ -43,14 +43,11 @@ const ninjaBoy = {
     poster: "https://i.postimg.cc/NjchPqKZ/Ninja_Boy.jpg",
     description: "Koleksi Episod Ninja Boy Bahasa Melayu.",
     episodes: [
-        { episode: 1, title: "Episod 1", url: "https://files.catbox.moe/eufzjd.mp4" },
-        { episode: 2, title: "Episod 2", url: "https://files.catbox.moe/gujt6g.mp4" },
-        { episode: 3, title: "Episod 3", url: "https://files.catbox.moe/tlvkbp.mp4" },
-        { episode: 4, title: "Episod 4", url: "https://files.catbox.moe/fzsduj.mp4" },
-        { episode: 5, title: "Episod 5", url: "https://files.catbox.moe/zmbbmq.mp4" },
-        { episode: 6, title: "Episod 6", url: "https://files.catbox.moe/o7bhaf.mp4" },
-        { episode: 7, title: "Episod 7", url: "https://files.catbox.moe/jmwdz9.mp4" }
-    ]
+        "https://files.catbox.moe/eufzjd.mp4", "https://files.catbox.moe/gujt6g.mp4",
+        "https://files.catbox.moe/tlvkbp.mp4", "https://files.catbox.moe/fzsduj.mp4",
+        "https://files.catbox.moe/zmbbmq.mp4", "https://files.catbox.moe/o7bhaf.mp4",
+        "https://files.catbox.moe/jmwdz9.mp4"
+    ].map((url, idx) => ({ episode: idx + 1, title: `Episod ${idx + 1}`, url }))
 };
 
 // --- SIRI 3: DORAEMON ---
@@ -60,80 +57,71 @@ const doraemon = {
     poster: "https://i.postimg.cc/XYbMDSrm/Doraemon.jpg",
     description: "Koleksi Episod Doraemon Bahasa Melayu.",
     episodes: [
-        { episode: 1, title: "Episod 1", url: "https://files.catbox.moe/oycp0l.mp4" },
-        { episode: 2, title: "Episod 2", url: "https://files.catbox.moe/y2jnzp.mp4" },
-        { episode: 3, title: "Episod 3", url: "https://files.catbox.moe/0rhjn1.mp4" },
-        { episode: 4, title: "Episod 4", url: "https://files.catbox.moe/j5bb72.mp4" },
-        { episode: 5, title: "Episod 5", url: "https://files.catbox.moe/tx56z3.mp4" },
-        { episode: 6, title: "Episod 6", url: "https://files.catbox.moe/d999bc.mp4" },
-        { episode: 7, title: "Episod 7", url: "https://files.catbox.moe/9oagow.mp4" },
-        { episode: 8, title: "Episod 8", url: "https://files.catbox.moe/c88t2y.mp4" },
-        { episode: 9, title: "Episod 9", url: "https://files.catbox.moe/s0w4l2.mp4" },
-        { episode: 10, title: "Episod 10", url: "https://files.catbox.moe/9z3g6p.mp4" },
-        { episode: 11, title: "Episod 11", url: "https://files.catbox.moe/w2rqxc.mp4" },
-        { episode: 12, title: "Episod 12", url: "https://files.catbox.moe/0ye5xj.mp4" },
-        { episode: 13, title: "Episod 13", url: "https://files.catbox.moe/p43ryb.mp4" },
-        { episode: 14, title: "Episod 14", url: "https://files.catbox.moe/4v3zun.mp4" },
-        { episode: 15, title: "Episod 15", url: "https://files.catbox.moe/k6jxyt.mp4" },
-        { episode: 16, title: "Episod 16", url: "https://files.catbox.moe/8rbre5.mp4" },
-        { episode: 17, title: "Episod 17", url: "https://files.catbox.moe/mhs0nv.mp4" },
-        { episode: 18, title: "Episod 18", url: "https://files.catbox.moe/5h1ezm.mp4" },
-        { episode: 19, title: "Episod 19", url: "https://files.catbox.moe/htqy6e.mp4" },
-        { episode: 20, title: "Episod 20", url: "https://files.catbox.moe/lea2x8.mp4" },
-        { episode: 21, title: "Episod 21", url: "https://files.catbox.moe/r42hc2.mp4" },
-        { episode: 22, title: "Episod 22", url: "https://files.catbox.moe/vkeb1q.mp4" },
-        { episode: 23, title: "Episod 23", url: "https://files.catbox.moe/4mcmx3.mp4" },
-        { episode: 24, title: "Episod 24", url: "https://files.catbox.moe/cunbqt.mp4" },
-        { episode: 25, title: "Episod 25", url: "https://files.catbox.moe/qxylix.mp4" },
-        { episode: 26, title: "Episod 26", url: "https://files.catbox.moe/re0c0z.mp4" },
-        { episode: 27, title: "Episod 27", url: "https://files.catbox.moe/ks1u8n.mp4" },
-        { episode: 28, title: "Episod 28", url: "https://files.catbox.moe/79zs6n.mp4" },
-        { episode: 29, title: "Episod 29", url: "https://files.catbox.moe/c6zn2u.mp4" },
-        { episode: 30, title: "Episod 30", url: "https://files.catbox.moe/ytnekv.mp4" },
-        { episode: 31, title: "Episod 31", url: "https://files.catbox.moe/vatbmf.mp4" },
-        { episode: 32, title: "Episod 32", url: "https://files.catbox.moe/5ot9pd.mp4" },
-        { episode: 33, title: "Episod 33", url: "https://files.catbox.moe/8hetcy.mp4" },
-        { episode: 34, title: "Episod 34", url: "https://files.catbox.moe/zl3nzc.mp4" },
-        { episode: 35, title: "Episod 35", url: "https://files.catbox.moe/7bhl4b.mp4" },
-        { episode: 36, title: "Episod 36", url: "https://files.catbox.moe/336km9.mp4" },
-        { episode: 37, title: "Episod 37", url: "https://files.catbox.moe/gz6zd1.mp4" },
-        { episode: 38, title: "Episod 38", url: "https://files.catbox.moe/ti97x3.mp4" },
-        { episode: 39, title: "Episod 39", url: "https://files.catbox.moe/gz9nzk.mp4" },
-        { episode: 40, title: "Episod 40", url: "https://files.catbox.moe/7as2xt.mp4" },
-        { episode: 41, title: "Episod 41", url: "https://files.catbox.moe/lur6di.mp4" },
-        { episode: 42, title: "Episod 42", url: "https://files.catbox.moe/y6cidm.mp4" },
-        { episode: 43, title: "Episod 43", url: "https://files.catbox.moe/40q9mb.mp4" },
-        { episode: 44, title: "Episod 44", url: "https://files.catbox.moe/14uoer.mp4" },
-        { episode: 45, title: "Episod 45", url: "https://files.catbox.moe/tnu1yq.mp4" },
-        { episode: 46, title: "Episod 46", url: "https://files.catbox.moe/jqn9l7.mp4" },
-        { episode: 47, title: "Episod 47", url: "https://files.catbox.moe/75bfy0.mp4" },
-        { episode: 48, title: "Episod 48", url: "https://files.catbox.moe/mpwbnh.mp4" },
-        { episode: 49, title: "Episod 49", url: "https://files.catbox.moe/2sjant.mp4" },
-        { episode: 50, title: "Episod 50", url: "https://files.catbox.moe/khkto1.mp4" },
-        { episode: 51, title: "Episod 51", url: "https://files.catbox.moe/r0w4yb.mp4" },
-        { episode: 52, title: "Episod 52", url: "https://files.catbox.moe/25qjxr.mp4" },
-        { episode: 53, title: "Episod 53", url: "https://files.catbox.moe/z81zu8.mp4" },
-        { episode: 54, title: "Episod 54", url: "https://files.catbox.moe/22zj5h.mp4" },
-        { episode: 55, title: "Episod 55", url: "https://files.catbox.moe/prdrno.mp4" },
-        { episode: 56, title: "Episod 56", url: "https://files.catbox.moe/c81md0.mp4" },
-        { episode: 57, title: "Episod 57", url: "https://files.catbox.moe/hkiu08.mp4" },
-        { episode: 58, title: "Episod 58", url: "https://files.catbox.moe/f0uzr4.mp4" },
-        { episode: 59, title: "Episod 59", url: "https://files.catbox.moe/a1cqxl.mp4" }
-    ]
+        "https://files.catbox.moe/oycp0l.mp4", "https://files.catbox.moe/y2jnzp.mp4", "https://files.catbox.moe/0rhjn1.mp4", "https://files.catbox.moe/j5bb72.mp4", "https://files.catbox.moe/tx56z3.mp4",
+        "https://files.catbox.moe/d999bc.mp4", "https://files.catbox.moe/9oagow.mp4", "https://files.catbox.moe/c88t2y.mp4", "https://files.catbox.moe/s0w4l2.mp4", "https://files.catbox.moe/9z3g6p.mp4",
+        "https://files.catbox.moe/w2rqxc.mp4", "https://files.catbox.moe/0ye5xj.mp4", "https://files.catbox.moe/p43ryb.mp4", "https://files.catbox.moe/4v3zun.mp4", "https://files.catbox.moe/k6jxyt.mp4",
+        "https://files.catbox.moe/8rbre5.mp4", "https://files.catbox.moe/mhs0nv.mp4", "https://files.catbox.moe/5h1ezm.mp4", "https://files.catbox.moe/htqy6e.mp4", "https://files.catbox.moe/lea2x8.mp4",
+        "https://files.catbox.moe/r42hc2.mp4", "https://files.catbox.moe/vkeb1q.mp4", "https://files.catbox.moe/4mcmx3.mp4", "https://files.catbox.moe/cunbqt.mp4", "https://files.catbox.moe/qxylix.mp4",
+        "https://files.catbox.moe/re0c0z.mp4", "https://files.catbox.moe/ks1u8n.mp4", "https://files.catbox.moe/79zs6n.mp4", "https://files.catbox.moe/c6zn2u.mp4", "https://files.catbox.moe/ytnekv.mp4",
+        "https://files.catbox.moe/vatbmf.mp4", "https://files.catbox.moe/5ot9pd.mp4", "https://files.catbox.moe/8hetcy.mp4", "https://files.catbox.moe/zl3nzc.mp4", "https://files.catbox.moe/7bhl4b.mp4",
+        "https://files.catbox.moe/336km9.mp4", "https://files.catbox.moe/gz6zd1.mp4", "https://files.catbox.moe/ti97x3.mp4", "https://files.catbox.moe/gz9nzk.mp4", "https://files.catbox.moe/7as2xt.mp4",
+        "https://files.catbox.moe/lur6di.mp4", "https://files.catbox.moe/y6cidm.mp4", "https://files.catbox.moe/40q9mb.mp4", "https://files.catbox.moe/14uoer.mp4", "https://files.catbox.moe/tnu1yq.mp4",
+        "https://files.catbox.moe/jqn9l7.mp4", "https://files.catbox.moe/75bfy0.mp4", "https://files.catbox.moe/mpwbnh.mp4", "https://files.catbox.moe/2sjant.mp4", "https://files.catbox.moe/khkto1.mp4",
+        "https://files.catbox.moe/r0w4yb.mp4", "https://files.catbox.moe/25qjxr.mp4", "https://files.catbox.moe/z81zu8.mp4", "https://files.catbox.moe/22zj5h.mp4", "https://files.catbox.moe/prdrno.mp4",
+        "https://files.catbox.moe/c81md0.mp4", "https://files.catbox.moe/hkiu08.mp4", "https://files.catbox.moe/f0uzr4.mp4", "https://files.catbox.moe/a1cqxl.mp4"
+    ].map((url, idx) => ({ episode: idx + 1, title: `Episod ${idx + 1}`, url }))
 };
 
-// Nanti kalau nak tambah SIRI 4 (CONTOH: KARTUN ISLAMIC):
-/*
-const kartunIslamic = {
-    id: "kartun_islamic_series",
-    name: "Koleksi Kartun Islamic",
-    poster: "LINK_POSTER_KAT SINI",
-    description: "Koleksi Kisah Nabi & Kartun Islamic.",
+// --- SIRI 4: POKEMON JOURNEYS THE SERIES ---
+const pokemonJourneys = {
+    id: "pokemon_journeys_series",
+    name: "Pokemon Journeys The Series",
+    poster: "https://i.postimg.cc/Ls9SCKJX/Pokemon.jpg",
+    description: "Koleksi Episod Pokemon Journeys Bahasa Melayu.",
     episodes: [
-        { episode: 1, title: "Episod 1", url: "LINK_CATBOX" }
-    ]
+        "https://files.catbox.moe/9l6811.mp4", "https://files.catbox.moe/f2adj4.mp4", "https://files.catbox.moe/bnoev9.mp4", "https://files.catbox.moe/64ntqo.mp4", "https://files.catbox.moe/83f07d.mp4",
+        "https://files.catbox.moe/17e2tr.mp4", "https://files.catbox.moe/5y14uj.mp4", "https://files.catbox.moe/poz7od.mp4", "https://files.catbox.moe/y46f9t.mp4", "https://files.catbox.moe/grq2iu.mp4",
+        "https://files.catbox.moe/k773ev.mp4", "https://files.catbox.moe/r5rda8.mp4", "https://files.catbox.moe/8idngm.mp4", "https://files.catbox.moe/8fz354.mp4", "https://files.catbox.moe/tzcx7q.mp4",
+        "https://files.catbox.moe/o1beae.mp4", "https://files.catbox.moe/uyhug0.mp4", "https://files.catbox.moe/5f9hjn.mp4", "https://files.catbox.moe/ou8sgf.mp4", "https://files.catbox.moe/63xw8p.mp4",
+        "https://files.catbox.moe/r69vzr.mp4", "https://files.catbox.moe/29y1ey.mp4", "https://files.catbox.moe/q258dj.mp4", "https://files.catbox.moe/7lyrdj.mp4", "https://files.catbox.moe/eiy4gx.mp4",
+        "https://files.catbox.moe/utrujc.mp4", "https://files.catbox.moe/f40v16.mp4", "https://files.catbox.moe/9p1oo4.mp4", "https://files.catbox.moe/vw842q.mp4", "https://files.catbox.moe/43p2fg.mp4",
+        "https://files.catbox.moe/odqedh.mp4", "https://files.catbox.moe/iaxi6v.mp4", "https://files.catbox.moe/k27hgg.mp4", "https://files.catbox.moe/umbpcj.mp4", "https://files.catbox.moe/6gn6ci.mp4",
+        "https://files.catbox.moe/brro9o.mp4", "https://files.catbox.moe/0pn8a9.mp4", "https://files.catbox.moe/6qs7l7.mp4", "https://files.catbox.moe/iljl67.mp4", "https://files.catbox.moe/o1welq.mp4",
+        "https://files.catbox.moe/1qf2bs.mp4", "https://files.catbox.moe/6432zl.mp4"
+    ].map((url, idx) => ({ episode: idx + 1, title: `Episod ${idx + 1}`, url }))
 };
-*/
+
+// --- SIRI 5: MIDORI DAYS ---
+const midoriDays = {
+    id: "midori_days_series",
+    name: "Midori Days",
+    poster: "https://i.postimg.cc/P5zgg3D9/Midori-Days.jpg",
+    description: "Koleksi Episod Midori Days Bahasa Melayu.",
+    episodes: [
+        "https://files.catbox.moe/17w3pa.mp4", "https://files.catbox.moe/k27qz0.mp4", "https://files.catbox.moe/17jqa4.mp4", "https://files.catbox.moe/yezp6w.mp4", "https://files.catbox.moe/a5bwab.mp4",
+        "https://files.catbox.moe/l6no0r.mp4", "https://files.catbox.moe/lelg7u.mp4", "https://files.catbox.moe/au9rr9.mp4", "https://files.catbox.moe/kfta82.mp4", "https://files.catbox.moe/7iisgo.mp4",
+        "https://files.catbox.moe/7c9042.mp4", "https://files.catbox.moe/o2mmz3.mp4", "https://files.catbox.moe/8wepsr.mp4"
+    ].map((url, idx) => ({ episode: idx + 1, title: `Episod ${idx + 1}`, url }))
+};
+
+// --- SIRI 6: ANAK-ANAK SIDEK ---
+const anakAnakSidek = {
+    id: "anak_anak_sidek_series",
+    name: "Anak-Anak Sidek",
+    poster: "https://i.postimg.cc/25kYcR11/Anak-Anak-Sidek.jpg",
+    description: "Koleksi Episod Anak-Anak Sidek.",
+    episodes: [
+        "https://files.catbox.moe/0ts7am.mp4", "https://files.catbox.moe/lpswls.mp4", "https://files.catbox.moe/lbmnel.mp4", "https://files.catbox.moe/eligd9.mp4", "https://files.catbox.moe/khs41p.mp4",
+        "https://files.catbox.moe/26c3re.mp4", "https://files.catbox.moe/b16149.mp4", "https://files.catbox.moe/mxe2nn.mp4", "https://files.catbox.moe/s1ayej.mp4", "https://files.catbox.moe/32z6i6.mp4",
+        "https://files.catbox.moe/f8pnpd.mp4", "https://files.catbox.moe/86iy1e.mp4", "https://files.catbox.moe/ttqlp9.mp4", "https://files.catbox.moe/q9dr60.mp4", "https://files.catbox.moe/of0qnd.mp4",
+        "https://files.catbox.moe/cedu56.mp4", "https://files.catbox.moe/xdskm8.mp4", "https://files.catbox.moe/9mzf1z.mp4", "https://files.catbox.moe/lsz3p9.mp4", "https://files.catbox.moe/3mxx6i.mp4",
+        "https://files.catbox.moe/jkjj9o.mp4", "https://files.catbox.moe/wdgv93.mp4", "https://files.catbox.moe/qf2fvl.mp4", "https://files.catbox.moe/jvfta3.mp4", "https://files.catbox.moe/q40kmo.mp4",
+        "https://files.catbox.moe/t6tkl7.mp4", "https://files.catbox.moe/7hj0pp.mp4", "https://files.catbox.moe/2cvkol.mp4", "https://files.catbox.moe/x6d6l2.mp4", "https://files.catbox.moe/em16n2.mp4",
+        "https://files.catbox.moe/kfx8fa.mp4", "https://files.catbox.moe/psqwmg.mp4", "https://files.catbox.moe/qhhlph.mp4", "https://files.catbox.moe/4yre1a.mp4", "https://files.catbox.moe/xmphie.mp4",
+        "https://files.catbox.moe/uwyuaa.mp4", "https://files.catbox.moe/xzp99z.mp4", "https://files.catbox.moe/gw2t8k.mp4", "https://files.catbox.moe/farxtu.mp4", "https://files.catbox.moe/ndsb34.mp4",
+        "https://files.catbox.moe/8p480z.mp4", "https://files.catbox.moe/2by4hx.mp4", "https://files.catbox.moe/r1443c.mp4"
+    ].map((url, idx) => ({ episode: idx + 1, title: `Episod ${idx + 1}`, url }))
+};
 
 // ==========================================
 // 3. GABUNGKAN SEMUA SIRI DALAM KATALOG
@@ -141,12 +129,14 @@ const kartunIslamic = {
 const seriesDatabase = {
     [hagemaru.id]: hagemaru,
     [ninjaBoy.id]: ninjaBoy,
-    [doraemon.id]: doraemon
-    // [kartunIslamic.id]: kartunIslamic <--- Masukkan di sini bila dah buat nanti
+    [doraemon.id]: doraemon,
+    [pokemonJourneys.id]: pokemonJourneys,
+    [midoriDays.id]: midoriDays,
+    [anakAnakSidek.id]: anakAnakSidek
 };
 
 // ==========================================
-// 4. ROUTING & LOGIK SERVER (JANGAN USIK)
+// 4. ROUTING & LOGIK SERVER
 // ==========================================
 app.use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
