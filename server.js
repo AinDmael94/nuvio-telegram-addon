@@ -21,22 +21,25 @@ function createEpisodes(list) {
 }
 
 // ==========================================
-// 1. MANIFEST ADDON (DENGAN IDPREFIXES UNTUK AUTO-PLAY)
+// 1. MANIFEST ADDON
 // ==========================================
 const manifest = {
     id: "org.aindmael.hagemaru.addon",
-    version: "3.3.0",
+    version: "3.7.0",
     name: "DaRyz Collection Addon",
-    description: "Addon Stremio/Nuvio dengan katalog tersusun mengikut tajuk siri.",
+    description: "Addon Stremio/Nuvio dengan katalog tersusun mengikut tajuk siri dan filem.",
     resources: ["catalog", "stream", "meta"],
     types: ["series"],
     idPrefixes: [
-        "hagemaru_series", "ninja_boy_series", "doraemon_series", "pokemon_journeys_series",
-        "midori_days_series", "anak_anak_sidek_series", "ueki_series", "ginban_series",
-        "black_cat_series", "digimon_savers_series", "digimon_01_series", "shin_chan_series",
-        "akhir_zaman_series", "kd_malay_series", "kd_eng_series", "filem_dakwah_sengketa_series"
+        "running_man_series", "mm_", "mahsyar_series", "filem_dakwah_sengketa_series", "hagemaru_series", "ninja_boy_series", 
+        "doraemon_series", "pokemon_journeys_series", "midori_days_series", "anak_anak_sidek_series", 
+        "ueki_series", "ginban_series", "black_cat_series", "digimon_savers_series", 
+        "digimon_01_series", "shin_chan_series", "akhir_zaman_series", "kd_malay_series", "kd_eng_series"
     ],
     catalogs: [
+        { type: "series", id: "running_man_catalog", name: "Running Man" },
+        { type: "series", id: "malaysian_movies_catalog", name: "Malaysian Movies" },
+        { type: "series", id: "mahsyar_catalog", name: "Mahsyar" },
         { type: "series", id: "filem_dakwah_sengketa_catalog", name: "Filem Dakwah - Sengketa" },
         { type: "series", id: "hagemaru_catalog", name: "Hagemaru" },
         { type: "series", id: "ninja_boy_catalog", name: "Ninja Boy" },
@@ -57,9 +60,168 @@ const manifest = {
 };
 
 // ==========================================
-// 2. DATABASE SENARAI SIRI & EPISOD
+// 2. DATABASE SENARAI SIRI & FILEM
 // ==========================================
 const seriesDatabase = {
+    "running_man_catalog": {
+        id: "running_man_series",
+        catalogId: "running_man_catalog",
+        name: "Running Man",
+        poster: "https://i.postimg.cc/wMYXFx0G/RM-2.jpg",
+        description: "Koleksi Episod Running Man (Episod 1 - 100).",
+        episodes: createEpisodes([
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acbff846e979983cdce555e",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc00196e979983cdce5561",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc00196e979983cdce555f",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc00196e979983cdce5562",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc001a6e979983cdce5563",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc00196e979983cdce5560",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc001a6e979983cdce5564",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc001c6e979983cdce5565",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc001c6e979983cdce5566",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc001d6e979983cdce5567",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc00216e979983cdce5569",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc00216e979983cdce5568",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc00266e979983cdce556a",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc00266e979983cdce556b",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc002c6e979983cdce556c",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc002c6e979983cdce556d",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc00586e979983cdce556e",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc00596e979983cdce556f",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc00596e979983cdce5570",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc005d6e979983cdce5571",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc005d6e979983cdce5572",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc005e6e979983cdce5573",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc00636e979983cdce5574",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc00686e979983cdce5575",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc00696e979983cdce5576",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc00696e979983cdce5577",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc00696e979983cdce5578",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc00946e979983cdce5579",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc00946e979983cdce557a",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc00996e979983cdce557b",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc009a6e979983cdce557c",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc009f6e979983cdce557d",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc00a06e979983cdce557e",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc00a46e979983cdce557f",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc00a46e979983cdce5580",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc00a56e979983cdce5581",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc00a56e979983cdce5582",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc00d06e979983cdce5583",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc00d56e979983cdce5584",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc00d66e979983cdce5585",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc00da6e979983cdce5586",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc00db6e979983cdce5587",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc00dc6e979983cdce5588",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc00e06e979983cdce5589",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc00e06e979983cdce558a",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc00e06e979983cdce558b",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc00e66e979983cdce558c",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc010d6e979983cdce558d",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01116e979983cdce558e",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01136e979983cdce558f",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01136e979983cdce5590",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01176e979983cdce5591",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01176e979983cdce5592",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01186e979983cdce5593",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc011d6e979983cdce5594",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01226e979983cdce5595",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01486e979983cdce5596",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01496e979983cdce5597",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc014d6e979983cdce5598",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01526e979983cdce5599",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01546e979983cdce559a",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01556e979983cdce559b",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01586e979983cdce559c",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01586e979983cdce559f",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01586e979983cdce559e",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01586e979983cdce559d",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc015d6e979983cdce55a0",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc015e6e979983cdce55a1",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01896e979983cdce55a2",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01896e979983cdce55a3",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01896e979983cdce55a4",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc018f6e979983cdce55a5",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01946e979983cdce55a6",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01956e979983cdce55a7",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01956e979983cdce55a8",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01956e979983cdce55a9",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc019b6e979983cdce55aa",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01c56e979983cdce55ab",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01c56e979983cdce55ac",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01c76e979983cdce55ad",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01c76e979983cdce55ae",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01ca6e979983cdce55af",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01cb6e979983cdce55b0",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01cb6e979983cdce55b1",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01d06e979983cdce55b3",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01d06e979983cdce55b2",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01d66e979983cdce55b4",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01d66e979983cdce55b5",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01fd6e979983cdce55b6",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01fd6e979983cdce55b7",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc01fe6e979983cdce55b8",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc02036e979983cdce55b9",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc02036e979983cdce55ba",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc02036e979983cdce55bb",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc02096e979983cdce55bd",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc02096e979983cdce55bc",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc020e6e979983cdce55be",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc020e6e979983cdce55bf",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc02396e979983cdce55c0",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acc023e6e979983cdce55c1"
+        ])
+    },
+    "malaysian_movies_catalog": {
+        id: "malaysian_movies_catalog",
+        isMulti: true,
+        items: [
+            { id: "mm_congkak", name: "Congkak", poster: "https://i.postimg.cc/PxxN1gWN/congkak.jpg", description: "Filem Congkak", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acbf8f16e979983cdce554e" },
+            { id: "mm_damping_malam", name: "Damping Malam", poster: "https://i.postimg.cc/rsn7tvjT/Damping-Malam.jpg", description: "Filem Damping Malam", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acbf8f36e979983cdce5550" },
+            { id: "mm_dorm_melati", name: "Dorm Melati", poster: "https://i.postimg.cc/7hh7YCsm/dormmelati.jpg", description: "Filem Dorm Melati", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acbf8f26e979983cdce554f" },
+            { id: "mm_flat_3a", name: "Flat 3A", poster: "https://i.postimg.cc/qqqnMtbZ/flat3a.jpg", description: "Filem Flat 3A", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acbfc716e979983cdce5551" },
+            { id: "mm_gudang_kubur", name: "Gudang Kubur", poster: "https://i.postimg.cc/wMMJTtf4/gudangkubur.jpg", description: "Filem Gudang Kubur", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acbfc716e979983cdce5552" },
+            { id: "mm_ia_wujud", name: "Ia Wujud", poster: "https://i.postimg.cc/yxx9YJQt/iawujud.jpg", description: "Filem Ia Wujud", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acbfc736e979983cdce5554" },
+            { id: "mm_highland_tower", name: "Highland Tower", poster: "https://i.postimg.cc/tJJPC1Sf/highlandtower.jpg", description: "Filem Highland Tower", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acbfc736e979983cdce5553" },
+            { id: "mm_jangan_pandang_belakang", name: "Jangan Pandang Belakang", poster: "https://i.postimg.cc/8ccWPFK2/janganpandangbelakang.gif", description: "Filem Jangan Pandang Belakang", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acbfc746e979983cdce5557" },
+            { id: "mm_hantu_kak_limah_balik_rumah", name: "Hantu Kak Limah Balik Rumah", poster: "https://i.postimg.cc/BbbDQ8YV/hantukaklimahbalikrumah.jpg", description: "Filem Hantu Kak Limah Balik Rumah", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acbfc736e979983cdce5555" },
+            { id: "mm_jalan_puncak_alam", name: "Jalan Puncak Alam", poster: "https://i.postimg.cc/WzzrbDWx/jalanpuncakalam.jpg", description: "Filem Jalan Puncak Alam", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acbfc736e979983cdce5556" },
+            { id: "mm_jangan_tegur", name: "Jangan Tegur", poster: "https://i.postimg.cc/3NNpJyfM/jangantegur.jpg", description: "Filem Jangan Tegur", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acbfc756e979983cdce5558" },
+            { id: "mm_jerit_malam", name: "Jerit Malam", poster: "https://i.postimg.cc/6qPZ79gM/jeritmalam.jpg", description: "Filem Jerit Malam", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acbfc766e979983cdce5559" },
+            { id: "mm_keranda_tok_wan_terbang", name: "Keranda Tok Wan Terbang", poster: "https://i.postimg.cc/wMrNt6ZP/kerandatokwanterbang.jpg", description: "Filem Keranda Tok Wan Terbang", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acbfc806e979983cdce555c" },
+            { id: "mm_karak", name: "Karak", poster: "https://i.postimg.cc/D00syWpk/karak.jpg", description: "Filem Karak", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acbfc7b6e979983cdce555a" },
+            { id: "mm_kelibat", name: "Kelibat", poster: "https://i.postimg.cc/kGHSVnzj/kelibat.jpg", description: "Filem Kelibat", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acbfc7b6e979983cdce555b" },
+            { id: "mm_malam_tahlil_suhaila_balik", name: "Malam Tahlil Suhaila Balik", poster: "https://i.postimg.cc/yxGRJVtp/malamtahlilsuhailabalik.jpg", description: "Filem Malam Tahlil Suhaila Balik", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acbfdfc6e979983cdce555d" },
+            { id: "mm_mami_jarum_the_movie", name: "Mami Jarum The Movie", poster: "https://i.postimg.cc/rsH4d83v/mamijarumthemovie.jpg", description: "Filem Mami Jarum The Movie", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc05d16e979983cdce55c2" },
+            { id: "mm_misteri_jalan_lama", name: "Misteri Jalan Lama", poster: "https://i.postimg.cc/HnNMJpFC/misterijalanlama.jpg", description: "Filem Misteri Jalan Lama", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc05d16e979983cdce55c3" },
+            { id: "mm_mami_jarum_junior", name: "Mami Jarum Junior", poster: "https://i.postimg.cc/6qPZ79gP/mamijarumjunior.jpg", description: "Filem Mami Jarum Junior", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc05d16e979983cdce55c5" },
+            { id: "mm_momok_2", name: "Momok 2", poster: "https://i.postimg.cc/gj7hwY1b/momok2.jpg", description: "Filem Momok 2", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc05d16e979983cdce55c4" },
+            { id: "mm_minyak_dagu", name: "Minyak Dagu", poster: "https://i.postimg.cc/qqFKtkWV/minyakdagu-jpg.jpg", description: "Filem Minyak Dagu", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc05d36e979983cdce55c7" },
+            { id: "mm_mantra", name: "Mantra", poster: "https://i.postimg.cc/J0FXy1Sw/mantra.jpg", description: "Filem Mantra", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc05d26e979983cdce55c6" },
+            { id: "mm_momok_3", name: "Momok 3", poster: "https://i.postimg.cc/gj7hwY1W/momok3.jpg", description: "Filem Momok 3", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc05d56e979983cdce55c8" },
+            { id: "mm_momok_the_movie", name: "Momok The Movie", poster: "https://i.postimg.cc/8cYvF1xT/momokthemovie.jpg", description: "Filem Momok The Movie", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc05da6e979983cdce55c9" },
+            { id: "mm_nasi_tangas", name: "Nasi Tangas", poster: "https://i.postimg.cc/qqFKtkW4/nasitangas.jpg", description: "Filem Nasi Tangas", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc06936e979983cdce55ca" },
+            { id: "mm_munafik", name: "Munafik", poster: "https://i.postimg.cc/d3fC7qgF/munafik.jpg", description: "Filem Munafik", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc06936e979983cdce55cb" },
+            { id: "mm_paku", name: "Paku", poster: "https://i.postimg.cc/WzyZD2xN/paku.jpg", description: "Filem Paku", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc074d6e979983cdce55cc" },
+            { id: "mm_paya_hitam", name: "Paya Hitam", poster: "https://i.postimg.cc/d3fC7qgt/payahitam.jpg", description: "Filem Paya Hitam", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc074d6e979983cdce55cd" }
+        ]
+    },
+    "mahsyar_catalog": {
+        id: "mahsyar_series",
+        catalogId: "mahsyar_catalog",
+        name: "Mahsyar",
+        poster: "https://i.postimg.cc/nVR03TYz/Mahsyar.jpg",
+        description: "Koleksi Siri Mahsyar (Episod 1 - 7).",
+        episodes: createEpisodes([
+            { title: "Mahsyar 1 - Kalau Binatang Sahaja Pun Dah Sesak", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acbf4e66e979983cdce554a" },
+            { title: "Mahsyar 2 - Berselisih Dengan Ahli Keluarga, Tidak Bertegur", url: "https://files.catbox.moe/5mgrcm.mp4" },
+            { title: "Mahsyar 3 - Berapa Kumpulan Manusia Di Mahsyar", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acbf4f36e979983cdce554b" },
+            { title: "Mahsyar 4 - Beliau Empunya Syafaat Teragung", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acbf4fe6e979983cdce554c" },
+            { title: "Mahsyar 5 - Mizan, Mesti Canggih Alat Timbangan Amal", url: "https://files.catbox.moe/x9i1ns.mp4" },
+            { title: "Mahsyar 6 - Tak Terbayang 1000 Tahun Di Dalam Api", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acbf5076e979983cdce554d" },
+            { title: "Mahsyar 7 - Syurga Atau Neraka Semuanya Pilihan Diri", url: "https://files.catbox.moe/oxfje5.mp4" }
+        ])
+    },
     "filem_dakwah_sengketa_catalog": {
         id: "filem_dakwah_sengketa_series",
         catalogId: "filem_dakwah_sengketa_catalog",
@@ -342,23 +504,62 @@ app.get('/stremio/:user/catalog/:type/:id.json', (req, res) => {
     const series = seriesDatabase[catalogId];
 
     if (series) {
-        res.json({
-            metas: [{
-                id: series.id,
-                type: "series",
-                name: series.name,
-                poster: series.poster,
-                description: series.description
-            }]
-        });
+        if (series.isMulti) {
+            res.json({
+                metas: series.items.map(item => ({
+                    id: item.id,
+                    type: "series",
+                    name: item.name,
+                    poster: item.poster,
+                    description: item.description
+                }))
+            });
+        } else {
+            res.json({
+                metas: [{
+                    id: series.id,
+                    type: "series",
+                    name: series.name,
+                    poster: series.poster,
+                    description: series.description
+                }]
+            });
+        }
     } else {
         res.json({ metas: [] });
     }
 });
 
 app.get('/stremio/:user/meta/:type/:id.json', (req, res) => {
-    const seriesId = req.params.id.split(':')[0];
-    const series = Object.values(seriesDatabase).find(s => s.id === seriesId);
+    const targetId = req.params.id.split(':')[0];
+
+    // Semak katalog pelbagai item (filem individual)
+    for (const cat of Object.values(seriesDatabase)) {
+        if (cat.isMulti) {
+            const item = cat.items.find(i => i.id === targetId);
+            if (item) {
+                return res.json({
+                    meta: {
+                        id: item.id,
+                        type: "series",
+                        name: item.name,
+                        poster: item.poster,
+                        description: item.description,
+                        videos: [{
+                            id: `${item.id}:1:1`,
+                            title: item.name,
+                            season: 1,
+                            episode: 1,
+                            released: new Date().toISOString()
+                        }]
+                    }
+                });
+            }
+        }
+    }
+
+    // Semak siri individu biasa
+    const series = Object.values(seriesDatabase).find(s => s.id === targetId);
 
     if (series) {
         const videos = series.episodes.map(e => ({
@@ -389,23 +590,40 @@ app.get('/stremio/:user/meta/:type/:id.json', (req, res) => {
 // ==========================================
 app.get('/stremio/:user/stream/:type/:id.json', (req, res) => {
     const parts = req.params.id.split(':');
-    const seriesId = parts[0];
+    const targetId = parts[0];
     const episodeNum = parseInt(parts[2], 10) || 1;
 
-    const series = Object.values(seriesDatabase).find(s => s.id === seriesId);
+    // Semak filem dalam katalog pelbagai item
+    for (const cat of Object.values(seriesDatabase)) {
+        if (cat.isMulti) {
+            const item = cat.items.find(i => i.id === targetId);
+            if (item) {
+                return res.json({
+                    streams: [{
+                        title: `Direct HD (${item.name})`,
+                        url: item.url,
+                        behaviorHints: {
+                            bingeGroup: `${item.id}-hd`
+                        }
+                    }]
+                });
+            }
+        }
+    }
+
+    // Semak siri biasa
+    const series = Object.values(seriesDatabase).find(s => s.id === targetId);
     if (series) {
         const ep = series.episodes.find(e => e.episode === episodeNum);
         if (ep) {
             return res.json({
-                streams: [
-                    {
-                        title: `Catbox Direct HD (${ep.title})`,
-                        url: ep.url,
-                        behaviorHints: {
-                            bingeGroup: `${series.id}-hd`
-                        }
+                streams: [{
+                    title: `Direct HD (${ep.title})`,
+                    url: ep.url,
+                    behaviorHints: {
+                        bingeGroup: `${series.id}-hd`
                     }
-                ]
+                }]
             });
         }
     }
