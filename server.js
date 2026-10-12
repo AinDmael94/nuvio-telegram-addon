@@ -2,10 +2,18 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 8080;
 
-// Database Senarai Episod (Naruto, Black Clover, dll)
+// Database Senarai Episod
 const narutoEpisodes = [
   { episode: 1, title: "Naruto_episode1.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc97d56e979983cdce58b1" },
-  // ... (sambung senarai episod anda seperti biasa)
+  { episode: 2, title: "Nt Episod 002.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc97d56e979983cdce58af" },
+  { episode: 3, title: "Nt Episod 003.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc97d56e979983cdce58b0" },
+  { episode: 4, title: "Nt Episod 004.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc97d56e979983cdce58ad" },
+  { episode: 5, title: "Nt Episod 005.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc97d56e979983cdce58ae" },
+  { episode: 6, title: "Nt Episod 006.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc97d56e979983cdce58ac" },
+  { episode: 7, title: "Nt Episod 007.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc97de6e979983cdce58b2" },
+  { episode: 8, title: "Nt Episod 008.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc97de6e979983cdce58b4" },
+  { episode: 9, title: "Nt Episod 009.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc97de6e979983cdce58b3" },
+  { episode: 10, title: "Nt Episod 010.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc97de6e979983cdce58b5" }
 ];
 
 const blackCloverEpisodes = [
@@ -20,7 +28,7 @@ const ustazWadiEpisodes = [];
 const kidsDelightEpisodes = [];
 const runningManEpisodes = [];
 
-// Sokongan laluan dinamik dengan parameter :userId (mengelakkan ralat laluan di Nuvio)
+// Manifest Endpoint
 app.get('/:userId/manifest.json', (req, res) => {
   res.json({
     id: 'org.ryzstream.allinone',
@@ -45,7 +53,7 @@ app.get('/manifest.json', (req, res) => {
   res.redirect('/user123/manifest.json');
 });
 
-// Meta Endpoint dengan parameter :userId
+// Meta Endpoint
 app.get('/:userId/meta/:type/:id.json', (req, res) => {
   const metaDatabase = {
     'naruto_catalog': {
@@ -117,11 +125,11 @@ app.get('/:userId/meta/:type/:id.json', (req, res) => {
   if (requestedMeta) {
     res.json({ meta: requestedMeta });
   } else {
-    res.status(404).json({ error: 'Not found' domain });
+    res.status(404).json({ error: 'Not found' });
   }
 });
 
-// Stream Endpoint dengan parameter :userId
+// Stream Endpoint
 app.get('/:userId/stream/:type/:id.json', (req, res) => {
   const parts = req.params.id.split(':');
   const catalogId = parts[0];
