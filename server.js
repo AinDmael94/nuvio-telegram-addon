@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const PORT = process.env.PORT || 7000;
+const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 
@@ -89,9 +89,9 @@ const seriesDatabase = {
         id: "dragon_ball_movie",
         isMulti: true,
         items: [
-            { id: "db_path_to_power", name: "Mutiara Naga Movie 04: The Path to Power (1996)", poster: "https://i.postimg.cc/mDWZ4mZv/Dragon-Ball-The-Way-to-the-Strongest.jpg", description: "Dragon Ball Movie 1996", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb1486e979983cdce5a77" },
-            { id: "db_sleeping_princess", name: "Dragon Ball: Sleeping Princess in Devil's Castle", poster: "https://i.postimg.cc/DzKPXKx0/Dragon-Ball-Sleeping-Princess-in-Devil-s-Castle.jpg", description: "Dragon Ball Movie", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb1486e979983cdce5a78" },
-            { id: "db_legend_shenron", name: "Dragon Ball: Legend of Shenron (Malay Dub)", poster: "https://i.postimg.cc/q7dx3d1R/Dragon-Ball-The-Way-to-the-Strongest.jpg", description: "Dragon Ball Malay Dub", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb1486e979983cdce5a79" }
+            { id: "db_path_to_power", name: "Mutiara Naga Movie 04: The Path to Power (1996)", poster: "https://i.postimg.cc/mDWZ4mZv/Dragon-Ball-The-Way-to-the-Strongest.jpg", description: "Dragon Ball Movie 1996", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb1486e979983cdce5a77" },
+            { id: "db_sleeping_princess", name: "Dragon Ball: Sleeping Princess in Devil's Castle", poster: "https://i.postimg.cc/DzKPXKx0/Dragon-Ball-Sleeping-Princess-in-Devil-s-Castle.jpg", description: "Dragon Ball Movie", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb1486e979983cdce5a78" },
+            { id: "db_legend_shenron", name: "Dragon Ball: Legend of Shenron (Malay Dub)", poster: "https://i.postimg.cc/q7dx3d1R/Dragon-Ball-The-Way-to-the-Strongest.jpg", description: "Dragon Ball Malay Dub", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb1486e979983cdce5a79" }
         ]
     },
     "satria_catalog": {
@@ -101,32 +101,32 @@ const seriesDatabase = {
         poster: "https://i.postimg.cc/RZbQgHSb/SATRIA.jpg",
         description: "Koleksi Satria 7 Pahlawan.",
         episodes: createEpisodes([
-            { title: "[EP.01] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb2bf6e979983cdce5a7f" },
-            { title: "[EP.02] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb2bf6e979983cdce5a7d" },
-            { title: "[EP.03] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb2bf6e979983cdce5a7b" },
-            { title: "[EP.04] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb2bf6e979983cdce5a7e" },
-            { title: "[EP.05] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb2bf6e979983cdce5a7a" },
-            { title: "[EP.06] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb2bf6e979983cdce5a7c" },
-            { title: "[EP.07] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb2c76e979983cdce5a80" },
-            { title: "[EP.08] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb2c76e979983cdce5a81" },
-            { title: "[EP.09] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb2c76e979983cdce5a82" },
-            { title: "[EP.10] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb2c76e979983cdce5a83" },
-            { title: "[EP.11] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb2cd6e979983cdce5a84" },
-            { title: "[EP.12] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb2cd6e979983cdce5a85" },
-            { title: "[EP.13] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb2d26e979983cdce5a86" },
-            { title: "[EP.14] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb2d26e979983cdce5a87" },
-            { title: "[EP.15] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb2fe6e979983cdce5a88" },
-            { title: "[EP.16] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb2fe6e979983cdce5a89" },
-            { title: "[EP.17] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb2fe6e979983cdce5a8a" },
-            { title: "[EP.18] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb2ff6e979983cdce5a8b" },
-            { title: "[EP.19] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb3036e979983cdce5a8c" },
-            { title: "[EP.20] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb3036e979983cdce5a8d" },
-            { title: "[EP.21] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb3096e979983cdce5a8e" },
-            { title: "[EP.22] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb3096e979983cdce5a8f" },
-            { title: "[EP.23] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb3096e979983cdce5a90" },
-            { title: "[EP.24] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb30e6e979983cdce5a91" },
-            { title: "[EP.25] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb30e6e979983cdce5a92" },
-            { title: "[EP.26] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb33a6e979983cdce5a93" }
+            { title: "[EP.01] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb2bf6e979983cdce5a7f" },
+            { title: "[EP.02] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb2bf6e979983cdce5a7d" },
+            { title: "[EP.03] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb2bf6e979983cdce5a7b" },
+            { title: "[EP.04] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb2bf6e979983cdce5a7e" },
+            { title: "[EP.05] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb2bf6e979983cdce5a7a" },
+            { title: "[EP.06] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb2bf6e979983cdce5a7c" },
+            { title: "[EP.07] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb2c76e979983cdce5a80" },
+            { title: "[EP.08] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb2c76e979983cdce5a81" },
+            { title: "[EP.09] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb2c76e979983cdce5a82" },
+            { title: "[EP.10] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb2c76e979983cdce5a83" },
+            { title: "[EP.11] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb2cd6e979983cdce5a84" },
+            { title: "[EP.12] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb2cd6e979983cdce5a85" },
+            { title: "[EP.13] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb2d26e979983cdce5a86" },
+            { title: "[EP.14] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb2d26e979983cdce5a87" },
+            { title: "[EP.15] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb2fe6e979983cdce5a88" },
+            { title: "[EP.16] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb2fe6e979983cdce5a89" },
+            { title: "[EP.17] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb2fe6e979983cdce5a8a" },
+            { title: "[EP.18] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb2ff6e979983cdce5a8b" },
+            { title: "[EP.19] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb3036e979983cdce5a8c" },
+            { title: "[EP.20] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb3036e979983cdce5a8d" },
+            { title: "[EP.21] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb3096e979983cdce5a8e" },
+            { title: "[EP.22] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb3096e979983cdce5a8f" },
+            { title: "[EP.23] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb3096e979983cdce5a90" },
+            { title: "[EP.24] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb30e6e979983cdce5a91" },
+            { title: "[EP.25] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb30e6e979983cdce5a92" },
+            { title: "[EP.26] Satria 7 Pahlawan", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb33a6e979983cdce5a93" }
         ])
     },
     "gundam_build_fighter_catalog": {
@@ -136,31 +136,31 @@ const seriesDatabase = {
         poster: "https://i.postimg.cc/HkP46yYN/Gundam-Build-Fighter.jpg",
         description: "Koleksi Gundam Build Fighters Malay Dub.",
         episodes: createEpisodes([
-            { title: "Episode 1: Sei dan Renji", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb38a6e979983cdce5a96" },
-            { title: "Episode 2: Comet Lembayung", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb38a6e979983cdce5a94" },
-            { title: "Episode 3: Pakej Penuh", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb38a6e979983cdce5a95" },
-            { title: "Episode 4: Gunpla Pujaan Kirara", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb38a6e979983cdce5a98" },
-            { title: "Episode 5: Pembina Kuat", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb38a6e979983cdce5a99" },
-            { title: "Episode 6: Satu Alasan Pertempuran", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb38a6e979983cdce5a97" },
-            { title: "Episode 7: Keupayaan Tahap Dunia", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb3926e979983cdce5a9a" },
-            { title: "Episode 8: Pertemuan Pejuang", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb3926e979983cdce5a9c" },
-            { title: "Episode 9: Sayap Imaginasi", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb3926e979983cdce5a9b" },
-            { title: "Episode 10: Permulaan Kejohanan Dunia", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb3926e979983cdce5a9d" },
-            { title: "Episode 11: Pertempuran Diraja", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb3986e979983cdce5a9e" },
-            { title: "Episode 12: Pelepasan", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb3986e979983cdce5a9f" },
-            { title: "Episode 13: Senjata Pertempuran", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb39d6e979983cdce5aa0" },
-            { title: "Episode 14: Name Kod", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb39d6e979983cdce5aa1" },
-            { title: "Episode 15: Seri Pejuang", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb39d6e979983cdce5aa2" },
-            { title: "Episode 16: Bapa, Kita Berjumpa Lagi", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb39d6e979983cdce5aa3" },
-            { title: "Episode 17: Model Jantung", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb3c96e979983cdce5aa4" },
-            { title: "Episode 18: Anjing Pemburu", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb3ce6e979983cdce5aa5" },
-            { title: "Episode 19: Pisau Astray", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb3ce6e979983cdce5aa6" },
-            { title: "Episode 20: Pengkhianatan Aila", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb3ce6e979983cdce5aa7" },
-            { title: "Episode 21: Di Tengah Zarah", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb3d46e979983cdce5aa8" },
-            { title: "Episode 22: Meijin Bertanding", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb3d46e979983cdce5aa9" },
-            { title: "Episode 23: Gunpla Malam", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb3d46e979983cdce5aaa" },
-            { title: "Episode 24: Perkara Gelap", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb3d96e979983cdce5aab" },
-            { title: "Episode 25: Perjanjian", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb3d96e979983cdce5aac" }
+            { title: "Episode 1: Sei dan Renji", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb38a6e979983cdce5a96" },
+            { title: "Episode 2: Comet Lembayung", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb38a6e979983cdce5a94" },
+            { title: "Episode 3: Pakej Penuh", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb38a6e979983cdce5a95" },
+            { title: "Episode 4: Gunpla Pujaan Kirara", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb38a6e979983cdce5a98" },
+            { title: "Episode 5: Pembina Kuat", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb38a6e979983cdce5a99" },
+            { title: "Episode 6: Satu Alasan Pertempuran", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb38a6e979983cdce5a97" },
+            { title: "Episode 7: Keupayaan Tahap Dunia", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb3926e979983cdce5a9a" },
+            { title: "Episode 8: Pertemuan Pejuang", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb3926e979983cdce5a9c" },
+            { title: "Episode 9: Sayap Imaginasi", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb3926e979983cdce5a9b" },
+            { title: "Episode 10: Permulaan Kejohanan Dunia", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb3926e979983cdce5a9d" },
+            { title: "Episode 11: Pertempuran Diraja", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb3986e979983cdce5a9e" },
+            { title: "Episode 12: Pelepasan", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb3986e979983cdce5a9f" },
+            { title: "Episode 13: Senjata Pertempuran", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb39d6e979983cdce5aa0" },
+            { title: "Episode 14: Name Kod", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb39d6e979983cdce5aa1" },
+            { title: "Episode 15: Seri Pejuang", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb39d6e979983cdce5aa2" },
+            { title: "Episode 16: Bapa, Kita Berjumpa Lagi", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb39d6e979983cdce5aa3" },
+            { title: "Episode 17: Model Jantung", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb3c96e979983cdce5aa4" },
+            { title: "Episode 18: Anjing Pemburu", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb3ce6e979983cdce5aa5" },
+            { title: "Episode 19: Pisau Astray", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb3ce6e979983cdce5aa6" },
+            { title: "Episode 20: Pengkhianatan Aila", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb3ce6e979983cdce5aa7" },
+            { title: "Episode 21: Di Tengah Zarah", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb3d46e979983cdce5aa8" },
+            { title: "Episode 22: Meijin Bertanding", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb3d46e979983cdce5aa9" },
+            { title: "Episode 23: Gunpla Malam", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb3d46e979983cdce5aaa" },
+            { title: "Episode 24: Perkara Gelap", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb3d96e979983cdce5aab" },
+            { title: "Episode 25: Perjanjian", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb3d96e979983cdce5aac" }
         ])
     },
     "time_bokan_catalog": {
@@ -170,29 +170,29 @@ const seriesDatabase = {
         poster: "https://i.postimg.cc/YCyfdWrV/Time-Bokan.jpg",
         description: "Koleksi Time Bokan 24.",
         episodes: createEpisodes([
-            { title: "Time Bokan 24 - Episode 01", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb51a6e979983cdce5ab0" },
-            { title: "Time Bokan 24 - Episode 02", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb51a6e979983cdce5aad" },
-            { title: "Time Bokan 24 - Episode 03", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb51a6e979983cdce5ab1" },
-            { title: "Time Bokan 24 - Episode 04", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb51a6e979983cdce5aae" },
-            { title: "Time Bokan 24 - Episode 05", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb51a6e979983cdce5ab2" },
-            { title: "Time Bokan 24 - Episode 06", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb51a6e979983cdce5aaf" },
-            { title: "Time Bokan 24 - Episode 07", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb5226e979983cdce5ab3" },
-            { title: "Time Bokan 24 - Episode 08", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb5246e979983cdce5ab4" },
-            { title: "Time Bokan 24 - Episode 09", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb5246e979983cdce5ab5" },
-            { title: "Time Bokan 24 - Episode 10", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb5246e979983cdce5ab6" },
-            { title: "Time Bokan 24 - Episode 12", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb5276e979983cdce5ab7" },
-            { title: "Time Bokan 24 - Episode 13", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb5276e979983cdce5ab8" },
-            { title: "Time Bokan 24 - Episode 14", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb52d6e979983cdce5ab9" },
-            { title: "Time Bokan 24 - Episode 15", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb52d6e979983cdce5aba" },
-            { title: "Time Bokan 24 - Episode 16", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb52d6e979983cdce5abb" },
-            { title: "Time Bokan 24 - Episode 17", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb52d6e979983cdce5abc" },
-            { title: "Time Bokan 24 - Episode 18", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb55d6e979983cdce5abd" },
-            { title: "Time Bokan 24 - Episode 19", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb55d6e979983cdce5abe" },
-            { title: "Time Bokan 24 - Episode 20", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb55d6e979983cdce5abf" },
-            { title: "Time Bokan 24 - Episode 21", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb55d6e979983cdce5ac0" },
-            { title: "Time Bokan 24 - Episode 22", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb5636e979983cdce5ac1" },
-            { title: "Time Bokan 24 - Episode 23", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb5636e979983cdce5ac2" },
-            { title: "Time Bokan 24 - Episode 24 Akhir", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb5686e979983cdce5ac3" }
+            { title: "Time Bokan 24 - Episode 01", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb51a6e979983cdce5ab0" },
+            { title: "Time Bokan 24 - Episode 02", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb51a6e979983cdce5aad" },
+            { title: "Time Bokan 24 - Episode 03", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb51a6e979983cdce5ab1" },
+            { title: "Time Bokan 24 - Episode 04", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb51a6e979983cdce5aae" },
+            { title: "Time Bokan 24 - Episode 05", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb51a6e979983cdce5ab2" },
+            { title: "Time Bokan 24 - Episode 06", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb51a6e979983cdce5aaf" },
+            { title: "Time Bokan 24 - Episode 07", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb5226e979983cdce5ab3" },
+            { title: "Time Bokan 24 - Episode 08", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb5246e979983cdce5ab4" },
+            { title: "Time Bokan 24 - Episode 09", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb5246e979983cdce5ab5" },
+            { title: "Time Bokan 24 - Episode 10", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb5246e979983cdce5ab6" },
+            { title: "Time Bokan 24 - Episode 12", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb5276e979983cdce5ab7" },
+            { title: "Time Bokan 24 - Episode 13", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb5276e979983cdce5ab8" },
+            { title: "Time Bokan 24 - Episode 14", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb52d6e979983cdce5ab9" },
+            { title: "Time Bokan 24 - Episode 15", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb52d6e979983cdce5aba" },
+            { title: "Time Bokan 24 - Episode 16", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb52d6e979983cdce5abb" },
+            { title: "Time Bokan 24 - Episode 17", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb52d6e979983cdce5abc" },
+            { title: "Time Bokan 24 - Episode 18", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb55d6e979983cdce5abd" },
+            { title: "Time Bokan 24 - Episode 19", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb55d6e979983cdce5abe" },
+            { title: "Time Bokan 24 - Episode 20", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb55d6e979983cdce5abf" },
+            { title: "Time Bokan 24 - Episode 21", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb55d6e979983cdce5ac0" },
+            { title: "Time Bokan 24 - Episode 22", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb5636e979983cdce5ac1" },
+            { title: "Time Bokan 24 - Episode 23", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb5636e979983cdce5ac2" },
+            { title: "Time Bokan 24 - Episode 24 Akhir", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb5686e979983cdce5ac3" }
         ])
     },
     "naruto_catalog": {
@@ -540,32 +540,32 @@ const seriesDatabase = {
         poster: "https://i.postimg.cc/DyLm8nhJ/DS-DP.jpg",
         description: "Demon Slayer Episode 1 hingga 26.",
         episodes: createEpisodes([
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca07b6e979983cdce598b",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca07b6e979983cdce5989",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca07b6e979983cdce598d",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca07b6e979983cdce5988",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca07b6e979983cdce598c",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca07b6e979983cdce598a",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca0836e979983cdce598e",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca0856e979983cdce598f",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca0856e979983cdce5990",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca0856e979983cdce5991",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca0886e979983cdce5992",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca0886e979983cdce5993",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca08d6e979983cdce5994",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca08d6e979983cdce5995",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca08e6e979983cdce5996",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca08e6e979983cdce5997",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca0c06e979983cdce5998",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca0c56e979983cdce5999",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca0c56e979983cdce599b",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca0c56e979983cdce599a",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca0c66e979983cdce599c",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca0cb6e979983cdce599d",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca0cc6e979983cdce599e",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca0d16e979983cdce599f",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca0d16e979983cdce59a0",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca0f66e979983cdce59a1"
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca07b6e979983cdce598b",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca07b6e979983cdce5989",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca07b6e979983cdce598d",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca07b6e979983cdce5988",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca07b6e979983cdce598c",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca07b6e979983cdce598a",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca0836e979983cdce598e",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca0856e979983cdce598f",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca0856e979983cdce5990",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca0856e979983cdce5991",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca0886e979983cdce5992",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca0886e979983cdce5993",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca08d6e979983cdce5994",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca08d6e979983cdce5995",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca08e6e979983cdce5996",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca08e6e979983cdce5997",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca0c06e979983cdce5998",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca0c56e979983cdce5999",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca0c56e979983cdce599b",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca0c56e979983cdce599a",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca0c66e979983cdce599c",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca0cb6e979983cdce599d",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca0cc6e979983cdce599e",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca0d16e979983cdce599f",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca0d16e979983cdce59a0",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca0f66e979983cdce59a1"
         ])
     },
     "jjk_catalog": {
@@ -575,30 +575,30 @@ const seriesDatabase = {
         poster: "https://i.postimg.cc/dtrDLwFL/JJK-DP.jpg",
         description: "Jujutsu Kaisen Episode 1 hingga 24.",
         episodes: createEpisodes([
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca8136e979983cdce5a4d",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca8136e979983cdce5a4e",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca8136e979983cdce5a4f",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca8136e979983cdce5a50",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca8136e979983cdce5a51",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca8136e979983cdce5a52",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca81b6e979983cdce5a53",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca81d6e979983cdce5a54",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca81d6e979983cdce5a55",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca81d6e979983cdce5a56",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca8206e979983cdce5a57",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca8206e979983cdce5a58",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca8256e979983cdce5a59",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca8256e979983cdce5a5a",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca83a6e979983cdce5a5b",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca83b6e979983cdce5a5c",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca83b6e979983cdce5a5d",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca83b6e979983cdce5a5e",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca8406e979983cdce5a5f",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca8406e979983cdce5a60",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca8406e979983cdce5a61",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca8466e979983cdce5a62",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca8466e979983cdce5a63",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca8466e979983cdce5a64"
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca8136e979983cdce5a4d",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca8136e979983cdce5a4e",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca8136e979983cdce5a4f",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca8136e979983cdce5a50",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca8136e979983cdce5a51",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca8136e979983cdce5a52",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca81b6e979983cdce5a53",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca81d6e979983cdce5a54",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca81d6e979983cdce5a55",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca81d6e979983cdce5a56",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca8206e979983cdce5a57",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca8206e979983cdce5a58",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca8256e979983cdce5a59",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca8256e979983cdce5a5a",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca83a6e979983cdce5a5b",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca83b6e979983cdce5a5c",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca83b6e979983cdce5a5d",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca83b6e979983cdce5a5e",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca8406e979983cdce5a5f",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca8406e979983cdce5a60",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca8406e979983cdce5a61",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca8466e979983cdce5a62",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca8466e979983cdce5a63",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca8466e979983cdce5a64"
         ])
     },
     "boruto_catalog": {
@@ -608,155 +608,155 @@ const seriesDatabase = {
         poster: "https://i.postimg.cc/BZdkmGKm/Boruto-1.jpg",
         description: "Koleksi Boruto Episod terpilih.",
         episodes: createEpisodes([
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca26e6e979983cdce59d3",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca26e6e979983cdce59d4",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca26e6e979983cdce59d5",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2736e979983cdce59d6",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca27a6e979983cdce59d7",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2a06e979983cdce59d8",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2a06e979983cdce59d9",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2a06e979983cdce59da",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2a66e979983cdce59db",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2a66e979983cdce59dc",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2aa6e979983cdce59dd",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2ab6e979983cdce59de",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2ab6e979983cdce59df",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2b16e979983cdce59e0",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2b16e979983cdce59e1",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2dc6e979983cdce59e2",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2e06e979983cdce59e3",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2e06e979983cdce59e4",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2e16e979983cdce59e6",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2e16e979983cdce59e5",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2e66e979983cdce59e7",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2e66e979983cdce59e8",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2eb6e979983cdce59e9",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2ec6e979983cdce59ea",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2ec6e979983cdce59eb",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2f26e979983cdce59ec",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3186e979983cdce59ed",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca31e6e979983cdce59ee",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca31e6e979983cdce59ef",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3246e979983cdce59f0",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3246e979983cdce59f1",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3256e979983cdce59f2",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3296e979983cdce59f3",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3296e979983cdce59f4",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3296e979983cdce59f5",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca32f6e979983cdce59f6",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca32f6e979983cdce59f7",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3546e979983cdce59f8",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca35a6e979983cdce59f9",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca35c6e979983cdce59fa",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca35f6e979983cdce59fb",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca35f6e979983cdce59fc",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3606e979983cdce59fd",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3606e979983cdce59fe",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3656e979983cdce59ff",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3906e979983cdce5a00",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3906e979983cdce5a01",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3906e979983cdce5a02",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3956e979983cdce5a03",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca39b6e979983cdce5a04",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca39b6e979983cdce5a05",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca39b6e979983cdce5a06",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3a06e979983cdce5a07",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3a06e979983cdce5a08",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3a06e979983cdce5a09",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3a56e979983cdce5a0a",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3cd6e979983cdce5a0b",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3cd6e979983cdce5a0c",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3cd6e979983cdce5a0d",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3d26e979983cdce5a0e",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3d76e979983cdce5a0f",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3d76e979983cdce5a10",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3d76e979983cdce5a11",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3d76e979983cdce5a12",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3dc6e979983cdce5a13",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3dd6e979983cdce5a14",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6056e979983cdce5a15",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6056e979983cdce5a16",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6056e979983cdce5a17",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6056e979983cdce5a18",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6056e979983cdce5a19",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6056e979983cdce5a1a",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca60d6e979983cdce5a1b",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca60d6e979983cdce5a1c",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca60d6e979983cdce5a1d",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca60d6e979983cdce5a1e",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6136e979983cdce5a1f",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6136e979983cdce5a20",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6196e979983cdce5a21",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca77e6e979983cdce5a3d",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca77e6e979983cdce5a3c",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca77e6e979983cdce5a39",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca77e6e979983cdce5a3a",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca77e6e979983cdce5a3b",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca77e6e979983cdce5a38",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca7866e979983cdce5a40",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca7866e979983cdce5a3f",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca7866e979983cdce5a3e",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca7866e979983cdce5a41",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca78c6e979983cdce5a42",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca78c6e979983cdce5a43",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca7916e979983cdce5a45",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca7916e979983cdce5a44",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca7916e979983cdce5a46",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca7bd6e979983cdce5a47",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca7bd6e979983cdce5a48",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca7bd6e979983cdce5a49",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca7c26e979983cdce5a4a",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca7c26e979983cdce5a4c",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca7c26e979983cdce5a4b",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca1706e979983cdce59a6",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca1706e979983cdce59a5",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca1706e979983cdce59a3",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca1706e979983cdce59a4",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca1706e979983cdce59a2",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca1706e979983cdce59a7",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca1786e979983cdce59a8",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca1786e979983cdce59a9",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca1786e979983cdce59aa",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca1786e979983cdce59ab",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca17e6e979983cdce59ac",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca17e6e979983cdce59ad",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca1836e979983cdce59ae",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca1836e979983cdce59af",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca1836e979983cdce59b0",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca1836e979983cdce59b1",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca1af6e979983cdce59b2",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca1af6e979983cdce59b3",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca1b46e979983cdce59b4",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca1b46e979983cdce59b5",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca1ba6e979983cdce59b6",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca1ba6e979983cdce59b7",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca1ba6e979983cdce59b8",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca1bf6e979983cdce59b9",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca1bf6e979983cdce59ba",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca1eb6e979983cdce59bb",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca1eb6e979983cdce59bc",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca1ec6e979983cdce59bd",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca1f06e979983cdce59be",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca1f06e979983cdce59bf",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca1f06e979983cdce59c0",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca1f66e979983cdce59c1",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca1f66e979983cdce59c2",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca1fa6e979983cdce59c3",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca1fb6e979983cdce59c4",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2276e979983cdce59c5",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2276e979983cdce59c6",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca22d6e979983cdce59c7",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca22d6e979983cdce59c8",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca22d6e979983cdce59c9",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2336e979983cdce59ca",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2336e979983cdce59cb",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2386e979983cdce59cc",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2386e979983cdce59cd",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2396e979983cdce59ce",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2636e979983cdce59cf",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2636e979983cdce59d0",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2686e979983cdce59d1",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2686e979983cdce59d2"
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca26e6e979983cdce59d3",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca26e6e979983cdce59d4",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca26e6e979983cdce59d5",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca2736e979983cdce59d6",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca27a6e979983cdce59d7",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca2a06e979983cdce59d8",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca2a06e979983cdce59d9",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca2a06e979983cdce59da",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca2a66e979983cdce59db",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca2a66e979983cdce59dc",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca2aa6e979983cdce59dd",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca2ab6e979983cdce59de",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca2ab6e979983cdce59df",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca2b16e979983cdce59e0",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca2b16e979983cdce59e1",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca2dc6e979983cdce59e2",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca2e06e979983cdce59e3",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca2e06e979983cdce59e4",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca2e16e979983cdce59e6",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca2e16e979983cdce59e5",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca2e66e979983cdce59e7",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca2e66e979983cdce59e8",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca2eb6e979983cdce59e9",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca2ec6e979983cdce59ea",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca2ec6e979983cdce59eb",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca2f26e979983cdce59ec",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca3186e979983cdce59ed",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca31e6e979983cdce59ee",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca31e6e979983cdce59ef",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca3246e979983cdce59f0",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca3246e979983cdce59f1",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca3256e979983cdce59f2",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca3296e979983cdce59f3",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca3296e979983cdce59f4",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca3296e979983cdce59f5",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca32f6e979983cdce59f6",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca32f6e979983cdce59f7",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca3546e979983cdce59f8",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca35a6e979983cdce59f9",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca35c6e979983cdce59fa",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca35f6e979983cdce59fb",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca35f6e979983cdce59fc",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca3606e979983cdce59fd",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca3606e979983cdce59fe",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca3656e979983cdce59ff",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca3906e979983cdce5a00",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca3906e979983cdce5a01",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca3906e979983cdce5a02",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca3956e979983cdce5a03",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca39b6e979983cdce5a04",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca39b6e979983cdce5a05",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca39b6e979983cdce5a06",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca3a06e979983cdce5a07",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca3a06e979983cdce5a08",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca3a06e979983cdce5a09",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca3a56e979983cdce5a0a",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca3cd6e979983cdce5a0b",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca3cd6e979983cdce5a0c",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca3cd6e979983cdce5a0d",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca3d26e979983cdce5a0e",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca3d76e979983cdce5a0f",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca3d76e979983cdce5a10",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca3d76e979983cdce5a11",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca3d76e979983cdce5a12",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca3dc6e979983cdce5a13",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca3dd6e979983cdce5a14",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca6056e979983cdce5a15",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca6056e979983cdce5a16",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca6056e979983cdce5a17",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca6056e979983cdce5a18",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca6056e979983cdce5a19",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca6056e979983cdce5a1a",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca60d6e979983cdce5a1b",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca60d6e979983cdce5a1c",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca60d6e979983cdce5a1d",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca60d6e979983cdce5a1e",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca6136e979983cdce5a1f",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca6136e979983cdce5a20",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca6196e979983cdce5a21",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca77e6e979983cdce5a3d",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca77e6e979983cdce5a3c",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca77e6e979983cdce5a39",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca77e6e979983cdce5a3a",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca77e6e979983cdce5a3b",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca77e6e979983cdce5a38",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca7866e979983cdce5a40",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca7866e979983cdce5a3f",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca7866e979983cdce5a3e",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca7866e979983cdce5a41",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca78c6e979983cdce5a42",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca78c6e979983cdce5a43",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca7916e979983cdce5a45",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca7916e979983cdce5a44",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca7916e979983cdce5a46",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca7bd6e979983cdce5a47",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca7bd6e979983cdce5a48",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca7bd6e979983cdce5a49",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca7c26e979983cdce5a4a",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca7c26e979983cdce5a4c",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca7c26e979983cdce5a4b",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca1706e979983cdce59a6",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca1706e979983cdce59a5",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca1706e979983cdce59a3",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca1706e979983cdce59a4",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca1706e979983cdce59a2",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca1706e979983cdce59a7",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca1786e979983cdce59a8",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca1786e979983cdce59a9",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca1786e979983cdce59aa",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca1786e979983cdce59ab",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca17e6e979983cdce59ac",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca17e6e979983cdce59ad",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca1836e979983cdce59ae",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca1836e979983cdce59af",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca1836e979983cdce59b0",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca1836e979983cdce59b1",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca1af6e979983cdce59b2",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca1af6e979983cdce59b3",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca1b46e979983cdce59b4",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca1b46e979983cdce59b5",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca1ba6e979983cdce59b6",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca1ba6e979983cdce59b7",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca1ba6e979983cdce59b8",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca1bf6e979983cdce59b9",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca1bf6e979983cdce59ba",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca1eb6e979983cdce59bb",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca1eb6e979983cdce59bc",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca1ec6e979983cdce59bd",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca1f06e979983cdce59be",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca1f06e979983cdce59bf",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca1f06e979983cdce59c0",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca1f66e979983cdce59c1",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca1f66e979983cdce59c2",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca1fa6e979983cdce59c3",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca1fb6e979983cdce59c4",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca2276e979983cdce59c5",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca2276e979983cdce59c6",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca22d6e979983cdce59c7",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca22d6e979983cdce59c8",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca22d6e979983cdce59c9",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca2336e979983cdce59ca",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca2336e979983cdce59cb",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca2386e979983cdce59cc",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca2386e979983cdce59cd",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca2396e979983cdce59ce",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca2636e979983cdce59cf",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca2636e979983cdce59d0",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca2686e979983cdce59d1",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca2686e979983cdce59d2"
         ])
     },
     "hagemaru_full_catalog": {
@@ -766,69 +766,69 @@ const seriesDatabase = {
         poster: "https://i.postimg.cc/8zS8nQF8/Hagemaru.jpg",
         description: "Koleksi Episod Hagemaru.",
         episodes: createEpisodes([
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6a96e979983cdce5a26",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6a96e979983cdce5a24",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6a96e979983cdce5a22",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6a96e979983cdce5a23",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6a96e979983cdce5a25",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6a96e979983cdce5a27",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6b16e979983cdce5a28",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6b36e979983cdce5a2b",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6b36e979983cdce5a29",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6b36e979983cdce5a2a",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6b66e979983cdce5a2c",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6b66e979983cdce5a2d",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6bc6e979983cdce5a2e",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6bc6e979983cdce5a2f",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6bc6e979983cdce5a30",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6bc6e979983cdce5a31",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6ef6e979983cdce5a32",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6ef6e979983cdce5a33",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6ef6e979983cdce5a34",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6ef6e979983cdce5a35",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6f66e979983cdce5a36",
-            "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6fa6e979983cdce5a37"
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca6a96e979983cdce5a26",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca6a96e979983cdce5a24",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca6a96e979983cdce5a22",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca6a96e979983cdce5a23",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca6a96e979983cdce5a25",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca6a96e979983cdce5a27",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca6b16e979983cdce5a28",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca6b36e979983cdce5a2b",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca6b36e979983cdce5a29",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca6b36e979983cdce5a2a",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca6b66e979983cdce5a2c",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca6b66e979983cdce5a2d",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca6bc6e979983cdce5a2e",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca6bc6e979983cdce5a2f",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca6bc6e979983cdce5a30",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca6bc6e979983cdce5a31",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca6ef6e979983cdce5a32",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca6ef6e979983cdce5a33",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca6ef6e979983cdce5a34",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca6ef6e979983cdce5a35",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca6f66e979983cdce5a36",
+            "https://filestreambot-production-bef2.up.railway.app/dl/6acca6fa6e979983cdce5a37"
         ])
     },
     "doraemon_movie_catalog": {
         id: "doraemon_movie_catalog",
         isMulti: true,
         items: [
-            { id: "dm_parallel_visit", name: "Doraemon: The Record of Nobita's Parallel Visit to the West (1988)", poster: "https://i.postimg.cc/K8McK6Wz/D1.jpg", description: "Doraemon Movie 1988", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accab1d6e979983cdce5a66" },
-            { id: "dm_treasure_island", name: "Doraemon: Nobita's Treasure Island (2018)", poster: "https://i.postimg.cc/cJGxfDqT/D2.jpg", description: "Doraemon Movie 2018 Malay Dubbed", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accab1d6e979983cdce5a68" },
-            { id: "dm_kachi_kochi", name: "Doraemon: Great Adventure in The Antarctic Kachi Kochi (2017)", poster: "https://i.postimg.cc/L814qcbG/D3.jpg", description: "Doraemon Movie 2017", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accab1d6e979983cdce5a67" },
-            { id: "dm_2003_nobita", name: "Doraemon 2003 Nobita", poster: "https://i.postimg.cc/SKLydWkb/D4.jpg", description: "Doraemon Movie 2003", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accab1d6e979983cdce5a65" },
-            { id: "dm_stand_by_me", name: "Doraemon Stand By Me (2014)", poster: "https://i.postimg.cc/tCfC4q2W/D5.jpg", description: "Doraemon Stand By Me Malay Dubbed", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accab1d6e979983cdce5a69" },
-            { id: "dm_antartika_2017", name: "Doraemon 2017 - Benua Antartika", poster: "https://i.postimg.cc/9FSFQmJy/D6.jpg", description: "Doraemon 2017 Malay Dub", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accab1d6e979983cdce5a6a" },
-            { id: "dm_steel_troops", name: "Doraemon Nobita and the Steel Troops (1986)", poster: "https://i.postimg.cc/QxVdD9kK/D7.jpg", description: "Doraemon Movie 1986", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accab256e979983cdce5a6c" },
-            { id: "dm_robot_kingdom", name: "Doraemon Nobita in the Robot Kingdom (2002)", poster: "https://i.postimg.cc/YqjC7Gfh/D8.jpg", description: "Doraemon Movie 2002", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accab256e979983cdce5a6d" },
-            { id: "dm_haunts_of_evil", name: "Doraemon Nobita and the Haunts of Evil (1982)", poster: "https://i.postimg.cc/yYW8KgXX/D9.jpg", description: "Doraemon Movie 1982", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accab256e979983cdce5a6b" },
-            { id: "dm_undersea_devil", name: "Doraemon Nobita and the Castle of the Undersea Devil (1983)", poster: "https://i.postimg.cc/3wjK1g71/D10.jpg", description: "Doraemon Movie 1983", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accab256e979983cdce5a6e" },
-            { id: "dm_birth_of_japan", name: "Doraemon Nobita and the Birth of Japan (2016)", poster: "https://i.postimg.cc/8kZzxBWS/D11.jpg", description: "Doraemon Movie 2016", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accab2b6e979983cdce5a70" },
-            { id: "dm_spacetime_odyssey", name: "Doraemon Nobita in the Wan Nyan Spacetime Odyssey (2004)", poster: "https://i.postimg.cc/FFTHwgSq/D12.jpg", description: "Doraemon Movie 2004", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accab2a6e979983cdce5a6f" },
-            { id: "dm_movie_extra_1", name: "Doraemon Movie Special 1", poster: "https://i.postimg.cc/Bb7ZD43r/D13.png", description: "Doraemon Special Movie", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accab306e979983cdce5a71" },
-            { id: "dm_dinosaur_2006", name: "Doraemon Nobita's Dinosaur (2006)", poster: "https://i.postimg.cc/90gXTCVq/D14.webp", description: "Doraemon Movie 2006", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accab306e979983cdce5a72" },
-            { id: "dm_museum_2013", name: "Doraemon: Nobita and the Secret Gadget Museum (2013)", poster: "https://i.postimg.cc/4yfjzS1C/Doraemon-The-Movie-Nobita-and-Secret-Gadget-Museum.jpg", description: "Doraemon Museum 2013", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb5fa6e979983cdce5ac4" },
-            { id: "dm_space_heroes_2015", name: "Doraemon: Nobita & The Space Heroes (2015)", poster: "https://i.postimg.cc/j2xBzF4Z/Doraemon-The-Movie-Nobita-The-Space-Heroes.jpg", description: "Doraemon Space Heroes 2015", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb6076e979983cdce5ac5" },
-            { id: "dm_spaceblazer_2009", name: "Doraemon: New Record of Nobita's Spaceblazer (2009)", poster: "https://i.postimg.cc/wMqnhGQF/Doraemon-The-Movie-New-Record-of-Nobita-Spaceblazer.jpg", description: "Doraemon Spaceblazer 2009", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb6136e979983cdce5ac6" },
-            { id: "dm_stand_by_me_2", name: "Stand by Me Doraemon 2 (2020)", poster: "https://i.postimg.cc/WzNxMHw8/Doraemon-Stand-By-Me-2.jpg", description: "Stand by Me Doraemon 2", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb6196e979983cdce5ac7" },
-            { id: "dm_stand_by_me_1", name: "Stand by Me Doraemon (2014)", poster: "https://i.postimg.cc/wMqnhGQV/Doraemon-Stand-By-Me.jpg", description: "Stand by Me Doraemon 1", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb6236e979983cdce5ac8" }
+            { id: "dm_parallel_visit", name: "Doraemon: The Record of Nobita's Parallel Visit to the West (1988)", poster: "https://i.postimg.cc/K8McK6Wz/D1.jpg", description: "Doraemon Movie 1988", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accab1d6e979983cdce5a66" },
+            { id: "dm_treasure_island", name: "Doraemon: Nobita's Treasure Island (2018)", poster: "https://i.postimg.cc/cJGxfDqT/D2.jpg", description: "Doraemon Movie 2018 Malay Dubbed", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accab1d6e979983cdce5a68" },
+            { id: "dm_kachi_kochi", name: "Doraemon: Great Adventure in The Antarctic Kachi Kochi (2017)", poster: "https://i.postimg.cc/L814qcbG/D3.jpg", description: "Doraemon Movie 2017", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accab1d6e979983cdce5a67" },
+            { id: "dm_2003_nobita", name: "Doraemon 2003 Nobita", poster: "https://i.postimg.cc/SKLydWkb/D4.jpg", description: "Doraemon Movie 2003", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accab1d6e979983cdce5a65" },
+            { id: "dm_stand_by_me", name: "Doraemon Stand By Me (2014)", poster: "https://i.postimg.cc/tCfC4q2W/D5.jpg", description: "Doraemon Stand By Me Malay Dubbed", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accab1d6e979983cdce5a69" },
+            { id: "dm_antartika_2017", name: "Doraemon 2017 - Benua Antartika", poster: "https://i.postimg.cc/9FSFQmJy/D6.jpg", description: "Doraemon 2017 Malay Dub", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accab1d6e979983cdce5a6a" },
+            { id: "dm_steel_troops", name: "Doraemon Nobita and the Steel Troops (1986)", poster: "https://i.postimg.cc/QxVdD9kK/D7.jpg", description: "Doraemon Movie 1986", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accab256e979983cdce5a6c" },
+            { id: "dm_robot_kingdom", name: "Doraemon Nobita in the Robot Kingdom (2002)", poster: "https://i.postimg.cc/YqjC7Gfh/D8.jpg", description: "Doraemon Movie 2002", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accab256e979983cdce5a6d" },
+            { id: "dm_haunts_of_evil", name: "Doraemon Nobita and the Haunts of Evil (1982)", poster: "https://i.postimg.cc/yYW8KgXX/D9.jpg", description: "Doraemon Movie 1982", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accab256e979983cdce5a6b" },
+            { id: "dm_undersea_devil", name: "Doraemon Nobita and the Castle of the Undersea Devil (1983)", poster: "https://i.postimg.cc/3wjK1g71/D10.jpg", description: "Doraemon Movie 1983", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accab256e979983cdce5a6e" },
+            { id: "dm_birth_of_japan", name: "Doraemon Nobita and the Birth of Japan (2016)", poster: "https://i.postimg.cc/8kZzxBWS/D11.jpg", description: "Doraemon Movie 2016", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accab2b6e979983cdce5a70" },
+            { id: "dm_spacetime_odyssey", name: "Doraemon Nobita in the Wan Nyan Spacetime Odyssey (2004)", poster: "https://i.postimg.cc/FFTHwgSq/D12.jpg", description: "Doraemon Movie 2004", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accab2a6e979983cdce5a6f" },
+            { id: "dm_movie_extra_1", name: "Doraemon Movie Special 1", poster: "https://i.postimg.cc/Bb7ZD43r/D13.png", description: "Doraemon Special Movie", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accab306e979983cdce5a71" },
+            { id: "dm_dinosaur_2006", name: "Doraemon Nobita's Dinosaur (2006)", poster: "https://i.postimg.cc/90gXTCVq/D14.webp", description: "Doraemon Movie 2006", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accab306e979983cdce5a72" },
+            { id: "dm_museum_2013", name: "Doraemon: Nobita and the Secret Gadget Museum (2013)", poster: "https://i.postimg.cc/4yfjzS1C/Doraemon-The-Movie-Nobita-and-Secret-Gadget-Museum.jpg", description: "Doraemon Museum 2013", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb5fa6e979983cdce5ac4" },
+            { id: "dm_space_heroes_2015", name: "Doraemon: Nobita & The Space Heroes (2015)", poster: "https://i.postimg.cc/j2xBzF4Z/Doraemon-The-Movie-Nobita-The-Space-Heroes.jpg", description: "Doraemon Space Heroes 2015", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb6076e979983cdce5ac5" },
+            { id: "dm_spaceblazer_2009", name: "Doraemon: New Record of Nobita's Spaceblazer (2009)", poster: "https://i.postimg.cc/wMqnhGQF/Doraemon-The-Movie-New-Record-of-Nobita-Spaceblazer.jpg", description: "Doraemon Spaceblazer 2009", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb6136e979983cdce5ac6" },
+            { id: "dm_stand_by_me_2", name: "Stand by Me Doraemon 2 (2020)", poster: "https://i.postimg.cc/WzNxMHw8/Doraemon-Stand-By-Me-2.jpg", description: "Stand by Me Doraemon 2", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb6196e979983cdce5ac7" },
+            { id: "dm_stand_by_me_1", name: "Stand by Me Doraemon (2014)", poster: "https://i.postimg.cc/wMqnhGQV/Doraemon-Stand-By-Me.jpg", description: "Stand by Me Doraemon 1", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb6236e979983cdce5ac8" }
         ]
     },
     "naruto_movie_catalog": {
         id: "naruto_movie_catalog",
         isMulti: true,
         items: [
-            { id: "nm_3", name: "Naruto The Movie 3: Guardians of the Crescent Moon Kingdom", poster: "https://i.postimg.cc/qvRm0kWy/Naruto-The-Movie-3-Guardians-of-the-Crescent-Moon-Kingdom-(Malay-Dub).jpg", description: "Naruto Movie 3 Malay Dub", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accaf986e979983cdce5a74" },
-            { id: "nm_stone_of_gelel", name: "Naruto The Movie: Legend of the Stone of Gelel", poster: "https://i.postimg.cc/7Z6BDxj2/Naruto-the-Movie-Legend-of-the-Stone-of-Gelel.jpg", description: "Naruto Movie Legend of the Stone of Gelel", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accaf986e979983cdce5a75" },
-            { id: "nm_land_of_snow", name: "Naruto The Movie: Ninja Clash in the Land of Snow", poster: "https://i.postimg.cc/SxsZqyH8/Naruto-the-Movie-Ninja-Clash-in-the-Land-of-Snow.jpg", description: "Naruto Movie Ninja Clash in the Land of Snow", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accaf986e979983cdce5a73" }
+            { id: "nm_3", name: "Naruto The Movie 3: Guardians of the Crescent Moon Kingdom", poster: "https://i.postimg.cc/qvRm0kWy/Naruto-The-Movie-3-Guardians-of-the-Crescent-Moon-Kingdom-(Malay-Dub).jpg", description: "Naruto Movie 3 Malay Dub", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accaf986e979983cdce5a74" },
+            { id: "nm_stone_of_gelel", name: "Naruto The Movie: Legend of the Stone of Gelel", poster: "https://i.postimg.cc/7Z6BDxj2/Naruto-the-Movie-Legend-of-the-Stone-of-Gelel.jpg", description: "Naruto Movie Legend of the Stone of Gelel", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accaf986e979983cdce5a75" },
+            { id: "nm_land_of_snow", name: "Naruto The Movie: Ninja Clash in the Land of Snow", poster: "https://i.postimg.cc/SxsZqyH8/Naruto-the-Movie-Ninja-Clash-in-the-Land-of-Snow.jpg", description: "Naruto Movie Ninja Clash in the Land of Snow", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accaf986e979983cdce5a73" }
         ]
     },
     "chibi_maruko_catalog": {
         id: "chibi_maruko_catalog",
         isMulti: true,
         items: [
-            { id: "cm_ono_sugiyama", name: "Chibi Maruko Chan: Ono and Sugiyama (1990)", poster: "https://i.postimg.cc/ZnmB5THS/c1.jpg", description: "Chibi Maruko Chan Movie Remastered", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accafdb6e979983cdce5a76" }
+            { id: "cm_ono_sugiyama", name: "Chibi Maruko Chan: Ono and Sugiyama (1990)", poster: "https://i.postimg.cc/ZnmB5THS/c1.jpg", description: "Chibi Maruko Chan Movie Remastered", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accafdb6e979983cdce5a76" }
         ]
     },
     "kisah_sahabat_catalog": {
@@ -1242,7 +1242,6 @@ app.get('/stremio/:user/catalog/:type/:id.json', (req, res) => {
 app.get('/stremio/:user/meta/:type/:id.json', (req, res) => {
     const targetId = req.params.id.split(':')[0];
 
-    // Semak katalog pelbagai item (filem/movie individual)
     for (const cat of Object.values(seriesDatabase)) {
         if (cat.isMulti) {
             const item = cat.items.find(i => i.id === targetId);
@@ -1267,7 +1266,6 @@ app.get('/stremio/:user/meta/:type/:id.json', (req, res) => {
         }
     }
 
-    // Semak siri individu biasa
     const series = Object.values(seriesDatabase).find(s => s.id === targetId);
 
     if (series) {
@@ -1295,14 +1293,13 @@ app.get('/stremio/:user/meta/:type/:id.json', (req, res) => {
 });
 
 // ==========================================
-// STREAM ENDPOINT (DENGAN BINGEGROUP UNTUK AUTO-PLAY)
+// STREAM ENDPOINT
 // ==========================================
 app.get('/stremio/:user/stream/:type/:id.json', (req, res) => {
     const parts = req.params.id.split(':');
     const targetId = parts[0];
     const episodeNum = parseInt(parts[2], 10) || 1;
 
-    // Semak filem dalam katalog pelbagai item
     for (const cat of Object.values(seriesDatabase)) {
         if (cat.isMulti) {
             const item = cat.items.find(i => i.id === targetId);
@@ -1320,7 +1317,6 @@ app.get('/stremio/:user/stream/:type/:id.json', (req, res) => {
         }
     }
 
-    // Semak siri biasa
     const series = Object.values(seriesDatabase).find(s => s.id === targetId);
     if (series) {
         const ep = series.episodes.find(e => e.episode === episodeNum);
@@ -1340,9 +1336,15 @@ app.get('/stremio/:user/stream/:type/:id.json', (req, res) => {
 });
 
 // ==========================================
-// 4. CONFIGURATOR UI WEB INTERFACE (WITH ANALYTICS)
+// 4. CONFIGURATOR UI WEB INTERFACE (DYNAMIC URL FIX)
 // ==========================================
 app.get('/', (req, res) => {
+    // Dapatkan host dan protokol semasa secara dinamik (Sokong Render & Localhost)
+    const protocol = req.headers['x-forwarded-proto'] || req.protocol;
+    const host = req.get('host');
+    const dynamicBaseUrl = `${protocol}://${host}`;
+    const manifestUrl = `${dynamicBaseUrl}/stremio/user123/manifest.json`;
+
     const catalogListHtml = manifest.catalogs.map((c) => `
         <div class="catalog-item" data-id="${c.id}" style="display: flex; justify-content: space-between; align-items: center; background: #2a2a32; padding: 12px 16px; margin-bottom: 8px; border-radius: 8px; border: 1px solid #3a3a46;">
             <span style="font-weight: 600; color: #fff;">👁️ ${c.name} <small style="color: #888;">(series)</small></span>
@@ -1385,7 +1387,6 @@ app.get('/', (req, res) => {
     </head>
     <body>
         <div class="container">
-            <!-- Analytics Row -->
             <div class="card">
                 <h2>📊 Live Analytics & User Tracker</h2>
                 <div class="stat-box">
@@ -1398,16 +1399,14 @@ app.get('/', (req, res) => {
                 </ul>
             </div>
 
-            <!-- Configuration Row -->
             <div class="row">
-                <!-- Left Card -->
                 <div class="card">
                     <h2>🎬 DaRyz Nuvio / Stremio Addon</h2>
                     <p style="font-size: 13px; color: #888;">User: <span style="color: #fff; font-weight: bold;">DaRyz</span></p>
                     <p style="font-size: 13px; color: #888;">Status: <span class="status-badge">Active</span></p>
                     <p style="font-size: 13px; color: #888; margin-bottom: 20px;">Expires: <span style="color: #ffcc00; font-weight: bold;">Lifetime</span></p>
 
-                    <a href="stremio://nuvio-telegram-addon.onrender.com/stremio/user123/manifest.json" class="btn-install">Install / update in Nuvio Stremio</a>
+                    <a href="stremio://${host}/stremio/user123/manifest.json" class="btn-install">Install / update in Nuvio Stremio</a>
 
                     <p style="font-size: 12px; color: #888; margin-top: 20px; line-height: 1.5;">
                         <strong>Prefer to do it manually?</strong><br>
@@ -1416,10 +1415,9 @@ app.get('/', (req, res) => {
                         3. Paste the URL below and press Enter
                     </p>
 
-                    <div class="input-box">https://nuvio-telegram-addon.onrender.com/stremio/user123/manifest.json</div>
+                    <div class="input-box">${manifestUrl}</div>
                 </div>
 
-                <!-- Right Card -->
                 <div class="card">
                     <h2>⚙️ Personalize</h2>
                     <p style="font-size: 12px; color: #888; margin-bottom: 15px;">Tune quality and catalogs for your install.</p>
