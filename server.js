@@ -1,875 +1,325 @@
-<!-- DEMON SLAYER -->
-Demon Slayer Episode 1-26
-https://i.postimg.cc/DyLm8nhJ/DS-DP.jpg
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Ep01 - Demon Slayer [Cfire].mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 169.26 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca07b6e979983cdce598b
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca07b6e979983cdce598b
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca07b6e979983cdce598b
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Ep02 - Demon Slayer [Cfire].mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 121.02 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca07b6e979983cdce5989
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca07b6e979983cdce5989
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca07b6e979983cdce5989
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Ep03 - Demon Slayer [Cfire].mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 150.8 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca07b6e979983cdce598d
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca07b6e979983cdce598d
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca07b6e979983cdce598d
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Ep04 - Demon Slayer [Cfire].mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 126.65 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca07b6e979983cdce5988
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca07b6e979983cdce5988
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca07b6e979983cdce5988
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Ep05 - Demon Slayer [Cfire].mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 112.07 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca07b6e979983cdce598c
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca07b6e979983cdce598c
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca07b6e979983cdce598c
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Ep06 - Demon Slayer [Cfire].mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 114.82 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca07b6e979983cdce598a
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca07b6e979983cdce598a
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca07b6e979983cdce598a
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Ep07 - Demon Slayer [Cfire].mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 135.39 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca0836e979983cdce598e
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca0836e979983cdce598e
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca0836e979983cdce598e
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Ep08 - Demon Slayer [Cfire].mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 138.16 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca0856e979983cdce598f
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca0856e979983cdce598f
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca0856e979983cdce598f
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Ep09 - Demon Slayer [Cfire].mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 154.78 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca0856e979983cdce5990
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca0856e979983cdce5990
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca0856e979983cdce5990
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Ep10 - Demon Slayer [Cfire].mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 141.22 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca0856e979983cdce5991
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca0856e979983cdce5991
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca0856e979983cdce5991
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Ep11 - Demon Slayer [Cfire].mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 143.43 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca0886e979983cdce5992
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca0886e979983cdce5992
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca0886e979983cdce5992
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Ep12 - Demon Slayer [Cfire].mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 120.89 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca0886e979983cdce5993
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca0886e979983cdce5993
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca0886e979983cdce5993
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Ep13 - Demon Slayer [Cfire].mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 146.92 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca08d6e979983cdce5994
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca08d6e979983cdce5994
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca08d6e979983cdce5994
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Ep14 - Demon Slayer [Cfire].mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 116.02 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca08d6e979983cdce5995
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca08d6e979983cdce5995
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca08d6e979983cdce5995
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Ep15 - Demon Slayer [Cfire].mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 109.38 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca08e6e979983cdce5996
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca08e6e979983cdce5996
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca08e6e979983cdce5996
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Ep16 - Demon Slayer [Cfire].mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 132.9 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca08e6e979983cdce5997
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca08e6e979983cdce5997
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca08e6e979983cdce5997
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Ep17 - Demon Slayer [Cfire].mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 140.01 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca0c06e979983cdce5998
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca0c06e979983cdce5998
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca0c06e979983cdce5998
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Ep18 - Demon Slayer [Cfire].mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 133.39 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca0c56e979983cdce5999
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca0c56e979983cdce5999
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca0c56e979983cdce5999
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Ep19 - Demon Slayer [Cfire].mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 150.2 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca0c56e979983cdce599b
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca0c56e979983cdce599b
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca0c56e979983cdce599b
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Ep20 - Demon Slayer [Cfire].mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 122.24 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca0c56e979983cdce599a
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca0c56e979983cdce599a
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca0c56e979983cdce599a
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Ep21 - Demon Slayer [Cfire].mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 157.56 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca0c66e979983cdce599c
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca0c66e979983cdce599c
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca0c66e979983cdce599c
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Ep22 - Demon Slayer [Cfire].mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 108.44 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca0cb6e979983cdce599d
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca0cb6e979983cdce599d
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca0cb6e979983cdce599d
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Ep23 - Demon Slayer [Cfire].mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 102.14 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca0cc6e979983cdce599e
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca0cc6e979983cdce599e
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca0cc6e979983cdce599e
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Ep24 - Demon Slayer [Cfire].mp4
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 140.25 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca0d16e979983cdce599f
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca0d16e979983cdce599f
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca0d16e979983cdce599f
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Ep25 - Demon Slayer [Cfire].mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 134.41 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca0d16e979983cdce59a0
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca0d16e979983cdce59a0
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca0d16e979983cdce59a0
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Ep26 Akhir - Demon Slayer [Cfire].mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 141.5 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca0f66e979983cdce59a1
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca0f66e979983cdce59a1
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca0f66e979983cdce59a1
-
-
-<!-- JUJUTSU KAISEN -->
-Jujutsu Kaisen Episode 1-24
-https://i.postimg.cc/dtrDLwFL/JJK-DP.jpg
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : video-2026-10-12_09-27-46.mp4 (Ep 1)
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 76.88 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca8136e979983cdce5a4d
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca8136e979983cdce5a4d
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca8136e979983cdce5a4d
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : video-2026-10-12_09-27-46.mp4 (Ep 2)
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 76.77 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca8136e979983cdce5a4e
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca8136e979983cdce5a4e
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca8136e979983cdce5a4e
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : video-2026-10-12_09-27-46.mp4 (Ep 3)
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 76.95 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca8136e979983cdce5a4f
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca8136e979983cdce5a4f
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca8136e979983cdce5a4f
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : video-2026-10-12_09-27-46.mp4 (Ep 4)
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 76.97 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca8136e979983cdce5a50
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca8136e979983cdce5a50
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca8136e979983cdce5a50
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : video-2026-10-12_09-27-46.mp4 (Ep 5)
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 76.95 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca8136e979983cdce5a51
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca8136e979983cdce5a51
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca8136e979983cdce5a51
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : video-2026-10-12_09-27-46.mp4 (Ep 6)
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 76.88 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca8136e979983cdce5a52
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca8136e979983cdce5a52
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca8136e979983cdce5a52
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : video-2026-10-12_09-27-54.mp4 (Ep 7)
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 76.93 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca81b6e979983cdce5a53
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca81b6e979983cdce5a53
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca81b6e979983cdce5a53
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : video-2026-10-12_09-27-57.mp4 (Ep 8)
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 54.36 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca81d6e979983cdce5a54
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca81d6e979983cdce5a54
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca81d6e979983cdce5a54
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : video-2026-10-12_09-27-57.mp4 (Ep 9)
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 51.56 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca81d6e979983cdce5a55
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca81d6e979983cdce5a55
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca81d6e979983cdce5a55
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : video-2026-10-12_09-27-57.mp4 (Ep 10)
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 64.68 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca81d6e979983cdce5a56
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca81d6e979983cdce5a56
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca81d6e979983cdce5a56
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : video-2026-10-12_09-28-00.mp4 (Ep 11)
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 58.95 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca8206e979983cdce5a57
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca8206e979983cdce5a57
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca8206e979983cdce5a57
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : video-2026-10-12_09-28-00.mp4 (Ep 12)
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 48.22 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca8206e979983cdce5a58
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca8206e979983cdce5a58
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca8206e979983cdce5a58
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : video-2026-10-12_09-28-05.mp4 (Ep 13)
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 53.39 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca8256e979983cdce5a59
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca8256e979983cdce5a59
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca8256e979983cdce5a59
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : video-2026-10-12_09-28-05.mp4 (Ep 14)
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 77.35 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca8256e979983cdce5a5a
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca8256e979983cdce5a5a
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca8256e979983cdce5a5a
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : video-2026-10-12_09-28-26.mp4 (Ep 15)
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 77.29 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca83a6e979983cdce5a5b
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca83a6e979983cdce5a5b
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca83a6e979983cdce5a5b
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : video-2026-10-12_09-28-27.mp4 (Ep 16)
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 77.29 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca83b6e979983cdce5a5c
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca83b6e979983cdce5a5c
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca83b6e979983cdce5a5c
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : video-2026-10-12_09-28-27.mp4 (Ep 17)
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 77.28 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca83b6e979983cdce5a5d
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca83b6e979983cdce5a5d
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca83b6e979983cdce5a5d
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : video-2026-10-12_09-28-27.mp4 (Ep 18)
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 77.3 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca83b6e979983cdce5a5e
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca83b6e979983cdce5a5e
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca83b6e979983cdce5a5e
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : video-2026-10-12_09-28-32.mp4 (Ep 19)
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 134.26 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca8406e979983cdce5a5f
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca8406e979983cdce5a5f
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca8406e979983cdce5a5f
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : video-2026-10-12_09-28-32.mp4 (Ep 20)
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 76.51 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca8406e979983cdce5a60
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca8406e979983cdce5a60
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca8406e979983cdce5a60
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : video-2026-10-12_09-28-32.mp4 (Ep 21)
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 76.51 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca8406e979983cdce5a61
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca8406e979983cdce5a61
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca8406e979983cdce5a61
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : video-2026-10-12_09-28-37.mp4 (Ep 22)
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 150.93 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca8466e979983cdce5a62
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca8466e979983cdce5a62
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca8466e979983cdce5a62
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : video-2026-10-12_09-28-37.mp4 (Ep 23)
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 91.35 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca8466e979983cdce5a63
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca8466e979983cdce5a63
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca8466e979983cdce5a63
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : video-2026-10-12_09-28-37.mp4 (Ep 24)
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 123.49 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca8466e979983cdce5a64
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca8466e979983cdce5a64
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca8466e979983cdce5a64
-
-
-<!-- BORUTO -->
-Boruto Episode 1-15
-https://i.postimg.cc/BZdkmGKm/Boruto-1.jpg
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 1 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 87.5 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca26e6e979983cdce59d3
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca26e6e979983cdce59d3
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca26e6e979983cdce59d3
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 2 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 73.33 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca26e6e979983cdce59d4
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca26e6e979983cdce59d4
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca26e6e979983cdce59d4
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 3 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 81.12 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca26e6e979983cdce59d5
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca26e6e979983cdce59d5
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca26e6e979983cdce59d5
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 4 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 84.63 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2736e979983cdce59d6
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca2736e979983cdce59d6
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca2736e979983cdce59d6
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 5 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 77.98 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca27a6e979983cdce59d7
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca27a6e979983cdce59d7
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca27a6e979983cdce59d7
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 6 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 114.44 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2a06e979983cdce59d8
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca2a06e979983cdce59d8
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca2a06e979983cdce59d8
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 7 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 55.34 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2a06e979983cdce59d9
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca2a06e979983cdce59d9
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca2a06e979983cdce59d9
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 8 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 94.03 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2a06e979983cdce59da
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca2a06e979983cdce59da
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca2a06e979983cdce59da
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 9 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 65.97 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2a66e979983cdce59db
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca2a66e979983cdce59db
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca2a66e979983cdce59db
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 10 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 72.22 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2a66e979983cdce59dc
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca2a66e979983cdce59dc
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca2a66e979983cdce59dc
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 11 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 84.39 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2aa6e979983cdce59dd
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca2aa6e979983cdce59dd
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca2aa6e979983cdce59dd
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 12 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 71.71 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2ab6e979983cdce59de
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca2ab6e979983cdce59de
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca2ab6e979983cdce59de
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 13 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 71.27 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2ab6e979983cdce59df
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca2ab6e979983cdce59df
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca2ab6e979983cdce59df
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto.Epiosde 14 MalaySub.720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 90.45 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2b16e979983cdce59e0
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca2b16e979983cdce59e0
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca2b16e979983cdce59e0
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 15 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 67.51 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2b16e979983cdce59e1
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca2b16e979983cdce59e1
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca2b16e979983cdce59e1
-
-
-Boruto Episode 16-24
-https://i.postimg.cc/h4H62qdZ/Boruto-2.jpg
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 16 MalaySub HDTV.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 75.31 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2dc6e979983cdce59e2
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca2dc6e979983cdce59e2
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca2dc6e979983cdce59e2
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 17 HDTV MalaySub.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 77.34 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2e06e979983cdce59e3
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca2e06e979983cdce59e3
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca2e06e979983cdce59e3
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Ep.18 BM.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 64.73 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2e06e979983cdce59e4
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca2e06e979983cdce59e4
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca2e06e979983cdce59e4
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 19 MalaySub.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 69.96 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2e16e979983cdce59e6
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca2e16e979983cdce59e6
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca2e16e979983cdce59e6
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 20 MalaySub @TLGCHANNELMOVIE.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 89.28 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2e16e979983cdce59e5
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca2e16e979983cdce59e5
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca2e16e979983cdce59e5
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episod 21 MalaySub.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 81.66 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2e66e979983cdce59e7
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca2e66e979983cdce59e7
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca2e66e979983cdce59e7
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : BORUTO Episode 22 Malay Sub@onepieceyour.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 74.55 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2e66e979983cdce59e8
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca2e66e979983cdce59e8
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca2e66e979983cdce59e8
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto_Ep.23_BM@onepieceyour.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 94.78 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2eb6e979983cdce59e9
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca2eb6e979983cdce59e9
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca2eb6e979983cdce59e9
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto_Ep24_BM@onepieceyour.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 71.3 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2ec6e979983cdce59ea
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca2ec6e979983cdce59ea
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca2ec6e979983cdce59ea
-
-
-Boruto Episode 25-35
-https://i.postimg.cc/ZY12whdc/Boruto-3.jpg
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 25 Malay Sub 720p .mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 65.86 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2ec6e979983cdce59eb
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca2ec6e979983cdce59eb
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 26 Malay Sub 720p .mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 70.27 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca2f26e979983cdce59ec
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca2f26e979983cdce59ec
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 27 Malay Sub 720p .mkv .mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 86.08 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3186e979983cdce59ed
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca3186e979983cdce59ed
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 28 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 102.5 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca31e6e979983cdce59ee
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca31e6e979983cdce59ee
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 29 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 114.26 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca31e6e979983cdce59ef
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca31e6e979983cdce59ef
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 30 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 135.32 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3246e979983cdce59f0
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca3246e979983cdce59f0
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 31 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 104.03 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3246e979983cdce59f1
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca3246e979983cdce59f1
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 32 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 80.53 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3256e979983cdce59f2
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca3256e979983cdce59f2
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 33 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 84.06 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3296e979983cdce59f3
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca3296e979983cdce59f3
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 34 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 97.77 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3296e979983cdce59f4
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca3296e979983cdce59f4
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 35 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 76.88 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3296e979983cdce59f5
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca3296e979983cdce59f5
-
-
-Boruto Episode 36-52
-https://i.postimg.cc/gcfQgPh9/Boruto-4.jpg
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 36 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 94.51 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca32f6e979983cdce59f6
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca32f6e979983cdce59f6
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 37 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 82.96 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca32f6e979983cdce59f7
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca32f6e979983cdce59f7
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 38 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 75.08 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3546e979983cdce59f8
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca3546e979983cdce59f8
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 39 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 85.9 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca35a6e979983cdce59f9
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca35a6e979983cdce59f9
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 40 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 95.48 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca35c6e979983cdce59fa
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca35c6e979983cdce59fa
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 41 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 80.67 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca35f6e979983cdce59fb
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca35f6e979983cdce59fb
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 42 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 67.13 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca35f6e979983cdce59fc
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca35f6e979983cdce59fc
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 43 Malay Sub 720p .mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 81.72 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3606e979983cdce59fd
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca3606e979983cdce59fd
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 44 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 83.53 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3606e979983cdce59fe
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca3606e979983cdce59fe
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 45 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 73.81 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3656e979983cdce59ff
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca3656e979983cdce59ff
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 46 Malay Sub 720p .mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 84.33 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3906e979983cdce5a00
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca3906e979983cdce5a00
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 47 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 94.86 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3906e979983cdce5a01
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca3906e979983cdce5a01
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 48 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 68.18 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3906e979983cdce5a02
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca3906e979983cdce5a02
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 49 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 87.38 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3956e979983cdce5a03
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca3956e979983cdce5a03
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 50 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 111.06 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca39b6e979983cdce5a04
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca39b6e979983cdce5a04
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 51 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 72.41 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca39b6e979983cdce5a05
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca39b6e979983cdce5a05
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 52 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 89.36 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca39b6e979983cdce5a06
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca39b6e979983cdce5a06
-
-
-Boruto Episode 53-66
-https://i.postimg.cc/8kq9ZV6q/Boruto-5.jpg
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 53 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 84.7 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3a06e979983cdce5a07
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca3a06e979983cdce5a07
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 54 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 89.79 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3a06e979983cdce5a08
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca3a06e979983cdce5a08
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 55 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 75.82 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3a06e979983cdce5a09
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca3a06e979983cdce5a09
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 56 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 96.46 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3a56e979983cdce5a0a
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca3a56e979983cdce5a0a
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 57 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 97.49 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3cd6e979983cdce5a0b
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca3cd6e979983cdce5a0b
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 58 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 106.81 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3cd6e979983cdce5a0c
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca3cd6e979983cdce5a0c
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 59 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 88.04 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3cd6e979983cdce5a0d
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca3cd6e979983cdce5a0d
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 60 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 90.82 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3d26e979983cdce5a0e
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca3d26e979983cdce5a0e
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 61 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 107.55 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3d76e979983cdce5a0f
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca3d76e979983cdce5a0f
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca3d76e979983cdce5a0f
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 62 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 108.15 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3d76e979983cdce5a10
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca3d76e979983cdce5a10
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca3d76e979983cdce5a10
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 63 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 68.71 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3d76e979983cdce5a11
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca3d76e979983cdce5a11
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca3d76e979983cdce5a11
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 64 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 73.97 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3d76e979983cdce5a12
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca3d76e979983cdce5a12
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca3d76e979983cdce5a12
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 65 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 127.24 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3dc6e979983cdce5a13
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca3dc6e979983cdce5a13
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca3dc6e979983cdce5a13
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 66 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 83.48 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca3dd6e979983cdce5a14
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca3dd6e979983cdce5a14
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca3dd6e979983cdce5a14
-
-
-Boruto Episode 67-79
-https://i.postimg.cc/W139j2xZ/Boruto-6.jpg
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 67 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 79.83 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6056e979983cdce5a16
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca6056e979983cdce5a16
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca6056e979983cdce5a16
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 68 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 79.04 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6056e979983cdce5a1a
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca6056e979983cdce5a1a
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca6056e979983cdce5a1a
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 69 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 69.38 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6056e979983cdce5a15
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca6056e979983cdce5a15
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca6056e979983cdce5a15
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 70 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 78.41 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6056e979983cdce5a18
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca6056e979983cdce5a18
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca6056e979983cdce5a18
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 71 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 143.4 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6056e979983cdce5a17
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca6056e979983cdce5a17
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca6056e979983cdce5a17
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 72 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 136.45 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6056e979983cdce5a19
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca6056e979983cdce5a19
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca6056e979983cdce5a19
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 73 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 153.6 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca60d6e979983cdce5a1d
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca60d6e979983cdce5a1d
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca60d6e979983cdce5a1d
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 74 Malay Sub 720p.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 85.52 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca60d6e979983cdce5a1b
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca60d6e979983cdce5a1b
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca60d6e979983cdce5a1b
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 75 Malay Sub 720p MNBFANS.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 64.39 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca60d6e979983cdce5a1c
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca60d6e979983cdce5a1c
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca60d6e979983cdce5a1c
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 76 Malay Sub 720p MNBFANS.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 74.98 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca60d6e979983cdce5a1e
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca60d6e979983cdce5a1e
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 77 Malay Sub 720p MNBFANS.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 70.88 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6136e979983cdce5a1f
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca6136e979983cdce5a1f
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 78 Malay Sub 720p MNBFANS.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 149.48 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6136e979983cdce5a20
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca6136e979983cdce5a20
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca6136e979983cdce5a20
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Boruto Episode 79 Malay Sub 720p MNBFANS.mkv
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 115.45 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6196e979983cdce5a21
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca6196e979983cdce5a21
-
-
-<!-- HAGEMARU -->
-Hagemaru Episode 1-22
-https://i.postimg.cc/8zS8nQF8/Hagemaru.jpg
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Tsurupika Hagemaru Episod 1.mp4
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 164.33 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6a96e979983cdce5a26
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca6a96e979983cdce5a26
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca6a96e979983cdce5a26
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Tsurupika Hagemaru Episod 2.mp4
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 142.44 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6a96e979983cdce5a24
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca6a96e979983cdce5a24
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca6a96e979983cdce5a24
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Tsurupika Hagemaru Episod 3.mp4
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 126.19 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6a96e979983cdce5a22
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca6a96e979983cdce5a22
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca6a96e979983cdce5a22
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Tsurupika Hagemaru Episod 4.mp4
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 135.71 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6a96e979983cdce5a23
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca6a96e979983cdce5a23
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca6a96e979983cdce5a23
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Tsurupika Hagemaru Episod 5.mp4
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 140.36 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6a96e979983cdce5a25
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca6a96e979983cdce5a25
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca6a96e979983cdce5a25
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : HD-L4-BASELINE-HAGEMARU-6-MALAY.mp4
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 53.27 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6a96e979983cdce5a27
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca6a96e979983cdce5a27
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca6a96e979983cdce5a27
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Tsurupika Hagemaru - Episod 7 - Hubungi Orang Tersayang.mp4
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 33.94 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6b16e979983cdce5a28
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca6b16e979983cdce5a28
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca6b16e979983cdce5a28
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : Tsurupika Hagemaru - Episod 8 - Satu Hari Di Taman Hiburan.mp4
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 34.68 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6b36e979983cdce5a2b
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca6b36e979983cdce5a2b
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca6b36e979983cdce5a2b
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : [SHANA]Hagemaru Episod 14.mp4
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 52.22 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6bc6e979983cdce5a2f
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca6bc6e979983cdce5a2f
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca6bc6e979983cdce5a2f
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : [SHANA]Hagemaru Episod 15 FIX.mp4
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 50.43 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6bc6e979983cdce5a30
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca6bc6e979983cdce5a30
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca6bc6e979983cdce5a30
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : [SHANA]Hagemaru Episod 16.mp4
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 52.42 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6bc6e979983cdce5a31
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca6bc6e979983cdce5a31
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca6bc6e979983cdce5a31
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : [SHANA]Hagemaru Episod 17.mp4
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 52.85 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6ef6e979983cdce5a32
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca6ef6e979983cdce5a32
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca6ef6e979983cdce5a32
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : [SHANA]Hagemaru Episod 18.mp4
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 42.36 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6ef6e979983cdce5a33
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca6ef6e979983cdce5a33
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca6ef6e979983cdce5a33
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : [SHANA]Hagemaru Episod 19.mp4
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 46.82 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6ef6e979983cdce5a34
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca6ef6e979983cdce5a34
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca6ef6e979983cdce5a34
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : [SHANA]Hagemaru Episod 20.mp4
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 47.03 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6ef6e979983cdce5a35
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca6ef6e979983cdce5a35
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca6ef6e979983cdce5a35
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : [SHANA]Hagemaru Episod 21.mp4
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 38.91 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6f66e979983cdce5a36
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca6f66e979983cdce5a36
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca6f66e979983cdce5a36
-
-📂 Fɪʟᴇ ɴᴀᴍᴇ : [SHANA]Hagemaru Episod 22.mp4
-📦 Fɪʟᴇ ꜱɪᴢᴇ : 46.16 MiB
-📥 Dᴏᴡɴʟᴏᴀᴅ : https://filestreambot-production-bef2.up.railway.app:8080/dl/6acca6fa6e979983cdce5a37
-🖥 Wᴀᴛᴄʜ : https://filestreambot-production-bef2.up.railway.app:8080/watch/6acca6fa6e979983cdce5a37
-🔗 Sʜᴀʀᴇ : https://t.me/DaRyzS_bot?start=file_6acca6fa6e979983cdce5a37
+const express = require('express');
+const app = express();
+const PORT = process.env.PORT || 8080;
+
+// Naruto Episode Database mapped from your bot links (Episodes 1 - 220)
+const narutoEpisodes = [
+  // Episodes 1 - 10
+  { episode: 1, title: "Naruto_episode1.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc97d56e979983cdce58b1" },
+  { episode: 2, title: "Nt Episod 002.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc97d56e979983cdce58af" },
+  { episode: 3, title: "Nt Episod 003.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc97d56e979983cdce58b0" },
+  { episode: 4, title: "Nt Episod 004.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc97d56e979983cdce58ad" },
+  { episode: 5, title: "Nt Episod 005.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc97d56e979983cdce58ae" },
+  { episode: 6, title: "Nt Episod 006.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc97d56e979983cdce58ac" },
+  { episode: 7, title: "Nt Episod 007.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc97de6e979983cdce58b2" },
+  { episode: 8, title: "Nt Episod 008.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc97de6e979983cdce58b4" },
+  { episode: 9, title: "Nt Episod 009.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc97de6e979983cdce58b3" },
+  { episode: 10, title: "Nt Episod 010.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc97de6e979983cdce58b5" },
+
+  // Episodes 11 - 220
+  { episode: 11, title: "Nt Episod 011.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc97e46e979983cdce58b6" },
+  { episode: 12, title: "Nt Episod 012.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc97e96e979983cdce58b7" },
+  { episode: 13, title: "Nt Episod 013.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc97e96e979983cdce58b8" },
+  { episode: 14, title: "Nt Episod 014.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc97e96e979983cdce58b9" },
+  { episode: 15, title: "Nt Episod 015.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc97e96e979983cdce58ba" },
+  { episode: 16, title: "Nt Episod 016.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc97e96e979983cdce58bb" },
+  { episode: 17, title: "Nt Episod 017.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc981a6e979983cdce58bc" },
+  { episode: 18, title: "Nt Episod 018.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc981a6e979983cdce58bd" },
+  { episode: 19, title: "Nt Episod 019.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc981a6e979983cdce58be" },
+  { episode: 20, title: "Nt Episod 020.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc981a6e979983cdce58bf" },
+  { episode: 21, title: "Nt Episod 021.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc981f6e979983cdce58c0" },
+  { episode: 22, title: "Nt Episod 022.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc981f6e979983cdce58c1" },
+  { episode: 23, title: "Nt Episod 023.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc98246e979983cdce58c2" },
+  { episode: 24, title: "Nt Episod 024.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc98256e979983cdce58c3" },
+  { episode: 25, title: "Nt Episod 025.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc98266e979983cdce58c4" },
+  { episode: 26, title: "Nt Episod 026.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc98516e979983cdce58c5" },
+  { episode: 27, title: "Nt Episod 027.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc98576e979983cdce58c6" },
+  { episode: 28, title: "Nt Episod 028.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc98576e979983cdce58c7" },
+  { episode: 29, title: "Nt Episod 029.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc98586e979983cdce58c8" },
+  { episode: 30, title: "Nt Episod 030.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc985c6e979983cdce58c9" },
+  { episode: 31, title: "Nt Episod 031.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc985d6e979983cdce58ca" },
+  { episode: 32, title: "Nt Episod 032.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc985d6e979983cdce58cb" },
+  { episode: 33, title: "Nt Episod 033.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc98626e979983cdce58cc" },
+  { episode: 34, title: "Nt Episod 034.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc98626e979983cdce58cd" },
+  { episode: 35, title: "Nt Episod 035.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc988d6e979983cdce58ce" },
+  { episode: 36, title: "Nt Episod 036.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc988d6e979983cdce58cf" },
+  { episode: 37, title: "Nt Episod 037.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc98916e979983cdce58d0" },
+  { episode: 38, title: "Nt Episod 038.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc98936e979983cdce58d1" },
+  { episode: 39, title: "Nt Episod 039.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc98966e979983cdce58d2" },
+  { episode: 40, title: "Nt Episod 040.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc98966e979983cdce58d3" },
+  { episode: 41, title: "Nt Episod 041.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc98976e979983cdce58d4" },
+  { episode: 42, title: "Nt Episod 042.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc989c6e979983cdce58d5" },
+  { episode: 43, title: "Nt Episod 043.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc989c6e979983cdce58d6" },
+  { episode: 44, title: "Nt Episod 044.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc98a26e979983cdce58d8" },
+  { episode: 45, title: "Nt Episod 045.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc98a26e979983cdce58d7" },
+  { episode: 46, title: "Nt Episod 046.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc98c96e979983cdce58d9" },
+  { episode: 47, title: "Nt Episod 047.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc98c96e979983cdce58da" },
+  { episode: 48, title: "Nt Episod 048.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc98ca6e979983cdce58db" },
+  { episode: 49, title: "Nt Episod 049.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc98ce6e979983cdce58dc" },
+  { episode: 50, title: "Nt Episod 050.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc98cf6e979983cdce58dd" },
+  { episode: 51, title: "Nt Episod 051.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc98d46e979983cdce58de" },
+  { episode: 52, title: "Nt Episod 052.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc98d56e979983cdce58df" },
+  { episode: 53, title: "Nt Episod 053.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc98d96e979983cdce58e0" },
+  { episode: 54, title: "Nt Episod 054.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc98da6e979983cdce58e1" },
+  { episode: 55, title: "Nt Episod 055.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc98da6e979983cdce58e2" },
+  { episode: 56, title: "Nt Episod 056.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc99056e979983cdce58e3" },
+  { episode: 57, title: "Nt Episod 057.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc99066e979983cdce58e4" },
+  { episode: 58, title: "Nt Episod 058.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc990c6e979983cdce58e5" },
+  { episode: 59, title: "Nt Episod 059.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc990c6e979983cdce58e6" },
+  { episode: 60, title: "Nt Episod 060.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc990d6e979983cdce58e7" },
+  { episode: 61, title: "Nt Episod 061.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc99116e979983cdce58e8" },
+  { episode: 62, title: "Nt Episod 062.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc99116e979983cdce58e9" },
+  { episode: 63, title: "Nt Episod 063.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc99116e979983cdce58ea" },
+  { episode: 64, title: "Nt Episod 064.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc99186e979983cdce58eb" },
+  { episode: 65, title: "Nt Episod 065.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc99186e979983cdce58ec" },
+  { episode: 66, title: "Nt Episod 066.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc99476e979983cdce58ed" },
+  { episode: 67, title: "Nt Episod 067.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc994c6e979983cdce58ee" },
+  { episode: 68, title: "Nt Episod 068.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc994c6e979983cdce58ef" },
+  { episode: 69, title: "Nt Episod 069.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc994c6e979983cdce58f0" },
+  { episode: 70, title: "Nt Episod 070.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc994c6e979983cdce58f1" },
+  { episode: 71, title: "Nt Episod 071.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc994d6e979983cdce58f2" },
+  { episode: 72, title: "Nt Episod 072.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc99516e979983cdce58f3" },
+  { episode: 73, title: "Nt Episod 073.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc99566e979983cdce58f4" },
+  { episode: 74, title: "Nt Episod 074.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc99566e979983cdce58f5" },
+  { episode: 75, title: "Nt Episod 075.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc99566e979983cdce58f6" },
+  { episode: 76, title: "Nt Episod 076.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc99576e979983cdce58f7" },
+  { episode: 77, title: "Nt Episod 077.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc998b6e979983cdce58f8" },
+  { episode: 78, title: "Nt Episod 078.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc998b6e979983cdce58fa" },
+  { episode: 79, title: "Nt Episod 079.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc998b6e979983cdce58f9" },
+  { episode: 80, title: "Nt Episod 080.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc998b6e979983cdce58fb" },
+  { episode: 81, title: "Nt Episod 081.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc99916e979983cdce58fc" },
+  { episode: 82, title: "Nt Episod 082.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc99916e979983cdce58fd" },
+  { episode: 83, title: "Nt Episod 083.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc99966e979983cdce58fe" },
+  { episode: 84, title: "Nt Episod 084.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc99966e979983cdce58ff" },
+  { episode: 85, title: "Nt Episod 085.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc99976e979983cdce5900" },
+  { episode: 86, title: "Nt Episod 086.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc99c46e979983cdce5901" },
+  { episode: 87, title: "Nt Episod 087.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc99c96e979983cdce5902" },
+  { episode: 88, title: "Nt Episod 088.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc99c96e979983cdce5903" },
+  { episode: 89, title: "Nt Episod 089.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc99ca6e979983cdce5904" },
+  { episode: 90, title: "Nt Episod 090.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc99cb6e979983cdce5905" },
+  { episode: 91, title: "Nt Episod 091.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc99cf6e979983cdce5906" },
+  { episode: 92, title: "Nt Episod 092.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc99cf6e979983cdce5907" },
+  { episode: 93, title: "Nt Episod 093.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc99cf6e979983cdce5908" },
+  { episode: 94, title: "Nt Episod 094.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc99d46e979983cdce5909" },
+  { episode: 95, title: "Nt Episod 095.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc99d56e979983cdce590a" },
+  { episode: 96, title: "Nt Episod 096.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc99d56e979983cdce590b" },
+  { episode: 97, title: "Nt Episod 097.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9a006e979983cdce590c" },
+  { episode: 98, title: "Nt Episod 098.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9a056e979983cdce590d" },
+  { episode: 99, title: "Nt Episod 099.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9a076e979983cdce590e" },
+  { episode: 100, title: "Nt Episod 100.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9a086e979983cdce590f" },
+  { episode: 101, title: "Nt Episod 101.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9a0b6e979983cdce5910" },
+  { episode: 102, title: "Nt Episod 102.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9a0b6e979983cdce5911" },
+  { episode: 103, title: "Nt Episod 103.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9a106e979983cdce5912" },
+  { episode: 104, title: "Nt Episod 104.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9a106e979983cdce5913" },
+  { episode: 105, title: "Nt Episod 105.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9a116e979983cdce5914" },
+  { episode: 106, title: "Nt Episod 106.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9a3c6e979983cdce5915" },
+  { episode: 107, title: "Nt Episod 107.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9a3c6e979983cdce5916" },
+  { episode: 108, title: "Nt Episod 108.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9a416e979983cdce5917" },
+  { episode: 109, title: "Nt Episod 109.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9a426e979983cdce5918" },
+  { episode: 110, title: "Nt Episod 110.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9a436e979983cdce5919" },
+  { episode: 111, title: "Nt Episod 111.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9a486e979983cdce591a" },
+  { episode: 112, title: "Nt Episod 112.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9a486e979983cdce591b" },
+  { episode: 113, title: "Nt Episod 113.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9a486e979983cdce591c" },
+  { episode: 114, title: "Nt Episod 114.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9a4c6e979983cdce591d" },
+  { episode: 115, title: "Nt Episod 115.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9a4d6e979983cdce591e" },
+  { episode: 116, title: "Nt Episod 116.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9a4d6e979983cdce591f" },
+  { episode: 117, title: "Nt Episod 117.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9a7e6e979983cdce5920" },
+  { episode: 118, title: "Nt Episod 118.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9a836e979983cdce5922" },
+  { episode: 119, title: "Nt Episod 119.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9a836e979983cdce5921" },
+  { episode: 120, title: "Nt Episod 120.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9a836e979983cdce5923" },
+  { episode: 121, title: "Nt Episod 121.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9a846e979983cdce5924" },
+  { episode: 122, title: "Nt Episod 122.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9a886e979983cdce5925" },
+  { episode: 123, title: "Nt Episod 123.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9a886e979983cdce5926" },
+  { episode: 124, title: "Nt Episod 124.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9a8d6e979983cdce5927" },
+  { episode: 125, title: "Nt Episod 125.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9a8e6e979983cdce5929" },
+  { episode: 126, title: "Nt Episod 126.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9a8d6e979983cdce5928" },
+  { episode: 127, title: "Nt Episod 127.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9aba6e979983cdce592a" },
+  { episode: 128, title: "Nt Episod 128.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9aba6e979983cdce592b" },
+  { episode: 129, title: "Nt Episod 129.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9abb6e979983cdce592c" },
+  { episode: 130, title: "Nt Episod 130.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9abf6e979983cdce592d" },
+  { episode: 131, title: "Nt Episod 131.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9abf6e979983cdce592e" },
+  { episode: 132, title: "Nt Episod 132.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9abf6e979983cdce592f" },
+  { episode: 133, title: "Nt Episod 133.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9ac66e979983cdce5930" },
+  { episode: 134, title: "Nt Episod 134.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9ac66e979983cdce5931" },
+  { episode: 135, title: "Nt Episod 135.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9af06e979983cdce5932" },
+  { episode: 136, title: "Nt Episod 136.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9af56e979983cdce5933" },
+  { episode: 137, title: "Nt Episod 137.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9af56e979983cdce5934" },
+  { episode: 138, title: "Nt Episod 138.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9af66e979983cdce5935" },
+  { episode: 139, title: "Nt Episod 139.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9afb6e979983cdce5936" },
+  { episode: 140, title: "Nt Episod 140.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9afb6e979983cdce5937" },
+  { episode: 141, title: "Nt Episod 141.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9afb6e979983cdce5938" },
+  { episode: 142, title: "Nt Episod 142.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9b016e979983cdce5939" },
+  { episode: 143, title: "Nt Episod 143.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9b076e979983cdce593a" },
+  { episode: 144, title: "Nt Episod 144.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9b086e979983cdce593b" },
+  { episode: 145, title: "Nt Episod 145.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9b2d6e979983cdce593c" },
+  { episode: 146, title: "Nt Episod 146.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9b2d6e979983cdce593d" },
+  { episode: 147, title: "Nt Episod 147.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9b2d6e979983cdce593f" },
+  { episode: 148, title: "Nt Episod 148.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9b2d6e979983cdce593e" },
+  { episode: 149, title: "Nt Episod 149.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9b336e979983cdce5940" },
+  { episode: 150, title: "Nt Episod 150.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9b386e979983cdce5941" },
+  { episode: 151, title: "Nt Episod 151.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9b396e979983cdce5942" },
+  { episode: 152, title: "Nt Episod 152.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9b3a6e979983cdce5943" },
+  { episode: 153, title: "Nt Episod 153.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9b3d6e979983cdce5944" },
+  { episode: 154, title: "Nt Episod 154.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9b3e6e979983cdce5945" },
+  { episode: 155, title: "Nt Episod 155.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9b3e6e979983cdce5946" },
+  { episode: 156, title: "Nt Episod 156.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9b696e979983cdce5947" },
+  { episode: 157, title: "Nt Episod 157.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9b696e979983cdce5948" },
+  { episode: 158, title: "Nt Episod 158.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9b6f6e979983cdce5949" },
+  { episode: 159, title: "Nt Episod 159.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9b6f6e979983cdce594a" },
+  { episode: 160, title: "Nt Episod 160.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9b706e979983cdce594b" },
+  { episode: 161, title: "Nt Episod 161.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9b746e979983cdce594c" },
+  { episode: 162, title: "Nt Episod 162.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9b746e979983cdce594d" },
+  { episode: 163, title: "Nt Episod 163.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9b746e979983cdce594e" },
+  { episode: 164, title: "Nt Episod 164.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9b7a6e979983cdce594f" },
+  { episode: 165, title: "Nt Episod 165.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9ba96e979983cdce5950" },
+  { episode: 166, title: "Nt Episod 166.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9bab6e979983cdce5951" },
+  { episode: 167, title: "Nt Episod 167.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9bab6e979983cdce5952" },
+  { episode: 168, title: "Nt Episod 168.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9bab6e979983cdce5953" },
+  { episode: 169, title: "Nt Episod 169.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9bae6e979983cdce5954" },
+  { episode: 170, title: "Nt Episod 170.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9baf6e979983cdce5956" },
+  { episode: 171, title: "Nt Episod 171.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9baf6e979983cdce5955" },
+  { episode: 172, title: "Nt Episod 172.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9bb46e979983cdce5957" },
+  { episode: 173, title: "Nt Episod 173.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9bb46e979983cdce5959" },
+  { episode: 174, title: "Nt Episod 174.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9bb46e979983cdce5958" },
+  { episode: 175, title: "Nt Episod 175.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9bba6e979983cdce595a" },
+  { episode: 176, title: "Nt Episod 176.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9be26e979983cdce595c" },
+  { episode: 177, title: "Nt Episod 177.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9be16e979983cdce595b" },
+  { episode: 178, title: "Nt Episod 178.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9be76e979983cdce595d" },
+  { episode: 179, title: "Nt Episod 179.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9be86e979983cdce595e" },
+  { episode: 180, title: "Nt Episod 180.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9be86e979983cdce595f" },
+  { episode: 181, title: "Nt Episod 181.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9bed6e979983cdce5960" },
+  { episode: 182, title: "Nt Episod 182.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9bed6e979983cdce5961" },
+  { episode: 183, title: "Nt Episod 183.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9bed6e979983cdce5962" },
+  { episode: 184, title: "Nt Episod 184.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9bf26e979983cdce5963" },
+  { episode: 185, title: "Nt Episod 185.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9bf26e979983cdce5964" },
+  { episode: 186, title: "Nt Episod 186.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9bf36e979983cdce5965" },
+  { episode: 187, title: "Nt Episod 187.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9c1d6e979983cdce5966" },
+  { episode: 188, title: "Nt Episod 188.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9c236e979983cdce5967" },
+  { episode: 189, title: "Nt Episod 189.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9c236e979983cdce5968" },
+  { episode: 190, title: "Nt Episod 190.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9c236e979983cdce5969" },
+  { episode: 191, title: "Nt Episod 191.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9c296e979983cdce596a" },
+  { episode: 192, title: "Nt Episod 192.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9c2f6e979983cdce596b" },
+  { episode: 193, title: "Nt Episod 193.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9c306e979983cdce596c" },
+  { episode: 194, title: "Nt Episod 194.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9c346e979983cdce596d" },
+  { episode: 195, title: "Nt Episod 195.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9c356e979983cdce596e" },
+  { episode: 196, title: "Nt Episod 196.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9c596e979983cdce596f" },
+  { episode: 197, title: "Nt Episod 197.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9c5e6e979983cdce5970" },
+  { episode: 198, title: "Nt Episod 198.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9c5e6e979983cdce5971" },
+  { episode: 199, title: "Nt Episod 199.mkv", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9c5e6e979983cdce5972" },
+  { episode: 200, title: "Nt Episod 200.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9c5e6e979983cdce5973" },
+  { episode: 201, title: "Nt Episod 201.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9c646e979983cdce5974" },
+  { episode: 202, title: "Nt Episod 202.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9c646e979983cdce5975" },
+  { episode: 203, title: "Nt Episod 203.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9c696e979983cdce5976" },
+  { episode: 204, title: "Nt Episod 204.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9c696e979983cdce5977" },
+  { episode: 205, title: "Nt Episod 205.mkv", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9c956e979983cdce5978" },
+  { episode: 206, title: "Nt Episod 206.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9c9c6e979983cdce5979" },
+  { episode: 207, title: "Nt Episod 207.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9c9c6e979983cdce597a" },
+  { episode: 208, title: "Nt Episod 208.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9ca16e979983cdce597b" },
+  { episode: 209, title: "Nt Episod 209.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9ca26e979983cdce597c" },
+  { episode: 210, title: "Nt Episod 210.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9ca26e979983cdce597d" },
+  { episode: 211, title: "Nt Episod 211.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9ca66e979983cdce597f" },
+  { episode: 212, title: "Nt Episod 212.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9ca66e979983cdce597e" },
+  { episode: 213, title: "Nt Episod 213.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9ca76e979983cdce5980" },
+  { episode: 214, title: "Nt Episod 214.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9ca76e979983cdce5981" },
+  { episode: 215, title: "Nt Episod 215.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9cad6e979983cdce5982" },
+  { episode: 216, title: "Nt Episod 216.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9cd66e979983cdce5983" },
+  { episode: 217, title: "Nt Episod 217.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9cd66e979983cdce5984" },
+  { episode: 218, title: "Nt Episod 218.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9cd76e979983cdce5985" },
+  { episode: 219, title: "Nt Episod 219.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9cdb6e979983cdce5986" },
+  { episode: 220, title: "Nt Episod 220.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9cdc6e979983cdce5987" }
+];
+
+// Black Clover Episode Database mapped from your links
+const blackCloverEpisodes = [
+  { episode: 1, title: "Black Clover Episode 1", url: "https://teraboxshare.com/s/1MnkiGCWy207764ewaAUeFw" },
+  { episode: 2, title: "Black Clover Episode 2", url: "https://teraboxshare.com/s/1MnkiGCWy207764ewaAUeFw" },
+  { episode: 3, title: "Black Clover Episode 3", url: "https://teraboxshare.com/s/15_tVldY5cV2ZHnPaKU4gEA" }
+];
+
+// Endpoint for Nuvio / Stremio Add-on Manifest
+app.get('/manifest.json', (req, res) => {
+  res.json({
+    id: 'org.ryzstream.collection',
+    version: '1.0.0',
+    name: 'DaRyz Collection Add-on',
+    description: 'Stream Naruto and Black Clover via RyzStream',
+    types: ['series'],
+    catalogs: [
+      { type: 'series', id: 'naruto_catalog', name: 'Naruto' },
+      { type: 'series', id: 'blackclover_catalog', name: 'Black Clover' }
+    ],
+    resources: ['catalog', 'meta', 'stream']
+  });
+});
+
+// Meta Endpoint
+app.get('/meta/:type/:id.json', (req, res) => {
+  if (req.params.id === 'naruto_series') {
+    res.json({
+      meta: {
+        id: 'naruto_series',
+        type: 'series',
+        name: 'Naruto',
+        poster: 'https://i.postimg.cc/vB6mWzW6/Naruto-DP.jpg',
+        background: 'https://i.postimg.cc/vB6mWzW6/Naruto-DP.jpg',
+        description: 'Naruto Uzumaki is an adolescent ninja who searches for recognition and dreams of becoming the Hokage.',
+        genres: ['Anime', 'Action', 'Adventure']
+      }
+    });
+  } else if (req.params.id === 'blackclover_series') {
+    res.json({
+      meta: {
+        id: 'blackclover_series',
+        type: 'series',
+        name: 'Black Clover',
+        poster: 'https://i.postimg.cc/FRX3YtV9/BC.webp',
+        background: 'https://i.postimg.cc/FRX3YtV9/BC.webp',
+        description: 'Asta and Yuno were abandoned at the same church and raised together, sharing a lifelong rivalry and dream.',
+        genres: ['Anime', 'Action', 'Fantasy']
+      }
+    });
+  } else {
+    res.status(404).json({ error: 'Not found' });
+  }
+});
+
+// Stream Endpoint
+app.get('/stream/:type/:id.json', (req, res) => {
+  const parts = req.params.id.split(':');
+  
+  if (parts[0] === 'naruto_series') {
+    const episodeNum = parseInt(parts[2]);
+    const found = narutoEpisodes.find(e => e.episode === episodeNum);
+
+    if (found) {
+      return res.json({
+        streams: [
+          {
+            title: `[DaRyzStream] ${found.title}`,
+            url: found.url
+          }
+        ]
+      });
+    }
+  } else if (parts[0] === 'blackclover_series') {
+    const episodeNum = parseInt(parts[2]);
+    const found = blackCloverEpisodes.find(e => e.episode === episodeNum);
+
+    if (found) {
+      return res.json({
+        streams: [
+          {
+            title: `[DaRyzStream] ${found.title}`,
+            url: found.url
+          }
+        ]
+      });
+    }
+  }
+
+  res.json({ streams: [] });
+});
+
+app.listen(PORT, () => {
+  console.log(`Add-on Server running on port ${PORT}`);
+});
