@@ -2,9 +2,8 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 8080;
 
-// Naruto Episode Database mapped from your bot links (Episodes 1 - 220)
+// 1. Naruto Episodes (1 - 220)
 const narutoEpisodes = [
-  // Episodes 1 - 10
   { episode: 1, title: "Naruto_episode1.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc97d56e979983cdce58b1" },
   { episode: 2, title: "Nt Episod 002.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc97d56e979983cdce58af" },
   { episode: 3, title: "Nt Episod 003.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc97d56e979983cdce58b0" },
@@ -15,8 +14,6 @@ const narutoEpisodes = [
   { episode: 8, title: "Nt Episod 008.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc97de6e979983cdce58b4" },
   { episode: 9, title: "Nt Episod 009.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc97de6e979983cdce58b3" },
   { episode: 10, title: "Nt Episod 010.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc97de6e979983cdce58b5" },
-
-  // Episodes 11 - 220
   { episode: 11, title: "Nt Episod 011.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc97e46e979983cdce58b6" },
   { episode: 12, title: "Nt Episod 012.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc97e96e979983cdce58b7" },
   { episode: 13, title: "Nt Episod 013.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc97e96e979983cdce58b8" },
@@ -229,97 +226,173 @@ const narutoEpisodes = [
   { episode: 220, title: "Nt Episod 220.mp4", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6acc9cdc6e979983cdce5987" }
 ];
 
-// Black Clover Episode Database mapped from your links
+// 2. Black Clover Episodes
 const blackCloverEpisodes = [
   { episode: 1, title: "Black Clover Episode 1", url: "https://teraboxshare.com/s/1MnkiGCWy207764ewaAUeFw" },
   { episode: 2, title: "Black Clover Episode 2", url: "https://teraboxshare.com/s/1MnkiGCWy207764ewaAUeFw" },
   { episode: 3, title: "Black Clover Episode 3", url: "https://teraboxshare.com/s/15_tVldY5cV2ZHnPaKU4gEA" }
 ];
 
-// Endpoint for Nuvio / Stremio Add-on Manifest
+// 3. Malaysian Movies Database (Contoh)
+const malaysianMoviesEpisodes = [
+  { episode: 1, title: "Malaysian Movie 1", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/contohlink1" }
+];
+
+// 4. Anime & Animation (Doraemon, Shin Chan, Anak Anak Sidek, Hagemaru)
+const animeAnimationEpisodes = [
+  { episode: 1, title: "Anime & Animation Episode 1", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/contohlink2" }
+];
+
+// 5. Ustaz Wadi Kuliah / Ceramah
+const ustazWadiEpisodes = [
+  { episode: 1, title: "Ceramah Ustaz Wadi Episod 1", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/contohlink3" }
+];
+
+// 6. Kids Delight
+const kidsDelightEpisodes = [
+  { episode: 1, title: "Kids Delight Episod 1", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/contohlink4" }
+];
+
+// 7. Running Man
+const runningManEpisodes = [
+  { episode: 1, title: "Running Man Episode 1", url: "https://filestreambot-production-bef2.up.railway.app:8080/watch/contohlink5" }
+];
+
+// Manifest Endpoint (Semua katalog didaftarkan di sini)
 app.get('/manifest.json', (req, res) => {
   res.json({
-    id: 'org.ryzstream.collection',
+    id: 'org.ryzstream.allinone',
     version: '1.0.0',
-    name: 'DaRyz Collection Add-on',
-    description: 'Stream Naruto and Black Clover via RyzStream',
+    name: 'DaRyz Ultimate Collection',
+    description: 'Stream Naruto, Black Clover, Malaysian Movies, Anime, Ustaz Wadi, Kids Delight & Running Man',
     types: ['series'],
     catalogs: [
       { type: 'series', id: 'naruto_catalog', name: 'Naruto' },
-      { type: 'series', id: 'blackclover_catalog', name: 'Black Clover' }
+      { type: 'series', id: 'blackclover_catalog', name: 'Black Clover' },
+      { type: 'series', id: 'malaysianmovies_catalog', name: 'Malaysian Movies' },
+      { type: 'series', id: 'animeanimation_catalog', name: 'Anime & Animation' },
+      { type: 'series', id: 'ustazwadi_catalog', name: 'Ustaz Wadi' },
+      { type: 'series', id: 'kidsdelight_catalog', name: 'Kids Delight' },
+      { type: 'series', id: 'runningman_catalog', name: 'Running Man' }
     ],
     resources: ['catalog', 'meta', 'stream']
   });
 });
 
-// Meta Endpoint
+// Meta Endpoint (Maklumat poster & tajuk untuk setiap katalog)
 app.get('/meta/:type/:id.json', (req, res) => {
-  if (req.params.id === 'naruto_series') {
-    res.json({
-      meta: {
-        id: 'naruto_series',
-        type: 'series',
-        name: 'Naruto',
-        poster: 'https://i.postimg.cc/vB6mWzW6/Naruto-DP.jpg',
-        background: 'https://i.postimg.cc/vB6mWzW6/Naruto-DP.jpg',
-        description: 'Naruto Uzumaki is an adolescent ninja who searches for recognition and dreams of becoming the Hokage.',
-        genres: ['Anime', 'Action', 'Adventure']
-      }
-    });
-  } else if (req.params.id === 'blackclover_series') {
-    res.json({
-      meta: {
-        id: 'blackclover_series',
-        type: 'series',
-        name: 'Black Clover',
-        poster: 'https://i.postimg.cc/FRX3YtV9/BC.webp',
-        background: 'https://i.postimg.cc/FRX3YtV9/BC.webp',
-        description: 'Asta and Yuno were abandoned at the same church and raised together, sharing a lifelong rivalry and dream.',
-        genres: ['Anime', 'Action', 'Fantasy']
-      }
-    });
+  const metaDatabase = {
+    'naruto_catalog': {
+      id: 'naruto_catalog',
+      type: 'series',
+      name: 'Naruto',
+      poster: 'https://i.postimg.cc/vB6mWzW6/Naruto-DP.jpg',
+      background: 'https://i.postimg.cc/vB6mWzW6/Naruto-DP.jpg',
+      description: 'Naruto Uzumaki is an adolescent ninja who searches for recognition and dreams of becoming the Hokage.',
+      genres: ['Anime', 'Action', 'Adventure']
+    },
+    'blackclover_catalog': {
+      id: 'blackclover_catalog',
+      type: 'series',
+      name: 'Black Clover',
+      poster: 'https://i.postimg.cc/FRX3YtV9/BC.webp',
+      background: 'https://i.postimg.cc/FRX3YtV9/BC.webp',
+      description: 'Asta and Yuno were abandoned at the same church and raised together, sharing a lifelong rivalry and dream.',
+      genres: ['Anime', 'Action', 'Fantasy']
+    },
+    'malaysianmovies_catalog': {
+      id: 'malaysianmovies_catalog',
+      type: 'series',
+      name: 'Malaysian Movies',
+      poster: 'https://i.postimg.cc/vB6mWzW6/Naruto-DP.jpg', // Ganti poster jika ada
+      background: 'https://i.postimg.cc/vB6mWzW6/Naruto-DP.jpg',
+      description: 'Koleksi filem-filem Melayu dan drama pilihan.',
+      genres: ['Local', 'Movies']
+    },
+    'animeanimation_catalog': {
+      id: 'animeanimation_catalog',
+      type: 'series',
+      name: 'Anime & Animation',
+      poster: 'https://i.postimg.cc/vB6mWzW6/Naruto-DP.jpg', // Ganti poster jika ada
+      background: 'https://i.postimg.cc/vB6mWzW6/Naruto-DP.jpg',
+      description: 'Doraemon, Shin Chan, Anak Anak Sidek, Hagemaru & banyak lagi.',
+      genres: ['Animation', 'Kids', 'Anime']
+    },
+    'ustazwadi_catalog': {
+      id: 'ustazwadi_catalog',
+      type: 'series',
+      name: 'Ustaz Wadi',
+      poster: 'https://i.postimg.cc/vB6mWzW6/Naruto-DP.jpg', // Ganti poster jika ada
+      background: 'https://i.postimg.cc/vB6mWzW6/Naruto-DP.jpg',
+      description: 'Koleksi ceramah dan kuliah agama bersama Ustaz Wadi Anuar.',
+      genres: ['Religion', 'Ceramah']
+    },
+    'kidsdelight_catalog': {
+      id: 'kidsdelight_catalog',
+      type: 'series',
+      name: 'Kids Delight',
+      poster: 'https://i.postimg.cc/vB6mWzW6/Naruto-DP.jpg', // Ganti poster jika ada
+      background: 'https://i.postimg.cc/vB6mWzW6/Naruto-DP.jpg',
+      description: 'Hiburan dan rancangan menarik khas untuk kanak-kanak.',
+      genres: ['Kids', 'Family']
+    },
+    'runningman_catalog': {
+      id: 'runningman_catalog',
+      type: 'series',
+      name: 'Running Man',
+      poster: 'https://i.postimg.cc/vB6mWzW6/Naruto-DP.jpg', // Ganti poster jika ada
+      background: 'https://i.postimg.cc/vB6mWzW6/Naruto-DP.jpg',
+      description: 'Variety show popular dari Korea Selatan, Running Man.',
+      genres: ['Variety', 'Comedy']
+    }
+  };
+
+  const requestedMeta = metaDatabase[req.params.id];
+  if (requestedMeta) {
+    res.json({ meta: requestedMeta });
   } else {
     res.status(404).json({ error: 'Not found' });
   }
 });
 
-// Stream Endpoint
+// Stream Endpoint (Menghalakan kepada pautan video berdasarkan katalog)
 app.get('/stream/:type/:id.json', (req, res) => {
   const parts = req.params.id.split(':');
-  
-  if (parts[0] === 'naruto_series') {
-    const episodeNum = parseInt(parts[2]);
-    const found = narutoEpisodes.find(e => e.episode === episodeNum);
+  const catalogId = parts[0];
+  const episodeNum = parseInt(parts[2]);
 
-    if (found) {
-      return res.json({
-        streams: [
-          {
-            title: `[DaRyzStream] ${found.title}`,
-            url: found.url
-          }
-        ]
-      });
-    }
-  } else if (parts[0] === 'blackclover_series') {
-    const episodeNum = parseInt(parts[2]);
-    const found = blackCloverEpisodes.find(e => e.episode === episodeNum);
+  let found = null;
 
-    if (found) {
-      return res.json({
-        streams: [
-          {
-            title: `[DaRyzStream] ${found.title}`,
-            url: found.url
-          }
-        ]
-      });
-    }
+  if (catalogId === 'naruto_catalog') {
+    found = narutoEpisodes.find(e => e.episode === episodeNum);
+  } else if (catalogId === 'blackclover_catalog') {
+    found = blackCloverEpisodes.find(e => e.episode === episodeNum);
+  } else if (catalogId === 'malaysianmovies_catalog') {
+    found = malaysianMoviesEpisodes.find(e => e.episode === episodeNum);
+  } else if (catalogId === 'animeanimation_catalog') {
+    found = animeAnimationEpisodes.find(e => e.episode === episodeNum);
+  } else if (catalogId === 'ustazwadi_catalog') {
+    found = ustazWadiEpisodes.find(e => e.episode === episodeNum);
+  } else if (catalogId === 'kidsdelight_catalog') {
+    found = kidsDelightEpisodes.find(e => e.episode === episodeNum);
+  } else if (catalogId === 'runningman_catalog') {
+    found = runningManEpisodes.find(e => e.episode === episodeNum);
+  }
+
+  if (found) {
+    return res.json({
+      streams: [
+        {
+          title: `[DaRyzStream] ${found.title}`,
+          url: found.url
+        }
+      ]
+    });
   }
 
   res.json({ streams: [] });
 });
 
 app.listen(PORT, () => {
-  console.log(`Add-on Server running on port ${PORT}`);
+  console.log(`Ultimate Add-on Server running on port ${PORT}`);
 });
