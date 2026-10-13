@@ -945,7 +945,7 @@ const catalogs = [
       { id: "loc-27", title: "You're Lion [2007]", episode: 27, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accd13d6e979983cdce5ced" },
       { id: "loc-28", title: "Zent Out Of Shape [2007]", episode: 28, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accd1426e979983cdce5cee" }
     ]
- },
+  },
   {
     id: 'detective_conan_series',
     name: 'Detective Conan (Series)',
