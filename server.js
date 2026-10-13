@@ -1737,7 +1737,6 @@ const catalogs = [
             { id: 'rm1_559', title: 'Episode 559 ∙ Goodbye, Our Special Brother', url: 'https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc83756e979983cdce57a2' }
         ]
   },
-  {
     'running-man-560-679': {
         name: 'Running Man Episode 560-679',
         poster: 'https://i.postimg.cc/sXPb5CGW/RM7.png',
@@ -1865,7 +1864,6 @@ const catalogs = [
             { id: 'rm2_679', title: 'Episode 679 ∙ Goodbye So-Min', url: 'https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc8b1b6e979983cdce581a' }
         ]
   },
-  {
     'running-man-680-732': {
         name: 'Running Man Episode 680-732',
         poster: 'https://i.postimg.cc/q7cWfdBT/RM-SCP.webp',
@@ -1926,7 +1924,6 @@ const catalogs = [
             { id: 'rm3_732', title: 'Episode 732 ∙ Cool Running Year-End Party', url: 'https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc90696e979983cdce5851' },
      ]
   },
-  {
     'running-man-733-822': {
         name: 'Running Man Episode 680-732',
         poster: 'https://i.postimg.cc/fb714hWs/RM-YESCP.webp',
@@ -2024,7 +2021,6 @@ const catalogs = [
             { id: 'rm4_822', title: 'Running Man - 822: Episode #1.822', url: 'https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc95336e979983cdce58ab' }
         ]
   },
-  {
     'dragon-ball-movies': {
         name: 'Dragon Ball (Movies)',
         poster: 'https://i.postimg.cc/0N7jfkC0/goku.jpg',
@@ -2035,7 +2031,6 @@ const catalogs = [
             { id: 'dbm_3', title: 'Dragon Ball: Legend of Shenron', poster: 'https://i.postimg.cc/Wzw0fm6Z/DB-The-Legend-Of-Shenron-DP.jpg', url: 'https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb1486e979983cdce5a79' }
         ]
   },
-  {
     'satria-7-pahlawan': {
         name: 'Satria 7 Pahlawan (Series)',
         poster: 'https://i.postimg.cc/mZmDV678/Satria-DP.jpg',
