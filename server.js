@@ -2614,10 +2614,9 @@ const catalogs = [
       { id: 'naruto-218', title: 'Episod 218: Misi Menyelamatkan Karyawan Pelarian', url: 'https://filestreambot-production-bef2.up.railway.app/dl/6acc80cb6e979983cdce5732' },
       { id: 'naruto-219', title: 'Episod 219: Pertarungan Di Kuil Penjagaan Purba', url: 'https://filestreambot-production-bef2.up.railway.app/dl/6acc80cc6e979983cdce5733' },
       { id: 'naruto-220', title: 'Episod 220: Perpisahan Dan Permulaan Baharu', url: 'https://filestreambot-production-bef2.up.railway.app/dl/6acc80d06e979983cdce5734' }
-        ])
-    }
-};
-
+    ]
+  }
+];
 // ==========================================
 // 3. ROUTING SERVER & MIDDLEWARE
 // ==========================================
