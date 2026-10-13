@@ -4,9 +4,9 @@ const app = express();
 
 const PORT = process.env.PORT || 3000;
 
-// Data lengkap Tom & Jerry (35 Episod)
-const DaRyzStreamData = {
-    title: "Tom & Jerry",
+// Data lengkap DaRyzStream (35 Episod)
+const daryzStreamData = {
+    title: "DaRyzStream",
     banner: "https://i.postimg.cc/Gm5JwFbK/Tom-And-Jerry.jpg",
     episodes: [
         {
@@ -261,26 +261,26 @@ const DaRyzStreamData = {
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json());
 
-// CORS Setup (supaya Nuvio/frontend lain boleh fetch data tanpa kena blocked)
+// CORS Setup (Membenarkan Nuvio / mana-mana frontend fetch data)
 app.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
     next();
 });
 
-// Endpoint JSON API untuk Nuvio
-app.get('/api/tom-and-jerry', (req, res) => {
-    res.json(DaRyzStreamData);
+// Endpoint Utama API DaRyzStream
+app.get('/api/daryzstream', (req, res) => {
+    res.json(daryzStreamData);
 });
 
-// Endpoint fallback / Health check
+// Fallback Route / Health Check
 app.get('/', (req, res) => {
     res.json({
-        message: "Server is running!",
-        endpoint: "/api/DaRyzStream"
+        status: "Server is running online!",
+        endpoint: "/api/daryzstream"
     });
 });
 
 app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
+    console.log(`DaRyzStream Server running on port ${PORT}`);
 });
