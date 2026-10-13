@@ -2942,10 +2942,7 @@ app.get('/manifest.json', (req, res) => {
 app.get('/', (req, res) => {
     res.send('Nuvio Telegram Add-on is running!');
 });
-
 // (Kalau ada route lain untuk katalog atau stream, letak sekali di kawasan ni)
-
-
 // ==========================================
 // 2. JANGAN USIK BAHAGIAN BAWAH SEKALI NI
 // ==========================================
