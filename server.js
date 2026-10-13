@@ -5,7 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Data lengkap Tom & Jerry (35 Episod)
-const tomAndJerryData = {
+const DaRyzStreamData = {
     title: "Tom & Jerry",
     banner: "https://i.postimg.cc/Gm5JwFbK/Tom-And-Jerry.jpg",
     episodes: [
@@ -270,14 +270,14 @@ app.use((req, res, next) => {
 
 // Endpoint JSON API untuk Nuvio
 app.get('/api/tom-and-jerry', (req, res) => {
-    res.json(tomAndJerryData);
+    res.json(DaRyzStreamData);
 });
 
 // Endpoint fallback / Health check
 app.get('/', (req, res) => {
     res.json({
         message: "Server is running!",
-        endpoint: "/api/tom-and-jerry"
+        endpoint: "/api/DaRyzStream"
     });
 });
 
