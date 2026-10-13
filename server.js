@@ -1634,7 +1634,7 @@ const catalogs = [
       { id: "rm-463", title: "Episode 463 ∙ War of the Deities: Hades' Revenge", episode: 463, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc813e6e979983cdce5742" },
       { id: "rm-464", title: "Episode 464 ∙ Find the Father", episode: 464, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc81436e979983cdce5743" },
     ],
-};
+},
 
 const catalogData = {
     'running-man-464-559': {
