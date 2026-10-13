@@ -938,7 +938,7 @@ const catalogs = [
       { id: "loc-28", title: "Zent Out Of Shape [2007]", episode: 28, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accd1426e979983cdce5cee" }
     ]
   },
-  "detective-conan-series": {
+    id: 'detective-conan-series'
     name: "Detective Conan (Series)",
     type: "series",
     poster: "https://i.postimg.cc/zvFTPwSK/Detective-Conan-DP.jpg",
