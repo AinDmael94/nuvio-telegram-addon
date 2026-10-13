@@ -908,6 +908,14 @@ const catalogs = [
       { id: "tj_223", title: "Kangadoofus [2007]", thumbnail: "https://i.postimg.cc/KjY0H2Nm/Tom-And-Jerry-DP.jpg", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accd0876e979983cdce5cd0" },
       { id: "tj_224", title: "Kitty Cat Blues [2007]", thumbnail: "https://i.postimg.cc/KjY0H2Nm/Tom-And-Jerry-DP.jpg", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accd0886e979983cdce5cd1" },
       { id: "tj_225", title: "Kitty Hawked [2007]", thumbnail: "https://i.postimg.cc/KjY0H2Nm/Tom-And-Jerry-DP.jpg", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accd08c6e979983cdce5cd2" },
+    ],
+  },
+  {
+  "league-of-cats": {
+    name: "League Of Cats [2007]",
+    type: "series",
+    poster: "",
+    videos: [
       { id: "loc-1", title: "League Of Cats [2007]", episode: 1, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accd08c6e979983cdce5cd3" },
       { id: "loc-2", title: "Little Big Mouse [2007]", episode: 2, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accd08d6e979983cdce5cd4" },
       { id: "loc-3", title: "Martian Mouse [2007]", episode: 3, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accd0916e979983cdce5cd5" },
@@ -936,6 +944,161 @@ const catalogs = [
       { id: "loc-26", title: "Xtreme Trouble [2007]", episode: 26, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accd13d6e979983cdce5cec" },
       { id: "loc-27", title: "You're Lion [2007]", episode: 27, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accd13d6e979983cdce5ced" },
       { id: "loc-28", title: "Zent Out Of Shape [2007]", episode: 28, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accd1426e979983cdce5cee" }
+    ]
+  },
+  {
+  "detective-conan-series": {
+    name: "Detective Conan (Series)",
+    type: "series",
+    poster: "https://i.postimg.cc/zvFTPwSK/Detective-Conan-DP.jpg",
+    videos: [
+      { id: "dc-100", title: "Episode 100 Bahagian 1", episode: 100, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace686f6e979983cdce5dde" },
+      { id: "dc-114", title: "Episode 114 Bahagian 1", episode: 114, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace68756e979983cdce5de0" },
+      { id: "dc-115", title: "Episode 115 Bahagian 2", episode: 115, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace68756e979983cdce5de1" },
+      { id: "dc-124", title: "Episode 124", episode: 124, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5dac6e979983cdce5d27" },
+      { id: "dc-125", title: "Episode 125", episode: 125, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5dac6e979983cdce5d26" },
+      { id: "dc-129", title: "Episode 129", episode: 129, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5dbb6e979983cdce5d2e" },
+      { id: "dc-132", title: "Episode 132", episode: 132, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5d736e979983cdce5d1e" },
+      { id: "dc-133", title: "Episode 133", episode: 133, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5d746e979983cdce5d1f" },
+      { id: "dc-134", title: "Episode 134", episode: 134, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5d746e979983cdce5d20" },
+      { id: "dc-177", title: "Episode 177", episode: 177, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace68446e979983cdce5ddc" },
+      { id: "dc-178", title: "Episode 178", episode: 178, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace68446e979983cdce5ddd" },
+      { id: "dc-197", title: "Episode 197", episode: 197, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace66dc6e979983cdce5da2" },
+      { id: "dc-198", title: "Episode 198", episode: 198, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace670a6e979983cdce5da3" },
+      { id: "dc-201", title: "Episode 201", episode: 201, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5d386e979983cdce5d13" },
+      { id: "dc-202", title: "Episode 202", episode: 202, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5d3a6e979983cdce5d14" },
+      { id: "dc-208", title: "Episode 208", episode: 208, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5d306e979983cdce5d10" },
+      { id: "dc-210", title: "Episode 210", episode: 210, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5d306e979983cdce5d0e" },
+      { id: "dc-211", title: "Episode 211", episode: 211, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5d306e979983cdce5d0f" },
+      { id: "dc-212", title: "Episode 212", episode: 212, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5d3a6e979983cdce5d16" },
+      { id: "dc-213", title: "Episode 213", episode: 213, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5d3e6e979983cdce5d17" },
+      { id: "dc-214", title: "Episode 214", episode: 214, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5d3a6e979983cdce5d15" },
+      { id: "dc-215", title: "Episode 215", episode: 215, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5d306e979983cdce5d12" },
+      { id: "dc-216", title: "Episode 216", episode: 216, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5d306e979983cdce5d0d" },
+      { id: "dc-217", title: "Episode 217", episode: 217, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5d3e6e979983cdce5d18" },
+      { id: "dc-218", title: "Episode 218", episode: 218, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5d436e979983cdce5d19" },
+      { id: "dc-219", title: "Episode 219", episode: 219, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5d436e979983cdce5d1a" },
+      { id: "dc-220-221", title: "Episode 220-221", episode: 220, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5d306e979983cdce5d11" },
+      { id: "dc-222", title: "Episode 222 Bahagian 1", episode: 222, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5dbd6e979983cdce5d2f" },
+      { id: "dc-223", title: "Episode 223 Bahagian 2", episode: 223, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5dec6e979983cdce5d30" },
+      { id: "dc-224", title: "Episode 224 Bahagian 3", episode: 224, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5dec6e979983cdce5d31" },
+      { id: "dc-225", title: "Episode 225", episode: 225, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5d436e979983cdce5d1b" },
+      { id: "dc-226", title: "Episode 226", episode: 226, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5d436e979983cdce5d1c" },
+      { id: "dc-227", title: "Episode 227", episode: 227, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5d736e979983cdce5d1d" },
+      { id: "dc-229", title: "Episode 229 Bahagian 2", episode: 229, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5dee6e979983cdce5d33" },
+      { id: "dc-230", title: "Episode 230 Bahagian 1", episode: 230, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5df26e979983cdce5d34" },
+      { id: "dc-233", title: "Episode 233", episode: 233, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace67fd6e979983cdce5dcd" },
+      { id: "dc-234", title: "Episode 234", episode: 234, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace68006e979983cdce5dce" },
+      { id: "dc-235", title: "Episode 235", episode: 235, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5d796e979983cdce5d21" },
+      { id: "dc-236", title: "Episode 236 Bahagian 1", episode: 236, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace68016e979983cdce5dcf" },
+      { id: "dc-237", title: "Episode 237 Bahagian 2", episode: 237, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace68016e979983cdce5dd0" },
+      { id: "dc-242", title: "Episode 242", episode: 242, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5d796e979983cdce5d22" },
+      { id: "dc-245", title: "Episode 245", episode: 245, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5d7e6e979983cdce5d23" },
+      { id: "dc-246", title: "Episode 246", episode: 246, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5d7e6e979983cdce5d24" },
+      { id: "dc-247", title: "Episode 247", episode: 247, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5d836e979983cdce5d25" },
+      { id: "dc-249", title: "Episode 249", episode: 249, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5db66e979983cdce5d2b" },
+      { id: "dc-250", title: "Episode 250", episode: 250, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5db66e979983cdce5d2c" },
+      { id: "dc-251", title: "Episode 251", episode: 251, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5ede6e979983cdce5d57" },
+      { id: "dc-252", title: "Episode 252", episode: 252, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace65d16e979983cdce5d6b" },
+      { id: "dc-253", title: "Episode 253 Bahagian 1", episode: 253, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace65d16e979983cdce5d70" },
+      { id: "dc-254", title: "Episode 254", episode: 254, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5e706e979983cdce5d4d" },
+      { id: "dc-257", title: "Episode 257", episode: 257, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5f256e979983cdce5d67" },
+      { id: "dc-258", title: "Episode 258", episode: 258, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace674d6e979983cdce5daf" },
+      { id: "dc-259", title: "Episode 259", episode: 259, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace674d6e979983cdce5db0" },
+      { id: "dc-260", title: "Episode 260", episode: 260, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace67516e979983cdce5db1" },
+      { id: "dc-261", title: "Episode 261", episode: 261, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace67516e979983cdce5db2" },
+      { id: "dc-262", title: "Episode 262", episode: 262, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace67526e979983cdce5db3" },
+      { id: "dc-264", title: "Episode 264", episode: 264, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace67586e979983cdce5db4" },
+      { id: "dc-265", title: "Episode 265", episode: 265, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace677e6e979983cdce5db5" },
+      { id: "dc-266", title: "Episode 266", episode: 266, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace677e6e979983cdce5db6" },
+      { id: "dc-267", title: "Episode 267", episode: 267, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace677e6e979983cdce5db7" },
+      { id: "dc-268", title: "Episode 268", episode: 268, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace67836e979983cdce5db8" },
+      { id: "dc-269", title: "Episode 269", episode: 269, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace67836e979983cdce5db9" },
+      { id: "dc-270", title: "Episode 270", episode: 270, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace67846e979983cdce5dba" },
+      { id: "dc-271", title: "Episode 271", episode: 271, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace65d16e979983cdce5d6e" },
+      { id: "dc-273", title: "Episode 273", episode: 273, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace67896e979983cdce5dbb" },
+      { id: "dc-276", title: "Episode 276", episode: 276, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5dfd6e979983cdce5d39" },
+      { id: "dc-277", title: "Episode 277", episode: 277, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace66ca6e979983cdce5d98" },
+      { id: "dc-278", title: "Episode 278", episode: 278, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace66d06e979983cdce5d99" },
+      { id: "dc-279", title: "Episode 279", episode: 279, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace66d16e979983cdce5d9a" },
+      { id: "dc-280", title: "Episode 280", episode: 280, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace66d16e979983cdce5d9c" },
+      { id: "dc-281", title: "Episode 281", episode: 281, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace66d16e979983cdce5d9b" },
+      { id: "dc-282", title: "Episode 282", episode: 282, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace66d66e979983cdce5d9d" },
+      { id: "dc-283", title: "Episode 283", episode: 283, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace66d66e979983cdce5d9e" },
+      { id: "dc-284", title: "Episode 284", episode: 284, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace67106e979983cdce5da5" },
+      { id: "dc-285", title: "Episode 285", episode: 285, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace67106e979983cdce5da6" },
+      { id: "dc-287", title: "Episode 287", episode: 287, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace67166e979983cdce5da7" },
+      { id: "dc-288", title: "Episode 288", episode: 288, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace67166e979983cdce5da8" },
+      { id: "dc-289-290", title: "Episode 289-290", episode: 289, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5e286e979983cdce5d3a" },
+      { id: "dc-298", title: "Episode 298", episode: 298, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace67896e979983cdce5dbc" },
+      { id: "dc-299", title: "Episode 299", episode: 299, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace678f6e979983cdce5dbd" },
+      { id: "dc-300", title: "Episode 300", episode: 300, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace678f6e979983cdce5dbe" },
+      { id: "dc-301", title: "Episode 301", episode: 301, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5e346e979983cdce5d3f" },
+      { id: "dc-302", title: "Episode 302", episode: 302, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5e346e979983cdce5d41" },
+      { id: "dc-303", title: "Episode 303", episode: 303, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace67ba6e979983cdce5dc1" },
+      { id: "dc-304", title: "Episode 304 (Special)", episode: 304, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5ede6e979983cdce5d59" },
+      { id: "dc-307", title: "Episode 307", episode: 307, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace67bf6e979983cdce5dc3" },
+      { id: "dc-308", title: "Episode 308", episode: 308, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5e396e979983cdce5d44" },
+      { id: "dc-309", title: "Episode 309", episode: 309, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5e606e979983cdce5d45" },
+      { id: "dc-310", title: "Episode 310", episode: 310, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5e396e979983cdce5d43" },
+      { id: "dc-312", title: "Episode 312", episode: 312, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5df86e979983cdce5df7" },
+      { id: "dc-314", title: "Episode 314", episode: 314, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5df36e979983cdce5d36" },
+      { id: "dc-315", title: "Episode 315", episode: 315, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5eac6e979983cdce5d56" },
+      { id: "dc-316", title: "Episode 316", episode: 316, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5e666e979983cdce5d48" },
+      { id: "dc-317", title: "Episode 317", episode: 317, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5e6a6e979983cdce5d49" },
+      { id: "dc-318", title: "Episode 318", episode: 318, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5e6b6e979983cdce5d4a" },
+      { id: "dc-319", title: "Episode 319", episode: 319, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5e6b6e979983cdce5d4b" },
+      { id: "dc-320", title: "Episode 320", episode: 320, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5e706e979983cdce5d4c" },
+      { id: "dc-323", title: "Episode 323", episode: 323, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace67c56e979983cdce5dc5" },
+      { id: "dc-324", title: "Episode 324", episode: 324, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace67c56e979983cdce5dc6" },
+      { id: "dc-325-326", title: "Episode 325-326 Bahagian 1 & 2", episode: 325, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace67c56e979983cdce5dc7" },
+      { id: "dc-327", title: "Episode 327 Bahagian 3", episode: 327, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace67cb6e979983cdce5dc8" },
+      { id: "dc-328", title: "Episode 328", episode: 328, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace65db6e979983cdce5d72" },
+      { id: "dc-329", title: "Episode 329 Bahagian 1", episode: 329, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace65db6e979983cdce5d71" },
+      { id: "dc-331", title: "Episode 331", episode: 331, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace65db6e979983cdce5d73" },
+      { id: "dc-337", title: "Episode 337", episode: 337, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace65db6e979983cdce5d74" },
+      { id: "dc-340", title: "Episode 340", episode: 340, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace65e16e979983cdce5d75" },
+      { id: "dc-341", title: "Episode 341", episode: 341, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace65e16e979983cdce5d76" },
+      { id: "dc-342", title: "Episode 342", episode: 342, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace65e76e979983cdce5d78" },
+      { id: "dc-343", title: "Episode 343", episode: 343, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace65e76e979983cdce5d77" },
+      { id: "dc-344", title: "Episode 344", episode: 344, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace66156e979983cdce5d79" },
+      { id: "dc-346", title: "Episode 346 Bahagian 1", episode: 346, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5f266e979983cdce5d68" },
+      { id: "dc-347", title: "Episode 347 Bahagian 2", episode: 347, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5f506e979983cdce5d69" },
+      { id: "dc-348-349", title: "Episode 348-349", episode: 348, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5f516e979983cdce5d6a" },
+      { id: "dc-350", title: "Episode 350", episode: 350, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace66166e979983cdce5d7a" },
+      { id: "dc-351", title: "Episode 351", episode: 351, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace66166e979983cdce5d7b" },
+      { id: "dc-352", title: "Episode 352", episode: 352, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace661a6e979983cdce5d7c" },
+      { id: "dc-353", title: "Episode 353", episode: 353, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace661a6e979983cdce5d7d" },
+      { id: "dc-354", title: "Episode 354", episode: 354, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace661a6e979983cdce5d7e" },
+      { id: "dc-355", title: "Episode 355", episode: 355, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace661b6e979983cdce5d7f" },
+      { id: "dc-356", title: "Episode 356", episode: 356, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace66216e979983cdce5d80" },
+      { id: "dc-357", title: "Episode 357", episode: 357, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace66216e979983cdce5d81" },
+      { id: "dc-358", title: "Episode 358", episode: 358, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace66266e979983cdce5d82" },
+      { id: "dc-359", title: "Episode 359", episode: 359, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace66266e979983cdce5d83" },
+      { id: "dc-361", title: "Episode 361", episode: 361, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace66516e979983cdce5d84" },
+      { id: "dc-362", title: "Episode 362", episode: 362, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace66516e979983cdce5d85" },
+      { id: "dc-363", title: "Episode 363", episode: 363, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace66566e979983cdce5d86" },
+      { id: "dc-364", title: "Episode 364", episode: 364, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace66566e979983cdce5d87" },
+      { id: "dc-365", title: "Episode 365", episode: 365, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace66576e979983cdce5d88" },
+      { id: "dc-367", title: "Episode 367", episode: 367, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace66576e979983cdce5d89" },
+      { id: "dc-368", title: "Episode 368", episode: 368, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace665c6e979983cdce5d8a" },
+      { id: "dc-369", title: "Episode 369", episode: 369, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace665c6e979983cdce5d8b" },
+      { id: "dc-370", title: "Episode 370", episode: 370, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace66616e979983cdce5d8c" },
+      { id: "dc-389", title: "Episode 389", episode: 389, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5e346e979983cdce5d40" },
+      { id: "dc-392", title: "Episode 392", episode: 392, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5e9c6e979983cdce5d4f" },
+      { id: "dc-413", title: "Episode 413", episode: 413, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace67f76e979983cdce5dc9" },
+      { id: "dc-414", title: "Episode 414", episode: 414, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace67f76e979983cdce5dca" },
+      { id: "dc-419", title: "Episode 419", episode: 419, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace67fb6e979983cdce5dcb" },
+      { id: "dc-425", title: "Episode 425", episode: 425, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace67166e979983cdce5daa" },
+      { id: "dc-426", title: "Episode 426", episode: 426, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace67fb6e979983cdce5dcc" },
+      { id: "dc-428", title: "Episode 428", episode: 428, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5e2a6e979983cdce5d3c" },
+      { id: "dc-437", title: "Episode 437", episode: 437, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5ea26e979983cdce5d50" },
+      { id: "dc-438", title: "Episode 438", episode: 438, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5e2f6e979983cdce5d3d" },
+      { id: "dc-442", title: "Episode 442", episode: 442, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5e2f6e979983cdce5d3e" },
+      { id: "dc-443", title: "Episode 443", episode: 443, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace671c6e979983cdce5dab" },
+      { id: "dc-444", title: "Episode 444", episode: 444, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace67466e979983cdce5dac" },
+      { id: "dc-460", title: "Episode 460", episode: 460, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5dfd6e979983cdce5d38" },
+      { id: "dc-477", title: "Episode 477", episode: 477, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5df36e979983cdce5d35" }
     ]
   },
   {
@@ -1472,9 +1635,12 @@ const catalogs = [
       { id: "rm-461", title: "Episode 461 ∙ Episode #1.461", episode: 461, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc81386e979983cdce5740" },
       { id: "rm-462", title: "Episode 462 ∙ Why Can't You Eat Race", episode: 462, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc813d6e979983cdce5741" },
       { id: "rm-463", title: "Episode 463 ∙ War of the Deities: Hades' Revenge", episode: 463, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc813e6e979983cdce5742" },
-      { id: "rm-464", title: "Episode 464 ∙ Find the Father", episode: 464, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc81436e979983cdce5743" }
-    ]
+      { id: "rm-464", title: "Episode 464 ∙ Find the Father", episode: 464, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc81436e979983cdce5743" },
+    ],
 };
+
+const catalogData = {
+    'running-man-464-559': {
         name: 'Running Man Episode 464-559',
         poster: 'https://i.postimg.cc/kgc9P8gW/RM-YSC-JSM.jpg',
         type: 'series',
@@ -1575,7 +1741,8 @@ const catalogs = [
             { id: 'rm1_558', title: 'Episode 558 ∙ Three Meals for Jae Suk', url: 'https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc83746e979983cdce57a1' },
             { id: 'rm1_559', title: 'Episode 559 ∙ Goodbye, Our Special Brother', url: 'https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc83756e979983cdce57a2' }
         ]
-    },
+  },
+  {
     'running-man-560-679': {
         name: 'Running Man Episode 560-679',
         poster: 'https://i.postimg.cc/sXPb5CGW/RM7.png',
@@ -1702,7 +1869,8 @@ const catalogs = [
             { id: 'rm2_678', title: 'Episode 678 ∙ The Dream of a Million Dollars', url: 'https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc8b1a6e979983cdce5819' },
             { id: 'rm2_679', title: 'Episode 679 ∙ Goodbye So-Min', url: 'https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc8b1b6e979983cdce581a' }
         ]
-    },
+  },
+  {
     'running-man-680-732': {
         name: 'Running Man Episode 680-732',
         poster: 'https://i.postimg.cc/q7cWfdBT/RM-SCP.webp',
@@ -1762,7 +1930,8 @@ const catalogs = [
             { id: 'rm3_731', title: 'Episode 731 ∙ The Invitation doesn\'t go as Planned', url: 'https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc90656e979983cdce5850' },
             { id: 'rm3_732', title: 'Episode 732 ∙ Cool Running Year-End Party', url: 'https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc90696e979983cdce5851' },
      ]
-    },
+  },
+  {
     'running-man-733-822': {
         name: 'Running Man Episode 680-732',
         poster: 'https://i.postimg.cc/fb714hWs/RM-YESCP.webp',
@@ -1859,7 +2028,8 @@ const catalogs = [
             { id: 'rm4_821', title: 'Running Man - 821: Episode #1.821', url: 'https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc95316e979983cdce58aa' },
             { id: 'rm4_822', title: 'Running Man - 822: Episode #1.822', url: 'https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc95336e979983cdce58ab' }
         ]
-    },
+  },
+  {
     'dragon-ball-movies': {
         name: 'Dragon Ball (Movies)',
         poster: 'https://i.postimg.cc/0N7jfkC0/goku.jpg',
@@ -1869,7 +2039,8 @@ const catalogs = [
             { id: 'dbm_2', title: 'Dragon Ball: Sleeping Princess in Devil\'s Castle', poster: 'https://i.postimg.cc/VvWXH9Bq/sleeping-princess-in-devil-s-castle-DP.jpg', url: 'https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb1486e979983cdce5a78' },
             { id: 'dbm_3', title: 'Dragon Ball: Legend of Shenron', poster: 'https://i.postimg.cc/Wzw0fm6Z/DB-The-Legend-Of-Shenron-DP.jpg', url: 'https://filestreambot-production-bef2.up.railway.app:8080/dl/6accb1486e979983cdce5a79' }
         ]
-    },
+  },
+  {
     'satria-7-pahlawan': {
         name: 'Satria 7 Pahlawan (Series)',
         poster: 'https://i.postimg.cc/mZmDV678/Satria-DP.jpg',
@@ -2457,120 +2628,101 @@ const catalogs = [
   }
 ];
 
-    ]
-  }
-];
-
-// ==========================================
-// STREMIO / NUVIO MANIFEST
-// ==========================================
-const manifest = {
-  id: 'org.custom.daryzstream.addon',
-  version: '1.0.0',
-  name: 'Koleksi Siri Custom',
-  description: 'Addon khas siri anime & kartun untuk Nuvio',
-  types: ['series'],
-  catalogs: [
-    {
-      type: 'series',
-      id: 'custom_series_catalog',
-      name: 'Koleksi Siri Custom'
-    }
-  ],
-  resources: ['catalog', 'meta', 'stream'],
-  idPrefixes: ['custom_']
-};
-
-// 1. MANIFEST ENDPOINT
-app.get('/manifest.json', (req, res) => {
-  res.setHeader('Content-Type', 'application/json');
-  res.json(manifest);
+// Endpoint Utama (Root)
+app.get('/', (req, res) => {
+  res.send('Nuvio Server is Running! Gunakan endpoint /catalog untuk melihat senarai katalog.');
 });
 
-// 2. CATALOG ENDPOINT
-app.get('/catalog/:type/:id.json', (req, res) => {
-  const metas = catalogData.map(item => ({
-    id: `custom_${item.id}`,
-    type: 'series',
-    name: item.name,
-    poster: item.poster,
-    description: item.description
+// Endpoint untuk Senarai Semua Katalog (Stremio/Nuvio Format)
+app.get('/catalog.json', (req, res) => {
+  const metaCatalogs = catalogs.map(cat => ({
+    id: cat.id,
+    type: cat.type,
+    name: cat.name,
+    poster: cat.poster,
+    description: cat.description
   }));
+  res.json({ catalogs: metaCatalogs });
+});
+
+// Endpoint untuk Detail Katalog & Episod (Folder Setiap Tajuk)
+app.get('/catalog/:type/:id.json', (req, res) => {
+  const { id } = req.params;
+  const foundCatalog = catalogs.find(c => c.id === id);
+
+  if (!foundCatalog) {
+    return res.status(404).json({ error: 'Catalog not found' });
+  }
+
+  const metas = foundCatalog.episodes.map(ep => ({
+    id: ep.id,
+    type: 'movie', // Dianggap sebagai item media/episod di bawah folder
+    name: ep.title,
+    poster: foundCatalog.poster,
+    streams: [{ title: ep.title, url: ep.url }]
+  }));
+
   res.json({ metas });
 });
 
-// 3. META ENDPOINT (Papar Senarai Episod)
+// Endpoint untuk Meta/Detail Penuh Satu Episod
 app.get('/meta/:type/:id.json', (req, res) => {
-  const idClean = req.params.id.replace('custom_', '');
-  const item = catalogData.find(c => c.id === idClean);
+  const { id } = req.params;
+  let foundEp = null;
+  let foundCat = null;
 
-  if (!item) {
-    return res.json({ meta: {} });
+  for (const cat of catalogs) {
+    const ep = cat.episodes.find(e => e.id === id);
+    if (ep) {
+      foundEp = ep;
+      foundCat = cat;
+      break;
+    }
   }
 
-  let videos = [];
-
-  if (item.episodes) {
-    // Jika tajuk episod ditakrifkan secara khusus
-    videos = item.episodes.map((ep, idx) => ({
-      id: `custom_${item.id}:1:${idx + 1}`,
-      title: ep.title,
-      season: 1,
-      episode: idx + 1,
-      thumbnail: ep.thumbnail
-    }));
-  } else if (item.urls) {
-    // Jika hanya pautan URL diberi
-    videos = item.urls.map((url, idx) => ({
-      id: `custom_${item.id}:1:${idx + 1}`,
-      title: `Episod ${idx + 1}`,
-      season: 1,
-      episode: idx + 1
-    }));
+  if (!foundEp) {
+    return res.status(404).json({ error: 'Episode not found' });
   }
 
-  const meta = {
-    id: `custom_${item.id}`,
-    type: 'series',
-    name: item.name,
-    poster: item.poster,
-    background: item.background || item.poster,
-    description: item.description,
-    videos: videos
-  };
-
-  res.json({ meta });
+  res.json({
+    meta: {
+      id: foundEp.id,
+      type: 'movie',
+      name: foundEp.title,
+      poster: foundCat.poster,
+      description: `Episod rasmi daripada siri ${foundCat.name}.`
+    }
+  });
 });
 
-// 4. STREAM ENDPOINT (Mainkan Video)
+// Endpoint untuk Strim Fail (Streams)
 app.get('/stream/:type/:id.json', (req, res) => {
-  const fullId = req.params.id; // Contoh: custom_doraemon:1:5
-  const parts = fullId.replace('custom_', '').split(':');
-  
-  const seriesId = parts[0];
-  const episodeNum = parseInt(parts[2], 10);
+  const { id } = req.params;
+  let foundEp = null;
 
-  const item = catalogData.find(c => c.id === seriesId);
-  const streams = [];
-
-  if (item && item.urls && item.urls[episodeNum - 1]) {
-    streams.push({
-      title: `${item.name} - Episod ${episodeNum}`,
-      url: item.urls[episodeNum - 1]
-    });
-  } else if (item && item.episodes) {
-    // Jika tiada URL video spesifik disediakan untuk Kids Delights
-    streams.push({
-      title: `${item.name} - Episod ${episodeNum}`,
-      url: 'https://files.catbox.moe/dmr7ys.mp4' // URL fallback/dummy
-    });
+  for (const cat of catalogs) {
+    const ep = cat.episodes.find(e => e.id === id);
+    if (ep) {
+      foundEp = ep;
+      break;
+    }
   }
 
-  res.json({ streams });
+  if (!foundEp) {
+    return res.status(404).json({ streams: [] });
+  }
+
+  res.json({
+    streams: [
+      {
+        title: foundEp.title,
+        url: foundEp.url
+      }
+    ]
+  });
 });
 
-// SERVER LISTEN
-const PORT = process.env.PORT || 7000;
-app.listen(PORT, () => {
-  console.log(`Addon aktif di port ${PORT}`);
+// Jalankan Pelayan
+app.listen(PORT, (8080) => {
+  console.log(`Server is running on port ${8080}`);
 });
