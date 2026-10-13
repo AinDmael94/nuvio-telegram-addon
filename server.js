@@ -1111,7 +1111,6 @@ const catalogs = [
       { id: "dcm-3", title: "Movie: The Fist of Blue Sapphire (2019)", episode: 3, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace68066e979983cdce5dd1" }
     ]
   },
-  {
   "magic-kaito": {
     name: "Magic Kaito (Series)",
     type: "series",
