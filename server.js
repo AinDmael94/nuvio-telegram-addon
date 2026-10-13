@@ -1635,8 +1635,6 @@ const catalogs = [
       { id: "rm-464", title: "Episode 464 ∙ Find the Father", episode: 464, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc81436e979983cdce5743" },
     ],
 },
-
-const catalogData = {
     'running-man-464-559': {
         name: 'Running Man Episode 464-559',
         poster: 'https://i.postimg.cc/kgc9P8gW/RM-YSC-JSM.jpg',
