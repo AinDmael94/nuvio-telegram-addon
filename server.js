@@ -2914,11 +2914,41 @@ app.get('/', (req, res) => {
     </body>
     </html>
         `; // tutup html
+// ==========================================
+// 1. PASTE KOD ROUTE KAT SINI (Sebelum app.listen)
+// ==========================================
+const manifest = {
+    id: 'org.nuvio.telegramaddon',
+    version: '1.0.0',
+    name: 'Nuvio Telegram Add-on',
+    description: 'Add-on penstriman peribadi dari Telegram',
+    types: ['movie', 'series'],
+    catalogs: [
+        {
+            id: 'telegram_catalog',
+            type: 'movie',
+            name: 'Koleksi Telegram'
+        }
+    ],
+    resources: ['catalog', 'stream']
+};
 
-    res.send(html1);
+app.get('/manifest.json', (req, res) => {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Content-Type', 'application/json');
+    res.json(manifest);
 });
 
-// Start Server - FIXED
+app.get('/', (req, res) => {
+    res.send('Nuvio Telegram Add-on is running!');
+});
+
+// (Kalau ada route lain untuk katalog atau stream, letak sekali di kawasan ni)
+
+
+// ==========================================
+// 2. JANGAN USIK BAHAGIAN BAWAH SEKALI NI
+// ==========================================
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
