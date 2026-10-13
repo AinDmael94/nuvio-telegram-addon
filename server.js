@@ -1631,35 +1631,8 @@ const catalogs = [
       { id: "rm-462", title: "Episode 462 ∙ Why Can't You Eat Race", episode: 462, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc813d6e979983cdce5741" },
       { id: "rm-463", title: "Episode 463 ∙ War of the Deities: Hades' Revenge", episode: 463, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc813e6e979983cdce5742" },
       { id: "rm-464", title: "Episode 464 ∙ Find the Father", episode: 464, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc81436e979983cdce5743" },
-
-const { addonBuilder, serveHTTP } = require('stremio-addon-sdk');
-
-const manifest = {
-    id: 'org.nuvio.customrunningmanandanime',
-    version: '1.0.0',
-    name: 'Koleksi Nuvio Penuh & Bersih',
-    description: 'Addon Stremio/Nuvio untuk Running Man, Anime, dan Filem Pilihan',
-    types: ['series', 'movie'],
-    catalogs: [
-        { type: 'series', id: 'running-man-464-559', name: 'Running Man Episode 464-559' },
-        { type: 'series', id: 'running-man-560-679', name: 'Running Man Episode 560-679' },
-        { type: 'series', id: 'running-man-680-732', name: 'Running Man Episode 680-732' },
-        { type: 'series', id: 'running-man-733-822', name: 'Running Man Episode 733-822' },
-        { type: 'movie', id: 'dragon-ball-movies', name: 'Dragon Ball (Movies)' },
-        { type: 'series', id: 'satria-7-pahlawan', name: 'Satria 7 Pahlawan (Series)' },
-        { type: 'series', id: 'gundam-build-fighter', name: 'Gundam Build Fighter (Series)' },
-        { type: 'series', id: 'time-bokan-24', name: 'Time Bokan 24 (Series)' },
-        { type: 'movie', id: 'naruto-movies', name: 'Naruto (Movie)' },
-        { type: 'movie', id: 'doraemon-movies', name: 'Doraemon (Movie)' },
-        { type: 'series', id: 'hagemaru', name: 'Hagemaru (Series)' },
-        { type: 'series', id: 'boruto', name: 'Boruto' },
-        { type: 'series', id: 'jujutsu-kaisen', name: 'JuJutsu Kaisen (Series)' },
-        { type: 'series', id: 'naruto-series', name: 'Naruto (Series)' }
-    ],
-    idPrefixes: ['rm1_', 'rm2_', 'rm3_', 'rm4_', 'dbm_', 's7p_', 'gbf_', 'tb24_', 'nmov_', 'dmov_', 'hge_', 'brt_', 'jjk_', 'nser_']
-};
-
-const catalogData = {
+        ]
+    },
     'running-man-464-559': {
         name: 'Running Man Episode 464-559',
         poster: 'https://i.postimg.cc/kgc9P8gW/RM-YSC-JSM.jpg',
