@@ -2624,105 +2624,312 @@ const catalogData = {
       { id: 'naruto-218', title: 'Episod 218: Misi Menyelamatkan Karyawan Pelarian', url: 'https://filestreambot-production-bef2.up.railway.app/dl/6acc80cb6e979983cdce5732' },
       { id: 'naruto-219', title: 'Episod 219: Pertarungan Di Kuil Penjagaan Purba', url: 'https://filestreambot-production-bef2.up.railway.app/dl/6acc80cc6e979983cdce5733' },
       { id: 'naruto-220', title: 'Episod 220: Perpisahan Dan Permulaan Baharu', url: 'https://filestreambot-production-bef2.up.railway.app/dl/6acc80d06e979983cdce5734' }
-    ]
-  }
-];
+        ])
+    }
+};
 
-// Endpoint Utama (Root)
+// ==========================================
+// 3. ROUTING SERVER & MIDDLEWARE
+// ==========================================
+app.use((req, res, next) => {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Headers', '*');
+    next();
+});
+
+// MIDDLEWARE DETECT AKTIVITI PENGGUNA
+app.use('/stremio/:user', (req, res, next) => {
+    const userId = req.params.user || req.ip;
+    uniqueUsers.add(userId);
+    userActivity[userId] = new Date().toLocaleString('ms-MY', { timeZone: 'Asia/Kuala_Lumpur' });
+    next();
+});
+
+app.post('/api/save-preferences', (req, res) => {
+    const { catalogOrder } = req.body;
+    if (Array.isArray(catalogOrder)) {
+        const newCatalogs = [];
+        catalogOrder.forEach(id => {
+            const cat = manifest.catalogs.find(c => c.id === id);
+            if (cat) newCatalogs.push(cat);
+        });
+        manifest.catalogs = newCatalogs;
+        return res.json({ success: true, message: "Susunan berjaya disimpan!" });
+    }
+    res.status(400).json({ success: false, message: "Data tak sah!" });
+});
+
+app.get('/stremio/:user/manifest.json', (req, res) => {
+    res.json(manifest);
+});
+
+app.get('/stremio/:user/catalog/:type/:id.json', (req, res) => {
+    const catalogId = req.params.id;
+    const series = seriesDatabase[catalogId];
+
+    if (series) {
+        if (series.isMulti) {
+            res.json({
+                metas: series.items.map(item => ({
+                    id: item.id,
+                    type: "series",
+                    name: item.name,
+                    poster: item.poster,
+                    description: item.description
+                }))
+            });
+        } else {
+            res.json({
+                metas: [{
+                    id: series.id,
+                    type: "series",
+                    name: series.name,
+                    poster: series.poster,
+                    description: series.description
+                }]
+            });
+        }
+    } else {
+        res.json({ metas: [] });
+    }
+});
+
+app.get('/stremio/:user/meta/:type/:id.json', (req, res) => {
+    const targetId = req.params.id.split(':')[0];
+
+    for (const cat of Object.values(seriesDatabase)) {
+        if (cat.isMulti) {
+            const item = cat.items.find(i => i.id === targetId);
+            if (item) {
+                return res.json({
+                    meta: {
+                        id: item.id,
+                        type: "series",
+                        name: item.name,
+                        poster: item.poster,
+                        description: item.description,
+                        videos: [{
+                            id: `${item.id}:1:1`,
+                            title: item.name,
+                            season: 1,
+                            episode: 1,
+                            released: new Date().toISOString()
+                        }]
+                    }
+                });
+            }
+        }
+    }
+
+    const series = Object.values(seriesDatabase).find(s => s.id === targetId);
+
+    if (series) {
+        const videos = series.episodes.map(e => ({
+            id: `${series.id}:1:${e.episode}`,
+            title: e.title,
+            season: 1,
+            episode: e.episode,
+            released: new Date().toISOString()
+        }));
+
+        res.json({
+            meta: {
+                id: series.id,
+                type: "series",
+                name: series.name,
+                poster: series.poster,
+                description: series.description,
+                videos: videos
+            }
+        });
+    } else {
+        res.status(404).json({ error: "Series not found" });
+    }
+});
+
+// ==========================================
+// STREAM ENDPOINT
+// ==========================================
+app.get('/stremio/:user/stream/:type/:id.json', (req, res) => {
+    const parts = req.params.id.split(':');
+    const targetId = parts[0];
+    const episodeNum = parseInt(parts[2], 10) || 1;
+
+    for (const cat of Object.values(seriesDatabase)) {
+        if (cat.isMulti) {
+            const item = cat.items.find(i => i.id === targetId);
+            if (item) {
+                return res.json({
+                    streams: [{
+                        title: `Direct HD (${item.name})`,
+                        url: item.url,
+                        behaviorHints: {
+                            bingeGroup: `${item.id}-hd`
+                        }
+                    }]
+                });
+            }
+        }
+    }
+
+    const series = Object.values(seriesDatabase).find(s => s.id === targetId);
+    if (series) {
+        const ep = series.episodes.find(e => e.episode === episodeNum);
+        if (ep) {
+            return res.json({
+                streams: [{
+                    title: `Direct HD (${ep.title})`,
+                    url: ep.url,
+                    behaviorHints: {
+                        bingeGroup: `${series.id}-hd`
+                    }
+                }]
+            });
+        }
+    }
+    res.json({ streams: [] });
+});
+
+// ==========================================
+// 4. CONFIGURATOR UI WEB INTERFACE (DYNAMIC URL FIX)
+// ==========================================
 app.get('/', (req, res) => {
-  res.send('Nuvio Server is Running! Gunakan endpoint /catalog untuk melihat senarai katalog.');
+    const protocol = req.headers['x-forwarded-proto'] || req.protocol;
+    const host = req.get('host');
+    const dynamicBaseUrl = `${protocol}://${host}`;
+    const manifestUrl = `${dynamicBaseUrl}/stremio/user123/manifest.json`;
+
+    const catalogListHtml = manifest.catalogs.map((c) => `
+        <div class="catalog-item" data-id="${c.id}" style="display: flex; justify-content: space-between; align-items: center; background: #2a2a32; padding: 12px 16px; margin-bottom: 8px; border-radius: 8px; border: 1px solid #3a3a46;">
+            <span style="font-weight: 600; color: #fff;">👁️ ${c.name} <small style="color: #888;">(series)</small></span>
+            <div>
+                <button onclick="moveUp(this)" style="background: #383844; color: #fff; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer; margin-right: 4px;">▲</button>
+                <button onclick="moveDown(this)" style="background: #383844; color: #fff; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer;">▼</button>
+            </div>
+        </div>
+    `).join('');
+
+    const userListHtml = Array.from(uniqueUsers).length > 0
+        ? Array.from(uniqueUsers).map(u => `
+            <li style="margin-bottom: 6px; display: flex; justify-content: space-between; border-bottom: 1px dashed #2a2a32; padding-bottom: 4px;">
+                <span>👤 User ID: <strong style="color: #ffcc00;">${u}</strong></span>
+                <span style="color: #888; font-size: 11px;">Aktif: ${userActivity[u] || 'N/A'}</span>
+            </li>
+        `).join('')
+        : '<li style="color: #888;">Belum ada pengguna aktif.</li>';
+
+    let html = `
+    <!DOCTYPE html>
+    <html lang="ms">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DaRyz Nuvio / Stremio Addon Config</title>
+        <style>
+            body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #18181c; color: #e1e1e6; margin: 0; padding: 40px 20px; display: flex; justify-content: center; }
+            .container { display: flex; flex-direction: column; gap: 20px; max-width: 900px; width: 100%; }
+            .row { display: flex; gap: 20px; width: 100%; }
+            .card { background: #202026; border-radius: 16px; padding: 24px; flex: 1; border: 1px solid #2d2d36; }
+            h2 { font-size: 18px; margin-top: 0; color: #fff; display: flex; align-items: center; gap: 8px; }
+            .btn-install { background: #ffcc00; color: #000; font-weight: bold; width: 100%; border: none; padding: 14px; border-radius: 8px; font-size: 15px; cursor: pointer; margin: 15px 0; text-align: center; text-decoration: none; display: block; box-sizing: border-box; }
+            .input-box { background: #121215; border: 1px solid #333; padding: 10px; border-radius: 6px; color: #aaa; font-family: monospace; font-size: 12px; margin-top: 10px; word-break: break-all; }
+            .btn-save { background: #ffcc00; color: #000; font-weight: bold; width: 100%; border: none; padding: 12px; border-radius: 8px; font-size: 14px; cursor: pointer; margin-top: 15px; }
+            .status-badge { background: #28a745; color: #fff; padding: 2px 8px; border-radius: 12px; font-size: 12px; }
+            .stat-box { background: #121215; border-radius: 8px; padding: 15px; text-align: center; margin-bottom: 15px; border: 1px solid #2d2d36; }
+            .stat-number { font-size: 28px; font-weight: bold; color: #ffcc00; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="card">
+                <h2>📊 Live Analytics & User Tracker</h2>
+                <div class="stat-box">
+                    <div class="stat-number">${uniqueUsers.size}</div>
+                    <div style="font-size: 13px; color: #888; margin-top: 4px;">Jumlah Pengguna Unik Aktif</div>
+                </div>
+                <p style="font-size: 12px; font-weight: bold; color: #aaa; margin-bottom: 10px;">SENARAI PENGGUNA TERAKHIR:</p>
+                <ul style="list-style: none; padding: 0; margin: 0; font-size: 12px; max-height: 150px; overflow-y: auto;">
+                    ${userListHtml}
+                </ul>
+            </div>
+
+            <div class="row">
+                <div class="card">
+                    <h2>🎬 DaRyz Nuvio / Stremio Addon</h2>
+                    <p style="font-size: 13px; color: #888;">User: <span style="color: #fff; font-weight: bold;">DaRyz</span></p>
+                    <p style="font-size: 13px; color: #888;">Status: <span class="status-badge">Active</span></p>
+                    <p style="font-size: 13px; color: #888; margin-bottom: 20px;">Expires: <span style="color: #ffcc00; font-weight: bold;">Lifetime</span></p>
+
+                    <a href="stremio://${host}/stremio/user123/manifest.json" class="btn-install">Install / update in Nuvio Stremio</a>
+
+                    <p style="font-size: 12px; color: #888; margin-top: 20px; line-height: 1.5;">
+                        <strong>Prefer to do it manually?</strong><br>
+                        1. Open Stremio/Nuvio and go to the Add-ons tab<br>
+                        2. Click the Search / URL field<br>
+                        3. Paste the URL below and press Enter
+                    </p>
+
+                    <div class="input-box">${manifestUrl}</div>
+                </div>
+
+                <div class="card">
+                    <h2>⚙️ Personalize</h2>
+                    <p style="font-size: 12px; color: #888; margin-bottom: 15px;">Tune quality and catalogs for your install.</p>
+                    <p style="font-size: 12px; font-weight: bold; color: #aaa; margin-bottom: 10px;">CATALOGS</p>
+
+                    <div id="catalog-list">
+                        ${catalogListHtml}
+                    </div>
+
+                    <button class="btn-save" onclick="savePreferences()">Save Preferences</button>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function moveUp(button) {
+                const item = button.closest('.catalog-item');
+                if (item.previousElementSibling) {
+                    item.parentNode.insertBefore(item, item.previousElementSibling);
+                }
+            }
+
+            function moveDown(button) {
+                const item = button.closest('.catalog-item');
+                if (item.nextElementSibling) {
+                    item.parentNode.insertBefore(item, item.nextElementSibling);
+                }
+            }
+
+            async function savePreferences() {
+                const items = document.querySelectorAll('.catalog-item');
+                const catalogOrder = Array.from(items).map(item => item.getAttribute('data-id'));
+
+                try {
+                    const response = await fetch('/api/save-preferences', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ catalogOrder })
+                    });
+                    const resData = await response.json();
+                    if (resData.success) {
+                        alert('Preferences Saved! Susunan katalog kau telah disimpan.');
+                    } else {
+                        alert('Gagal menyimpan preferences.');
+                    }
+                } catch (e) {
+                    alert('Ralat sambungan server!');
+                }
+            }
+        </script>
+    </body>
+    </html>
+    `;
+    res.send(html);
 });
 
-// Endpoint untuk Senarai Semua Katalog (Stremio/Nuvio Format)
-app.get('/catalog.json', (req, res) => {
-  const metaCatalogs = catalogs.map(cat => ({
-    id: cat.id,
-    type: cat.type,
-    name: cat.name,
-    poster: cat.poster,
-    description: cat.description
-  }));
-  res.json({ catalogs: metaCatalogs });
+// Start Server
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
 });
 
-// Endpoint untuk Detail Katalog & Episod (Folder Setiap Tajuk)
-app.get('/catalog/:type/:id.json', (req, res) => {
-  const { id } = req.params;
-  const foundCatalog = catalogs.find(c => c.id === id);
-
-  if (!foundCatalog) {
-    return res.status(404).json({ error: 'Catalog not found' });
-  }
-
-  const metas = foundCatalog.episodes.map(ep => ({
-    id: ep.id,
-    type: 'movie', // Dianggap sebagai item media/episod di bawah folder
-    name: ep.title,
-    poster: foundCatalog.poster,
-    streams: [{ title: ep.title, url: ep.url }]
-  }));
-
-  res.json({ metas });
-});
-
-// Endpoint untuk Meta/Detail Penuh Satu Episod
-app.get('/meta/:type/:id.json', (req, res) => {
-  const { id } = req.params;
-  let foundEp = null;
-  let foundCat = null;
-
-  for (const cat of catalogs) {
-    const ep = cat.episodes.find(e => e.id === id);
-    if (ep) {
-      foundEp = ep;
-      foundCat = cat;
-      break;
-    }
-  }
-
-  if (!foundEp) {
-    return res.status(404).json({ error: 'Episode not found' });
-  }
-
-  res.json({
-    meta: {
-      id: foundEp.id,
-      type: 'movie',
-      name: foundEp.title,
-      poster: foundCat.poster,
-      description: `Episod rasmi daripada siri ${foundCat.name}.`
-    }
-  });
-});
-
-// Endpoint untuk Strim Fail (Streams)
-app.get('/stream/:type/:id.json', (req, res) => {
-  const { id } = req.params;
-  let foundEp = null;
-
-  for (const cat of catalogs) {
-    const ep = cat.episodes.find(e => e.id === id);
-    if (ep) {
-      foundEp = ep;
-      break;
-    }
-  }
-
-  if (!foundEp) {
-    return res.status(404).json({ streams: [] });
-  }
-
-  res.json({
-    streams: [
-      {
-        title: foundEp.title,
-        url: foundEp.url
-      }
-    ]
-  });
-});
-
-// Jalankan Pelayan
-app.listen(PORT, (8080) => {
-  console.log(`Server is running on port ${8080}`);
-});
