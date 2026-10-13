@@ -1142,7 +1142,6 @@ const catalogs = [
       { id: "mk-24", title: "Magic Kaito (MK) Ep 24", episode: 24, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace669e6e979983cdce5d94" }
     ]
   },
-  {
   "running-man-1-324": {
     name: "Running Man Episode 1-324",
     type: "series",
