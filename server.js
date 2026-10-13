@@ -1631,8 +1631,35 @@ const catalogs = [
       { id: "rm-462", title: "Episode 462 ∙ Why Can't You Eat Race", episode: 462, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc813d6e979983cdce5741" },
       { id: "rm-463", title: "Episode 463 ∙ War of the Deities: Hades' Revenge", episode: 463, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc813e6e979983cdce5742" },
       { id: "rm-464", title: "Episode 464 ∙ Find the Father", episode: 464, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc81436e979983cdce5743" },
-        ]
-    },
+
+const { addonBuilder, serveHTTP } = require('stremio-addon-sdk');
+
+const manifest = {
+    id: 'org.nuvio.customrunningmanandanime',
+    version: '1.0.0',
+    name: 'Koleksi Nuvio Penuh & Bersih',
+    description: 'Addon Stremio/Nuvio untuk Running Man, Anime, dan Filem Pilihan',
+    types: ['series', 'movie'],
+    catalogs: [
+        { type: 'series', id: 'running-man-464-559', name: 'Running Man Episode 464-559' },
+        { type: 'series', id: 'running-man-560-679', name: 'Running Man Episode 560-679' },
+        { type: 'series', id: 'running-man-680-732', name: 'Running Man Episode 680-732' },
+        { type: 'series', id: 'running-man-733-822', name: 'Running Man Episode 733-822' },
+        { type: 'movie', id: 'dragon-ball-movies', name: 'Dragon Ball (Movies)' },
+        { type: 'series', id: 'satria-7-pahlawan', name: 'Satria 7 Pahlawan (Series)' },
+        { type: 'series', id: 'gundam-build-fighter', name: 'Gundam Build Fighter (Series)' },
+        { type: 'series', id: 'time-bokan-24', name: 'Time Bokan 24 (Series)' },
+        { type: 'movie', id: 'naruto-movies', name: 'Naruto (Movie)' },
+        { type: 'movie', id: 'doraemon-movies', name: 'Doraemon (Movie)' },
+        { type: 'series', id: 'hagemaru', name: 'Hagemaru (Series)' },
+        { type: 'series', id: 'boruto', name: 'Boruto' },
+        { type: 'series', id: 'jujutsu-kaisen', name: 'JuJutsu Kaisen (Series)' },
+        { type: 'series', id: 'naruto-series', name: 'Naruto (Series)' }
+    ],
+    idPrefixes: ['rm1_', 'rm2_', 'rm3_', 'rm4_', 'dbm_', 's7p_', 'gbf_', 'tb24_', 'nmov_', 'dmov_', 'hge_', 'brt_', 'jjk_', 'nser_']
+};
+
+const catalogData = {
     'running-man-464-559': {
         name: 'Running Man Episode 464-559',
         poster: 'https://i.postimg.cc/kgc9P8gW/RM-YSC-JSM.jpg',
@@ -2616,101 +2643,120 @@ const catalogs = [
   }
 ];
 
-// Endpoint Utama (Root)
-app.get('/', (req, res) => {
-  res.send('Nuvio Server is Running! Gunakan endpoint /catalog untuk melihat senarai katalog.');
-});
-
-// Endpoint untuk Senarai Semua Katalog (Stremio/Nuvio Format)
-app.get('/catalog.json', (req, res) => {
-  const metaCatalogs = catalogs.map(cat => ({
-    id: cat.id,
-    type: cat.type,
-    name: cat.name,
-    poster: cat.poster,
-    description: cat.description
-  }));
-  res.json({ catalogs: metaCatalogs });
-});
-
-// Endpoint untuk Detail Katalog & Episod (Folder Setiap Tajuk)
-app.get('/catalog/:type/:id.json', (req, res) => {
-  const { id } = req.params;
-  const foundCatalog = catalogs.find(c => c.id === id);
-
-  if (!foundCatalog) {
-    return res.status(404).json({ error: 'Catalog not found' });
+    ]
   }
+];
 
-  const metas = foundCatalog.episodes.map(ep => ({
-    id: ep.id,
-    type: 'movie', // Dianggap sebagai item media/episod di bawah folder
-    name: ep.title,
-    poster: foundCatalog.poster,
-    streams: [{ title: ep.title, url: ep.url }]
+// ==========================================
+// STREMIO / NUVIO MANIFEST
+// ==========================================
+const manifest = {
+  id: 'org.custom.daryzstream.addon',
+  version: '1.0.0',
+  name: 'Koleksi Siri Custom',
+  description: 'Addon khas siri anime & kartun untuk Nuvio',
+  types: ['series'],
+  catalogs: [
+    {
+      type: 'series',
+      id: 'custom_series_catalog',
+      name: 'Koleksi Siri Custom'
+    }
+  ],
+  resources: ['catalog', 'meta', 'stream'],
+  idPrefixes: ['custom_']
+};
+
+// 1. MANIFEST ENDPOINT
+app.get('/manifest.json', (req, res) => {
+  res.setHeader('Content-Type', 'application/json');
+  res.json(manifest);
+});
+
+// 2. CATALOG ENDPOINT
+app.get('/catalog/:type/:id.json', (req, res) => {
+  const metas = catalogData.map(item => ({
+    id: `custom_${item.id}`,
+    type: 'series',
+    name: item.name,
+    poster: item.poster,
+    description: item.description
   }));
-
   res.json({ metas });
 });
 
-// Endpoint untuk Meta/Detail Penuh Satu Episod
+// 3. META ENDPOINT (Papar Senarai Episod)
 app.get('/meta/:type/:id.json', (req, res) => {
-  const { id } = req.params;
-  let foundEp = null;
-  let foundCat = null;
+  const idClean = req.params.id.replace('custom_', '');
+  const item = catalogData.find(c => c.id === idClean);
 
-  for (const cat of catalogs) {
-    const ep = cat.episodes.find(e => e.id === id);
-    if (ep) {
-      foundEp = ep;
-      foundCat = cat;
-      break;
-    }
+  if (!item) {
+    return res.json({ meta: {} });
   }
 
-  if (!foundEp) {
-    return res.status(404).json({ error: 'Episode not found' });
+  let videos = [];
+
+  if (item.episodes) {
+    // Jika tajuk episod ditakrifkan secara khusus
+    videos = item.episodes.map((ep, idx) => ({
+      id: `custom_${item.id}:1:${idx + 1}`,
+      title: ep.title,
+      season: 1,
+      episode: idx + 1,
+      thumbnail: ep.thumbnail
+    }));
+  } else if (item.urls) {
+    // Jika hanya pautan URL diberi
+    videos = item.urls.map((url, idx) => ({
+      id: `custom_${item.id}:1:${idx + 1}`,
+      title: `Episod ${idx + 1}`,
+      season: 1,
+      episode: idx + 1
+    }));
   }
 
-  res.json({
-    meta: {
-      id: foundEp.id,
-      type: 'movie',
-      name: foundEp.title,
-      poster: foundCat.poster,
-      description: `Episod rasmi daripada siri ${foundCat.name}.`
-    }
-  });
+  const meta = {
+    id: `custom_${item.id}`,
+    type: 'series',
+    name: item.name,
+    poster: item.poster,
+    background: item.background || item.poster,
+    description: item.description,
+    videos: videos
+  };
+
+  res.json({ meta });
 });
 
-// Endpoint untuk Strim Fail (Streams)
+// 4. STREAM ENDPOINT (Mainkan Video)
 app.get('/stream/:type/:id.json', (req, res) => {
-  const { id } = req.params;
-  let foundEp = null;
+  const fullId = req.params.id; // Contoh: custom_doraemon:1:5
+  const parts = fullId.replace('custom_', '').split(':');
+  
+  const seriesId = parts[0];
+  const episodeNum = parseInt(parts[2], 10);
 
-  for (const cat of catalogs) {
-    const ep = cat.episodes.find(e => e.id === id);
-    if (ep) {
-      foundEp = ep;
-      break;
-    }
+  const item = catalogData.find(c => c.id === seriesId);
+  const streams = [];
+
+  if (item && item.urls && item.urls[episodeNum - 1]) {
+    streams.push({
+      title: `${item.name} - Episod ${episodeNum}`,
+      url: item.urls[episodeNum - 1]
+    });
+  } else if (item && item.episodes) {
+    // Jika tiada URL video spesifik disediakan untuk Kids Delights
+    streams.push({
+      title: `${item.name} - Episod ${episodeNum}`,
+      url: 'https://files.catbox.moe/dmr7ys.mp4' // URL fallback/dummy
+    });
   }
 
-  if (!foundEp) {
-    return res.status(404).json({ streams: [] });
-  }
-
-  res.json({
-    streams: [
-      {
-        title: foundEp.title,
-        url: foundEp.url
-      }
-    ]
-  });
+  res.json({ streams });
 });
 
-// Jalankan Pelayan
+// SERVER LISTEN
+const PORT = process.env.PORT || 7000;
 app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+  console.log(`Addon aktif di port ${PORT}`);
 });
