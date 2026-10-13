@@ -10,10 +10,8 @@ app.use((req, res, next) => {
     next();
 });
 
-// ID Utama Siri
 const SERIES_ID = "daryz_tj_series";
 
-// Data Meta Siri Utama (Akan terpapar sebagai Poster Movie/Series dalam Nuvio)
 const seriesMeta = {
     id: SERIES_ID,
     type: "series",
@@ -24,8 +22,9 @@ const seriesMeta = {
     genres: ["Animation", "Comedy", "Family"]
 };
 
-// Map Episod: Key format "SERIES_ID:SEASON:EPISODE"
+// 35 Episod (Season 1 & Season 2)
 const streamsData = {
+    // SEASON 1
     [`${SERIES_ID}:1:8`]: { title: "Fine Feathered Friend", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4506e979983cdce5ad0" },
     [`${SERIES_ID}:1:16`]: { title: "Puttin' On The Dog", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4876e979983cdce5ad8" },
     [`${SERIES_ID}:1:10`]: { title: "The Lonesome Mouse", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4506e979983cdce5ad2" },
@@ -42,6 +41,8 @@ const streamsData = {
     [`${SERIES_ID}:1:24`]: { title: "The Milky Waif", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4986e979983cdce5ae0" },
     [`${SERIES_ID}:1:20`]: { title: "Tee For Two", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc48f6e979983cdce5adb" },
     [`${SERIES_ID}:1:25`]: { title: "Trap Happy", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4c36e979983cdce5ae1" },
+
+    // SEASON 2
     [`${SERIES_ID}:2:1`]: { title: "Solid Serenade", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4c36e979983cdce5ae2" },
     [`${SERIES_ID}:2:2`]: { title: "Cat Fishin'", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4c86e979983cdce5ae3" },
     [`${SERIES_ID}:2:3`]: { title: "Part Time Pal", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4cd6e979983cdce5ae4" },
@@ -63,11 +64,10 @@ const streamsData = {
     [`${SERIES_ID}:2:20`]: { title: "Jerry's Diary", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc5136e979983cdce5af5" }
 };
 
-// 1. MANIFEST ENDPOINT
 app.get('/manifest.json', (req, res) => {
     res.json({
         id: "org.daryzstream.animeanimation",
-        version: "2.0.0",
+        version: "2.1.0",
         name: "Anime & Animation",
         description: "Koleksi Animasi Klasik Tom & Jerry",
         resources: ["catalog", "meta", "stream"],
@@ -83,7 +83,6 @@ app.get('/manifest.json', (req, res) => {
     });
 });
 
-// 2. CATALOG ENDPOINT
 app.get('/catalog/:type/:id.json', (req, res) => {
     res.json({
         metas: [
@@ -98,7 +97,6 @@ app.get('/catalog/:type/:id.json', (req, res) => {
     });
 });
 
-// 3. META ENDPOINT (Membina struktur episod bagi siri)
 app.get('/meta/:type/:id.json', (req, res) => {
     const reqId = req.params.id;
 
@@ -129,7 +127,7 @@ app.get('/meta/:type/:id.json', (req, res) => {
     }
 });
 
-// 4. STREAM ENDPOINT
+// STREAM ROUTE: Menggunakan behavioral hints untuk player luaran
 app.get('/stream/:type/:id.json', (req, res) => {
     const streamKey = req.params.id;
     const stream = streamsData[streamKey];
@@ -138,9 +136,13 @@ app.get('/stream/:type/:id.json', (req, res) => {
         res.json({
             streams: [
                 {
-                    name: "DaRyzStream",
+                    name: "DaRyzStream (Direct)",
                     title: `1080p - ${stream.title}`,
-                    url: stream.url
+                    url: stream.url,
+                    behaviorHints: {
+                        notResponseLocation: false,
+                        bingeGroup: "daryz-tom-jerry"
+                    }
                 }
             ]
         });
@@ -149,11 +151,10 @@ app.get('/stream/:type/:id.json', (req, res) => {
     }
 });
 
-// Fallback Route
 app.get('/', (req, res) => {
     res.json({ addon: "Anime & Animation Online", manifest: "/manifest.json" });
 });
 
 app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
+    console.log(`Server running on port ${PORT}`);
 });
