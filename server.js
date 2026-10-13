@@ -1,203 +1,77 @@
-const express = require('express');
+\const express = require('express');
 const app = express();
 
 const PORT = process.env.PORT || 3000;
 
-// Enable CORS (Wajib untuk Nuvio/Stremio)
+// Enable CORS
 app.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
     next();
 });
 
-// Data Senarai 35 Episod (Menggunakan pautan direct /dl/ untuk streaming)
-const episodes = [
-    {
-        id: "daryz_tj_s01e08",
-        title: "Tom & Jerry - S01E08 (Fine Feathered Friend)",
-        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4506e979983cdce5ad0"
-    },
-    {
-        id: "daryz_tj_s01e16",
-        title: "Tom & Jerry - S01E16 (Puttin' On The Dog)",
-        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4876e979983cdce5ad8"
-    },
-    {
-        id: "daryz_tj_s01e10",
-        title: "Tom & Jerry - S01E10 (The Lonesome Mouse)",
-        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4506e979983cdce5ad2"
-    },
-    {
-        id: "daryz_tj_s01e14",
-        title: "Tom & Jerry - S01E14 (The Million Dollar Cat)",
-        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc45c6e979983cdce5ad6"
-    },
-    {
-        id: "daryz_tj_s01e09",
-        title: "Tom & Jerry - S01E09 (Sufferin' Cats!)",
-        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4506e979983cdce5ad1"
-    },
-    {
-        id: "daryz_tj_s01e15",
-        title: "Tom & Jerry - S01E15 (The Bodyguard)",
-        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc45c6e979983cdce5ad7"
-    },
-    {
-        id: "daryz_tj_s01e13",
-        title: "Tom & Jerry - S01E13 (The Zoot Cat)",
-        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc45b6e979983cdce5ad5"
-    },
-    {
-        id: "daryz_tj_s01e17",
-        title: "Tom & Jerry - S01E17 (Mouse Trouble)",
-        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc48d6e979983cdce5ad9"
-    },
-    {
-        id: "daryz_tj_s01e19",
-        title: "Tom & Jerry - S01E19 (Mouse In Manhattan)",
-        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc48e6e979983cdce5ada"
-    },
-    {
-        id: "daryz_tj_s01e22",
-        title: "Tom & Jerry - S01E22 (Quiet Please!)",
-        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4926e979983cdce5ade"
-    },
-    {
-        id: "daryz_tj_s01e21",
-        title: "Tom & Jerry - S01E21 (Flirty Birdy)",
-        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4926e979983cdce5add"
-    },
-    {
-        id: "daryz_tj_s01e23",
-        title: "Tom & Jerry - S01E23 (Springtime For Thomas)",
-        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4936e979983cdce5adf"
-    },
-    {
-        id: "daryz_tj_s01e18",
-        title: "Tom & Jerry - S01E18 (The Mouse Comes To Dinner)",
-        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc48f6e979983cdce5adc"
-    },
-    {
-        id: "daryz_tj_s01e24",
-        title: "Tom & Jerry - S01E24 (The Milky Waif)",
-        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4986e979983cdce5ae0"
-    },
-    {
-        id: "daryz_tj_s01e20",
-        title: "Tom & Jerry - S01E20 (Tee For Two)",
-        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc48f6e979983cdce5adb"
-    },
-    {
-        id: "daryz_tj_s01e25",
-        title: "Tom & Jerry - S01E25 (Trap Happy)",
-        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4c36e979983cdce5ae1"
-    },
-    {
-        id: "daryz_tj_s02e01",
-        title: "Tom & Jerry - S02E01 (Solid Serenade)",
-        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4c36e979983cdce5ae2"
-    },
-    {
-        id: "daryz_tj_s02e02",
-        title: "Tom & Jerry - S02E02 (Cat Fishin')",
-        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4c86e979983cdce5ae3"
-    },
-    {
-        id: "daryz_tj_s02e03",
-        title: "Tom & Jerry - S02E03 (Part Time Pal)",
-        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4cd6e979983cdce5ae4"
-    },
-    {
-        id: "daryz_tj_s02e04",
-        title: "Tom & Jerry - S02E04 (The Cat Concerto)",
-        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4cd6e979983cdce5ae5"
-    },
-    {
-        id: "daryz_tj_s02e09",
-        title: "Tom & Jerry - S02E09 (Kitty Foiled)",
-        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4d96e979983cdce5aea"
-    },
-    {
-        id: "daryz_tj_s02e05",
-        title: "Tom & Jerry - S02E05 (Dr Jekyll and Mr Mouse)",
-        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4cd6e979983cdce5ae6"
-    },
-    {
-        id: "daryz_tj_s02e06",
-        title: "Tom & Jerry - S02E06 (Salt Water Tabby)",
-        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4cd6e979983cdce5ae7"
-    },
-    {
-        id: "daryz_tj_s02e07",
-        title: "Tom & Jerry - S02E07 (A Mouse In The House)",
-        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4cf6e979983cdce5ae8"
-    },
-    {
-        id: "daryz_tj_s02e08",
-        title: "Tom & Jerry - S02E08 (The Invisible Mouse)",
-        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4d36e979983cdce5ae9"
-    },
-    {
-        id: "daryz_tj_s02e11",
-        title: "Tom & Jerry - S02E11 (Old Rockin' Chair Tom)",
-        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc5036e979983cdce5aec"
-    },
-    {
-        id: "daryz_tj_s02e12",
-        title: "Tom & Jerry - S02E12 (Professor Tom)",
-        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc5056e979983cdce5aed"
-    },
-    {
-        id: "daryz_tj_s02e13",
-        title: "Tom & Jerry - S02E13 (Mouse Cleaning)",
-        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc5056e979983cdce5aee"
-    },
-    {
-        id: "daryz_tj_s02e15",
-        title: "Tom & Jerry - S02E15 (The Little Orphan)",
-        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc5096e979983cdce5af0"
-    },
-    {
-        id: "daryz_tj_s02e16",
-        title: "Tom & Jerry - S02E16 (Hatch Up Your Troubles)",
-        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc50a6e979983cdce5af1"
-    },
-    {
-        id: "daryz_tj_s02e14",
-        title: "Tom & Jerry - S02E14 (Polka Dot Puss)",
-        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc5056e979983cdce5aef"
-    },
-    {
-        id: "daryz_tj_s02e19",
-        title: "Tom & Jerry - S02E19 (Love That Pup)",
-        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc5136e979983cdce5af4"
-    },
-    {
-        id: "daryz_tj_s02e10",
-        title: "Tom & Jerry - S02E10 (The Truce Hurts)",
-        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4d96e979983cdce5aeb"
-    },
-    {
-        id: "daryz_tj_s02e17",
-        title: "Tom & Jerry - S02E17 (Heavenly Puss)",
-        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc50e6e979983cdce5af2"
-    },
-    {
-        id: "daryz_tj_s02e20",
-        title: "Tom & Jerry - S02E20 (Jerry's Diary)",
-        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc5136e979983cdce5af5"
-    }
-];
+// ID Utama Siri
+const SERIES_ID = "daryz_tj_series";
+
+// Data Meta Siri Utama (Akan terpapar sebagai Poster Movie/Series dalam Nuvio)
+const seriesMeta = {
+    id: SERIES_ID,
+    type: "series",
+    name: "Tom & Jerry (1940)",
+    poster: "https://i.postimg.cc/Gm5JwFbK/Tom-And-Jerry.jpg",
+    background: "https://i.postimg.cc/Gm5JwFbK/Tom-And-Jerry.jpg",
+    description: "Koleksi episod klasik Tom & Jerry (1940) daripada DaRyzStream.",
+    genres: ["Animation", "Comedy", "Family"]
+};
+
+// Map Episod: Key format "SERIES_ID:SEASON:EPISODE"
+const streamsData = {
+    [`${SERIES_ID}:1:8`]: { title: "Fine Feathered Friend", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4506e979983cdce5ad0" },
+    [`${SERIES_ID}:1:16`]: { title: "Puttin' On The Dog", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4876e979983cdce5ad8" },
+    [`${SERIES_ID}:1:10`]: { title: "The Lonesome Mouse", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4506e979983cdce5ad2" },
+    [`${SERIES_ID}:1:14`]: { title: "The Million Dollar Cat", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc45c6e979983cdce5ad6" },
+    [`${SERIES_ID}:1:9`]: { title: "Sufferin' Cats!", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4506e979983cdce5ad1" },
+    [`${SERIES_ID}:1:15`]: { title: "The Bodyguard", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc45c6e979983cdce5ad7" },
+    [`${SERIES_ID}:1:13`]: { title: "The Zoot Cat", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc45b6e979983cdce5ad5" },
+    [`${SERIES_ID}:1:17`]: { title: "Mouse Trouble", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc48d6e979983cdce5ad9" },
+    [`${SERIES_ID}:1:19`]: { title: "Mouse In Manhattan", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc48e6e979983cdce5ada" },
+    [`${SERIES_ID}:1:22`]: { title: "Quiet Please!", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4926e979983cdce5ade" },
+    [`${SERIES_ID}:1:21`]: { title: "Flirty Birdy", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4926e979983cdce5add" },
+    [`${SERIES_ID}:1:23`]: { title: "Springtime For Thomas", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4936e979983cdce5adf" },
+    [`${SERIES_ID}:1:18`]: { title: "The Mouse Comes To Dinner", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc48f6e979983cdce5adc" },
+    [`${SERIES_ID}:1:24`]: { title: "The Milky Waif", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4986e979983cdce5ae0" },
+    [`${SERIES_ID}:1:20`]: { title: "Tee For Two", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc48f6e979983cdce5adb" },
+    [`${SERIES_ID}:1:25`]: { title: "Trap Happy", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4c36e979983cdce5ae1" },
+    [`${SERIES_ID}:2:1`]: { title: "Solid Serenade", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4c36e979983cdce5ae2" },
+    [`${SERIES_ID}:2:2`]: { title: "Cat Fishin'", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4c86e979983cdce5ae3" },
+    [`${SERIES_ID}:2:3`]: { title: "Part Time Pal", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4cd6e979983cdce5ae4" },
+    [`${SERIES_ID}:2:4`]: { title: "The Cat Concerto", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4cd6e979983cdce5ae5" },
+    [`${SERIES_ID}:2:9`]: { title: "Kitty Foiled", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4d96e979983cdce5aea" },
+    [`${SERIES_ID}:2:5`]: { title: "Dr Jekyll and Mr Mouse", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4cd6e979983cdce5ae6" },
+    [`${SERIES_ID}:2:6`]: { title: "Salt Water Tabby", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4cd6e979983cdce5ae7" },
+    [`${SERIES_ID}:2:7`]: { title: "A Mouse In The House", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4cf6e979983cdce5ae8" },
+    [`${SERIES_ID}:2:8`]: { title: "The Invisible Mouse", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4d36e979983cdce5ae9" },
+    [`${SERIES_ID}:2:11`]: { title: "Old Rockin' Chair Tom", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc5036e979983cdce5aec" },
+    [`${SERIES_ID}:2:12`]: { title: "Professor Tom", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc5056e979983cdce5aed" },
+    [`${SERIES_ID}:2:13`]: { title: "Mouse Cleaning", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc5056e979983cdce5aee" },
+    [`${SERIES_ID}:2:15`]: { title: "The Little Orphan", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc5096e979983cdce5af0" },
+    [`${SERIES_ID}:2:16`]: { title: "Hatch Up Your Troubles", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc50a6e979983cdce5af1" },
+    [`${SERIES_ID}:2:14`]: { title: "Polka Dot Puss", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc5056e979983cdce5aef" },
+    [`${SERIES_ID}:2:19`]: { title: "Love That Pup", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc5136e979983cdce5af4" },
+    [`${SERIES_ID}:2:10`]: { title: "The Truce Hurts", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4d96e979983cdce5aeb" },
+    [`${SERIES_ID}:2:17`]: { title: "Heavenly Puss", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc50e6e979983cdce5af2" },
+    [`${SERIES_ID}:2:20`]: { title: "Jerry's Diary", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc5136e979983cdce5af5" }
+};
 
 // 1. MANIFEST ENDPOINT
 app.get('/manifest.json', (req, res) => {
     res.json({
         id: "org.daryzstream.animeanimation",
-        version: "1.0.2",
+        version: "2.0.0",
         name: "Anime & Animation",
-        description: "Koleksi Animasi Klasik Tom & Jerry melalui DaRyzStream",
+        description: "Koleksi Animasi Klasik Tom & Jerry",
         resources: ["catalog", "meta", "stream"],
-        types: ["series", "movie", "anime"],
+        types: ["series"],
         catalogs: [
             {
                 type: "series",
@@ -211,53 +85,62 @@ app.get('/manifest.json', (req, res) => {
 
 // 2. CATALOG ENDPOINT
 app.get('/catalog/:type/:id.json', (req, res) => {
-    const metas = episodes.map(ep => ({
-        id: ep.id,
-        type: req.params.type || "series",
-        name: ep.title,
-        poster: "https://i.postimg.cc/Gm5JwFbK/Tom-And-Jerry.jpg",
-        description: `Stream ${ep.title} di Nuvio`
-    }));
-
-    res.json({ metas });
+    res.json({
+        metas: [
+            {
+                id: seriesMeta.id,
+                type: "series",
+                name: seriesMeta.name,
+                poster: seriesMeta.poster,
+                description: seriesMeta.description
+            }
+        ]
+    });
 });
 
-// 3. META ENDPOINT
+// 3. META ENDPOINT (Membina struktur episod bagi siri)
 app.get('/meta/:type/:id.json', (req, res) => {
-    const epId = req.params.id;
-    const episode = episodes.find(e => e.id === epId);
+    const reqId = req.params.id;
 
-    if (episode) {
+    if (reqId === SERIES_ID) {
+        const videos = Object.keys(streamsData).map(key => {
+            const parts = key.split(':');
+            const season = parseInt(parts[1]);
+            const episode = parseInt(parts[2]);
+            const data = streamsData[key];
+
+            return {
+                id: key,
+                title: data.title,
+                season: season,
+                episode: episode,
+                released: new Date().toISOString()
+            };
+        });
+
         res.json({
             meta: {
-                id: episode.id,
-                type: req.params.type || "series",
-                name: episode.title,
-                poster: "https://i.postimg.cc/Gm5JwFbK/Tom-And-Jerry.jpg",
-                description: `Koleksi Tom & Jerry - ${episode.title}`,
-                genres: ["Animation", "Classic"]
+                ...seriesMeta,
+                videos: videos
             }
         });
     } else {
-        res.status(404).json({ error: "Not found" });
+        res.status(404).json({ error: "Meta not found" });
     }
 });
 
-// 4. STREAM ENDPOINT (Menggunakan pautan direct /dl/ dengan maklumat fail)
+// 4. STREAM ENDPOINT
 app.get('/stream/:type/:id.json', (req, res) => {
-    const epId = req.params.id;
-    const episode = episodes.find(e => e.id === epId);
+    const streamKey = req.params.id;
+    const stream = streamsData[streamKey];
 
-    if (episode) {
+    if (stream) {
         res.json({
             streams: [
                 {
                     name: "DaRyzStream",
-                    title: `1080p - ${episode.title}`,
-                    url: episode.streamUrl,
-                    behaviorHints: {
-                        notResponseLocation: true
-                    }
+                    title: `1080p - ${stream.title}`,
+                    url: stream.url
                 }
             ]
         });
@@ -268,13 +151,9 @@ app.get('/stream/:type/:id.json', (req, res) => {
 
 // Fallback Route
 app.get('/', (req, res) => {
-    res.json({
-        addon: "Anime & Animation Nuvio Add-on",
-        status: "Online",
-        manifest: "/manifest.json"
-    });
+    res.json({ addon: "Anime & Animation Online", manifest: "/manifest.json" });
 });
 
 app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
+    console.log(`Server is running on port ${PORT}`);
 });
