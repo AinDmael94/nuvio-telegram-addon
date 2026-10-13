@@ -945,16 +945,16 @@ const catalogs = [
       { id: "loc-27", title: "You're Lion [2007]", episode: 27, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accd13d6e979983cdce5ced" },
       { id: "loc-28", title: "Zent Out Of Shape [2007]", episode: 28, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accd1426e979983cdce5cee" }
     ]
-  },
-{
-"detective-conan-series": {
-  name: "Detective Conan (Series)",
-  type: "series",
-    poster: "https://i.postimg.cc/zvFTPwSK/Detective-Conan-DP.jpg",
+ },
+  {
+    id: 'detective_conan_series',
+    name: 'Detective Conan (Series)',
+    type: 'series',
+    poster: 'https://i.postimg.cc/zVFTPWSK/Detective-Conan-DP.jpg',
     videos: [
-      { id: "dc-100", title: "Episode 100 Bahagian 1", episode: 100, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace686f6e979983cdce5dde" },
-      { id: "dc-114", title: "Episode 114 Bahagian 1", episode: 114, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace68756e979983cdce5de0" },
-      { id: "dc-115", title: "Episode 115 Bahagian 2", episode: 115, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace68756e979983cdce5de1" },
+      { id: 'dc-100', title: 'Episode 100 Bahagian 1', episode: 100, url: 'https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace686f6e979983cdce5dde' },
+      { id: 'dc-114', title: 'Episode 114 Bahagian 1', episode: 114, url: 'https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace68756e979983cdce5de0' },
+      { id: 'dc-115', title: 'Episode 115 Bahagian 2', episode: 115, url: 'https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace68756e979983cdce5de1' },
       { id: "dc-124", title: "Episode 124", episode: 124, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5dac6e979983cdce5d27" },
       { id: "dc-125", title: "Episode 125", episode: 125, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5dac6e979983cdce5d26" },
       { id: "dc-129", title: "Episode 129", episode: 129, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace5dbb6e979983cdce5d2e" },
