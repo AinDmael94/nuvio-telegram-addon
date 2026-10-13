@@ -3,7 +3,7 @@ const app = express();
 
 const PORT = process.env.PORT || 3000;
 
-// Enable CORS (Wajib untuk Nuvio/Stremio membaca Add-on)
+// Enable CORS (Wajib untuk Nuvio/Stremio)
 app.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
@@ -189,19 +189,24 @@ const episodes = [
     }
 ];
 
-// 1. MANIFEST ENDPOINT (Wajib untuk Nuvio Add-on)
+// 1. MANIFEST ENDPOINT
 app.get('/manifest.json', (req, res) => {
     res.json({
         id: "org.daryzstream.animeanimation",
-        version: "1.0.0",
+        version: "1.0.1",
         name: "Anime & Animation",
-        description: "Koleksi Animasi Klasik melalui DaRyzStream",
-        resources: ["catalog", "stream"],
-        types: ["series", "movie"],
+        description: "Koleksi Animasi Klasik Tom & Jerry melalui DaRyzStream",
+        resources: ["catalog", "meta", "stream"],
+        types: ["series", "movie", "anime"],
         catalogs: [
             {
                 type: "series",
                 id: "anime_animation_catalog",
+                name: "Anime & Animation"
+            },
+            {
+                type: "movie",
+                id: "anime_animation_catalog_movie",
                 name: "Anime & Animation"
             }
         ],
@@ -209,20 +214,41 @@ app.get('/manifest.json', (req, res) => {
     });
 });
 
-// 2. CATALOG ENDPOINT (Paparkan senarai episod dalam catalog Anime & Animation)
+// 2. CATALOG ENDPOINT
 app.get('/catalog/:type/:id.json', (req, res) => {
     const metas = episodes.map(ep => ({
         id: ep.id,
-        type: "series",
+        type: req.params.type || "series",
         name: ep.title,
         poster: "https://i.postimg.cc/Gm5JwFbK/Tom-And-Jerry.jpg",
-        description: `Stream ${ep.title} di Nuvio via Anime & Animation`
+        description: `Stream ${ep.title} di Nuvio`
     }));
 
     res.json({ metas });
 });
 
-// 3. STREAM ENDPOINT (Mainkan video bila pengguna tekan Play)
+// 3. META ENDPOINT (Fix error "no addon provides meta for this content")
+app.get('/meta/:type/:id.json', (req, res) => {
+    const epId = req.params.id;
+    const episode = episodes.find(e => e.id === epId);
+
+    if (episode) {
+        res.json({
+            meta: {
+                id: episode.id,
+                type: req.params.type || "series",
+                name: episode.title,
+                poster: "https://i.postimg.cc/Gm5JwFbK/Tom-And-Jerry.jpg",
+                description: `Koleksi Tom & Jerry - ${episode.title}`,
+                genres: ["Animation", "Classic"]
+            }
+        });
+    } else {
+        res.status(404).json({ error: "Not found" });
+    }
+});
+
+// 4. STREAM ENDPOINT
 app.get('/stream/:type/:id.json', (req, res) => {
     const epId = req.params.id;
     const episode = episodes.find(e => e.id === epId);
@@ -241,7 +267,7 @@ app.get('/stream/:type/:id.json', (req, res) => {
     }
 });
 
-// Fallback Route / Root Check
+// Fallback Route
 app.get('/', (req, res) => {
     res.json({
         addon: "Anime & Animation Nuvio Add-on",
@@ -251,5 +277,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`Anime & Animation Nuvio Add-on running on port ${PORT}`);
+    console.log(`Server running on port ${PORT}`);
 });
