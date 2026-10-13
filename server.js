@@ -2913,11 +2913,14 @@ app.get('/', (req, res) => {
         </script>
     </body>
     </html>
-    `;
-    res.send(html);
+        `; // tutup html
+
+    res.send(html1);
 });
 
-// Start Server
+// Start Server - FIXED
+const PORT = process.env.PORT || 10000;
 app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
+    console.log('Server running on port ' + PORT);
+});
 });
