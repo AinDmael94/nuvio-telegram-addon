@@ -10,182 +10,182 @@ app.use((req, res, next) => {
     next();
 });
 
-// Data Senarai 35 Episod Tom & Jerry di bawah Catalog Anime & Animation
+// Data Senarai 35 Episod (Menggunakan pautan direct /dl/ untuk streaming)
 const episodes = [
     {
         id: "daryz_tj_s01e08",
         title: "Tom & Jerry - S01E08 (Fine Feathered Friend)",
-        watch: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6accc4506e979983cdce5ad0"
+        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4506e979983cdce5ad0"
     },
     {
         id: "daryz_tj_s01e16",
         title: "Tom & Jerry - S01E16 (Puttin' On The Dog)",
-        watch: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6accc4876e979983cdce5ad8"
+        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4876e979983cdce5ad8"
     },
     {
         id: "daryz_tj_s01e10",
         title: "Tom & Jerry - S01E10 (The Lonesome Mouse)",
-        watch: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6accc4506e979983cdce5ad2"
+        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4506e979983cdce5ad2"
     },
     {
         id: "daryz_tj_s01e14",
         title: "Tom & Jerry - S01E14 (The Million Dollar Cat)",
-        watch: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6accc45c6e979983cdce5ad6"
+        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc45c6e979983cdce5ad6"
     },
     {
         id: "daryz_tj_s01e09",
         title: "Tom & Jerry - S01E09 (Sufferin' Cats!)",
-        watch: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6accc4506e979983cdce5ad1"
+        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4506e979983cdce5ad1"
     },
     {
         id: "daryz_tj_s01e15",
         title: "Tom & Jerry - S01E15 (The Bodyguard)",
-        watch: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6accc45c6e979983cdce5ad7"
+        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc45c6e979983cdce5ad7"
     },
     {
         id: "daryz_tj_s01e13",
         title: "Tom & Jerry - S01E13 (The Zoot Cat)",
-        watch: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6accc45b6e979983cdce5ad5"
+        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc45b6e979983cdce5ad5"
     },
     {
         id: "daryz_tj_s01e17",
         title: "Tom & Jerry - S01E17 (Mouse Trouble)",
-        watch: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6accc48d6e979983cdce5ad9"
+        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc48d6e979983cdce5ad9"
     },
     {
         id: "daryz_tj_s01e19",
         title: "Tom & Jerry - S01E19 (Mouse In Manhattan)",
-        watch: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6accc48e6e979983cdce5ada"
+        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc48e6e979983cdce5ada"
     },
     {
         id: "daryz_tj_s01e22",
         title: "Tom & Jerry - S01E22 (Quiet Please!)",
-        watch: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6accc4926e979983cdce5ade"
+        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4926e979983cdce5ade"
     },
     {
         id: "daryz_tj_s01e21",
         title: "Tom & Jerry - S01E21 (Flirty Birdy)",
-        watch: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6accc4926e979983cdce5add"
+        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4926e979983cdce5add"
     },
     {
         id: "daryz_tj_s01e23",
         title: "Tom & Jerry - S01E23 (Springtime For Thomas)",
-        watch: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6accc4936e979983cdce5adf"
+        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4936e979983cdce5adf"
     },
     {
         id: "daryz_tj_s01e18",
         title: "Tom & Jerry - S01E18 (The Mouse Comes To Dinner)",
-        watch: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6accc48f6e979983cdce5adc"
+        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc48f6e979983cdce5adc"
     },
     {
         id: "daryz_tj_s01e24",
         title: "Tom & Jerry - S01E24 (The Milky Waif)",
-        watch: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6accc4986e979983cdce5ae0"
+        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4986e979983cdce5ae0"
     },
     {
         id: "daryz_tj_s01e20",
         title: "Tom & Jerry - S01E20 (Tee For Two)",
-        watch: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6accc48f6e979983cdce5adb"
+        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc48f6e979983cdce5adb"
     },
     {
         id: "daryz_tj_s01e25",
         title: "Tom & Jerry - S01E25 (Trap Happy)",
-        watch: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6accc4c36e979983cdce5ae1"
+        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4c36e979983cdce5ae1"
     },
     {
         id: "daryz_tj_s02e01",
         title: "Tom & Jerry - S02E01 (Solid Serenade)",
-        watch: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6accc4c36e979983cdce5ae2"
+        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4c36e979983cdce5ae2"
     },
     {
         id: "daryz_tj_s02e02",
         title: "Tom & Jerry - S02E02 (Cat Fishin')",
-        watch: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6accc4c86e979983cdce5ae3"
+        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4c86e979983cdce5ae3"
     },
     {
         id: "daryz_tj_s02e03",
         title: "Tom & Jerry - S02E03 (Part Time Pal)",
-        watch: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6accc4cd6e979983cdce5ae4"
+        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4cd6e979983cdce5ae4"
     },
     {
         id: "daryz_tj_s02e04",
         title: "Tom & Jerry - S02E04 (The Cat Concerto)",
-        watch: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6accc4cd6e979983cdce5ae5"
+        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4cd6e979983cdce5ae5"
     },
     {
         id: "daryz_tj_s02e09",
         title: "Tom & Jerry - S02E09 (Kitty Foiled)",
-        watch: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6accc4d96e979983cdce5aea"
+        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4d96e979983cdce5aea"
     },
     {
         id: "daryz_tj_s02e05",
         title: "Tom & Jerry - S02E05 (Dr Jekyll and Mr Mouse)",
-        watch: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6accc4cd6e979983cdce5ae6"
+        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4cd6e979983cdce5ae6"
     },
     {
         id: "daryz_tj_s02e06",
         title: "Tom & Jerry - S02E06 (Salt Water Tabby)",
-        watch: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6accc4cd6e979983cdce5ae7"
+        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4cd6e979983cdce5ae7"
     },
     {
         id: "daryz_tj_s02e07",
         title: "Tom & Jerry - S02E07 (A Mouse In The House)",
-        watch: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6accc4cf6e979983cdce5ae8"
+        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4cf6e979983cdce5ae8"
     },
     {
         id: "daryz_tj_s02e08",
         title: "Tom & Jerry - S02E08 (The Invisible Mouse)",
-        watch: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6accc4d36e979983cdce5ae9"
+        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4d36e979983cdce5ae9"
     },
     {
         id: "daryz_tj_s02e11",
         title: "Tom & Jerry - S02E11 (Old Rockin' Chair Tom)",
-        watch: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6accc5036e979983cdce5aec"
+        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc5036e979983cdce5aec"
     },
     {
         id: "daryz_tj_s02e12",
         title: "Tom & Jerry - S02E12 (Professor Tom)",
-        watch: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6accc5056e979983cdce5aed"
+        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc5056e979983cdce5aed"
     },
     {
         id: "daryz_tj_s02e13",
         title: "Tom & Jerry - S02E13 (Mouse Cleaning)",
-        watch: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6accc5056e979983cdce5aee"
+        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc5056e979983cdce5aee"
     },
     {
         id: "daryz_tj_s02e15",
         title: "Tom & Jerry - S02E15 (The Little Orphan)",
-        watch: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6accc5096e979983cdce5af0"
+        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc5096e979983cdce5af0"
     },
     {
         id: "daryz_tj_s02e16",
         title: "Tom & Jerry - S02E16 (Hatch Up Your Troubles)",
-        watch: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6accc50a6e979983cdce5af1"
+        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc50a6e979983cdce5af1"
     },
     {
         id: "daryz_tj_s02e14",
         title: "Tom & Jerry - S02E14 (Polka Dot Puss)",
-        watch: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6accc5056e979983cdce5aef"
+        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc5056e979983cdce5aef"
     },
     {
         id: "daryz_tj_s02e19",
         title: "Tom & Jerry - S02E19 (Love That Pup)",
-        watch: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6accc5136e979983cdce5af4"
+        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc5136e979983cdce5af4"
     },
     {
         id: "daryz_tj_s02e10",
         title: "Tom & Jerry - S02E10 (The Truce Hurts)",
-        watch: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6accc4d96e979983cdce5aeb"
+        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc4d96e979983cdce5aeb"
     },
     {
         id: "daryz_tj_s02e17",
         title: "Tom & Jerry - S02E17 (Heavenly Puss)",
-        watch: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6accc50e6e979983cdce5af2"
+        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc50e6e979983cdce5af2"
     },
     {
         id: "daryz_tj_s02e20",
         title: "Tom & Jerry - S02E20 (Jerry's Diary)",
-        watch: "https://filestreambot-production-bef2.up.railway.app:8080/watch/6accc5136e979983cdce5af5"
+        streamUrl: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accc5136e979983cdce5af5"
     }
 ];
 
@@ -193,7 +193,7 @@ const episodes = [
 app.get('/manifest.json', (req, res) => {
     res.json({
         id: "org.daryzstream.animeanimation",
-        version: "1.0.1",
+        version: "1.0.2",
         name: "Anime & Animation",
         description: "Koleksi Animasi Klasik Tom & Jerry melalui DaRyzStream",
         resources: ["catalog", "meta", "stream"],
@@ -202,11 +202,6 @@ app.get('/manifest.json', (req, res) => {
             {
                 type: "series",
                 id: "anime_animation_catalog",
-                name: "Anime & Animation"
-            },
-            {
-                type: "movie",
-                id: "anime_animation_catalog_movie",
                 name: "Anime & Animation"
             }
         ],
@@ -227,7 +222,7 @@ app.get('/catalog/:type/:id.json', (req, res) => {
     res.json({ metas });
 });
 
-// 3. META ENDPOINT (Fix error "no addon provides meta for this content")
+// 3. META ENDPOINT
 app.get('/meta/:type/:id.json', (req, res) => {
     const epId = req.params.id;
     const episode = episodes.find(e => e.id === epId);
@@ -248,7 +243,7 @@ app.get('/meta/:type/:id.json', (req, res) => {
     }
 });
 
-// 4. STREAM ENDPOINT
+// 4. STREAM ENDPOINT (Menggunakan pautan direct /dl/ dengan maklumat fail)
 app.get('/stream/:type/:id.json', (req, res) => {
     const epId = req.params.id;
     const episode = episodes.find(e => e.id === epId);
@@ -257,8 +252,12 @@ app.get('/stream/:type/:id.json', (req, res) => {
         res.json({
             streams: [
                 {
-                    title: `Play - ${episode.title}`,
-                    url: episode.watch
+                    name: "DaRyzStream",
+                    title: `1080p - ${episode.title}`,
+                    url: episode.streamUrl,
+                    behaviorHints: {
+                        notResponseLocation: true
+                    }
                 }
             ]
         });
