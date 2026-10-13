@@ -908,13 +908,6 @@ const catalogs = [
       { id: "tj_223", title: "Kangadoofus [2007]", thumbnail: "https://i.postimg.cc/KjY0H2Nm/Tom-And-Jerry-DP.jpg", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accd0876e979983cdce5cd0" },
       { id: "tj_224", title: "Kitty Cat Blues [2007]", thumbnail: "https://i.postimg.cc/KjY0H2Nm/Tom-And-Jerry-DP.jpg", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accd0886e979983cdce5cd1" },
       { id: "tj_225", title: "Kitty Hawked [2007]", thumbnail: "https://i.postimg.cc/KjY0H2Nm/Tom-And-Jerry-DP.jpg", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accd08c6e979983cdce5cd2" },
-  ],
-},
-  "league-of-cats": {
-    name: "League Of Cats [2007]",
-    type: "series",
-    poster: "",
-    videos: [
       { id: "loc-1", title: "League Of Cats [2007]", episode: 1, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accd08c6e979983cdce5cd3" },
       { id: "loc-2", title: "Little Big Mouse [2007]", episode: 2, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accd08d6e979983cdce5cd4" },
       { id: "loc-3", title: "Martian Mouse [2007]", episode: 3, url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6accd0916e979983cdce5cd5" },
