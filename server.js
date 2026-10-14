@@ -3,19 +3,24 @@ const https = require('https');
 const http = require('http');
 const app = express();
 const PORT = process.env.PORT || 3000;
-// PROXY FIX - letak sini
+
+// PROXY FIX - untuk bypass link mati
 app.get('/proxy', (req, res) => {
   const videoUrl = req.query.url;
   if (!videoUrl) return res.status(400).send('Need ?url=');
   const client = videoUrl.startsWith('https') ? https : http;
-  client.get(videoUrl, {
-    headers: { 'User-Agent': 'Mozilla/5.0' }
-  }, (videoStream) => {
+  const options = {
+    headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36', 'Referer': '' }
+  };
+  client.get(videoUrl, options, (videoStream) => {
+    if (videoStream.statusCode >= 300 && videoStream.statusCode < 400 && videoStream.headers.location) {
+      return res.redirect(videoStream.headers.location);
+    }
     res.setHeader('Content-Type', videoStream.headers['content-type'] || 'video/mp4');
     res.setHeader('Access-Control-Allow-Origin', '*');
     videoStream.pipe(res);
   }).on('error', (err) => {
-    res.status(500).json({ error: 'Source mati', detail: err.message });
+    res.status(500).json({ error: 'Source asal dah mati di Railway', detail: err.message });
   });
 });
 
@@ -951,13 +956,22 @@ app.get('/catalog/:type/:id.json', (req, res) => {
 
 // Endpoint Meta
 app.get('/meta/:type/:id.json', (req, res) => {
+    res.setHeader('Access-Control-Allow-Origin', '*');
     const { id } = req.params;
     const series = catalogData.find(item => item.id === id);
-    
     if (!series) {
         return res.status(404).json({ error: "Not found" });
     }
-
+    const host = req.get('host');
+    const protocol = req.get('x-forwarded-proto') || req.protocol;
+    const baseUrl = `${protocol}://${host}`;
+    const proxiedVideos = series.videos.map(v => {
+        const needProxy = v.url.includes('filestreambot') || v.url.includes('railway');
+        if (needProxy) {
+            return { ...v, url: `${baseUrl}/proxy?url=${encodeURIComponent(v.url)}` };
+        }
+        return v;
+    });
     res.json({
         meta: {
             id: series.id,
@@ -965,12 +979,7 @@ app.get('/meta/:type/:id.json', (req, res) => {
             name: series.name,
             poster: series.poster,
             description: series.description,
-            videos: series.videos.map(v => ({
-                id: v.id,
-                title: v.title,
-                episode: v.episode,
-                overview: v.description
-            }))
+            videos: proxiedVideos
         }
     });
 });
