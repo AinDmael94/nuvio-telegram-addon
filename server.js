@@ -1327,7 +1327,7 @@ builder.defineCatalogHandler(({ type, id }) => {
     type: catalog.type,
     name: item.title,
     poster: catalog.poster
-    }));
+    })) : [];
 
     return Promise.resolve({ metas });
 });
