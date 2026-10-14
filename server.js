@@ -4,7 +4,7 @@ const manifest = {
     id: 'addon.daryz.stream',
     version: '1.0.0',
     name: 'DaRyz Stream',
-    description: 'Addon rasmi DaRyz Stream untuk Kids Delights, Sengketa, Kisah Para Sahabat, Akhir Zaman, Mahsyar, Malaysian Movies, dan Running Man (1-822)',
+    description: 'Addon rasmi DaRyz Stream',
     types: ['series', 'movie'],
     catalogs: [
 { id: 'running_man_catalog', type: 'series', name: 'Runningman 1-324' },
@@ -1313,63 +1313,54 @@ const datasets = {
             { title: "Prophet Yaaqub AS - Patience And The Legacy Of Tawhid", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace53996e979983cdce5cf8", image: "https://i.postimg.cc/Tw30v9WR/Kisah-Nabi-Yaaqub.jpg" },
             { title: "Prophet Yusuf AS - From Dark Well To The Throne Of Egypt", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace53a16e979983cdce5cfd", image: "https://i.postimg.cc/PqzVjJ3D/Kisah-Nabi-Yusuf.jpg" },
             { title: "Prophet Yunus AS - A Miracle In The Belly Of The Fish", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace53996e979983cdce5cfc", image: "https://i.postimg.cc/bJtg3v77/image-c1cc390e.jpg" }
-        ])
+]
     }
 };
 
-// Handle Catalog Request
-builder.defineCatalogHandler(({ type, id }) => {
-    const catalog = datasets[id];
-    if (!catalog) return Promise.resolve({ metas: [] });
-
-    const metas = catalog && catalog.videos ? catalog.videos.map((item, index) => ({
-    id: `${id}_${index + 1}`,
-    type: catalog.type,
-    name: item.title,
-    poster: catalog.poster
-    })) : [];
-
+// 1. Catalog Handler (Mengembalikan senarai tanpa bergantung pada jenis type jika dicari umum)
+builder.defineCatalogHandler(({ type }) => {
+    const metas = Object.values(datasets).map(item => ({
+        id: item.id,
+        type: item.type,
+        name: item.name,
+        poster: item.poster,
+        description: item.description
+    }));
     return Promise.resolve({ metas });
 });
 
-// Handle Meta Request
-builder.defineMetaHandler(({ type, id }) => {
-    for (const catKey in datasets) {
-        const catalog = datasets[catKey];
-        const foundIndex = catalog.videos.findIndex((v, i) => `${catKey}_${i + 1}` === id);
-        if (foundIndex !== -1) {
-            const video = catalog.videos[foundIndex];
-            return Promise.resolve({
-                meta: {
-                    id: id,
-                    type: catalog.type,
-                    name: video.title,
-                    poster: catalog.poster,
-                    description: `${catalog.name} - ${video.title}`,
-                    videos: catalog.type === 'series' ? [{
-                        id: id,
-                        title: video.title,
-                        season: 1,
-                        episode: foundIndex + 1
-                    }] : undefined
-                }
-            });
+// 2. Meta Handler
+builder.defineMetaHandler(({ id }) => {
+    const item = datasets[id];
+    if (!item) return Promise.resolve({ meta: null });
+
+    return Promise.resolve({
+        meta: {
+            id: item.id,
+            type: item.type,
+            name: item.name,
+            poster: item.poster,
+            description: item.description,
+            videos: item.videos.map(v => ({
+                id: v.id,
+                title: v.title,
+                season: v.season,
+                episode: v.episode
+            }))
         }
-    }
-    return Promise.resolve({ meta: null });
+    });
 });
 
-// Handle Stream Request
+// 3. Stream Handler
 builder.defineStreamHandler(({ id }) => {
     for (const catKey in datasets) {
-        const catalog = datasets[catKey];
-        const foundIndex = catalog.videos.findIndex((v, i) => `${catKey}_${i + 1}` === id);
-        if (foundIndex !== -1) {
-            const video = catalog.videos[foundIndex];
+        const item = datasets[catKey];
+        const foundVideo = item.videos.find(v => v.id === id);
+        if (foundVideo) {
             return Promise.resolve({
                 streams: [{
-                    title: video.title,
-                    url: video.url
+                    title: foundVideo.title,
+                    url: foundVideo.url
                 }]
             });
         }
@@ -1377,6 +1368,8 @@ builder.defineStreamHandler(({ id }) => {
     return Promise.resolve({ streams: [] });
 });
 
+const port = process.env.PORT || 7000;
+serveHTTP(builder.getInterface(), { port: port });
 // Jalankan Pelayan Addon (Menggunakan builder.getInterface())
 const port = process.env.PORT || 7000;
 serveHTTP(builder.getInterface(), { port: port });
