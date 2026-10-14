@@ -1368,8 +1368,7 @@ builder.defineStreamHandler(({ id }) => {
     return Promise.resolve({ streams: [] });
 });
 
-const port = process.env.PORT || 7000;
-serveHTTP(builder.getInterface(), { port: port });
 // Jalankan Pelayan Addon (Menggunakan builder.getInterface())
 const port = process.env.PORT || 7000;
 serveHTTP(builder.getInterface(), { port: port });
+
