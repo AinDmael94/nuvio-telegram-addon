@@ -404,7 +404,7 @@ const seriesDatabase = {
             { title: "Episod 324: Goodbye Gary", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc79936e979983cdce56b7" }
         ])
     },
-        id: "running_man_3",
+        id: "running_man_2",
         type: "series",
         name: "Runningman 325-345",
         poster: "https://i.postimg.cc/kgc9P8gW/RM-YSC-JSM.jpg",
