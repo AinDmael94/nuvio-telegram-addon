@@ -4,15 +4,14 @@ const http = require('http');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// PROXY FIX - untuk bypass link mati
+app.get('/', (req, res) => res.send('Addon Hidup - DaRyz'));
+
+// --- PROXY UNTUK BYPASS ---
 app.get('/proxy', (req, res) => {
   const videoUrl = req.query.url;
   if (!videoUrl) return res.status(400).send('Need ?url=');
   const client = videoUrl.startsWith('https') ? https : http;
-  const options = {
-    headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36', 'Referer': '' }
-  };
-  client.get(videoUrl, options, (videoStream) => {
+  client.get(videoUrl, { headers: { 'User-Agent': 'Mozilla/5.0' } }, (videoStream) => {
     if (videoStream.statusCode >= 300 && videoStream.statusCode < 400 && videoStream.headers.location) {
       return res.redirect(videoStream.headers.location);
     }
@@ -20,20 +19,19 @@ app.get('/proxy', (req, res) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
     videoStream.pipe(res);
   }).on('error', (err) => {
-    res.status(500).json({ error: 'Source asal dah mati di Railway', detail: err.message });
+    res.status(500).json({ error: 'Source asal mati di Railway', detail: err.message });
   });
 });
 
-// Fungsi pembantu untuk menjana senarai episod
+// --- Fungsi episod - NI KAU PUNYA YANG BETUL ---
 function createEpisodes(episodesList) {
-    return episodesList.map((ep, index) => ({
-        id: `ep_${index + 1}`,
-        episode: index + 1,
-        title: ep.title,
-        description: ep.description || "",
-        // Terus guna pautan /dl/ dari Telegram bot anda
-streams: [{ title: "DaRyz Stream (Proxy)", url: `https://nuvio-telegram-addon.onrender.com/proxy?url=${encodeURIComponent(ep.url)}` }]
-    }));
+  return episodesList.map((ep, index) => ({
+    id: `ep_${index + 1}`,
+    episode: index + 1,
+    title: ep.title,
+    description: ep.description || "",
+    streams: [{ title: "DaRyz Stream (Proxy)", url: `https://nuvio-telegram-addon.onrender.com/proxy?url=${encodeURIComponent(ep.url)}` }]
+  }));
 }
 
 // Data Katalog Running Man
@@ -925,83 +923,39 @@ app.use((req, res, next) => {
 
 // Endpoint Manifest Addon
 app.get('/manifest.json', (req, res) => {
-    res.json({
-        id: 'org.nuviotelegramaddon',
-        version: '1.0.0',
-        name: 'Running Man Telegram Addon',
-        description: 'Addon Stremio untuk koleksi video Running Man',
-        types: ['series'],
-        catalogs: [
-            {
-                type: 'series',
-                id: 'running_man_catalog',
-                name: 'Running Man Telegram'
-            }
-        ],
-        resources: ['catalog', 'meta', 'stream']
-    });
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.json({
+    id: 'com.daryz.telegram',
+    version: '1.0.5',
+    name: 'DaRyz Telegram Addon',
+    description: 'Running Man Addon',
+    resources: ['catalog', 'meta', 'stream'],
+    types: ['series'],
+    catalogs: [{ type: 'series', id: 'daryz-series' }]
+  });
 });
 
-// Endpoint Catalog
-app.get('/catalog/:type/:id.json', (req, res) => {
-    const metas = catalogData.map(item => ({
-        id: item.id,
-        type: item.type,
-        name: item.name,
-        poster: item.poster,
-        description: item.description
-    }));
-    res.json({ metas });
+app.get('/catalog/series/daryz-series.json', (req, res) => {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  const metas = catalogData.map(s => ({ id: s.id, type: s.type, name: s.name, poster: s.poster }));
+  res.json({ metas });
 });
 
-// Endpoint Meta
-app.get('/meta/:type/:id.json', (req, res) => {
+app.get('/meta/series/:id.json', (req, res) => {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  const series = catalogData.find(item => item.id === req.params.id);
+  if (!series) return res.status(404).json({ error: "Not found" });
+  res.json({ meta: series });
+});
+
+app.get('/stream/series/:id.json', (req, res) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
-    const { id } = req.params;
-    const series = catalogData.find(item => item.id === id);
-    if (!series) {
-        return res.status(404).json({ error: "Not found" });
-    }
-    const host = req.get('host');
-    const protocol = req.get('x-forwarded-proto') || req.protocol;
-    const baseUrl = `${protocol}://${host}`;
-    const proxiedVideos = series.videos.map(v => {
-        const needProxy = v.url.includes('filestreambot') || v.url.includes('railway');
-        if (needProxy) {
-            return { ...v, url: `${baseUrl}/proxy?url=${encodeURIComponent(v.url)}` };
-        }
-        return v;
-    });
-    res.json({
-        meta: {
-            id: series.id,
-            type: series.type,
-            name: series.name,
-            poster: series.poster,
-            description: series.description,
-            videos: proxiedVideos
-        }
-    });
+    const [seriesId, episodeId] = req.params.id.split(':');
+    const series = catalogData.find(s => s.id === seriesId);
+    if (!series) return res.status(404).json({ streams: [] });
+    const episode = series.videos.find(v => v.id === episodeId);
+    if (!episode) return res.status(404).json({ streams: [] });
+    res.json({ streams: episode.streams });
 });
 
-// Endpoint Stream
-app.get('/stream/:type/:id.json', (req, res) => {
-    const { id } = req.params;
-    
-    for (const series of catalogData) {
-        const video = series.videos.find(v => v.id === id);
-        if (video) {
-            return res.json({ streams: video.streams });
-        }
-    }
-    
-    res.json({ streams: [] });
-});
-
-app.get('/', (req, res) => {
-    res.send('Running Man Stremio Addon Server is running!');
-});
-
-app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
-});
+app.listen(PORT, () => console.log(`Running on ${PORT}`));
