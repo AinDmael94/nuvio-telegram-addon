@@ -362,7 +362,7 @@ const seriesDatabase = {
             { title: "Episode 263 ∙ Beautiful Youth Race", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc78296e979983cdce567a" },
             { title: "Episode 264 ∙ The Legendary Detectives Race", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc782a6e979983cdce567b" },
             { title: "Episode 265 ∙ Escape from the Desert Island", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc782a6e979983cdce567c" },
-            { title: "Episode 266 ∙ Rest Stop Specialty Food Tour", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc78566e979983cdce567d" }
+            { title: "Episode 266 ∙ Rest Stop Specialty Food Tour", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc78566e979983cdce567d" },
             { title: "Episode 267 ∙ Running Man Special: Consensus", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc78566e979983cdce567e" },
             { title: "Episode 268 ∙ The Legendary Couple Ring Race", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc785b6e979983cdce567f" },
             { title: "Episode 269 ∙ The Legacy", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc785b6e979983cdce5680" },
