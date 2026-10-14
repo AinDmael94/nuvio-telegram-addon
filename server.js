@@ -746,7 +746,7 @@ const seriesDatabase = {
             { title: "Episode 620 ∙ My Way with 'Strong' Momentum", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc89ab6e979983cdce57df" },
             { title: "Episode 621 ∙ He Said He Wants to Go to Gangwon-do. Part 1", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc89b16e979983cdce57e0" },
             { title: "Episode 622 ∙ He Said He Wants to Go to Gangwon-do. Part 2/Anyway, The Penalty is...", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc89b16e979983cdce57e1" },
-            { title: "Episode 623 ∙ Go! Stop!", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc89b66e979983cdce57e2" }
+            { title: "Episode 623 ∙ Go! Stop!", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc89b66e979983cdce57e2" },
             { title: "Episode 624 ∙ Go! Stop!/Expert Run, Have I Eaten The Rice?", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc89b66e979983cdce57e3" },
             { title: "Episode 625 ∙ Take a Tour Around At a Well-known Neighborhood", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc89e26e979983cdce57e4" },
             { title: "Episode 626 ∙ Show Me The Fight Money", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc89e36e979983cdce57e5" },
