@@ -452,7 +452,7 @@ const seriesDatabase = {
             "https://files.catbox.moe/lur6di.mp4", "https://files.catbox.moe/y6cidm.mp4", "https://files.catbox.moe/40q9mb.mp4", "https://files.catbox.moe/14uoer.mp4", "https://files.catbox.moe/tnu1yq.mp4",
             "https://files.catbox.moe/jqn9l7.mp4", "https://files.catbox.moe/75bfy0.mp4", "https://files.catbox.moe/mpwbnh.mp4", "https://files.catbox.moe/2sjant.mp4", "https://files.catbox.moe/khkto1.mp4",
             "https://files.catbox.moe/r0w4yb.mp4", "https://files.catbox.moe/25qjxr.mp4", "https://files.catbox.moe/z81zu8.mp4", "https://files.catbox.moe/22zj5h.mp4", "https://files.catbox.moe/prdrno.mp4",
-            "https://files.catbox.moe/c81md0.mp4", "https://files.catbox.moe/hkiu08.mp4", "https://files.catbox.moe/f0uzr4.mp4", "https://files.catbox.moe/a1cqxl.mp4"
+            "https://files.catbox.moe/c81md0.mp4", "https://files.catbox.moe/hkiu08.mp4", "https://files.catbox.moe/f0uzr4.mp4", "https://files.catbox.moe/a1cqxl.mp4",
             { title: "Doraemon: The Record of Nobita's Parallel Visit to the West (1988)", poster: 'https://i.postimg.cc/K8McK6Wz/D1.jpg', url: "https://filestreambot-production-bef2.up.railway.app/dl/6accab1d6e979983cdce5a66" },
             { title: "Doraemon: Nobita's Treasure Island (2018)", poster: 'https://i.postimg.cc/cJGxfDqT/D2.jpg', url: "https://filestreambot-production-bef2.up.railway.app/dl/6accab1d6e979983cdce5a68" },
             { title: "Doraemon: Great Adventure in The Antarctic Kachi Kochi (2017)", poster: 'https://i.postimg.cc/L814qcbG/D3.jpg', url: "https://filestreambot-production-bef2.up.railway.app/dl/6accab1d6e979983cdce5a67" },
