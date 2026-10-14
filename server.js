@@ -26,7 +26,7 @@ const manifest = {
 
 const builder = new addonBuilder(manifest);
 
-// Pangkalan Data Penuh Setiap Katalog & Episod Tanpa Tercicir
+// Pangkalan Data Penuh Setiap Katalog & Episod
 const datasets = {
     'kids_delights_malay': {
         name: 'Kids Delights (Malay Ver)',
@@ -708,6 +708,6 @@ builder.defineStreamHandler(({ id }) => {
     return Promise.resolve({ streams: [] });
 });
 
-// Jalankan Pelayan Addon (Render menggunakan process.env.PORT)
+// Jalankan Pelayan Addon (Menggunakan builder.getInterface())
 const port = process.env.PORT || 7000;
-serveHTTP(builder.interface, { port: port });
+serveHTTP(builder.getInterface(), { port: port });
