@@ -1,5 +1,6 @@
 const express = require('express');
-const axios = require('axios'); // Pastikan anda pasang pakej ini jika belum (npm install axios)
+const https = require('https');
+const http = require('http');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
@@ -10,7 +11,6 @@ function createEpisodes(episodesList) {
         episode: index + 1,
         title: ep.title,
         description: ep.description || "",
-        // Kita hala pautan stream ke proxy pelayan kita sendiri
         streams: [{ title: "DaRyz Stream (Proxy)", url: `https://${process.env.RENDER_EXTERNAL_HOSTNAME || 'localhost:3000'}/proxy?url=${encodeURIComponent(ep.url)}` }]
     }));
 }
@@ -896,36 +896,40 @@ const catalogData = [
 ];
 
 // Header CORS wajib untuk Stremio / Nuvio
-app.get('/proxy', async (req, res) => {
+app.use((req, res, next) => {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Headers', '*');
+    next();
+});
+
+// Endpoint Proxy menggunakan modul asal Node.js (tiada npm install diperlukan)
+app.get('/proxy', (req, res) => {
     const targetUrl = req.query.url;
     if (!targetUrl) {
         return res.status(400).send('URL tidak disertakan');
     }
 
-    try {
-        // Minta data daripada bot Railway dengan sokongan range header (untuk fungsi 'seek' video)
-        const response = await axios({
-            method: 'get',
-            url: targetUrl,
-            responseType: 'stream',
-            headers: {
-                Range: req.headers.range || 'bytes=0-'
-            }
-        });
+    const client = targetUrl.startsWith('https') ? https : http;
 
-        // Salin headers penting ke respons Stremio
-        res.writeHead(response.status, {
-            'Content-Type': response.headers['content-type'] || 'video/mp4',
-            'Content-Length': response.headers['content-length'],
+    const proxyReq = client.get(targetUrl, {
+        headers: {
+            Range: req.headers.range || 'bytes=0-'
+        }
+    }, (proxyRes) => {
+        res.writeHead(proxyRes.statusCode, {
+            'Content-Type': proxyRes.headers['content-type'] || 'video/mp4',
+            'Content-Length': proxyRes.headers['content-length'],
             'Accept-Ranges': 'bytes',
-            'Content-Range': response.headers['content-range']
+            'Content-Range': proxyRes.headers['content-range']
         });
 
-        response.data.pipe(res);
-    } catch (error) {
+        proxyRes.pipe(res);
+    });
+
+    proxyReq.on('error', (error) => {
         console.error('Ralat Proxy:', error.message);
         res.status(500).send('Gagal memuat turun strim video.');
-    }
+    });
 });
 
 // 1. Endpoint Manifest Addon
