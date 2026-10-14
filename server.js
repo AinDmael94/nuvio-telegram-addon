@@ -626,7 +626,7 @@ const seriesDatabase = {
             { title: "Episode 509 ∙ The Superpowers School Race: The Superpowers War: Endgame", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc82386e979983cdce576f" },
             { title: "Episode 510 ∙ Find the Secret of Reincarnation: Reincarnation Camp 2020", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc823d6e979983cdce5770" },
             { title: "Episode 511 ∙ 10th Anniversary Live Broadcast: Provocation by Running Man Thief", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc823d6e979983cdce5771" },
-            { title: "Episode 512 ∙ The 1st Tazza Hip Chairman Election: Battle of the Workers", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc826b6e979983cdce5772" } 
+            { title: "Episode 512 ∙ The 1st Tazza Hip Chairman Election: Battle of the Workers", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc826b6e979983cdce5772" },
             { title: "Episode 513 ∙ Capitalistic Race with Partners: Don't Worry Be Happy", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc826b6e979983cdce5773" },
             { title: "Episode 514 ∙ Find My Family Race: Little Sister Is Cannot Stop", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc82716e979983cdce5774" },
             { title: "Episode 515 ∙ 2 Person Prison Break Race, My Unfamiliar Partner", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc82716e979983cdce5775" },
