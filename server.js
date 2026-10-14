@@ -2,14 +2,15 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Fungsi pembantu untuk menjana senarai episod dengan nombor dan tajuk yang betul
+// Fungsi pembantu untuk menjana senarai episod
 function createEpisodes(episodesList) {
     return episodesList.map((ep, index) => ({
         id: `ep_${index + 1}`,
         episode: index + 1,
         title: ep.title,
         description: ep.description || "",
-        streams: [{ title: "DaRyz Stream", url: ep.url }]
+        // Terus guna pautan /dl/ dari Telegram bot anda
+        streams: [{ title: "DaRyz Stream (Direct)", url: ep.url }]
     }));
 }
 
@@ -900,7 +901,7 @@ app.use((req, res, next) => {
     next();
 });
 
-// 1. Endpoint Manifest Addon
+// Endpoint Manifest Addon
 app.get('/manifest.json', (req, res) => {
     res.json({
         id: 'org.nuviotelegramaddon',
@@ -919,7 +920,7 @@ app.get('/manifest.json', (req, res) => {
     });
 });
 
-// 2. Endpoint Catalog
+// Endpoint Catalog
 app.get('/catalog/:type/:id.json', (req, res) => {
     const metas = catalogData.map(item => ({
         id: item.id,
@@ -931,7 +932,7 @@ app.get('/catalog/:type/:id.json', (req, res) => {
     res.json({ metas });
 });
 
-// 3. Endpoint Meta (Butiran Siri & Senarai Episod)
+// Endpoint Meta
 app.get('/meta/:type/:id.json', (req, res) => {
     const { id } = req.params;
     const series = catalogData.find(item => item.id === id);
@@ -950,7 +951,6 @@ app.get('/meta/:type/:id.json', (req, res) => {
             videos: series.videos.map(v => ({
                 id: v.id,
                 title: v.title,
-                season: v.season,
                 episode: v.episode,
                 overview: v.description
             }))
@@ -958,9 +958,9 @@ app.get('/meta/:type/:id.json', (req, res) => {
     });
 });
 
-// 4. Endpoint Stream (Menghantar pautan video sebenar ke Nuvio/Stremio)
+// Endpoint Stream
 app.get('/stream/:type/:id.json', (req, res) => {
-    const { id } = req.params; // Contoh: running_man_1_ep_1
+    const { id } = req.params;
     
     for (const series of catalogData) {
         const video = series.videos.find(v => v.id === id);
@@ -972,9 +972,8 @@ app.get('/stream/:type/:id.json', (req, res) => {
     res.json({ streams: [] });
 });
 
-// Root endpoint rujukan
 app.get('/', (req, res) => {
-    res.send('Running Man Stremio Addon Server is running successfully!');
+    res.send('Running Man Stremio Addon Server is running!');
 });
 
 app.listen(PORT, () => {
