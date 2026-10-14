@@ -1,6 +1,23 @@
 const express = require('express');
+const https = require('https');
+const http = require('http');
 const app = express();
 const PORT = process.env.PORT || 3000;
+// PROXY FIX - letak sini
+app.get('/proxy', (req, res) => {
+  const videoUrl = req.query.url;
+  if (!videoUrl) return res.status(400).send('Need ?url=');
+  const client = videoUrl.startsWith('https') ? https : http;
+  client.get(videoUrl, {
+    headers: { 'User-Agent': 'Mozilla/5.0' }
+  }, (videoStream) => {
+    res.setHeader('Content-Type', videoStream.headers['content-type'] || 'video/mp4');
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    videoStream.pipe(res);
+  }).on('error', (err) => {
+    res.status(500).json({ error: 'Source mati', detail: err.message });
+  });
+});
 
 // Fungsi pembantu untuk menjana senarai episod
 function createEpisodes(episodesList) {
@@ -10,7 +27,7 @@ function createEpisodes(episodesList) {
         title: ep.title,
         description: ep.description || "",
         // Terus guna pautan /dl/ dari Telegram bot anda
-        streams: [{ title: "DaRyz Stream (Direct)", url: ep.url }]
+streams: [{ title: "DaRyz Stream (Proxy)", url: `https://nuvio-telegram-addon.onrender.com/proxy?url=${encodeURIComponent(ep.url)}` }]
     }));
 }
 
