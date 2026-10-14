@@ -63,8 +63,9 @@ const manifest = {
         { type: "series", id: "shin_chan_catalog", name: "Crayon Shin Chan" },
         { type: "series", id: "akhir_zaman_catalog", name: "Kisah Hidup Akhir Zaman" },
         { type: "series", id: "kd_malay_catalog", name: "Kids Delights (Malay)" },
-        { type: "series", id: "kd_eng_catalog", name: "Kids Delights (Eng)" },
-        { type: "series", id: "naruto_catalog", name: "Naruto" }
+        { type: "series", id: "naruto_catalog", name: "Naruto" },
+        { type: "series", id: "kd_eng_catalog", name: "Kids Delights (Eng)" }
+        
     ]
 };
 
@@ -655,18 +656,6 @@ const seriesDatabase = {
             "https://files.catbox.moe/rsobpn.mp4"
         ])
     },
-    "kd_eng_catalog": {
-        id: "kd_eng_series",
-        catalogId: "kd_eng_catalog",
-        name: "Kids Delights (Eng Vers)",
-        poster: "https://i.postimg.cc/FsKg8hfM/KD.jpg",
-        description: "Koleksi Episod Kids Delights English Version.",
-        episodes: createEpisodes([
-            "https://files.catbox.moe/6uzimm.mp4", "https://files.catbox.moe/14zl0x.mp4", "https://files.catbox.moe/3u4p9f.mp4",
-            "https://files.catbox.moe/a1qpn5.mp4", "https://files.catbox.moe/c23e8f.mp4", "https://files.catbox.moe/vmpp8r.mp4",
-            "https://files.catbox.moe/izkdg9.mp4"
-        ])
-    },
     "naruto_catalog": {
         id: "naruto_series",
         catalogId: "naruto_catalog",
@@ -684,6 +673,18 @@ const seriesDatabase = {
             { title: "Episod 8: Sumpahan Kesatriaan", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc02a16e979983cdce55cf" },
             { title: "Episod 9: Kakashi: Pahlawan Bermata Sharingan", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc02a16e979983cdce55d0" },
             { title: "Episod 10: Hutan Chakra", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc02a16e979983cdce55d1" }
+        ])
+    },
+    "kd_eng_catalog": {
+        id: "kd_eng_series",
+        catalogId: "kd_eng_catalog",
+        name: "Kids Delights (Eng Vers)",
+        poster: "https://i.postimg.cc/FsKg8hfM/KD.jpg",
+        description: "Koleksi Episod Kids Delights English Version.",
+        episodes: createEpisodes([
+            "https://files.catbox.moe/6uzimm.mp4", "https://files.catbox.moe/14zl0x.mp4", "https://files.catbox.moe/3u4p9f.mp4",
+            "https://files.catbox.moe/a1qpn5.mp4", "https://files.catbox.moe/c23e8f.mp4", "https://files.catbox.moe/vmpp8r.mp4",
+            "https://files.catbox.moe/izkdg9.mp4"
         ])
     }
 };
