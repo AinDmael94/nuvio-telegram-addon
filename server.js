@@ -460,7 +460,7 @@ const seriesDatabase = {
         poster: "https://i.postimg.cc/kgc9P8gW/RM-YSC-JSM.jpg",
         description: "Koleksi Episod Running Man (Episod 346 - 559).",
         episodes: createEpisodes([
-            { title: "Episode 346 ∙  
+            { title: "Episode 346 ∙ Global Project - Dangerous Goddess; Part I", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc7e9b6e979983cdce56d0" },
             { title: "Episode 347 ∙ Global Project - Dangerous Goddess; Part II", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc7e9b6e979983cdce56d2" },
             { title: "Episode 348 ∙ Global Project - Dangerous Bag; Part 3", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc7e9b6e979983cdce56d1" },
             { title: "Episode 349 ∙ Global Project - Dangerous Visiting; Part 4", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc7e9b6e979983cdce56cd" },
