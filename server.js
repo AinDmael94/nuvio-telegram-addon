@@ -1304,7 +1304,7 @@ const datasets = {
             { title: "Prophet Yaaqub AS - Patience And The Legacy Of Tawhid", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace53996e979983cdce5cf8", image: "https://i.postimg.cc/Tw30v9WR/Kisah-Nabi-Yaaqub.jpg" },
             { title: "Prophet Yusuf AS - From Dark Well To The Throne Of Egypt", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace53a16e979983cdce5cfd", image: "https://i.postimg.cc/PqzVjJ3D/Kisah-Nabi-Yusuf.jpg" },
             { title: "Prophet Yunus AS - A Miracle In The Belly Of The Fish", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace53996e979983cdce5cfc", image: "https://i.postimg.cc/bJtg3v77/image-c1cc390e.jpg" }
-        })
+        ])
     }
 };
 
