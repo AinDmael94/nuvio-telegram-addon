@@ -433,6 +433,7 @@ const seriesDatabase = {
             { title: "Episod 345: King of the Booking Race", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc7aac6e979983cdce56cc" }
         ])
     },
+    {
         id: "running_man_3",
         type: "series",
         name: "Runningman 346-559",
@@ -655,6 +656,7 @@ const seriesDatabase = {
             { title: "Episod 559: Goodbye, Our Special Brother", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc83756e979983cdce57a2" }
         ])
     },
+    {
         id: "running_man_4",
         type: "series",
         name: "Runningman 560-679",
@@ -783,6 +785,7 @@ const seriesDatabase = {
             { title: "Episod 679: Goodbye So-Min", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc8b1b6e979983cdce581a" }
         ])
     },
+    {
         id: "running_man_5",
         type: "series",
         name: "Runningman 680-732",
@@ -844,6 +847,7 @@ const seriesDatabase = {
             { title: "Episod 732: Cool Running Year-End Party", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc90696e979983cdce5851" }
         ])
     },
+    {
         id: "running_man_6",
         type: "series",
         name: "Runningman 733-822",
