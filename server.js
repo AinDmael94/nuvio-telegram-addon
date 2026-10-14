@@ -1,3 +1,4 @@
+JavaScript
 const { addonBuilder, serveHTTP } = require('stremio-addon-sdk');
 
 const manifest = {
@@ -7,14 +8,14 @@ const manifest = {
     description: 'Addon rasmi DaRyz Stream',
     types: ['series', 'movie'],
     catalogs: [
-{ id: 'running_man_catalog', type: 'series', name: 'Runningman 1-324' },
-        { id: 'running_man1_catalog', type: 'series', name: 'Runningman 325-345' },
-        { id: 'running_man2_catalog', type: 'series', name: 'Runningman 346-559' },
-        { id: 'running_man3_catalog', type: 'series', name: 'Runningman 560-679' },
-        { id: 'running_man4_catalog', type: 'series', name: 'Runningman 680-732' },
-        { id: 'running_man5_catalog', type: 'series', name: 'Runningman 733-822' },
+        { id: 'running_man_1', type: 'series', name: 'Runningman 1-324' },
+        { id: 'running_man_2', type: 'series', name: 'Runningman 325-345' },
+        { id: 'running_man_3', type: 'series', name: 'Runningman 346-559' },
+        { id: 'running_man_4', type: 'series', name: 'Runningman 560-679' },
+        { id: 'running_man_5', type: 'series', name: 'Runningman 680-732' },
+        { id: 'running_man_6', type: 'series', name: 'Runningman 733-822' },
         { id: 'kisah_sahabat_catalog', type: 'series', name: 'Kisah Para Sahabat Nabi' },
-        { id: 'malaysian_movies_catalog', type: 'series', name: 'Malaysian Movies' },
+        { id: 'malaysian_movies_catalog', type: 'movie', name: 'Malaysian Movies' },
         { id: 'mahsyar_catalog', type: 'series', name: 'Mahsyar' },
         { id: 'filem_dakwah_sengketa_catalog', type: 'series', name: 'Filem Dakwah - Sengketa' },
         { id: 'hagemaru_catalog', type: 'series', name: 'Hagemaru' },
@@ -24,20 +25,6 @@ const manifest = {
         { id: 'midori_days_catalog', type: 'series', name: 'Midori Days' },
         { id: 'anak_sidek_catalog', type: 'series', name: 'Anak-Anak Sidek' },
         { id: 'ueki_catalog', type: 'series', name: 'The Law of Ueki' },
-        { id: 'satria_catalog', type: 'series', name: 'Satria 7 Pahlawan' },
-        { id: 'demonslayer_catalog', type: 'series', name: 'Demon Slayer' },
-        { id: 'jjk_catalog', type: 'series', name: 'Jujutsu Kaisen' },
-        { id: 'tomjerry_catalog', type: 'series', name: 'Tom & Jerry' },
-        { id: 'gundam_catalog', type: 'series', name: 'Gundam Build Fighters' },
-        { id: 'boruto_catalog', type: 'series', name: 'Boruto' },
-        { id: 'dbmovie_catalog', type: 'series', name: 'Dragon Ball Movie' },
-        { id: 'naruto_catalog', type: 'series', name: 'Naruto' },
-        { id: 'narutomovie_catalog', type: 'series', name: 'Naruto Movie' },
-        { id: 'conan_catalog', type: 'series', name: 'Detective Conan' },
-        { id: 'conanmovie_catalog', type: 'series', name: 'Detective Conan' },
-        { id: 'chibimchan_catalog', type: 'series', name: 'Chibi Maruko Chan' },
-        { id: 'bokan_catalog', type: 'series', name: 'Time Bokan 24' },
-        { id: 'kaito_catalog', type: 'series', name: 'Magic Kaito' },
         { id: 'ginban_catalog', type: 'series', name: 'Ginban Kaleidoscope' },
         { id: 'black_cat_catalog', type: 'series', name: 'Black Cat' },
         { id: 'digimon_savers_catalog', type: 'series', name: 'Digimon Savers' },
@@ -46,30 +33,36 @@ const manifest = {
         { id: 'akhir_zaman_catalog', type: 'series', name: 'Kisah Hidup Akhir Zaman' },
         { id: 'kd_malay_catalog', type: 'series', name: 'Kids Delights (Malay)' },
         { id: 'kd_eng_catalog', type: 'series', name: 'Kids Delights (Eng)' }
-  ],
+    ],
     resources: ['catalog', 'meta', 'stream']
 };
 
 const builder = new addonBuilder(manifest);
-// Fungsi untuk memproses senarai episod
-function createEpisodes(episodesArray) {
-    return episodesArray.map((ep, index) => ({
-        id: `ep_${index + 1}`,
-        title: ep.title,
-        released: new Date().toISOString(),
-        streams: [{ title: ep.title, url: ep.url }]
-    }));
+
+// Fungsi pembantu untuk membina senarai video/episod yang seragam
+function createEpisodes(episodesArray, catalogId) {
+    return episodesArray.map((ep, index) => {
+        const title = typeof ep === 'string' ? `Episod ${index + 1}` : (ep.title || `Episod ${index + 1}`);
+        const url = typeof ep === 'string' ? ep : ep.url;
+        return {
+            id: `${catalogId}_ep_${index + 1}`,
+            title: title,
+            url: url,
+            season: 1,
+            episode: index + 1
+        };
+    });
 }
 
-// Pangkalan Data Penuh Setiap Katalog & Episod
+// Pangkalan Data Penuh (Setiap key unik sepadan dengan ID dalam manifest)
 const datasets = {
-    "running_man_catalog": {
-        id: "running_man_series",
-        catalogId: "running_man_catalog",
+    "running_man_1": {
+        id: "running_man_1",
+        type: "series",
         name: "Runningman 1-324",
         poster: "https://i.postimg.cc/wMYXFx0G/RM-2.jpg",
         description: "Koleksi Episod Running Man (Episod 1 - 324).",
-        episodes: createEpisodes([
+        videos: createEpisodes([
             { title: "Episod 1: Times Square", description: "Lee Hyori and Hwang Jung Eum join the casts for their first run. 2 teams are created 'Expensive' and 'Cheap' teams.", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acbff846e979983cdce555e" },
             { title: "Episod 2: Suwon World Cup Stadium, Part 1", description: "Lee Chun Hee and Goo Hara join in with the cast as they venture through Suwon stadium.", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc00196e979983cdce5561" },
             { title: "Episod 3: Suwon World Cup Stadium, Part 2", description: "Continuing on from Episode 2. More fierce games pursue and only 1 team will come out victorious!", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc00196e979983cdce555f" },
