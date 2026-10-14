@@ -1322,11 +1322,11 @@ builder.defineCatalogHandler(({ type, id }) => {
     const catalog = datasets[id];
     if (!catalog) return Promise.resolve({ metas: [] });
 
-    const metas = catalog.videos.map((item, index) => ({
-        id: `${id}_${index + 1}`,
-        type: catalog.type,
-        name: item.title,
-        poster: catalog.poster
+    const metas = catalog && catalog.videos ? catalog.videos.map((item, index) => ({
+    id: `${id}_${index + 1}`,
+    type: catalog.type,
+    name: item.title,
+    poster: catalog.poster
     }));
 
     return Promise.resolve({ metas });
