@@ -663,8 +663,8 @@ const seriesDatabase = {
         poster: "https://i.postimg.cc/Qtm6mtph/Naruto-DP.jpg",
         description: "Koleksi Series Naruto.",
         episodes: createEpisodes([
-            { title: "Episod 1: Masuk! Uzumaki Naruto!", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc02a16e979983cdce55c8" },
-            { title: "Episod 2: Nama Saya Konohamaru!", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc02a16e979983cdce55c9" },
+            { title: "Episod 1: Masuk! Uzumaki Naruto!", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc02a16e979983cdce55c8" },
+            { title: "Episod 2: Nama Saya Konohamaru!", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc02a16e979983cdce55c9" },
             { title: "Episod 3: Musuh Ketat! Sasuke dan Sakura", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc02a16e979983cdce55ca" },
             { title: "Episod 4: Lulus atau Gagal! Ujian Survival", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc02a16e979983cdce55cb" },
             { title: "Episod 5: Gagal? Keputusan Akhir Kakashi", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc02a16e979983cdce55cc" },
