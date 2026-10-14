@@ -776,12 +776,12 @@ const seriesDatabase = {
         description: "Koleksi Episod Kids Delights Bahasa Melayu.",
         episodes: createEpisodes([
             { title: "Nabi Nuh AS - Bahtera Penyelamat", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace52a16e979983cdce5cf3", image: "https://i.postimg.cc/qMvTZV7c/Kisah-Nabi-Nuh.jpg" },
-            { title: "Nabi Nuh AS - Bahtera Penyelamat", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace52a16e979983cdce5cf3", image: "https://i.postimg.cc/qMvTZV7c/Kisah-Nabi-Nuh.jpg" },
             { title: "Nabi Ibrahim AS - Kekasih Allah Yang Taat", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace52a16e979983cdce5cf1", image: "https://i.postimg.cc/wTTfd9Lp/Kisah-Nabi-Ibrahim.jpg" },
             { title: "Nabi Ismail AS - Mukjizat Air Zam-Zam & Pengorbanan Besar", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace52a16e979983cdce5cf4", image: "https://i.postimg.cc/bwMptCpb/Kisah-Nabi-Ismail.jpg" },
             { title: "Nabi Ishaq AS - Rezeki Anak Di Usia Senja", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace52a16e979983cdce5cf2", image: "https://i.postimg.cc/xTwz3R04/Kisah-Nabi-Ishaq.jpg" },
-            { title: "Nabo Yaaqub AS - Sifat Sabar Dan Wasiat Tauhid", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace52a16e979983cdce5cf0", image: "https://i.postimg.cc/Tw30v9WR/Kisah-Nabi-Yaaqub.jpg" },
-            { title: "Nabi Yusuf AS - Dari Perigi Gelap Ke Takhta Mesir", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace52a26e979983cdce5cf5", image: "https://i.postimg.cc/PqzVjJ3D/Kisah-Nabi-Yusuf.jpg" } title: "Nabi Yunus AS - Keajaiban Di Dalam Perut Ikan Nun", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace52aa6e979983cdce5cf6", image: "https://i.postimg.cc/bJtg3v77/image-c1cc390e.jpg" }
+            { title: "Nabi Yaaqub AS - Sifat Sabar Dan Wasiat Tauhid", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace52a16e979983cdce5cf0", image: "https://i.postimg.cc/Tw30v9WR/Kisah-Nabi-Yaaqub.jpg" },
+            { title: "Nabi Yusuf AS - Dari Perigi Gelap Ke Takhta Mesir", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace52a26e979983cdce5cf5", image: "https://i.postimg.cc/PqzVjJ3D/Kisah-Nabi-Yusuf.jpg" },
+            { title: "Nabi Yunus AS - Keajaiban Di Dalam Perut Ikan Nun", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace52aa6e979983cdce5cf6", image: "https://i.postimg.cc/bJtg3v77/image-c1cc390e.jpg" }
         ])
     },
     "kd_eng_catalog": {
@@ -793,7 +793,8 @@ const seriesDatabase = {
         episodes: createEpisodes([
             { title: "Prophet Nuh AS - The Ark Of Safety", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace53996e979983cdce5cf9", image: "https://i.postimg.cc/qMvTZV7c/Kisah-Nabi-Nuh.jpg" },
             { title: "Prophet Ibrahim AS - The Close Friend Of Allah", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace53996e979983cdce5cf7", image: "https://i.postimg.cc/wTTfd9Lp/Kisah-Nabi-Ibrahim.jpg" },
-            { title: "Prophet Ismail AS - The Miracle Of Zam Zam & A Great Sacrifice", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace53996e979983cdce5cfb", image: "https://i.postimg.cc/bwMptCpb/Kisah-Nabi-Ismail.jpg" },{ title: "Prophet Ishaq AS - The Miracle Of A Long-Awaited Child", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace53996e979983cdce5cfa", image: "https://i.postimg.cc/xTwz3R04/Kisah-Nabi-Ishaq.jpg" },
+            { title: "Prophet Ismail AS - The Miracle Of Zam Zam & A Great Sacrifice", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace53996e979983cdce5cfb", image: "https://i.postimg.cc/bwMptCpb/Kisah-Nabi-Ismail.jpg" },
+            { title: "Prophet Ishaq AS - The Miracle Of A Long-Awaited Child", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace53996e979983cdce5cfa", image: "https://i.postimg.cc/xTwz3R04/Kisah-Nabi-Ishaq.jpg" },
             { title: "Prophet Yaaqub AS - Patience And The Legacy Of Tawhid", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace53996e979983cdce5cf8", image: "https://i.postimg.cc/Tw30v9WR/Kisah-Nabi-Yaaqub.jpg" },
             { title: "Prophet Yusuf AS - From Dark Well To The Throne Of Egypt", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace53a16e979983cdce5cfd", image: "https://i.postimg.cc/PqzVjJ3D/Kisah-Nabi-Yusuf.jpg" },
             { title: "Prophet Yunus AS - A Miracle In The Belly Of The Fish", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace53996e979983cdce5cfc", image: "https://i.postimg.cc/bJtg3v77/image-c1cc390e.jpg" }
