@@ -1,19 +1,21 @@
 const express = require('express');
+const axios = require('axios'); // Pastikan anda pasang pakej ini jika belum (npm install axios)
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Fungsi pembantu untuk menjana senarai episod dengan nombor dan tajuk yang betul
+// Fungsi pembantu untuk menjana senarai episod
 function createEpisodes(episodesList) {
     return episodesList.map((ep, index) => ({
         id: `ep_${index + 1}`,
         episode: index + 1,
         title: ep.title,
         description: ep.description || "",
-        streams: [{ title: "DaRyz Stream", url: ep.url }]
+        // Kita hala pautan stream ke proxy pelayan kita sendiri
+        streams: [{ title: "DaRyz Stream (Proxy)", url: `https://${process.env.RENDER_EXTERNAL_HOSTNAME || 'localhost:3000'}/proxy?url=${encodeURIComponent(ep.url)}` }]
     }));
 }
 
-// Data Katalog Running Man
+// Data Katalog Running Man (Contoh struktur asal anda)
 const catalogData = [
     {
         id: "running_man_1",
@@ -894,10 +896,36 @@ const catalogData = [
 ];
 
 // Header CORS wajib untuk Stremio / Nuvio
-app.use((req, res, next) => {
-    res.setHeader('Access-Control-Allow-Origin', '*');
-    res.setHeader('Access-Control-Allow-Headers', '*');
-    next();
+app.get('/proxy', async (req, res) => {
+    const targetUrl = req.query.url;
+    if (!targetUrl) {
+        return res.status(400).send('URL tidak disertakan');
+    }
+
+    try {
+        // Minta data daripada bot Railway dengan sokongan range header (untuk fungsi 'seek' video)
+        const response = await axios({
+            method: 'get',
+            url: targetUrl,
+            responseType: 'stream',
+            headers: {
+                Range: req.headers.range || 'bytes=0-'
+            }
+        });
+
+        // Salin headers penting ke respons Stremio
+        res.writeHead(response.status, {
+            'Content-Type': response.headers['content-type'] || 'video/mp4',
+            'Content-Length': response.headers['content-length'],
+            'Accept-Ranges': 'bytes',
+            'Content-Range': response.headers['content-range']
+        });
+
+        response.data.pipe(res);
+    } catch (error) {
+        console.error('Ralat Proxy:', error.message);
+        res.status(500).send('Gagal memuat turun strim video.');
+    }
 });
 
 // 1. Endpoint Manifest Addon
@@ -931,7 +959,7 @@ app.get('/catalog/:type/:id.json', (req, res) => {
     res.json({ metas });
 });
 
-// 3. Endpoint Meta (Butiran Siri & Senarai Episod)
+// 3. Endpoint Meta
 app.get('/meta/:type/:id.json', (req, res) => {
     const { id } = req.params;
     const series = catalogData.find(item => item.id === id);
@@ -950,7 +978,6 @@ app.get('/meta/:type/:id.json', (req, res) => {
             videos: series.videos.map(v => ({
                 id: v.id,
                 title: v.title,
-                season: v.season,
                 episode: v.episode,
                 overview: v.description
             }))
@@ -958,9 +985,9 @@ app.get('/meta/:type/:id.json', (req, res) => {
     });
 });
 
-// 4. Endpoint Stream (Menghantar pautan video sebenar ke Nuvio/Stremio)
+// 4. Endpoint Stream
 app.get('/stream/:type/:id.json', (req, res) => {
-    const { id } = req.params; // Contoh: running_man_1_ep_1
+    const { id } = req.params;
     
     for (const series of catalogData) {
         const video = series.videos.find(v => v.id === id);
@@ -972,9 +999,8 @@ app.get('/stream/:type/:id.json', (req, res) => {
     res.json({ streams: [] });
 });
 
-// Root endpoint rujukan
 app.get('/', (req, res) => {
-    res.send('Running Man Stremio Addon Server is running successfully!');
+    res.send('Running Man Stremio Addon Proxy Server is running!');
 });
 
 app.listen(PORT, () => {
