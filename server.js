@@ -1,95 +1,59 @@
-const express = require('express');
-const app = express();
-const PORT = process.env.PORT || 7000;
+const { addonBuilder, serveHTTP } = require('stremio-addon-sdk');
 
-app.use(express.json());
-
-// ==========================================
-// USER TRACKER & ANALYTICS STORAGE
-// ==========================================
-const uniqueUsers = new Set();
-const userActivity = {};
-
-// ==========================================
-// HELPER FUNCTION UNTUK TAJUK & DESCRIPTION EPISOD
-// ==========================================
-function createEpisodes(list) {
-    return list.map((item, idx) => {
-        if (typeof item === 'string') {
-            return { episode: idx + 1, title: `Episod ${idx + 1}`, overview: '', url: item };
-        }
-        return {
-            episode: idx + 1,
-            title: item.title || `Episod ${idx + 1}`,
-            overview: item.description || item.overview || '',
-            url: item.url
-        };
-    });
-}
-
-// ==========================================
-// 1. MANIFEST ADDON
-// ==========================================
 const manifest = {
-    id: "org.daryz.addon",
-    version: "4.2.0",
-    name: "DaRyz Collection Addon",
-    description: "Addon Stremio/Nuvio dengan katalog anime, ceramah, islami dan filem tersusun.",
-    resources: ["catalog", "stream", "meta"],
-    types: ["series"],
-    idPrefixes: [
-        "kisah_sahabat_series", "running_man_series", "mm_", "mahsyar_series", "filem_dakwah_sengketa_series", "hagemaru_series", "ninja_boy_series", 
-        "doraemon_series", "pokemon_journeys_series", "midori_days_series", "anak_anak_sidek_series", 
-        "ueki_series", "ginban_series", "black_cat_series", "digimon_savers_series", 
-        "digimon_01_series", "shin_chan_series", "akhir_zaman_series", "kd_malay_series", "kd_eng_series"
-    ],
+    id: 'addon.daryz.stream',
+    version: '1.0.0',
+    name: 'DaRyz Stream',
+    description: 'Addon rasmi DaRyz Stream untuk Kids Delights, Sengketa, Kisah Para Sahabat, Akhir Zaman, Mahsyar, Malaysian Movies, dan Running Man (1-822)',
+    types: ['series', 'movie'],
     catalogs: [
-        { type: "series", id: "running_man_catalog", name: "Runningman 1-324" },
-        { type: "series", id: "running_man_catalog", name: "Runningman 325-345" },
-        { type: "series", id: "running_man_catalog", name: "Runningman 346-559" },
-        { type: "series", id: "running_man_catalog", name: "Runningman 560-679" },
-        { type: "series", id: "running_man_catalog", name: "Runningman 680-732" },
-        { type: "series", id: "running_man_catalog", name: "Runningman 733-822" },
-        { type: "series", id: "kisah_sahabat_catalog", name: "Kisah Para Sahabat Nabi" },
-        { type: "series", id: "malaysian_movies_catalog", name: "Malaysian Movies" },
-        { type: "series", id: "mahsyar_catalog", name: "Mahsyar" },
-        { type: "series", id: "filem_dakwah_sengketa_catalog", name: "Filem Dakwah - Sengketa" },
-        { type: "series", id: "hagemaru_catalog", name: "Hagemaru" },
-        { type: "series", id: "ninja_boy_catalog", name: "Ninja Boy" },
-        { type: "series", id: "doraemon_catalog", name: "Doraemon" },
-        { type: "series", id: "pokemon_catalog", name: "Pokemon Journeys" },
-        { type: "series", id: "midori_days_catalog", name: "Midori Days" },
-        { type: "series", id: "anak_sidek_catalog", name: "Anak-Anak Sidek" },
-        { type: "series", id: "ueki_catalog", name: "The Law of Ueki" },
-        { type: "series", id: "satria_catalog", name: "Satria 7 Pahlawan" },
-        { type: "series", id: "demonslayer_catalog", name: "Demon Slayer" },
-        { type: "series", id: "jjk_catalog", name: "Jujutsu Kaisen" },
-        { type: "series", id: "tomjerry_catalog", name: "Tom & Jerry" },
-        { type: "series", id: "gundam_catalog", name: "Gundam Build Fighters" },
-        { type: "series", id: "boruto_catalog", name: "Boruto" },
-        { type: "series", id: "dbmovie_catalog", name: "Dragon Ball Movie" },
-        { type: "series", id: "naruto_catalog", name: "Naruto" },
-        { type: "series", id: "narutomovie_catalog", name: "Naruto Movie" },
-        { type: "series", id: "conan_catalog", name: "Detective Conan" },
-        { type: "series", id: "conanmovie_catalog", name: "Detective Conan" },
-        { type: "series", id: "chibimchan_catalog", name: "Chibi Maruko Chan" },
-        { type: "series", id: "bokan_catalog", name: "Time Bokan 24" },
-        { type: "series", id: "kaito_catalog", name: "Magic Kaito" },
-        { type: "series", id: "ginban_catalog", name: "Ginban Kaleidoscope" },
-        { type: "series", id: "black_cat_catalog", name: "Black Cat" },
-        { type: "series", id: "digimon_savers_catalog", name: "Digimon Savers" },
-        { type: "series", id: "digimon_01_catalog", name: "Digimon Adventure 01" },
-        { type: "series", id: "shin_chan_catalog", name: "Crayon Shin Chan" },
-        { type: "series", id: "akhir_zaman_catalog", name: "Kisah Hidup Akhir Zaman" },
-        { type: "series", id: "kd_malay_catalog", name: "Kids Delights (Malay)" },
-        { type: "series", id: "kd_eng_catalog", name: "Kids Delights (Eng)" }
-    ]
+{ id: 'running_man_catalog', type: 'series', name: 'Runningman 1-324' },
+        { id: 'running_man_catalog', type: 'series', name: 'Runningman 325-345' },
+        { id: 'running_man_catalog', type: 'series', name: 'Runningman 346-559' },
+        { id: 'running_man_catalog', type: 'series', name: 'Runningman 560-679' },
+        { id: 'running_man_catalog', type: 'series', name: 'Runningman 680-732' },
+        { id: 'running_man_catalog', type: 'series', name: 'Runningman 733-822' },
+        { id: 'kisah_sahabat_catalog', type: 'series', name: 'Kisah Para Sahabat Nabi' },
+        { id: 'malaysian_movies_catalog', type: 'series', name: 'Malaysian Movies' },
+        { id: 'mahsyar_catalog', type: 'series', name: 'Mahsyar' },
+        { id: 'filem_dakwah_sengketa_catalog', type: 'series', name: 'Filem Dakwah - Sengketa' },
+        { id: 'hagemaru_catalog', type: 'series', name: 'Hagemaru' },
+        { id: 'ninja_boy_catalog', type: 'series', name: 'Ninja Boy' },
+        { id: 'doraemon_catalog', type: 'series', name: 'Doraemon' },
+        { id: 'pokemon_catalog', type: 'series', name: 'Pokemon Journeys' },
+        { id: 'midori_days_catalog', type: 'series', name: 'Midori Days' },
+        { id: 'anak_sidek_catalog', type: 'series', name: 'Anak-Anak Sidek' },
+        { id: 'ueki_catalog', type: 'series', name: 'The Law of Ueki' },
+        { id: 'satria_catalog', type: 'series', name: 'Satria 7 Pahlawan' },
+        { id: 'demonslayer_catalog', type: 'series', name: 'Demon Slayer' },
+        { id: 'jjk_catalog', type: 'series', name: 'Jujutsu Kaisen' },
+        { id: 'tomjerry_catalog', type: 'series', name: 'Tom & Jerry' },
+        { id: 'gundam_catalog', type: 'series', name: 'Gundam Build Fighters' },
+        { id: 'boruto_catalog', type: 'series', name: 'Boruto' },
+        { id: 'dbmovie_catalog', type: 'series', name: 'Dragon Ball Movie' },
+        { id: 'naruto_catalog', type: 'series', name: 'Naruto' },
+        { id: 'narutomovie_catalog', type: 'series', name: 'Naruto Movie' },
+        { id: 'conan_catalog', type: 'series', name: 'Detective Conan' },
+        { id: 'conanmovie_catalog', type: 'series', name: 'Detective Conan' },
+        { id: 'chibimchan_catalog', type: 'series', name: 'Chibi Maruko Chan' },
+        { id: 'bokan_catalog', type: 'series', name: 'Time Bokan 24' },
+        { id: 'kaito_catalog', type: 'series', name: 'Magic Kaito' },
+        { id: 'ginban_catalog', type: 'series', name: 'Ginban Kaleidoscope' },
+        { id: 'black_cat_catalog', type: 'series', name: 'Black Cat' },
+        { id: 'digimon_savers_catalog', type: 'series', name: 'Digimon Savers' },
+        { id: 'digimon_01_catalog', type: 'series', name: 'Digimon Adventure 01' },
+        { id: 'shin_chan_catalog', type: 'series', name: 'Crayon Shin Chan' },
+        { id: 'akhir_zaman_catalog', type: 'series', name: 'Kisah Hidup Akhir Zaman' },
+        { id: 'kd_malay_catalog', type: 'series', name: 'Kids Delights (Malay)' },
+        { id: 'kd_eng_catalog', type: 'series', name: 'Kids Delights (Eng)' }
+  ],
+    resources: ['catalog', 'meta', 'stream']
 };
 
-// ==========================================
-// 2. DATABASE SENARAI SIRI & FILEM
-// ==========================================
-const seriesDatabase = {
+const builder = new addonBuilder(manifest);
+
+// Pangkalan Data Penuh Setiap Katalog & Episod
+const datasets = {
     "running_man_catalog": {
         id: "running_man_series",
         catalogId: "running_man_catalog",
@@ -1340,316 +1304,70 @@ const seriesDatabase = {
             { title: "Prophet Yaaqub AS - Patience And The Legacy Of Tawhid", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace53996e979983cdce5cf8", image: "https://i.postimg.cc/Tw30v9WR/Kisah-Nabi-Yaaqub.jpg" },
             { title: "Prophet Yusuf AS - From Dark Well To The Throne Of Egypt", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace53a16e979983cdce5cfd", image: "https://i.postimg.cc/PqzVjJ3D/Kisah-Nabi-Yusuf.jpg" },
             { title: "Prophet Yunus AS - A Miracle In The Belly Of The Fish", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6ace53996e979983cdce5cfc", image: "https://i.postimg.cc/bJtg3v77/image-c1cc390e.jpg" }
-        ])
+        })
     }
 };
 
-// ==========================================
-// 3. ROUTING SERVER & MIDDLEWARE
-// ==========================================
-app.use((req, res, next) => {
-    res.setHeader('Access-Control-Allow-Origin', '*');
-    res.setHeader('Access-Control-Allow-Headers', '*');
-    next();
+// Handle Catalog Request
+builder.defineCatalogHandler(({ type, id }) => {
+    const catalog = datasets[id];
+    if (!catalog) return Promise.resolve({ metas: [] });
+
+    const metas = catalog.videos.map((item, index) => ({
+        id: `${id}_${index + 1}`,
+        type: catalog.type,
+        name: item.title,
+        poster: catalog.poster
+    }));
+
+    return Promise.resolve({ metas });
 });
 
-// MIDDLEWARE DETECT AKTIVITI PENGGUNA
-app.use('/stremio/:user', (req, res, next) => {
-    const userId = req.params.user || req.ip;
-    uniqueUsers.add(userId);
-    userActivity[userId] = new Date().toLocaleString('ms-MY', { timeZone: 'Asia/Kuala_Lumpur' });
-    next();
-});
-
-app.post('/api/save-preferences', (req, res) => {
-    const { catalogOrder } = req.body;
-    if (Array.isArray(catalogOrder)) {
-        const newCatalogs = [];
-        catalogOrder.forEach(id => {
-            const cat = manifest.catalogs.find(c => c.id === id);
-            if (cat) newCatalogs.push(cat);
-        });
-        manifest.catalogs = newCatalogs;
-        return res.json({ success: true, message: "Susunan berjaya disimpan!" });
-    }
-    res.status(400).json({ success: false, message: "Data tak sah!" });
-});
-
-app.get('/stremio/:user/manifest.json', (req, res) => {
-    res.json(manifest);
-});
-
-app.get('/stremio/:user/catalog/:type/:id.json', (req, res) => {
-    const catalogId = req.params.id;
-    const series = seriesDatabase[catalogId];
-
-    if (series) {
-        if (series.isMulti) {
-            res.json({
-                metas: series.items.map(item => ({
-                    id: item.id,
-                    type: "series",
-                    name: item.name,
-                    poster: item.poster,
-                    description: item.description
-                }))
-            });
-        } else {
-            res.json({
-                metas: [{
-                    id: series.id,
-                    type: "series",
-                    name: series.name,
-                    poster: series.poster,
-                    description: series.description
-                }]
+// Handle Meta Request
+builder.defineMetaHandler(({ type, id }) => {
+    for (const catKey in datasets) {
+        const catalog = datasets[catKey];
+        const foundIndex = catalog.videos.findIndex((v, i) => `${catKey}_${i + 1}` === id);
+        if (foundIndex !== -1) {
+            const video = catalog.videos[foundIndex];
+            return Promise.resolve({
+                meta: {
+                    id: id,
+                    type: catalog.type,
+                    name: video.title,
+                    poster: catalog.poster,
+                    description: `${catalog.name} - ${video.title}`,
+                    videos: catalog.type === 'series' ? [{
+                        id: id,
+                        title: video.title,
+                        season: 1,
+                        episode: foundIndex + 1
+                    }] : undefined
+                }
             });
         }
-    } else {
-        res.json({ metas: [] });
     }
+    return Promise.resolve({ meta: null });
 });
 
-app.get('/stremio/:user/meta/:type/:id.json', (req, res) => {
-    const targetId = req.params.id.split(':')[0];
-
-    // Semak katalog pelbagai item (filem individual)
-    for (const cat of Object.values(seriesDatabase)) {
-        if (cat.isMulti) {
-            const item = cat.items.find(i => i.id === targetId);
-            if (item) {
-                return res.json({
-                    meta: {
-                        id: item.id,
-                        type: "series",
-                        name: item.name,
-                        poster: item.poster,
-                        description: item.description,
-                        videos: [{
-                            id: `${item.id}:1:1`,
-                            title: item.name,
-                            overview: item.description,
-                            season: 1,
-                            episode: 1,
-                            released: new Date().toISOString()
-                        }]
-                    }
-                });
-            }
-        }
-    }
-
-    // Semak siri individu biasa
-    const series = Object.values(seriesDatabase).find(s => s.id === targetId);
-
-    if (series) {
-        const videos = series.episodes.map(e => ({
-            id: `${series.id}:1:${e.episode}`,
-            title: e.title,
-            overview: e.overview || e.description || '',
-            season: 1,
-            episode: e.episode,
-            released: new Date().toISOString()
-        }));
-
-        res.json({
-            meta: {
-                id: series.id,
-                type: "series",
-                name: series.name,
-                poster: series.poster,
-                description: series.description,
-                videos: videos
-            }
-        });
-    } else {
-        res.status(404).json({ error: "Series not found" });
-    }
-});
-
-// ==========================================
-// STREAM ENDPOINT (DENGAN BINGEGROUP UNTUK AUTO-PLAY)
-// ==========================================
-app.get('/stremio/:user/stream/:type/:id.json', (req, res) => {
-    const parts = req.params.id.split(':');
-    const targetId = parts[0];
-    const episodeNum = parseInt(parts[2], 10) || 1;
-
-    // Semak filem dalam katalog pelbagai item
-    for (const cat of Object.values(seriesDatabase)) {
-        if (cat.isMulti) {
-            const item = cat.items.find(i => i.id === targetId);
-            if (item) {
-                return res.json({
-                    streams: [{
-                        title: `Direct HD (${item.name})`,
-                        url: item.url,
-                        behaviorHints: {
-                            bingeGroup: `${item.id}-hd`
-                        }
-                    }]
-                });
-            }
-        }
-    }
-
-    // Semak siri biasa
-    const series = Object.values(seriesDatabase).find(s => s.id === targetId);
-    if (series) {
-        const ep = series.episodes.find(e => e.episode === episodeNum);
-        if (ep) {
-            return res.json({
+// Handle Stream Request
+builder.defineStreamHandler(({ id }) => {
+    for (const catKey in datasets) {
+        const catalog = datasets[catKey];
+        const foundIndex = catalog.videos.findIndex((v, i) => `${catKey}_${i + 1}` === id);
+        if (foundIndex !== -1) {
+            const video = catalog.videos[foundIndex];
+            return Promise.resolve({
                 streams: [{
-                    title: `Direct HD (${ep.title})`,
-                    url: ep.url,
-                    behaviorHints: {
-                        bingeGroup: `${series.id}-hd`
-                    }
+                    title: video.title,
+                    url: video.url
                 }]
             });
         }
     }
-    res.json({ streams: [] });
+    return Promise.resolve({ streams: [] });
 });
 
-// ==========================================
-// 4. CONFIGURATOR UI WEB INTERFACE (WITH ANALYTICS)
-// ==========================================
-app.get('/', (req, res) => {
-    const catalogListHtml = manifest.catalogs.map((c) => `
-        <div class="catalog-item" data-id="${c.id}" style="display: flex; justify-content: space-between; align-items: center; background: #2a2a32; padding: 12px 16px; margin-bottom: 8px; border-radius: 8px; border: 1px solid #3a3a46;">
-            <span style="font-weight: 600; color: #fff;">👁️ ${c.name} <small style="color: #888;">(series)</small></span>
-            <div>
-                <button onclick="moveUp(this)" style="background: #383844; color: #fff; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer; margin-right: 4px;">▲</button>
-                <button onclick="moveDown(this)" style="background: #383844; color: #fff; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer;">▼</button>
-            </div>
-        </div>
-    `).join('');
-
-    const userListHtml = Array.from(uniqueUsers).length > 0
-        ? Array.from(uniqueUsers).map(u => `
-            <li style="margin-bottom: 6px; display: flex; justify-content: space-between; border-bottom: 1px dashed #2a2a32; padding-bottom: 4px;">
-                <span>👤 User ID: <strong style="color: #ffcc00;">${u}</strong></span>
-                <span style="color: #888; font-size: 11px;">Aktif: ${userActivity[u] || 'N/A'}</span>
-            </li>
-        `).join('')
-        : '<li style="color: #888;">Belum ada pengguna aktif.</li>';
-
-    let html = `
-    <!DOCTYPE html>
-    <html lang="ms">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>DaRyz Nuvio / Stremio Addon Config</title>
-        <style>
-            body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #18181c; color: #e1e1e6; margin: 0; padding: 40px 20px; display: flex; justify-content: center; }
-            .container { display: flex; flex-direction: column; gap: 20px; max-width: 900px; width: 100%; }
-            .row { display: flex; gap: 20px; width: 100%; }
-            .card { background: #202026; border-radius: 16px; padding: 24px; flex: 1; border: 1px solid #2d2d36; }
-            h2 { font-size: 18px; margin-top: 0; color: #fff; display: flex; align-items: center; gap: 8px; }
-            .btn-install { background: #ffcc00; color: #000; font-weight: bold; width: 100%; border: none; padding: 14px; border-radius: 8px; font-size: 15px; cursor: pointer; margin: 15px 0; text-align: center; text-decoration: none; display: block; box-sizing: border-box; }
-            .input-box { background: #121215; border: 1px solid #333; padding: 10px; border-radius: 6px; color: #aaa; font-family: monospace; font-size: 12px; margin-top: 10px; word-break: break-all; }
-            .btn-save { background: #ffcc00; color: #000; font-weight: bold; width: 100%; border: none; padding: 12px; border-radius: 8px; font-size: 14px; cursor: pointer; margin-top: 15px; }
-            .status-badge { background: #28a745; color: #fff; padding: 2px 8px; border-radius: 12px; font-size: 12px; }
-            .stat-box { background: #121215; border-radius: 8px; padding: 15px; text-align: center; margin-bottom: 15px; border: 1px solid #2d2d36; }
-            .stat-number { font-size: 28px; font-weight: bold; color: #ffcc00; }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <!-- Analytics Row -->
-            <div class="card">
-                <h2>📊 Live Analytics & User Tracker</h2>
-                <div class="stat-box">
-                    <div class="stat-number">${uniqueUsers.size}</div>
-                    <div style="font-size: 13px; color: #888; margin-top: 4px;">Jumlah Pengguna Unik Aktif</div>
-                </div>
-                <p style="font-size: 12px; font-weight: bold; color: #aaa; margin-bottom: 10px;">SENARAI PENGGUNA TERAKHIR:</p>
-                <ul style="list-style: none; padding: 0; margin: 0; font-size: 12px; max-height: 150px; overflow-y: auto;">
-                    ${userListHtml}
-                </ul>
-            </div>
-
-            <!-- Configuration Row -->
-            <div class="row">
-                <!-- Left Card -->
-                <div class="card">
-                    <h2>🎬 DaRyz Nuvio / Stremio Addon</h2>
-                    <p style="font-size: 13px; color: #888;">User: <span style="color: #fff; font-weight: bold;">DaRyz</span></p>
-                    <p style="font-size: 13px; color: #888;">Status: <span class="status-badge">Active</span></p>
-                    <p style="font-size: 13px; color: #888; margin-bottom: 20px;">Expires: <span style="color: #ffcc00; font-weight: bold;">Lifetime</span></p>
-
-                    <a href="stremio://nuvio-telegram-addon.onrender.com/stremio/user123/manifest.json" class="btn-install">Install / update in Nuvio Stremio</a>
-
-                    <p style="font-size: 12px; color: #888; margin-top: 20px; line-height: 1.5;">
-                        <strong>Prefer to do it manually?</strong><br>
-                        1. Open Stremio/Nuvio and go to the Add-ons tab<br>
-                        2. Click the Search / URL field<br>
-                        3. Paste the URL below and press Enter
-                    </p>
-
-                    <div class="input-box">https://nuvio-telegram-addon.onrender.com/stremio/user123/manifest.json</div>
-                </div>
-
-                <!-- Right Card -->
-                <div class="card">
-                    <h2>⚙️ Personalize</h2>
-                    <p style="font-size: 12px; color: #888; margin-bottom: 15px;">Tune quality and catalogs for your install.</p>
-                    <p style="font-size: 12px; font-weight: bold; color: #aaa; margin-bottom: 10px;">CATALOGS</p>
-
-                    <div id="catalog-list">
-                        ${catalogListHtml}
-                    </div>
-
-                    <button class="btn-save" onclick="savePreferences()">Save Preferences</button>
-                </div>
-            </div>
-        </div>
-
-        <script>
-            function moveUp(button) {
-                const item = button.closest('.catalog-item');
-                if (item.previousElementSibling) {
-                    item.parentNode.insertBefore(item, item.previousElementSibling);
-                }
-            }
-
-            function moveDown(button) {
-                const item = button.closest('.catalog-item');
-                if (item.nextElementSibling) {
-                    item.parentNode.insertBefore(item, item.nextElementSibling);
-                }
-            }
-
-            async function savePreferences() {
-                const items = document.querySelectorAll('.catalog-item');
-                const catalogOrder = Array.from(items).map(item => item.getAttribute('data-id'));
-
-                try {
-                    const response = await fetch('/api/save-preferences', {
-                        method: 'POST',
-                        headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify({ catalogOrder })
-                    });
-                    const resData = await response.json();
-                    if (resData.success) {
-                        alert('Preferences Saved! Susunan katalog kau telah disimpan.');
-                    } else {
-                        alert('Gagal menyimpan preferences.');
-                    }
-                } catch (e) {
-                    alert('Ralat sambungan server!');
-                }
-            }
-        </script>
-    </body>
-    </html>
-    `;
-    res.send(html);
-});
-
-// Start Server
-app.listen(process.env.PORT || 8080, () => {
-  console.log(`Server running on port ${process.env.PORT || 8080}`);
-});
+// Jalankan Pelayan Addon (Menggunakan builder.getInterface())
+const port = process.env.PORT || 7000;
+serveHTTP(builder.getInterface(), { port: port });
