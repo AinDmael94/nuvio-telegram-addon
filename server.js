@@ -822,7 +822,7 @@ const seriesDatabase = {
             { title: "Episode 687 ∙ 2nd Winter Festival (Winter Special)", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc8f246e979983cdce5825" },
             { title: "Episode 688 ∙ Will You be Satisfied with Me?", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc8f246e979983cdce5821" },
             { title: "Episode 689 ∙ Ji Seok-jin Oh~swa Healthy Oh~swa", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc8f246e979983cdce5826" },
-            { title: "Episode 690 ∙ Wonderful Value! for Money", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc8f276e979983cdce5828" }
+            { title: "Episode 690 ∙ Wonderful Value! for Money", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc8f276e979983cdce5828" },
             { title: "Episode 691 ∙ It Is the Ji's Family Who Repays the Favor (Lunar New Year Special)", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc8f276e979983cdce5827" },
             { title: "Episode 692 ∙ The Legendary Gold Bar", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc8f2c6e979983cdce582a" },
             { title: "Episode 693 ∙ I will Win in My Next Life. Part 1", url: "https://filestreambot-production-bef2.up.railway.app:8080/dl/6acc8f2c6e979983cdce5829" },
