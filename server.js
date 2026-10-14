@@ -51,6 +51,15 @@ const manifest = {
 };
 
 const builder = new addonBuilder(manifest);
+// Fungsi untuk memproses senarai episod
+function createEpisodes(episodesArray) {
+    return episodesArray.map((ep, index) => ({
+        id: `ep_${index + 1}`,
+        title: ep.title,
+        released: new Date().toISOString(),
+        streams: [{ title: ep.title, url: ep.url }]
+    }));
+}
 
 // Pangkalan Data Penuh Setiap Katalog & Episod
 const datasets = {
