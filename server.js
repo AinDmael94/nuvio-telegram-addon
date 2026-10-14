@@ -63,7 +63,8 @@ const manifest = {
         { type: "series", id: "shin_chan_catalog", name: "Crayon Shin Chan" },
         { type: "series", id: "akhir_zaman_catalog", name: "Kisah Hidup Akhir Zaman" },
         { type: "series", id: "kd_malay_catalog", name: "Kids Delights (Malay)" },
-        { type: "series", id: "kd_eng_catalog", name: "Kids Delights (Eng)" }
+        { type: "series", id: "kd_eng_catalog", name: "Kids Delights (Eng)" },
+        { type: "series", id: "naruto_catalog", name: "Naruto" }
     ]
 };
 
@@ -395,7 +396,29 @@ const seriesDatabase = {
         poster: "https://i.postimg.cc/8zS8nQF8/Hagemaru.jpg",
         description: "Koleksi Episod Hagemaru Bahasa Melayu.",
         episodes: createEpisodes([
-            { title: "Pasukan Bola Lisut Muda", url: "https://files.catbox.moe/05qmoa.mp4" }
+            { title: "Pasukan Bola Lisut Muda", url: "https://files.catbox.moe/05qmoa.mp4" },
+            { title: "Hagemaru - Episode 01", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acca6a96e979983cdce5a26" },
+            { title: "Hagemaru - Episode 02", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acca6a96e979983cdce5a24" },
+            { title: "Hagemaru - Episode 03", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acca6a96e979983cdce5a22" },
+            { title: "Hagemaru - Episode 04", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acca6a96e979983cdce5a23" },
+            { title: "Hagemaru - Episode 05", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acca6a96e979983cdce5a25" },
+            { title: "Hagemaru - Episode 06", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acca6a96e979983cdce5a27" },
+            { title: "Hagemaru - Episode 07", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acca6b16e979983cdce5a28" },
+            { title: "Hagemaru - Episode 08", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acca6b36e979983cdce5a2b" },
+            { title: "Hagemaru - Episode 09", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acca6b36e979983cdce5a29" },
+            { title: "Hagemaru - Episode 10", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acca6b36e979983cdce5a2a" },
+            { title: "Hagemaru - Episode 11", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acca6b66e979983cdce5a2c" },
+            { title: "Hagemaru - Episode 12", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acca6b66e979983cdce5a2d" },
+            { title: "Hagemaru - Episode 13", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acca6bc6e979983cdce5a2e" },
+            { title: "Hagemaru - Episode 14", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acca6bc6e979983cdce5a2f" },
+            { title: "Hagemaru - Episode 15", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acca6bc6e979983cdce5a30" },
+            { title: "Hagemaru - Episode 16", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acca6bc6e979983cdce5a31" },
+            { title: "Hagemaru - Episode 17", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acca6ef6e979983cdce5a32" },
+            { title: "Hagemaru - Episode 18", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acca6ef6e979983cdce5a33" },
+            { title: "Hagemaru - Episode 19", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acca6ef6e979983cdce5a34" },
+            { title: "Hagemaru - Episode 20", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acca6ef6e979983cdce5a35" },
+            { title: "Hagemaru - Episode 21", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acca6f66e979983cdce5a36" },
+            { title: "Hagemaru - Episode 22", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acca6fa6e979983cdce5a37" }
         ])
     },
     "ninja_boy_catalog": {
@@ -430,6 +453,25 @@ const seriesDatabase = {
             "https://files.catbox.moe/jqn9l7.mp4", "https://files.catbox.moe/75bfy0.mp4", "https://files.catbox.moe/mpwbnh.mp4", "https://files.catbox.moe/2sjant.mp4", "https://files.catbox.moe/khkto1.mp4",
             "https://files.catbox.moe/r0w4yb.mp4", "https://files.catbox.moe/25qjxr.mp4", "https://files.catbox.moe/z81zu8.mp4", "https://files.catbox.moe/22zj5h.mp4", "https://files.catbox.moe/prdrno.mp4",
             "https://files.catbox.moe/c81md0.mp4", "https://files.catbox.moe/hkiu08.mp4", "https://files.catbox.moe/f0uzr4.mp4", "https://files.catbox.moe/a1cqxl.mp4"
+            { title: "Doraemon: The Record of Nobita's Parallel Visit to the West (1988)", poster: 'https://i.postimg.cc/K8McK6Wz/D1.jpg', url: "https://filestreambot-production-bef2.up.railway.app/dl/6accab1d6e979983cdce5a66" },
+            { title: "Doraemon: Nobita's Treasure Island (2018)", poster: 'https://i.postimg.cc/cJGxfDqT/D2.jpg', url: "https://filestreambot-production-bef2.up.railway.app/dl/6accab1d6e979983cdce5a68" },
+            { title: "Doraemon: Great Adventure in The Antarctic Kachi Kochi (2017)", poster: 'https://i.postimg.cc/L814qcbG/D3.jpg', url: "https://filestreambot-production-bef2.up.railway.app/dl/6accab1d6e979983cdce5a67" },
+            { title: "Doraemon 2003 Nobita", poster: 'https://i.postimg.cc/SKLydWkb/D4.jpg', url: "https://filestreambot-production-bef2.up.railway.app/dl/6accab1d6e979983cdce5a65" },
+            { title: "Doraemon Stand By Me (2014)", poster: 'https://i.postimg.cc/tCfC4q2W/D5.jpg', url: "https://filestreambot-production-bef2.up.railway.app/dl/6accab1d6e979983cdce5a69" },
+            { title: "Doraemon 2017 - Benua Antartika", poster: 'https://i.postimg.cc/9FSFQmJy/D6.jpg', url: "https://filestreambot-production-bef2.up.railway.app/dl/6accab1d6e979983cdce5a6a" },
+            { title: "Doraemon Nobita and the Steel Troops (1986)", poster: 'https://i.postimg.cc/QxVdD9kK/D7.jpg', url: "https://filestreambot-production-bef2.up.railway.app/dl/6accab256e979983cdce5a6c" },
+            { title: "Doraemon Nobita in the Robot Kingdom (2002)", poster: 'https://i.postimg.cc/YqjC7Gfh/D8.jpg', url: "https://filestreambot-production-bef2.up.railway.app/dl/6accab256e979983cdce5a6d" },
+            { title: "Doraemon Nobita and the Haunts of Evil (1982)", poster: 'https://i.postimg.cc/yYW8KgXX/D9.jpg', url: "https://filestreambot-production-bef2.up.railway.app/dl/6accab256e979983cdce5a6b" },
+            { title: "Doraemon Nobita and the Castle of the Undersea Devil (1983)", poster: 'https://i.postimg.cc/3wjK1g71/D10.jpg', url: "https://filestreambot-production-bef2.up.railway.app/dl/6accab256e979983cdce5a6e" },
+            { title: "Doraemon Nobita and the Birth of Japan (2016)", poster: 'https://i.postimg.cc/8kZzxBWS/D11.jpg', url: "https://filestreambot-production-bef2.up.railway.app/dl/6accab2b6e979983cdce5a70" },
+            { title: "Doraemon Nobita in the Wan Nyan Spacetime Odyssey (2004)", poster: 'https://i.postimg.cc/FFTHwgSq/D12.jpg', url: "https://filestreambot-production-bef2.up.railway.app/dl/6accab2a6e979983cdce5a6f" },
+            { title: "Doraemon Movie Special Movie", poster: 'https://i.postimg.cc/Bb7ZD43r/D13.png', url: "https://filestreambot-production-bef2.up.railway.app/dl/6accab306e979983cdce5a71" },
+            { title: "Doraemon Nobita's Dinosaur (2006)", poster: 'https://i.postimg.cc/90gXTCVq/D14.webp', url: "https://filestreambot-production-bef2.up.railway.app/dl/6accab306e979983cdce5a72" },
+            { title: "Doraemon: Nobita and the Secret Gadget Museum (2013)", poster: 'https://i.postimg.cc/4yfjzS1C/Doraemon-The-Movie-Nobita-and-Secret-Gadget-Museum.jpg', url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb5fa6e979983cdce5ac4" },
+            { title: "Doraemon: Nobita & The Space Heroes (2015)", poster: 'https://i.postimg.cc/j2xBzF4Z/Doraemon-The-Movie-Nobita-The-Space-Heroes.jpg', url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb6076e979983cdce5ac5" },
+            { title: "Doraemon: New Record of Nobita's Spaceblazer (2009)", poster: 'https://i.postimg.cc/wMqnhGQF/Doraemon-The-Movie-New-Record-of-Nobita-Spaceblazer.jpg', url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb6136e979983cdce5ac6" },
+            { title: "Stand by Me Doraemon 2 (2020)", poster: 'https://i.postimg.cc/WzNxMHw8/Doraemon-Stand-By-Me-2.jpg', url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb6196e979983cdce5ac7" },
+            { title: "Stand by Me Doraemon", poster: 'https://i.postimg.cc/wMqnhGQV/Doraemon-Stand-By-Me.jpg', url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb6236e979983cdce5ac8" }
         ])
     },
     "pokemon_catalog": {
@@ -623,6 +665,25 @@ const seriesDatabase = {
             "https://files.catbox.moe/6uzimm.mp4", "https://files.catbox.moe/14zl0x.mp4", "https://files.catbox.moe/3u4p9f.mp4",
             "https://files.catbox.moe/a1qpn5.mp4", "https://files.catbox.moe/c23e8f.mp4", "https://files.catbox.moe/vmpp8r.mp4",
             "https://files.catbox.moe/izkdg9.mp4"
+        ])
+    },
+    "naruto_catalog": {
+        id: "naruto_series",
+        catalogId: "naruto_catalog",
+        name: "Naruto",
+        poster: "https://i.postimg.cc/Qtm6mtph/Naruto-DP.jpg",
+        description: "Koleksi Series Naruto.",
+        episodes: createEpisodes([
+            { title: "Episod 1: Masuk! Uzumaki Naruto!", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc02a16e979983cdce55c8" },
+            { title: "Episod 2: Nama Saya Konohamaru!", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc02a16e979983cdce55c9" },
+            { title: "Episod 3: Musuh Ketat! Sasuke dan Sakura", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc02a16e979983cdce55ca" },
+            { title: "Episod 4: Lulus atau Gagal! Ujian Survival", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc02a16e979983cdce55cb" },
+            { title: "Episod 5: Gagal? Keputusan Akhir Kakashi", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc02a16e979983cdce55cc" },
+            { title: "Episod 6: Misi Berbahaya! Perjalanan ke Negeri Ombak", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc02a16e979983cdce55cd" },
+            { title: "Episod 7: Pembunuh Bayaran Pakar!", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc02a16e979983cdce55ce" },
+            { title: "Episod 8: Sumpahan Kesatriaan", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc02a16e979983cdce55cf" },
+            { title: "Episod 9: Kakashi: Pahlawan Bermata Sharingan", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc02a16e979983cdce55d0" },
+            { title: "Episod 10: Hutan Chakra", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc02a16e979983cdce55d1" }
         ])
     }
 };
