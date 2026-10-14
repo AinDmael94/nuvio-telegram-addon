@@ -9,7 +9,7 @@ function createEpisodes(episodesList) {
         episode: index + 1,
         title: ep.title,
         description: ep.description || "",
-        url: ep.url
+        streams: [{ title: "DaRyz Stream", url: ep.url }]
     }));
 }
 
@@ -893,9 +893,34 @@ const catalogData = [
     }
 ];
 
-// Endpoint untuk Stremio / Addon Catalog
-app.get('/catalog/series/running_man_catalog.json', (req, res) => {
+// Header CORS wajib untuk Stremio / Nuvio
+app.use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Headers', '*');
+    next();
+});
+
+// 1. Endpoint Manifest Addon
+app.get('/manifest.json', (req, res) => {
+    res.json({
+        id: 'org.nuviotelegramaddon',
+        version: '1.0.0',
+        name: 'Running Man Telegram Addon',
+        description: 'Addon Stremio untuk koleksi video Running Man',
+        types: ['series'],
+        catalogs: [
+            {
+                type: 'series',
+                id: 'running_man_catalog',
+                name: 'Running Man Telegram'
+            }
+        ],
+        resources: ['catalog', 'meta', 'stream']
+    });
+});
+
+// 2. Endpoint Catalog
+app.get('/catalog/:type/:id.json', (req, res) => {
     const metas = catalogData.map(item => ({
         id: item.id,
         type: item.type,
@@ -906,9 +931,8 @@ app.get('/catalog/series/running_man_catalog.json', (req, res) => {
     res.json({ metas });
 });
 
-// Endpoint untuk Meta / Detail Episod
+// 3. Endpoint Meta (Butiran Siri & Senarai Episod)
 app.get('/meta/:type/:id.json', (req, res) => {
-    res.setHeader('Access-Control-Allow-Origin', '*');
     const { id } = req.params;
     const series = catalogData.find(item => item.id === id);
     
@@ -923,12 +947,32 @@ app.get('/meta/:type/:id.json', (req, res) => {
             name: series.name,
             poster: series.poster,
             description: series.description,
-            videos: series.videos
+            videos: series.videos.map(v => ({
+                id: v.id,
+                title: v.title,
+                season: v.season,
+                episode: v.episode,
+                overview: v.description
+            }))
         }
     });
 });
 
-// Root endpoint sebagai rujukan lalai
+// 4. Endpoint Stream (Menghantar pautan video sebenar ke Nuvio/Stremio)
+app.get('/stream/:type/:id.json', (req, res) => {
+    const { id } = req.params; // Contoh: running_man_1_ep_1
+    
+    for (const series of catalogData) {
+        const video = series.videos.find(v => v.id === id);
+        if (video) {
+            return res.json({ streams: video.streams });
+        }
+    }
+    
+    res.json({ streams: [] });
+});
+
+// Root endpoint rujukan
 app.get('/', (req, res) => {
     res.send('Running Man Stremio Addon Server is running successfully!');
 });
