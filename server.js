@@ -1,3 +1,4 @@
+JavaScript
 const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 7000;
@@ -38,10 +39,10 @@ const manifest = {
     resources: ["catalog", "stream", "meta"],
     types: ["series"],
     idPrefixes: [
-        "kisah_sahabat_series", "running_man_series", "mm_", "mahsyar_series", "filem_dakwah_sengketa_series", "hagemaru_series", "ninja_boy_series", 
+        "kisah_sahabat_series", "running_man_series", "mm_", "mahsyar_series", "filem_dakwah_sengketa_series", "sirah_nabawiyyah_series", "hagemaru_series", "ninja_boy_series", 
         "doraemon_series", "pokemon_journeys_series", "midori_days_series", "anak_anak_sidek_series", 
         "ueki_series", "ginban_series", "black_cat_series", "digimon_savers_series", 
-        "digimon_01_series", "shin_chan_series", "akhir_zaman_series", "kd_malay_series", "kd_eng_series"
+        "digimon_01_series", "shin_chan_series", "akhir_zaman_series", "kd_malay_series", "kd_eng_series", "edens_zero_series", "nisekoi_series", "omar_dan_hana_series", "time_bokan_24_series", "black_bullet_series", "one_punch_man_series", "high_rise_invasion_series", "demon_slayer_series", "gundam_series", "naruto_series"
     ],
     catalogs: [
         { type: "series", id: "running_man_catalog", name: "Runningman 1-324" },
@@ -74,9 +75,7 @@ const manifest = {
         { type: "series", id: "shin_chan_catalog", name: "Crayon Shin Chan" },
         { type: "series", id: "akhir_zaman_catalog", name: "Kisah Hidup Akhir Zaman" },
         { type: "series", id: "kd_malay_catalog", name: "Kids Delights (Malay)" },
-        { type: "series", id: "naruto_catalog", name: "Naruto" },
         { type: "series", id: "kd_eng_catalog", name: "Kids Delights (Eng)" }
-        
     ]
 };
 
@@ -518,7 +517,7 @@ const seriesDatabase = {
         name: "Nisekoi",
         poster: "https://i.postimg.cc/523yJrzq/Nisekoi-DP.jpg",
         description: "Koleksi Episod Nisekoi.",
-        episodes: createEpisodes([
+episodes: createEpisodes([
             { title: "Nisekoi Episode 1", url: "https://files.catbox.moe/d4n92d.mkv" },
             { title: "Nisekoi Episode 2", url: "https://files.catbox.moe/4xrcf4.mkv" },
             { title: "Nisekoi Episode 3", url: "https://files.catbox.moe/npa78a.mkv" },
@@ -531,7 +530,6 @@ const seriesDatabase = {
             { title: "Nisekoi Episode 10", url: "https://files.catbox.moe/aqyp5y.mkv" },
             { title: "Nisekoi Episode 11", url: "https://files.catbox.moe/4nros2.mp4" },
             { title: "Nisekoi Episode 12", url: "https://files.catbox.moe/u20cdv.mkv" }
-
         ])
     },
     "omar_dan_hana_catalog": {
@@ -1055,7 +1053,6 @@ app.get('/stremio/:user/catalog/:type/:id.json', (req, res) => {
 app.get('/stremio/:user/meta/:type/:id.json', (req, res) => {
     const targetId = req.params.id.split(':')[0];
 
-    // Semak katalog pelbagai item (filem individual)
     for (const cat of Object.values(seriesDatabase)) {
         if (cat.isMulti) {
             const item = cat.items.find(i => i.id === targetId);
@@ -1081,7 +1078,6 @@ app.get('/stremio/:user/meta/:type/:id.json', (req, res) => {
         }
     }
 
-    // Semak siri individu biasa
     const series = Object.values(seriesDatabase).find(s => s.id === targetId);
 
     if (series) {
@@ -1110,14 +1106,13 @@ app.get('/stremio/:user/meta/:type/:id.json', (req, res) => {
 });
 
 // ==========================================
-// STREAM ENDPOINT (DENGAN BINGEGROUP UNTUK AUTO-PLAY)
+// STREAM ENDPOINT
 // ==========================================
 app.get('/stremio/:user/stream/:type/:id.json', (req, res) => {
     const parts = req.params.id.split(':');
     const targetId = parts[0];
     const episodeNum = parseInt(parts[2], 10) || 1;
 
-    // Semak filem dalam katalog pelbagai item
     for (const cat of Object.values(seriesDatabase)) {
         if (cat.isMulti) {
             const item = cat.items.find(i => i.id === targetId);
@@ -1135,7 +1130,6 @@ app.get('/stremio/:user/stream/:type/:id.json', (req, res) => {
         }
     }
 
-    // Semak siri biasa
     const series = Object.values(seriesDatabase).find(s => s.id === targetId);
     if (series) {
         const ep = series.episodes.find(e => e.episode === episodeNum);
@@ -1155,140 +1149,29 @@ app.get('/stremio/:user/stream/:type/:id.json', (req, res) => {
 });
 
 // ==========================================
-// 4. CONFIGURATOR UI WEB INTERFACE (WITH ANALYTICS)
+// 4. CONFIGURATOR UI WEB INTERFACE
 // ==========================================
 app.get('/', (req, res) => {
-    const catalogListHtml = manifest.catalogs.map((c) => `
-        <div class="catalog-item" data-id="${c.id}" style="display: flex; justify-content: space-between; align-items: center; background: #2a2a32; padding: 12px 16px; margin-bottom: 8px; border-radius: 8px; border: 1px solid #3a3a46;">
-            <span style="font-weight: 600; color: #fff;">👁️ ${c.name} <small style="color: #888;">(series)</small></span>
-            <div>
-                <button onclick="moveUp(this)" style="background: #383844; color: #fff; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer; margin-right: 4px;">▲</button>
-                <button onclick="moveDown(this)" style="background: #383844; color: #fff; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer;">▼</button>
-            </div>
-        </div>
-    `).join('');
-
-    const userListHtml = Array.from(uniqueUsers).length > 0
-        ? Array.from(uniqueUsers).map(u => `
-            <li style="margin-bottom: 6px; display: flex; justify-content: space-between; border-bottom: 1px dashed #2a2a32; padding-bottom: 4px;">
-                <span>👤 User ID: <strong style="color: #ffcc00;">${u}</strong></span>
-                <span style="color: #888; font-size: 11px;">Aktif: ${userActivity[u] || 'N/A'}</span>
-            </li>
-        `).join('')
-        : '<li style="color: #888;">Belum ada pengguna aktif.</li>';
-
-    let html = `
+    res.send(`
     <!DOCTYPE html>
     <html lang="ms">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>DaRyz Nuvio / Stremio Addon Config</title>
         <style>
-            body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #18181c; color: #e1e1e6; margin: 0; padding: 40px 20px; display: flex; justify-content: center; }
-            .container { display: flex; flex-direction: column; gap: 20px; max-width: 900px; width: 100%; }
-            .row { display: flex; gap: 20px; width: 100%; }
-            .card { background: #202026; border-radius: 16px; padding: 24px; flex: 1; border: 1px solid #2d2d36; }
-            h2 { font-size: 18px; margin-top: 0; color: #fff; display: flex; align-items: center; gap: 8px; }
-            .btn-install { background: #ffcc00; color: #000; font-weight: bold; width: 100%; border: none; padding: 14px; border-radius: 8px; font-size: 15px; cursor: pointer; margin: 15px 0; text-align: center; text-decoration: none; display: block; box-sizing: border-box; }
-            .input-box { background: #121215; border: 1px solid #333; padding: 10px; border-radius: 6px; color: #aaa; font-family: monospace; font-size: 12px; margin-top: 10px; word-break: break-all; }
-            .btn-save { background: #ffcc00; color: #000; font-weight: bold; width: 100%; border: none; padding: 12px; border-radius: 8px; font-size: 14px; cursor: pointer; margin-top: 15px; }
-            .status-badge { background: #28a745; color: #fff; padding: 2px 8px; border-radius: 12px; font-size: 12px; }
-            .stat-box { background: #121215; border-radius: 8px; padding: 15px; text-align: center; margin-bottom: 15px; border: 1px solid #2d2d36; }
-            .stat-number { font-size: 28px; font-weight: bold; color: #ffcc00; }
+            body { font-family: sans-serif; background: #18181c; color: #e1e1e6; padding: 40px; display: flex; justify-content: center; }
+            .card { background: #202026; padding: 24px; border-radius: 16px; border: 1px solid #2d2d36; width: 100%; max-width: 500px; text-align: center; }
+            a { color: #ffcc00; text-decoration: none; font-weight: bold; }
         </style>
     </head>
     <body>
-        <div class="container">
-            <!-- Analytics Row -->
-            <div class="card">
-                <h2>📊 Live Analytics & User Tracker</h2>
-                <div class="stat-box">
-                    <div class="stat-number">${uniqueUsers.size}</div>
-                    <div style="font-size: 13px; color: #888; margin-top: 4px;">Jumlah Pengguna Unik Aktif</div>
-                </div>
-                <p style="font-size: 12px; font-weight: bold; color: #aaa; margin-bottom: 10px;">SENARAI PENGGUNA TERAKHIR:</p>
-                <ul style="list-style: none; padding: 0; margin: 0; font-size: 12px; max-height: 150px; overflow-y: auto;">
-                    ${userListHtml}
-                </ul>
-            </div>
-
-            <!-- Configuration Row -->
-            <div class="row">
-                <!-- Left Card -->
-                <div class="card">
-                    <h2>🎬 DaRyz Nuvio / Stremio Addon</h2>
-                    <p style="font-size: 13px; color: #888;">User: <span style="color: #fff; font-weight: bold;">DaRyz</span></p>
-                    <p style="font-size: 13px; color: #888;">Status: <span class="status-badge">Active</span></p>
-                    <p style="font-size: 13px; color: #888; margin-bottom: 20px;">Expires: <span style="color: #ffcc00; font-weight: bold;">Lifetime</span></p>
-
-                    <a href="stremio://nuvio-telegram-addon.onrender.com/stremio/user123/manifest.json" class="btn-install">Install / update in Nuvio Stremio</a>
-
-                    <p style="font-size: 12px; color: #888; margin-top: 20px; line-height: 1.5;">
-                        <strong>Prefer to do it manually?</strong><br>
-                        1. Open Stremio/Nuvio and go to the Add-ons tab<br>
-                        2. Click the Search / URL field<br>
-                        3. Paste the URL below and press Enter
-                    </p>
-
-                    <div class="input-box">https://nuvio-telegram-addon.onrender.com/stremio/user123/manifest.json</div>
-                </div>
-
-                <!-- Right Card -->
-                <div class="card">
-                    <h2>⚙️ Personalize</h2>
-                    <p style="font-size: 12px; color: #888; margin-bottom: 15px;">Tune quality and catalogs for your install.</p>
-                    <p style="font-size: 12px; font-weight: bold; color: #aaa; margin-bottom: 10px;">CATALOGS</p>
-
-                    <div id="catalog-list">
-                        ${catalogListHtml}
-                    </div>
-
-                    <button class="btn-save" onclick="savePreferences()">Save Preferences</button>
-                </div>
-            </div>
+        <div class="card">
+            <h2>DaRyz Addon Server Active 🚀</h2>
+            <p>Server sedang berjalan dengan lancar tanpa ralat port.</p>
         </div>
-
-        <script>
-            function moveUp(button) {
-                const item = button.closest('.catalog-item');
-                if (item.previousElementSibling) {
-                    item.parentNode.insertBefore(item, item.previousElementSibling);
-                }
-            }
-
-            function moveDown(button) {
-                const item = button.closest('.catalog-item');
-                if (item.nextElementSibling) {
-                    item.parentNode.insertBefore(item, item.nextElementSibling);
-                }
-            }
-
-            async function savePreferences() {
-                const items = document.querySelectorAll('.catalog-item');
-                const catalogOrder = Array.from(items).map(item => item.getAttribute('data-id'));
-
-                try {
-                    const response = await fetch('/api/save-preferences', {
-                        method: 'POST',
-                        headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify({ catalogOrder })
-                    });
-                    const resData = await response.json();
-                    if (resData.success) {
-                        alert('Preferences Saved! Susunan katalog kau telah disimpan.');
-                    } else {
-                        alert('Gagal menyimpan preferences.');
-                    }
-                } catch (e) {
-                    alert('Ralat sambungan server!');
-                }
-            }
-        </script>
     </body>
     </html>
-    `;
-    res.send(html);
+    `);
 });
 
 // Start Server
