@@ -676,7 +676,7 @@ episodes: createEpisodes([
         poster: "https://i.postimg.cc/vB6mWzW6/Naruto-DP.jpg",
         description: "Koleksi Episod Naruto.",
         episodes: createEpisodes([
-            { title: "Naruto Episode 1", url: "https://files.catbox.moe/l9l4vb.mp4" },
+{ title: "Naruto Episode 1", url: "https://files.catbox.moe/l9l4vb.mp4" },
             { title: "Naruto Episode 2", url: "https://files.catbox.moe/uqufre.mp4" },
             { title: "Naruto Episode 3", url: "https://files.catbox.moe/pti3ta.mp4" },
             { title: "Naruto Episode 4", url: "https://files.catbox.moe/96np0f.mp4" },
@@ -979,7 +979,7 @@ episodes: createEpisodes([
             "https://files.catbox.moe/6uzimm.mp4", "https://files.catbox.moe/14zl0x.mp4", "https://files.catbox.moe/3u4p9f.mp4",
             "https://files.catbox.moe/a1qpn5.mp4", "https://files.catbox.moe/c23e8f.mp4", "https://files.catbox.moe/vmpp8r.mp4",
             "https://files.catbox.moe/izkdg9.mp4"
-        ])
+])
     }
 };
 
