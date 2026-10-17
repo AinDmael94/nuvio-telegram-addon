@@ -41,7 +41,7 @@ const manifest = {
         "kisah_sahabat_series", "running_man_series", "mm_", "mahsyar_series", "filem_dakwah_sengketa_series", "sirah_nabawiyyah_series", "hagemaru_series", "ninja_boy_series", 
         "doraemon_series", "pokemon_journeys_series", "midori_days_series", "anak_anak_sidek_series", 
         "ueki_series", "ginban_series", "black_cat_series", "digimon_savers_series", 
-        "digimon_01_series", "shin_chan_series", "akhir_zaman_series", "kd_malay_series", "kd_eng_series", "edens_zero_series", "nisekoi_series", "omar_dan_hana_series", "time_bokan_24_series", "black_bullet_series", "one_punch_man_series", "high_rise_invasion_series", "demon_slayer_series", "gundam_series", "naruto_series"
+        "digimon_01_series", "shin_chan_series", "akhir_zaman_series", "kd_malay_series", "kd_eng_series", "edens_zero_series", "nisekoi_series", "omar_dan_hana_series", "time_bokan_24_series", "black_bullet_series", "one_punch_man_series", "high_rise_invasion_series", "demon_slayer_series", "gundam_series", "naruto_1-220_series"
     ],
     catalogs: [
         { type: "series", id: "running_man_catalog", name: "Runningman 1-324" },
@@ -61,7 +61,7 @@ const manifest = {
         { type: "series", id: "high_rise_invasion_catalog", name: "High Rise Invasion" },
         { type: "series", id: "demon_slayer_catalog", name: "Demon Slayer" },
         { type: "series", id: "gundam_catalog", name: "Gundam Build Fighter" },
-        { type: "series", id: "naruto_catalog", name: "Naruto" },
+        { type: "series", id: "naruto_1-220_catalog", name: "Naruto" },
         { type: "series", id: "doraemon_catalog", name: "Doraemon" },
         { type: "series", id: "pokemon_catalog", name: "Pokemon Journeys" },
         { type: "series", id: "midori_days_catalog", name: "Midori Days" },
@@ -669,9 +669,9 @@ episodes: createEpisodes([
             { title: "Gundam Build Fighter Episode 14", url: "https://files.catbox.moe/mjj1al.mp4" }
         ])
     },
-    "naruto_catalog": {
-        id: "naruto_series",
-        catalogId: "naruto_catalog",
+    "naruto_1-220_catalog": {
+        id: "naruto_1-220_series",
+        catalogId: "naruto_1-220_catalog",
         name: "Naruto",
         poster: "https://i.postimg.cc/vB6mWzW6/Naruto-DP.jpg",
         description: "Koleksi Episod Naruto.",
