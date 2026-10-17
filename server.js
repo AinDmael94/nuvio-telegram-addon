@@ -408,7 +408,6 @@ const seriesDatabase = {
         poster: "https://i.postimg.cc/9Qp02k9d/Ustaz-Azlan-Shah.jpg",
         description: "Koleksi Sirah Nabawiyyah - UAS.",
         episodes: createEpisodes([
-            { title: "Sengketa 2", url: "https://files.catbox.moe/4uiyst.mp4" }
             { title: "Episode 1 - Serangan Tentera Bergajah", url: "https://files.catbox.moe/wuyth6.mp4" },
             { title: "Episode 2 - Kisah Luar Biasa Moyang, Datuk dan Ayah kepada Nabi Muhammad SAW", url: "https://files.catbox.moe/lk3joi.mp4" },
             { title: "Episode 3 - Kisah Ghulam Pendakwah Muda (Ashabul Ukhdud)", url: "https://files.catbox.moe/s8p8mo.mp4" },
