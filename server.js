@@ -38,13 +38,18 @@ const manifest = {
     resources: ["catalog", "stream", "meta"],
     types: ["series"],
     idPrefixes: [
-        "kisah_sahabat_series", "running_man_series", "mm_", "mahsyar_series", "filem_dakwah_sengketa_series", "sirah_nabawiyyah_series", "hagemaru_series", "ninja_boy_series", 
+        "kisah_sahabat_series", "running_man_series", "running_man_2_series", "running_man_3_series", "running_man_4_series", "running_man_5_series", "running_man_6_series", "mm_", "mahsyar_series", "filem_dakwah_sengketa_series", "sirah_nabawiyyah_series", "hagemaru_series", "ninja_boy_series", 
         "doraemon_series", "doraemon_movie_series", "pokemon_journeys_series", "midori_days_series", "anak_anak_sidek_series", 
         "ueki_series", "ginban_series", "black_cat_series", "digimon_savers_series", 
         "digimon_01_series", "digimon_02_series", "digimon_frontier_series", "chiquititas_song_series", "chiquititas_series", "shin_chan_series", "akhir_zaman_series", "kd_malay_series", "kd_eng_series", "edens_zero_series", "nisekoi_series", "omar_dan_hana_series", "time_bokan_24_series", "black_bullet_series", "one_punch_man_series", "high_rise_invasion_series", "demon_slayer_series", "gundam_series", "naruto_1-220_series"
     ],
     catalogs: [
         { type: "series", id: "running_man_catalog", name: "Runningman 1-324" },
+        { type: "series", id: "running_man_2_catalog", name: "Runningman 325-345" },
+        { type: "series", id: "running_man_3_catalog", name: "Runningman 346-559" },
+        { type: "series", id: "running_man_4_catalog", name: "Runningman 560-679" },
+        { type: "series", id: "running_man_5_catalog", name: "Runningman 680-732" },
+        { type: "series", id: "running_man_6_catalog", name: "Runningman 733-now" },
         { type: "series", id: "kisah_sahabat_catalog", name: "Kisah Para Sahabat Nabi" },
         { type: "series", id: "malaysian_movies_catalog", name: "Malaysian Movies" },
         { type: "series", id: "mahsyar_catalog", name: "Mahsyar" },
