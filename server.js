@@ -1517,7 +1517,7 @@ episodes: createEpisodes([
             { title: "Episod 130: Pertarungan Mata Sharingan Ketiga", url: "https://files.catbox.moe/oxesbg.mp4" },
             { title: "Episod 131: Air Mata Di Hujung Ikatan", url: "https://files.catbox.moe/mmf3rx.mp4" },
             { title: "Episod 132: Rahsia Gelap Di Sebalik Garisan Takdir", url: "https://files.catbox.moe/plxslv.mp4" },
-            { title: "Episod 133: Jeritan Hati Seorang Sahabat", url: "https://files.catbox.moe/ob7yn7.mp4" }
+            { title: "Episod 133: Jeritan Hati Seorang Sahabat", url: "https://files.catbox.moe/ob7yn7.mp4" },
             { title: "Episod 134: Akhir Sebuah Pengembaraan Di Lembah", url: "https://files.catbox.moe/kqc6kp.mp4" },
             { title: "Episod 135: Janji Yang Belum Tertunai", url: "https://files.catbox.moe/ll10xi.mp4" },
             { title: "Episod 136: Misi Menembus Benteng Musuh", url: "https://files.catbox.moe/sbowfn.mp4" },
