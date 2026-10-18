@@ -1052,7 +1052,7 @@ const seriesDatabase = {
             { id: "mm_sumpahan_kum_kum", name: "Sumpahan Kum-Kum", poster: "https://i.postimg.cc/jq3P3X2Q/sumpahankumkum.jpg", description: "Filem Sumpahan Kum-Kum", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc66136e979983cdce55d3" },
             { id: "mm_volkswagen_kuning", name: "Volkswagen Kuning", poster: "https://i.postimg.cc/KcpBpNjJ/volkswagenkuning.jpg", description: "Filem Volkswagen Kuning", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc66136e979983cdce55d4" },
             { id: "mm_senario_beach_boy", name: "Senario Beach Boy", poster: "https://i.postimg.cc/WzyZD2xt/senariobeachboy.jpg", description: "Filem Senario Beach Boy", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc66136e979983cdce55d5" }
-        ]
+        ])
     },
     "tiny_planet_catalog": {
         id: "tiny_planet_series",
@@ -1129,7 +1129,7 @@ const seriesDatabase = {
             { title: "Tiny Planets Keep Your Head", url: "https://files.catbox.moe/jzp0u7.mp4" },
             { title: "Tiny Planets Love is All You Need", url: "https://files.catbox.moe/84imda.mp4" },
             { title: "Tiny Planets Magnificent Seven", url: "https://files.catbox.moe/cyqamo.mp4" }
-        ]
+        ])
     },
     "mr_bean_s1_catalog": {
         id: "mr_bean_s1_series",
@@ -1156,7 +1156,7 @@ const seriesDatabase = {
             { title: "Mr. Bean - S01E16 - Magpie", url: "https://files.catbox.moe/ukt669.mp4" },
             { title: "Mr. Bean - S01E17 - Cat Sitting", url: "https://files.catbox.moe/19hpfc.mp4" },
             { title: "Mr. Bean - S01E18 - The Bottle", url: "https://files.catbox.moe/6zd18w.mp4" }
-        ]
+        ])
     },
     "mr_bean_s2_catalog": {
         id: "mr_bean_s2_series",
@@ -1181,7 +1181,7 @@ const seriesDatabase = {
             { title: "Mr. Bean - S02E14 - Scaredy Bean", url: "https://files.catbox.moe/3s86o9.mp4" },
             { title: "Mr. Bean - S02E15 - Hot Date", url: "https://files.catbox.moe/ht4s88.mp4" },
             { title: "Mr. Bean - S02E16 - Wanted", url: "https://files.catbox.moe/1drr6q.mp4" }
-        ]
+        ])
     },
     "mr_bean_s3_catalog": {
         id: "mr_bean_s3_series",
@@ -1208,7 +1208,7 @@ const seriesDatabase = {
             { title: "Mr. Bean - S03E16 - Ray of Sunshine", url: "https://files.catbox.moe/64card.mp4" },
             { title: "Mr. Bean - S03E17 - Bean in Love", url: "https://files.catbox.moe/pftui1.mp4" },
             { title: "Mr. Bean - S03E18 - Double Trouble", url: "https://files.catbox.moe/53549o.mp4" }
-        ]
+        ])
     },
     "mr_bean_s4_catalog": {
         id: "mr_bean_s4_series",
@@ -1250,7 +1250,7 @@ const seriesDatabase = {
             { title: "Mr. Bean S04E50 - The Photograph", url: "https://files.catbox.moe/o6sxf9.mp4" },
             { title: "Mr. Bean S04E51 - Dancing Bean", url: "https://files.catbox.moe/8q6fep.mp4" },
             { title: "Mr. Bean S04E52 - Bean Shopping", url: "https://files.catbox.moe/fyb0kn.mp4" }
-        ]
+        ])
     },
     "mahsyar_catalog": {
         id: "mahsyar_series",
