@@ -1250,7 +1250,7 @@ const seriesDatabase = {
             { title: "Mr. Bean S04E50 - The Photograph", url: "https://files.catbox.moe/o6sxf9.mp4" },
             { title: "Mr. Bean S04E51 - Dancing Bean", url: "https://files.catbox.moe/8q6fep.mp4" },
             { title: "Mr. Bean S04E52 - Bean Shopping", url: "https://files.catbox.moe/fyb0kn.mp4" }
-         ]
+        ]
     },
     "mahsyar_catalog": {
         id: "mahsyar_series",
