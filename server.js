@@ -72,7 +72,7 @@ const manifest = {
         { type: "series", id: "black_cat_catalog", name: "Black Cat" },
         { type: "series", id: "digimon_savers_catalog", name: "Digimon Savers" },
         { type: "series", id: "digimon_01_catalog", name: "Digimon Adventure 01" },
-        { type: "series", id: "digimon_02_catalog", name: "Digimon Adventure 02" },\
+        { type: "series", id: "digimon_02_catalog", name: "Digimon Adventure 02" },
         { type: "series", id: "digimon_frontier_catalog", name: "Digimon Frontier" },
         { type: "series", id: "chiquititas_song_catalog", name: "Chiquititas Song" },
         { type: "series", id: "chiquititas_catalog", name: "Chiquititas" },
