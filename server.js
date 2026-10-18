@@ -1120,7 +1120,7 @@ const seriesDatabase = {
             { title: "Tiny Planets The Right Angle", url: "https://files.catbox.moe/x3riwb.mp4" },
             { title: "Tiny Planets Tip The Scales", url: "https://files.catbox.moe/czshhb.mp4" },
             { title: "Tiny Planets Tools Glorious Tools", url: "https://files.catbox.moe/5o1nd5.mp4" },
-            { title: "Tiny Planets Tuba Trouble", url: "https://files.catbox.moe/lbcicr.mp4" }
+            { title: "Tiny Planets Tuba Trouble", url: "https://files.catbox.moe/lbcicr.mp4" },
             { title: "Tiny Planets What's Cooking", url: "https://files.catbox.moe/6rqgg7.mp4" },
             { title: "Tiny Planets Hear My Song", url: "https://files.catbox.moe/ah2nxd.mp4" },
             { title: "Tiny Planets Highs & Lows", url: "https://files.catbox.moe/59s0ju.mp4" },
