@@ -1084,7 +1084,7 @@ const seriesDatabase = {
             { title: "Tiny Planets Making Rainbows", url: "https://files.catbox.moe/h3tsda.mp4" },
             { title: "Tiny Planets Mirror Magic", url: "https://files.catbox.moe/ybuwrr.mp4" },
             { title: "Body Talk", url: "https://files.catbox.moe/t0ez6w.mp4" },
-            { title: "Shadow Showdown", url: "https://files.catbox.moe/pa8rjw.mp4" }
+            { title: "Shadow Showdown", url: "https://files.catbox.moe/pa8rjw.mp4" },
             { title: "The Fisher Bing", url: "https://files.catbox.moe/elfpdv.mp4" },
             { title: "Tiny Planets - Tools, Glorious Tools", url: "https://files.catbox.moe/66fc5e.mp4" },
             { title: "Tiny Planets 3D or not 3D", url: "https://files.catbox.moe/219k9e.mp4" },
