@@ -432,7 +432,7 @@ const seriesDatabase = {
             { title: "Episode 19 - Penyiksaan Terhadap Sahabat Nabi Muhammad Saw", url: "https://files.catbox.moe/dd3tao.mp4" },
             { title: "Episode 20 - Penyiksaan Terhadap Golongan Berharta & Berpangkat", url: "https://files.catbox.moe/vog0ep.mp4" },
             { title: "Episode 21 - Para Sahabat Hijrah Ke Habasyah", url: "https://files.catbox.moe/zv3ncn.mp4" },
-            { title: "Episode 22 - Kisah Lelaki Paling Kaya Di Mekkah", url: "https://files.catbox.moe/fcpund.mp4" }
+            { title: "Episode 22 - Kisah Lelaki Paling Kaya Di Mekkah", url: "https://files.catbox.moe/fcpund.mp4" },
             { title: "Episode 23 - Kisah Hamzah RA Memeluk Islam", url: "https://files.catbox.moe/awju0v.mp4" },
             { title: "Episode 24 - Kisah Umar Al Khattab RA Peluk Islam", url: "https://files.catbox.moe/e89gou.mp4" },
             { title: "Episode 25 - Boikot ke atas Keluarga Nabi SAW dan Umat Islam", url: "https://files.catbox.moe/fimsdu.mp4" },
