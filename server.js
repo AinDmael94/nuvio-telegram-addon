@@ -1449,7 +1449,7 @@ const seriesDatabase = {
         poster: "https://i.postimg.cc/523yJrzq/Nisekoi-DP.jpg",
         description: "Koleksi Episod Nisekoi.",
         episodes: createEpisodes([
-            { title: "Nisekoi 01.mkv", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad629eb6e979983cdce5efd" }
+            { title: "Nisekoi 01.mkv", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad629eb6e979983cdce5efd" },
             { title: "Nisekoi 02.mkv", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad629eb6e979983cdce5ef8" },
             { title: "Nisekoi 03.mkv", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad629eb6e979983cdce5efb" },
             { title: "Nisekoi 04.mkv", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad629eb6e979983cdce5efa" },
