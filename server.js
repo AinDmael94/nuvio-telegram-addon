@@ -1094,7 +1094,7 @@ const seriesDatabase = {
             { title: "Mumul Zzumul Episode 13.mp4", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad631626e979983cdce5f18" },
             { title: "Mumul Zzumul Episode 14.mp4", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad631626e979983cdce5f19" },
             { title: "Mumul Zzumul Episode Vlog.mp4", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad631c86e979983cdce5f1c" }
-        ]
+        ])
     },
     "ma_boy_catalog": {
         id: "ma_boy_series",
