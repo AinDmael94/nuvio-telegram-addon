@@ -1098,7 +1098,7 @@ const seriesDatabase = {
             { title: "Episode 24", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb30e6e979983cdce5a91" },
             { title: "Episode 25", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb30e6e979983cdce5a92" },
             { title: "Episode 26", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb33a6e979983cdce5a93" }
-        ]
+        ])
     },
     "tiny_planet_catalog": {
         id: "tiny_planet_series",
