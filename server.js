@@ -1115,7 +1115,7 @@ const seriesDatabase = {
             { title: "Episode 3-2", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad648c76e979983cdce5f44" },
             { title: "Episode 3-3", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad648cd6e979983cdce5f45" },
             { title: "Episode 3-4", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad648d26e979983cdce5f46" }
-        ]
+        ])
     },
     "iloveyou_loser_catalog": {
         id: "iloveyou_loser_series",
@@ -1130,7 +1130,7 @@ const seriesDatabase = {
             { title: "I Love You, Loser Episode 4", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad650366e979983cdce5f56" },
             { title: "I Love You, Loser Episode 5", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad650366e979983cdce5f54" },
             { title: "I Love You, Loser Episode 6", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad650366e979983cdce5f58" }
-        ]
+        ])
     },
     "blue_birthday_catalog": {
         id: "blue_birthday_series",
@@ -1150,7 +1150,7 @@ const seriesDatabase = {
             { title: "Blue Birthday Episode 9", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad64f476e979983cdce5f50" },
             { title: "Blue Birthday Episode 10", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad64f476e979983cdce5f52" },
             { title: "Blue Birthday Episode 11", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad64f476e979983cdce5f51" }            
-        ]
+        ])
     },
     "daebaking_catalog": {
         id: "daebaking_series",
@@ -1180,7 +1180,7 @@ const seriesDatabase = {
             { title: "The Perfect Boyfriend.mp4", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad633996e979983cdce5f38" },
             { title: "The Weird Ex Boyfriend.mp4", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad6339f6e979983cdce5f39" },
             { title: "Godaan Siti.mp4", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad6339f6e979983cdce5f3a" }
-        ]
+        ])
     },
     "7_firstkissed_catalog": {
         id: "7_firstkissed_series",
@@ -1197,7 +1197,7 @@ const seriesDatabase = {
             { title: "7 First Kissed Episode 6.mp4", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad632c36e979983cdce5f22" },
             { title: "7 First Kissed Episode 7.mp4", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad632cc6e979983cdce5f23" },
             { title: "7 First Kissed Episode 8.mp4", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad632cc6e979983cdce5f24" }
-        ]
+        ])
     },
     "like_catalog": {
         id: "like_series",
@@ -1229,7 +1229,7 @@ const seriesDatabase = {
             { title: "[Like] Episode 21", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad65e136e979983cdce5f88" },
             { title: "[Like] Episode 22", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad65e136e979983cdce5f85" },
             { title: "[Like] Episode 23", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad65e136e979983cdce5f86" }
-        ]
+        ])
     },
     "dash_catalog": {
         id: "dash_series",
@@ -1263,7 +1263,7 @@ const seriesDatabase = {
             { title: "Dash Yonkuro Episode 23", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad653ac6e979983cdce5f70" },
             { title: "Dash Yonkuro Episode 24", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad653ac6e979983cdce5f71" },
             { title: "Dash Yonkuro Episode 25", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad653ac6e979983cdce5f6f" }
-        ]
+        ])
     },
     "satria_7pahlawan_catalog": {
         id: "satria_7pahlawan_series",
