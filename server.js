@@ -39,9 +39,9 @@ const manifest = {
     types: ["series"],
     idPrefixes: [
         "kisah_sahabat_series", "running_man_series", "running_man_2_series", "running_man_3_series", "running_man_4_series", "running_man_5_series", "running_man_6_series", "mm_", "mumul_zzumul_series", "ma_boy_series", "iloveyou_loser_series", "blue_birthday_series", "daebaking_series", "like_series", "dash_series", "satria_7pahlawan_series", "tiny_planet_series", "mr_bean_s1_series", "mr_bean_s2_series", "mr_bean_s3_series", "mr_bean_s4_series", "mahsyar_series", "filem_dakwah_sengketa_series", "sirah_nabawiyyah_series", "hagemaru_series", "ninja_boy_series", 
-        "doraemon_series", "doraemon_movie_series", "pokemon_journeys_series", "midori_days_series", "anak_anak_sidek_series", "dragonball_movie_series", "naruto_movie_series", 
-        "ueki_series", "tomjerry_series", "conan_series", "conan_movie_series", "kaito_kid_series", "magic_kaito_series", "ginban_series", "black_cat_series", "digimon_savers_series", 
-        "digimon_01_series", "digimon_02_series", "digimon_frontier_series", "chiquititas_song_series", "chiquititas_series", "shin_chan_series", "akhir_zaman_series", "kd_malay_series", "kd_eng_series", "edens_zero_series","nisekoi_series",  "nisekoi_2_series", "omar_dan_hana_series", "time_bokan_24_series", "black_bullet_series", "one_punch_man_series", "high_rise_invasion_series", "demon_slayer_series", "gundam_series", "naruto_1-220_series", "boruto_series", "jjk_series"
+        "doraemon_series", "doraemon_movie_series", "pokemon_journeys_series", "midori_days_series", "anak_anak_sidek_series", "dragonball_movie_series", "naruto_movie_series", "a_teen_series", "a_teen2_series", "handmade_love_series", "17_special_series", "ending_again_series",
+        "ueki_series", "tomjerry_series", "conan_series", "conan_movie_series", "kaito_kid_series", "magic_kaito_series", "ginban_series", "black_cat_series", "digimon_savers_series", "be_my_boyfriend_series", "mermaid_prince_series", "dalgona_series", "flower_series",
+        "digimon_01_series", "digimon_02_series", "digimon_frontier_series", "chiquititas_song_series", "chiquititas_series", "shin_chan_series", "akhir_zaman_series", "hada_kiddy_series", "kd_malay_series", "kd_eng_series", "edens_zero_series","nisekoi_series",  "nisekoi_2_series", "omar_dan_hana_series", "time_bokan_24_series", "black_bullet_series", "one_punch_man_series", "high_rise_invasion_series", "demon_slayer_series", "gundam_series", "naruto_1-220_series", "boruto_series", "jjk_series"
     ],
     catalogs: [
         { type: "series", id: "running_man_catalog", name: "Runningman 1-324" },
@@ -54,10 +54,19 @@ const manifest = {
         { type: "series", id: "malaysian_movies_catalog", name: "Malaysian Movies" },
         { type: "series", id: "mumul_zzumul_catalog", name: "Mumul Zzumul" },
         { type: "series", id: "ma_boy_catalog", name: "Ma Boy" },
-        { type: "series", id: "ilikeyou_loser_catalog", name: "I Like You, Loser!" },
+        { type: "series", id: "iloveyou_loser_catalog", name: "I Love You, Loser!" },
         { type: "series", id: "blue_birthday_catalog", name: "Blue Birthday" },
         { type: "series", id: "daebaking_catalog", name: "DaebaKing" },
         { type: "series", id: "like_catalog", name: "Like" },
+        { type: "series", id: "a_teen_catalog", name: "A-Teen" },
+        { type: "series", id: "a_teen2_catalog", name: "A-Teen Season 2" },
+        { type: "series", id: "handmade_love_catalog", name: "Handmade Love" },
+        { type: "series", id: "17_special_catalog", name: "Seventeen Special" },
+        { type: "series", id: "ending_again_catalog", name: "Ending Again" },
+        { type: "series", id: "be_my_boyfriend_catalog", name: "Be My Boyfriend" },
+        { type: "series", id: "mermaid_prince_catalog", name: "Mermaid Prince" },
+        { type: "series", id: "dalgona_catalog", name: "Dalgona" },
+        { type: "series", id: "flower_catalog", name: "Flower Ever After" },
         { type: "series", id: "dash_catalog", name: "Dash Yonkuro" },
         { type: "series", id: "satria_7pahlawan_catalog", name: "Satria 7 Pahlawan" },
         { type: "series", id: "tiny_planet_catalog", name: "Tiny Planet" },
@@ -106,6 +115,7 @@ const manifest = {
         { type: "series", id: "chiquititas_catalog", name: "Chiquititas" },
         { type: "series", id: "shin_chan_catalog", name: "Crayon Shin Chan" },
         { type: "series", id: "akhir_zaman_catalog", name: "Kisah Hidup Akhir Zaman" },
+        { type: "series", id: "hada_kiddy_catalog", name: "HaDa Kiddy" },
         { type: "series", id: "kd_malay_catalog", name: "Kids Delights (Malay)" },
         { type: "series", id: "kd_eng_catalog", name: "Kids Delights (Eng)" }
     ]
@@ -1069,7 +1079,8 @@ const seriesDatabase = {
             { id: "mm_titisan_setan", name: "Titisan Setan", poster: "https://i.postimg.cc/59KLK3yS/titisansetan.jpg", description: "Filem Titisan Setan", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc66136e979983cdce55d7" },
             { id: "mm_sumpahan_kum_kum", name: "Sumpahan Kum-Kum", poster: "https://i.postimg.cc/jq3P3X2Q/sumpahankumkum.jpg", description: "Filem Sumpahan Kum-Kum", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc66136e979983cdce55d3" },
             { id: "mm_volkswagen_kuning", name: "Volkswagen Kuning", poster: "https://i.postimg.cc/KcpBpNjJ/volkswagenkuning.jpg", description: "Filem Volkswagen Kuning", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc66136e979983cdce55d4" },
-            { id: "mm_senario_beach_boy", name: "Senario Beach Boy", poster: "https://i.postimg.cc/WzyZD2xt/senariobeachboy.jpg", description: "Filem Senario Beach Boy", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc66136e979983cdce55d5" }
+            { id: "mm_senario_beach_boy", name: "Senario Beach Boy", poster: "https://i.postimg.cc/WzyZD2xt/senariobeachboy.jpg", description: "Filem Senario Beach Boy", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc66136e979983cdce55d5" },
+            { id: "mm_main_main_hantu", name: "Main-Main Hantu", poster: "https://i.postimg.cc/SR7ShXwL/Main-Main-Hantu.jpg", description: "Filem Main-Main Hantu", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad677726e979983cdce5f89" }            
         ]
     },
     "mumul_zzumul_catalog": {
@@ -1229,6 +1240,114 @@ const seriesDatabase = {
             { title: "[Like] Episode 21", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad65e136e979983cdce5f88" },
             { title: "[Like] Episode 22", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad65e136e979983cdce5f85" },
             { title: "[Like] Episode 23", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad65e136e979983cdce5f86" }
+        ])
+    },
+    "a_teen_catalog": {
+        id: "a_teen_series",
+        catalogId: "a_teen_catalog",
+        name: "A-Teen",
+        poster: "",
+        description: "Koleksi A-Teen.",
+        episodes: createEpisodes([
+            { title: "Episode 1: Unordinary,_In_Truth,_Not_Wanting_To_Be_Ordinary", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad738446e979983cdce5fab" },
+            { title: "Episode 2: When_Someone_Talks_Behind_My_Back", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad739e76e979983cdce5fad" },
+            { title: "Episode 3: Getting_Over_An_Ex_Who_Cheated_On_You", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad736086e979983cdce5f9b" },
+            { title: "Episode 4: I_Was_Asked_Out_During_Finals", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad736116e979983cdce5fa0" },
+            { title: "Episode 5: Reason_Why_Friends_Fight_During_Finals", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad7383b6e979983cdce5fa5" },
+            { title: "Episode 6: Reason_Why_It's_Scary_When_A_Quiet_One_Gets_Upset", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad7383b6e979983cdce5fa6" },
+            { title: "Episode 7: Signs_That_Mean_He's_Into_Her", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad738446e979983cdce5fa9" },
+            { title: "Episode 8: When_You_Feel_Left_Out_By_Your_Friends", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad739ef6e979983cdce5fb2" },
+            { title: "Episode 9: When_Close_Friends_Are_About_To_Cut_Ties", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad739e76e979983cdce5fac" },
+            { title: "Episode 10: When_Someone_Makes_A_Move_On_My_Crush", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad739e76e979983cdce5fb1" },
+            { title: "Episode 11: When_A_Man_Gets_Crazy_Jealous", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad739e76e979983cdce5fb0" },
+            { title: "Episode 12: He_Makes_My_Heart_Flutter", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad736086e979983cdce5f98" },
+            { title: "Episode 13: I_Stayed_Up_All_Night_With_My_Crush", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad736116e979983cdce5f9f" },
+            { title: "Episode 14: Parents_That_Play_Favorites", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad7383b6e979983cdce5fa7" },
+            { title: "Episode 15: A_Close_Friend_That_I_Can't_Stand", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad736086e979983cdce5f9d" },
+            { title: "Episode 16: How_To_Tell_If_A_Guy_Likes_You", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad736116e979983cdce5f9e" },
+            { title: "Episode 17: When_You_Confess_Your_Feelings_About_Her", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad739e76e979983cdce5fae" },
+            { title: "Episode 18: My_Closest_Friend_Has_Lied_To_Me", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad7383b6e979983cdce5fa2" },
+            { title: "Episode 19: It_Makes_Me_Hate_You,_When_I_Love_You_So_Much", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad736116e979983cdce5fa1" },
+            { title: "Episode 20: When_My_Friend_Suspects_Me_In_Front_Of_Others", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad739e76e979983cdce5faf" },
+            { title: "Episode 21: My_School_Life_Is_Falling_Apart", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad7383b6e979983cdce5fa3" },
+            { title: "Episode 22: Can_We_Be_Friends_Again_After_Having_A_Big_Fight", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad736086e979983cdce5f9c" },
+            { title: "Episode 23: Unforgettable_First_Kiss_Txt", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad738446e979983cdce5faa" },
+            { title: "Episode 24: The_One_And_Only_People_In_My_Eighteen", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad738446e979983cdce5fa8" },
+        ])
+    },
+    "a_teen2_catalog": {
+        id: "a_teen2_series",
+        catalogId: "a_teen2_catalog",
+        name: "A-Teen Season 2",
+        poster: "",
+        description: "Koleksi A-Teen Season 2.",
+        episodes: createEpisodes([
+            { title: "Episode 1: Rumors_Spread_About_Me_At_School", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad7383b6e979983cdce5fa4" }
+        ])
+    },
+    "handmade_love_catalog": {
+        id: "handmade_love_series",
+        catalogId: "handmade_love_catalog",
+        name: "Handmade Love",
+        poster: "",
+        description: "Koleksi Handmade Love.",
+        episodes: createEpisodes([
+            { title: "Handmade Love Part1", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad736086e979983cdce5f99" },
+            { title: "Handmade Love Part2", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad736086e979983cdce5f9a" }
+        ])
+    },
+    "17_special_catalog": {
+        id: "17_special_series",
+        catalogId: "17_special_catalog",
+        name: "Seventeen Special",
+        poster: "",
+        description: "Koleksi Seventeen Special.",
+        episodes: createEpisodes([
+        ])
+    },
+    "ending_again_catalog": {
+        id: "ending_again_series",
+        catalogId: "ending_again_catalog",
+        name: "Ending Again",
+        poster: "",
+        description: "Koleksi Ending Again.",
+        episodes: createEpisodes([
+        ])
+    },
+    "be_my_boyfriend_catalog": {
+        id: "be_my_boyfriend_series",
+        catalogId: "be_my_boyfriend_catalog",
+        name: "Be My Boyfriend",
+        poster: "https://i.postimg.cc/DzjxhrLL/Like.jpg",
+        description: "Koleksi Be My Boyfriend.",
+        episodes: createEpisodes([
+        ])
+    },
+    "mermaid_prince_catalog": {
+        id: "mermaid_princeseries",
+        catalogId: "mermaid_prince_catalog",
+        name: "Mermaid prince",
+        poster: "",
+        description: "Koleksi Mermaid prince.",
+        episodes: createEpisodes([
+        ])
+    },
+    "dalgona_catalog": {
+        id: "dalgona_series",
+        catalogId: "dalgona_catalog",
+        name: "Dalgona",
+        poster: "",
+        description: "Koleksi Dalgona.",
+        episodes: createEpisodes([
+        ])
+    },
+    "flower_catalog": {
+        id: "flower_series",
+        catalogId: "flower_catalog",
+        name: "Flower Ever After",
+        poster: "",
+        description: "Koleksi Flower Ever After.",
+        episodes: createEpisodes([
         ])
     },
     "dash_catalog": {
@@ -3166,6 +3285,29 @@ const seriesDatabase = {
             "https://files.catbox.moe/02vue5.mp4", "https://files.catbox.moe/oih2ce.mp4", "https://files.catbox.moe/opbp3x.mp4", "https://files.catbox.moe/47lmkc.mp4", "https://files.catbox.moe/gh1des.mp4",
             "https://files.catbox.moe/ny4qqj.mp4", "https://files.catbox.moe/v3yvoh.mp4", "https://files.catbox.moe/2bmvek.mp4", "https://files.catbox.moe/rnkq3v.mp4", "https://files.catbox.moe/a6i9oa.mp4",
             "https://files.catbox.moe/wj13np.mp4", "https://files.catbox.moe/2uk8a3.mp4"
+        ])
+    },
+    "hada_kiddy_catalog": {
+        id: "hada_kiddy_series",
+        catalogId: "hada_kiddy_catalog",
+        name: "HaDa Kiddy",
+        poster: "https://i.postimg.cc/8C8hy9ms/Ha-Da-Kiddy.jpg",
+        description: "Koleksi Episod HaDa Kiddy Bahasa Melayu.",
+        episodes: createEpisodes([
+            { title: "Nabi Adam AS - Manusia Pertama Di Bumi", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad727eb6e979983cdce5f8d" },
+            { title: "Nabi Ibrahim AS - Dilempar Ke Dalam Api", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad727eb6e979983cdce5f8a" },
+            { title: "Nabi Ismail AS - Perintah Menyembelih", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad727eb6e979983cdce5f8c" },
+            { title: "Nabi Musa AS - Melawan Firaun", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad727eb6e979983cdce5f8b" },
+            { title: "Nabi Nuh AS - Bahtera Menyelamat Dari Banjir Besar", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad727eb6e979983cdce5f8e" },
+            { title: "Nabi Soleh AS - Unta Nabi Soleh", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad727ec6e979983cdce5f8f" },
+            { title: "Nabi Sulaiman AS - Semut Bercakap Dengan Nabi Sulaiman", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad727f36e979983cdce5f90" },
+            { title: "Nabi Sulaiman AS - Singgahsana Ratu Balqis", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad727f36e979983cdce5f91" },
+            { title: "Nabi Syuaib AS - Kaum Yang Menipu", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad727f46e979983cdce5f92" },
+            { title: "Nabi Yunus AS - Ditelan Ikan Nun", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad727f46e979983cdce5f93" },
+            { title: "Nabi Yusuf AS - Dari Perigi Gelap Ke Takhta Mesir", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad72c2b6e979983cdce5f97" },
+            { title: "Nabi Yusuf AS - Momen Dijual Paling Menyentuh Hati", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad72c2b6e979983cdce5f96" },
+            { title: "Nabi Yusuf AS - Akhirnya Menjadi Kenyataan", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad72c2b6e979983cdce5f94" },
+            { title: "Rahsia Air Zam-Zam Keluar Dari Tanah", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad72c2b6e979983cdce5f95" }
         ])
     },
     "kd_malay_catalog": {
