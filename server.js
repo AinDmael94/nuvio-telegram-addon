@@ -38,7 +38,7 @@ const manifest = {
     resources: ["catalog", "stream", "meta"],
     types: ["series"],
     idPrefixes: [
-        "kisah_sahabat_series", "running_man_series", "running_man_2_series", "running_man_3_series", "running_man_4_series", "running_man_5_series", "running_man_6_series", "mm_", "am_", "mumul_zzumul_series", "ma_boy_series", "iloveyou_loser_series", "blue_birthday_series", "daebaking_series", "like_series", "dash_series", "satria_7pahlawan_series", "tiny_planet_series", "mr_bean_s1_series", "mr_bean_s2_series", "mr_bean_s3_series", "mr_bean_s4_series", "mahsyar_series", "filem_dakwah_sengketa_series", "sirah_nabawiyyah_series", "hagemaru_series", "ninja_boy_series", 
+        "kisah_sahabat_series", "running_man_series", "running_man_2_series", "running_man_3_series", "running_man_4_series", "running_man_5_series", "running_man_6_series", "siri_sirah_series", "mm_", "am_", "mumul_zzumul_series", "ma_boy_series", "iloveyou_loser_series", "blue_birthday_series", "daebaking_series", "like_series", "dash_series", "satria_7pahlawan_series", "tiny_planet_series", "mr_bean_s1_series", "mr_bean_s2_series", "mr_bean_s3_series", "mr_bean_s4_series", "mahsyar_series", "filem_dakwah_sengketa_series", "sirah_nabawiyyah_series", "hagemaru_series", "ninja_boy_series", 
         "doraemon_series", "doraemon_movie_series", "pokemon_journeys_series", "midori_days_series", "anak_anak_sidek_series", "dragonball_movie_series", "naruto_movie_series", "a_teen_series", "a_teen2_series", "handmade_love_series", "17_special_series", "ending_again_series",
         "ueki_series", "tomjerry_series", "conan_series", "conan_movie_series", "kaito_kid_series", "magic_kaito_series", "ginban_series", "black_cat_series", "digimon_savers_series", "be_my_boyfriend_series", "mermaid_prince_series", "dalgona_series", "flower_series",
         "digimon_01_series", "digimon_02_series", "digimon_03_series", "digimon_adventure2020_series", "digimon_tamers_series", "digimon_frontier_series", "chiquititas_song_series", "chiquititas_series", "shin_chan_series", "akhir_zaman_series", "hada_kiddy_series", "kd_malay_series", "kd_eng_series", "edens_zero_series","nisekoi_series",  "nisekoi_2_series", "omar_dan_hana_series", "time_bokan_24_series", "black_bullet_series", "one_punch_man_series", "high_rise_invasion_series", "demon_slayer_series", "gundam_series", "naruto_1-220_series", "boruto_series", "jjk_series"
@@ -51,6 +51,7 @@ const manifest = {
         { type: "series", id: "running_man_5_catalog", name: "Runningman 680-732" },
         { type: "series", id: "running_man_6_catalog", name: "Runningman 733-now" },
         { type: "series", id: "kisah_sahabat_catalog", name: "Kisah Para Sahabat Nabi" },
+        { type: "series", id: "siri_sirah_catalog", name: "Siri Sirah" },
         { type: "series", id: "malaysian_movies_catalog", name: "Malaysian Movies" },
         { type: "series", id: "animation_movies_catalog", name: "Animation Movies" },
         { type: "series", id: "mumul_zzumul_catalog", name: "Mumul Zzumul" },
@@ -1363,7 +1364,21 @@ const seriesDatabase = {
         poster: "https://i.postimg.cc/g0SgpV8b/Be-My-Boyfriend.jpg",
         description: "Koleksi Be My Boyfriend.",
         episodes: createEpisodes([
-            
+            { title: "Be My Boyfriend Episode 1", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad790ca6e979983cdce6094" },
+            { title: "Be My Boyfriend Episode 2", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad790ca6e979983cdce6091" },
+            { title: "Be My Boyfriend Episode 3", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad790ca6e979983cdce6092" },
+            { title: "Be My Boyfriend Episode 4", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad790ca6e979983cdce6095" },
+            { title: "Be My Boyfriend Episode 5", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad790ca6e979983cdce6093" },
+            { title: "Be My Boyfriend Episode 6", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad790ca6e979983cdce6090" },
+            { title: "Be My Boyfriend Episode 7", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad790cd6e979983cdce6096" },
+            { title: "Be My Boyfriend Episode 8", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad790d36e979983cdce6097" },
+            { title: "Be My Boyfriend Episode 9", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad790d36e979983cdce6098" },
+            { title: "Be My Boyfriend Episode 10", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad790d36e979983cdce6099" },
+            { title: "Be My Boyfriend Episode 11", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad790ee6e979983cdce609e" },
+            { title: "Be My Boyfriend Episode 12", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad790ee6e979983cdce609d" },
+            { title: "Be My Boyfriend Episode 13", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad790ee6e979983cdce609c" },
+            { title: "Be My Boyfriend Episode 14", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad790ee6e979983cdce609b" },
+            { title: "Be My Boyfriend Episode 15", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad790ee6e979983cdce609a" }   
         ])
     },
     "mermaid_prince_catalog": {
@@ -1373,7 +1388,12 @@ const seriesDatabase = {
         poster: "https://i.postimg.cc/8CKZGRW2/Mermaid-Prince.jpg",
         description: "Koleksi Mermaid prince.",
         episodes: createEpisodes([
-            
+            { title: "Mermaid Prince Episode 1", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad794af6e979983cdce60a1" },
+            { title: "Mermaid Prince Episode 2", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad794af6e979983cdce60a3" },
+            { title: "Mermaid Prince Episode 3", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad794af6e979983cdce60a0" },
+            { title: "Mermaid Prince Episode 4", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad794af6e979983cdce60a2" },
+            { title: "Mermaid Prince Episode 5", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad794af6e979983cdce609f" },
+            { title: "Mermaid Prince Episode 6", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad794af6e979983cdce60a4" }
         ])
     },
     "dalgona_catalog": {
@@ -3431,7 +3451,7 @@ const seriesDatabase = {
         id: "siri_sirah_series",
         catalogId: "siri_sirah_catalog",
         name: "Siri Sirah",
-        poster: "https://i.postimg.cc/TwD69Tzb/Ustazah-Nabihah-Zakaria.jpg",
+        poster: "https://i.postimg.cc/TPYrCJfc/Siri_SIrah.jpg",
         description: "Koleksi Episod Siri Sirah.",
         episodes: createEpisodes([
             { title: "Episode 3391", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad7801b6e979983cdce6076" },
