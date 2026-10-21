@@ -1103,7 +1103,7 @@ const seriesDatabase = {
         id: "uas_series",
         catalogId: "uas_catalog",
         name: "Koleksi Ustaz Azlan Shah",
-        poster: "https://i.postimg.cc/D0JLz54z/Sirah-UAS.jpg",
+        poster: "https://i.postimg.cc/1RY5cwfn/UAS.webp",
         description: "Koleksi Ustaz Azlan Shah.",
         episodes: createEpisodes([
             { title: "Prolog - Sirah Impak Sosial - Kehidupan Nabi Muhammad SAW", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8a3df6e979983cdce60d0" },
