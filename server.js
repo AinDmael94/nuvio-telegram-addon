@@ -136,8 +136,7 @@ const seriesDatabase = {
         catalogId: "running_man_catalog",
         name: "Runningman 1-324",
         poster: "https://i.postimg.cc/wMYXFx0G/RM-2.jpg",
-        background: "https://i.postimg.cc/L6JMMw55/RM-WP.jpg",
-        logo: "https://i.postimg.cc/L6JMMw55/RM-WP.jpg",
+        posterShape: "poster",
         description: "Koleksi Episod Running Man (Episod 1 - 324).",
         episodes: createEpisodes([
             { title: "Episod 1: Times Square", description: "Lee Hyori and Hwang Jung Eum join the casts for their first run. 2 teams are created 'Expensive' and 'Cheap' teams.", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acbff846e979983cdce555e" },
@@ -471,8 +470,7 @@ const seriesDatabase = {
         catalogId: "running_man_2_catalog",
         name: "Runningman 325-345",
         poster: "https://i.postimg.cc/fRf1pNRR/6RM.jpg",
-        background: "https://i.postimg.cc/RCfDQmW6/RM6-WP.jpg",
-        posterShape: "landscape",
+        posterShape: "poster",
         description: "Koleksi Episod Running Man (Episod 325 - 345).",
         episodes: createEpisodes([
             { title: "Running Man Ep 325: Deficiency Travel", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc7a676e979983cdce56b9" },
@@ -503,8 +501,7 @@ const seriesDatabase = {
         catalogId: "running_man_3_catalog",
         name: "Runningman 346-559",
         poster: "https://i.postimg.cc/j5hJtC8L/RM-P-SMSC.jpg",
-        background: "https://i.postimg.cc/QMgvLrNs/RM-SMYS.jpg",
-        posterShape: "landscape",
+        posterShape: "poster",
         description: "Koleksi Episod Running Man (Episod 346 - 559).",
         episodes: createEpisodes([
             { title: "Episode 346 : Global Project - Dangerous Goddess; Part I", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc7e9b6e979983cdce56d0" },
@@ -728,8 +725,7 @@ const seriesDatabase = {
         catalogId: "running_man_4_catalog",
         name: "Runningman 560-679",
         poster: "https://i.postimg.cc/sXPb5CGW/RM7.png",
-        background: "https://i.postimg.cc/SsLHcbYM/RM-0.jpg",
-        posterShape: "landscape",
+        posterShape: "poster",
         description: "Koleksi Episod Running Man (Episod 560 - 679).",
         episodes: createEpisodes([
             { title: "Episode 560 : The 1st Game Lover Get-together", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc88716e979983cdce57a8" },
@@ -859,8 +855,7 @@ const seriesDatabase = {
         catalogId: "running_man_5_catalog",
         name: "Runningman 680-732",
         poster: "https://i.postimg.cc/q7cWfdBT/RM-SCP.webp",
-        background: "https://i.postimg.cc/k5NLrdMq/RM-SC.jpg",
-        posterShape: "landscape",
+        posterShape: "poster",
         description: "Koleksi Episod Running Man (Episod 680 - 732).",
         episodes: createEpisodes([
             { title: "Episode 680 : Do You Want to Win the Championship?", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc8c8c6e979983cdce581c" },
@@ -923,8 +918,7 @@ const seriesDatabase = {
         catalogId: "running_man_6_catalog",
         name: "Runningman 733-now",
         poster: "https://i.postimg.cc/XJgy4X2X/RM-N-P.webp",
-        background: "https://i.postimg.cc/GpP60131/RM-YESC.webp",
-        posterShape: "landscape",
+        posterShape: "poster",
         description: "Koleksi Episod Running Man (Episod 733 - now).",
         episodes: createEpisodes([
             { title: "Episode 733 : The Cool Running Year-End Party. Part 2", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acc92146e979983cdce5852" },
