@@ -1274,7 +1274,7 @@ const seriesDatabase = {
         id: "blue_birthday_series",
         catalogId: "blue_birthday_catalog",
         name: "Blue Birthday",
-        poster: "https://i.postimg.cc/LXJN8J3D/Blue-Birthday.avif",
+        poster: "https://i.postimg.cc/XYhX9m12/BB.jpg",
         posterShape: "poster",
         description: "Koleksi Blue Birthday.",
         episodes: createEpisodes([
