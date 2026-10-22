@@ -96,16 +96,13 @@ const manifest = {
         { type: "series", id: "boruto_catalog", name: "Boruto" },
         { type: "series", id: "jjk_catalog", name: "Jujutsu Kaisen" },
         { type: "series", id: "doraemon_catalog", name: "Doraemon" },
-        { type: "series", id: "doraemon_movie_catalog", name: "Doraemon Movie" },
         { type: "series", id: "pokemon_catalog", name: "Pokemon Journeys" },
         { type: "series", id: "midori_days_catalog", name: "Midori Days" },
         { type: "series", id: "anak_sidek_catalog", name: "Anak-Anak Sidek" },
-        { type: "series", id: "dragonball_movie_catalog", name: "Dragon Ball Movie" },
         { type: "series", id: "naruto_catalog", name: "Naruto Movie" },
         { type: "series", id: "ueki_catalog", name: "The Law of Ueki" },
         { type: "series", id: "tomjerry_catalog", name: "Tom & Jerry" },
         { type: "series", id: "conan_catalog", name: "Detective Conan" },
-        { type: "series", id: "conan_movie_catalog", name: "Detective Conan Movie" },
         { type: "series", id: "kaito_kid_catalog", name: "Kaito Kid" },
         { type: "series", id: "magic_kaito_catalog", name: "Magic Kaito" },
         { type: "series", id: "ginban_catalog", name: "Ginban Kaleidoscope" },
@@ -1018,6 +1015,7 @@ const seriesDatabase = {
         catalogId: "kisah_sahabat_catalog",
         name: "Kisah Para Sahabat Nabi",
         poster: "https://i.postimg.cc/KjHf4vvH/Kisah-Sahabat.jpg",
+        posterShape: "poster",
         description: "Koleksi Kisah Para Sahabat Nabi Muhammad SAW Oleh Ustaz Wadi Annuar.",
         episodes: createEpisodes([
             { title: "Nyawa Sebanyak Helaian Rambutnya Untuk Syahid (Bahagian 1)", url: "https://files.catbox.moe/wcvfir.mp4" },
@@ -1055,6 +1053,7 @@ const seriesDatabase = {
         catalogId: "sirah_nabi_catalog",
         name: "Kisah Perjalanan Hidup Nabi Muhammad SAW",
         poster: "https://i.postimg.cc/D0JLz54z/Sirah-UAS.jpg",
+        posterShape: "poster",
         description: "Kisah Perjalanan Hidup Nabi Muhammad SAW Oleh Ustaz Azlan Shah.",
         episodes: createEpisodes([
             { title: "Ep 1 - Penerokaan Kota Mekah Sirah Impak Sosial Kisah Kehidupan Nabi", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8b1db6e979983cdce60de" },
@@ -1110,6 +1109,7 @@ const seriesDatabase = {
         catalogId: "uas_catalog",
         name: "Koleksi Ustaz Azlan Shah",
         poster: "https://i.postimg.cc/1RY5cwfn/UAS.webp",
+        posterShape: "poster",
         description: "Koleksi Ilmu Oleh Ustaz Azlan Shah.",
         episodes: createEpisodes([
             { title: "Prolog - Sirah Impak Sosial - Kehidupan Nabi Muhammad SAW", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8a3df6e979983cdce60d0" },
@@ -1212,6 +1212,7 @@ const seriesDatabase = {
         catalogId: "mumul_zzumul_catalog",
         name: "Mumul Zzumul",
         poster: "https://i.postimg.cc/SsnDxnf2/Mumul-Zzumul.jpg",
+        posterShape: "poster",
         description: "Koleksi Mumul Zzumul.",
         episodes: createEpisodes([
             { title: "Mumul Zzumul Episode 1.mp4", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad6314f6e979983cdce5f0c" },
@@ -1236,6 +1237,7 @@ const seriesDatabase = {
         catalogId: "ma_boy_catalog",
         name: "Ma Boy",
         poster: "https://i.postimg.cc/SsnDxnfz/Ma-Boy.webp",
+        posterShape: "poster",
         description: "Koleksi Ma Boy.",
         episodes: createEpisodes([
             { title: "Episode 1-1", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad648bf6e979983cdce5f3c" },
@@ -1257,6 +1259,7 @@ const seriesDatabase = {
         catalogId: "iloveyou_loser_catalog",
         name: "I Love You, Loser!",
         poster: "https://i.postimg.cc/QtF0dFJ7/I-Love-You-Loser.jpg",
+        posterShape: "poster",
         description: "Koleksi I Love You, Loser!.",
         episodes: createEpisodes([
             { title: "I Love You, Loser Episode 1", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad650366e979983cdce5f53" },
@@ -1272,6 +1275,7 @@ const seriesDatabase = {
         catalogId: "blue_birthday_catalog",
         name: "Blue Birthday",
         poster: "https://i.postimg.cc/LXJN8J3D/Blue-Birthday.avif",
+        posterShape: "poster",
         description: "Koleksi Blue Birthday.",
         episodes: createEpisodes([
             { title: "Blue Birthday Episode 1", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad64f3f6e979983cdce5f4d" },
@@ -1292,6 +1296,7 @@ const seriesDatabase = {
         catalogId: "daebaking_catalog",
         name: "DaebaKing",
         poster: "https://i.postimg.cc/SsnDxnfK/Daeba-King.jpg",
+        posterShape: "poster",
         description: "Koleksi DaebaKing.",
         episodes: createEpisodes([
             { title: "Boyfriend Expert.mp4", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad6335c6e979983cdce5f26" },
@@ -1322,6 +1327,7 @@ const seriesDatabase = {
         catalogId: "7_firstkissed_catalog",
         name: "7 First Kissed",
         poster: "https://i.postimg.cc/XJrQYrkX/7-First-Kisses.jpg",
+        posterShape: "poster",
         description: "Koleksi 7 First Kissed.",
         episodes: createEpisodes([
             { title: "7 First Kissed Episode 1.mp4", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad632c36e979983cdce5f1e" },
@@ -1339,6 +1345,7 @@ const seriesDatabase = {
         catalogId: "like_catalog",
         name: "Like",
         poster: "https://i.postimg.cc/DzjxhrLL/Like.jpg",
+        posterShape: "poster",
         description: "Koleksi Like.",
         episodes: createEpisodes([
             { title: "[Like] Episode 1", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad656f76e979983cdce5f76" },
@@ -1370,7 +1377,8 @@ const seriesDatabase = {
         id: "a_teen_series",
         catalogId: "a_teen_catalog",
         name: "A-Teen",
-        poster: "",
+        poster: "https://i.postimg.cc/XvHsWfdp/A-Teen.jpg",
+        posterShape: "poster",
         description: "Koleksi A-Teen.",
         episodes: createEpisodes([
             { title: "Episode 1: Unordinary,_In_Truth,_Not_Wanting_To_Be_Ordinary", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad738446e979983cdce5fab" },
@@ -1404,6 +1412,7 @@ const seriesDatabase = {
         catalogId: "a_teen2_catalog",
         name: "A-Teen Season 2",
         poster: "https://i.postimg.cc/s26TzY7X/A-Teen-2.jpg",
+        posterShape: "poster",
         description: "Koleksi A-Teen Season 2.",
         episodes: createEpisodes([
             { title: "Episode 1 - Rumors Spread About Me At School", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad89a2a6e979983cdce60a5" },
@@ -1433,6 +1442,7 @@ const seriesDatabase = {
         catalogId: "handmade_love_catalog",
         name: "Handmade Love",
         poster: "https://i.postimg.cc/cJ9FWRws/Handmade-Love.jpg",
+        posterShape: "poster",
         description: "Koleksi Handmade Love.",
         episodes: createEpisodes([
             { title: "Handmade Love Part1", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad736086e979983cdce5f99" },
@@ -1444,6 +1454,7 @@ const seriesDatabase = {
         catalogId: "17_special_catalog",
         name: "Seventeen Special",
         poster: "https://i.postimg.cc/jdJNWf9w/Seventeen-Special.jpg",
+        posterShape: "poster",
         description: "Koleksi Seventeen Special.",
         episodes: createEpisodes([
             { title: "Seventeen - Special Edition", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad73e726e979983cdce5fb3" }
@@ -1454,6 +1465,7 @@ const seriesDatabase = {
         catalogId: "ending_again_catalog",
         name: "Ending Again",
         poster: "https://i.postimg.cc/25c0YQh5/Ending-Again.jpg",
+        posterShape: "poster",
         description: "Koleksi Ending Again.",
         episodes: createEpisodes([
             { title: "Ending Again 1-12", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad74fff6e979983cdce5fb4" }
@@ -1464,6 +1476,7 @@ const seriesDatabase = {
         catalogId: "be_my_boyfriend_catalog",
         name: "Be My Boyfriend",
         poster: "https://i.postimg.cc/g0SgpV8b/Be-My-Boyfriend.jpg",
+        posterShape: "poster",
         description: "Koleksi Be My Boyfriend.",
         episodes: createEpisodes([
             { title: "Be My Boyfriend Episode 1", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad790ca6e979983cdce6094" },
@@ -1488,6 +1501,7 @@ const seriesDatabase = {
         catalogId: "mermaid_prince_catalog",
         name: "Mermaid prince",
         poster: "https://i.postimg.cc/8CKZGRW2/Mermaid-Prince.jpg",
+        posterShape: "poster",
         description: "Koleksi Mermaid prince.",
         episodes: createEpisodes([
             { title: "Mermaid Prince Episode 1", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad794af6e979983cdce60a1" },
@@ -1507,6 +1521,7 @@ const seriesDatabase = {
         catalogId: "dalgona_catalog",
         name: "Dalgona",
         poster: "https://i.postimg.cc/q7b1rsyC/Dalgona.jpg",
+        posterShape: "poster",
         description: "Koleksi Dalgona.",
         episodes: createEpisodes([
             { title: "Dalgona", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad768f26e979983cdce5ffc" }
@@ -1517,6 +1532,7 @@ const seriesDatabase = {
         catalogId: "flower_catalog",
         name: "Flower Ever After",
         poster: "https://i.postimg.cc/7LsK430q/Flower-Ever-After.jpg",
+        posterShape: "poster",
         description: "Koleksi Flower Ever After.",
         episodes: createEpisodes([
             { title: "Flower Ever After", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad768f26e979983cdce5ffb" }
@@ -1527,6 +1543,7 @@ const seriesDatabase = {
         catalogId: "dash_catalog",
         name: "Dash Yonkuro",
         poster: "https://i.postimg.cc/wvs4kwbM/Dash-Yonkuro.jpg",
+        posterShape: "poster",
         description: "Koleksi Dash Yonkuro.",
         episodes: createEpisodes([ 
             { title: "Dash Yonkuro Episode 1", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad6535b6e979983cdce5f5c" },
@@ -1561,6 +1578,7 @@ const seriesDatabase = {
         catalogId: "satria_7pahlawan_catalog",
         name: "Satria 7 Pahlawan",
         poster: "https://i.postimg.cc/RZbQgHSb/SATRIA.jpg",
+        posterShape: "poster",
         description: "Koleksi Siri Satria 7 Pahlawan.",
         episodes: createEpisodes([
             { title: "Episode 1", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accb2bf6e979983cdce5a7f" },
@@ -1596,6 +1614,7 @@ const seriesDatabase = {
         catalogId: "tiny_planet_catalog",
         name: "Tiny Planet",
         poster: "https://i.postimg.cc/jjTp9pGj/Tiny-Planets-Cover.webp",
+        posterShape: "poster",
         description: "Koleksi Siri Tiny Planet.",
         episodes: createEpisodes([
             { title: "Tiny Planets Winter Warm Ups", url: "https://files.catbox.moe/tkfroo.mp4" },
@@ -1673,6 +1692,7 @@ const seriesDatabase = {
         catalogId: "mr_bean_s1_catalog",
         name: "Mr Bean S1",
         poster: "https://i.postimg.cc/ZqmGgG10/Mr-Bean-S1.jpg",
+        posterShape: "poster",
         description: "Koleksi Siri Mr Bean S1.",
         episodes: createEpisodes([
             { title: "Mr. Bean - S01E01 - In the Wild", url: "https://files.catbox.moe/44v4el.mp4" },
@@ -1700,6 +1720,7 @@ const seriesDatabase = {
         catalogId: "mr_bean_s2_catalog",
         name: "Mr Bean S2",
         poster: "https://i.postimg.cc/CK03t3WF/Mr-Bean-S2.jpg",
+        posterShape: "poster",
         description: "Koleksi Siri Mr Bean S2.",
         episodes: createEpisodes([
             { title: "Mr. Bean - S02E01 - Goldfish", url: "https://files.catbox.moe/rflcq0.mp4" },
@@ -1725,6 +1746,7 @@ const seriesDatabase = {
         catalogId: "mr_bean_s3_catalog",
         name: "Mr Bean S3",
         poster: "https://i.postimg.cc/43GDMDrd/Mr-Bean-S3.jpg",
+        posterShape: "poster",
         description: "Koleksi Siri Mr Bean S3.",
         episodes: createEpisodes([
             { title: "Mr. Bean - S03E01 - Gadget Kid", url: "https://files.catbox.moe/l0g3f8.mp4" },
@@ -1752,6 +1774,7 @@ const seriesDatabase = {
         catalogId: "mr_bean_s4_catalog",
         name: "Mr Bean S4",
         poster: "https://i.postimg.cc/q7rPYP9J/Mr-Bean-S4.jpg",
+        posterShape: "poster",
         description: "Koleksi Siri Mr Bean S4.",
         episodes: createEpisodes([
             { title: "Mr. Bean - S04E01 - Home Movie", url: "https://files.catbox.moe/tu7s7n.mp4" },
@@ -1794,6 +1817,7 @@ const seriesDatabase = {
         catalogId: "mahsyar_catalog",
         name: "Mahsyar",
         poster: "https://i.postimg.cc/nVR03TYz/Mahsyar.jpg",
+        posterShape: "poster",
         description: "Koleksi Siri Mahsyar (Episod 1 - 7).",
         episodes: createEpisodes([
             { title: "Mahsyar 1 - Kalau Binatang Sahaja Pun Dah Sesak", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acbf4e66e979983cdce554a" },
@@ -1810,6 +1834,7 @@ const seriesDatabase = {
         catalogId: "filem_dakwah_sengketa_catalog",
         name: "Filem Dakwah - Sengketa",
         poster: "https://i.postimg.cc/SQTDgV7K/Sengketa.jpg",
+        posterShape: "poster",
         description: "Koleksi Filem Dakwah - Sengketa.",
         episodes: createEpisodes([
             { title: "Sengketa 1", url: "https://files.catbox.moe/6qk9eh.mp4" },
@@ -1821,6 +1846,7 @@ const seriesDatabase = {
         catalogId: "sirah_nabawiyyah_catalog",
         name: "Sirah Nabawiyyah",
         poster: "https://i.postimg.cc/9Qp02k9d/Ustaz-Azlan-Shah.jpg",
+        posterShape: "poster",
         description: "Koleksi Sirah Nabawiyyah - UAS.",
         episodes: createEpisodes([
             { title: "Episode 1 - Serangan Tentera Bergajah", url: "https://files.catbox.moe/wuyth6.mp4" },
@@ -1859,6 +1885,7 @@ const seriesDatabase = {
         catalogId: "hagemaru_catalog",
         name: "Hagemaru",
         poster: "https://i.postimg.cc/8zS8nQF8/Hagemaru.jpg",
+        posterShape: "poster",
         description: "Koleksi Episod Hagemaru Bahasa Melayu.",
         episodes: createEpisodes([
             { title: "Pasukan Bola Lisut Muda", url: "https://files.catbox.moe/05qmoa.mp4" },
@@ -1891,6 +1918,7 @@ const seriesDatabase = {
         catalogId: "ninja_boy_catalog",
         name: "Ninja Boy",
         poster: "https://i.postimg.cc/NjchPqKZ/Ninja_Boy.jpg",
+        posterShape: "poster",
         description: "Koleksi Episod Ninja Boy Bahasa Melayu.",
         episodes: createEpisodes([
             "https://files.catbox.moe/eufzjd.mp4", "https://files.catbox.moe/gujt6g.mp4",
@@ -1904,6 +1932,7 @@ const seriesDatabase = {
         catalogId: "edens_zero_catalog",
         name: "Edens Zero",
         poster: "https://i.postimg.cc/6p0qKPZv/Edens-Zero-DP.jpg",
+        posterShape: "poster",
         description: "Koleksi Episod Edens Zero.",
         episodes: createEpisodes([
             { title: "Edens Zero Episode 01", url: "https://files.catbox.moe/2laihe.mkv" },
@@ -1938,6 +1967,7 @@ const seriesDatabase = {
         catalogId: "nisekoi_catalog",
         name: "Nisekoi",
         poster: "https://i.postimg.cc/523yJrzq/Nisekoi-DP.jpg",
+        posterShape: "poster",
         description: "Koleksi Episod Nisekoi.",
         episodes: createEpisodes([
             { title: "Nisekoi 01.mkv", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad629eb6e979983cdce5efd" },
@@ -1967,6 +1997,7 @@ const seriesDatabase = {
         catalogId: "nisekoi_2_catalog",
         name: "Nisekoi 2",
         poster: "https://i.postimg.cc/VsZjvZbm/Nisekoi-2.jpg",
+        posterShape: "poster",
         description: "Koleksi Episod Nisekoi 2.",
         episodes: createEpisodes([
             { title: "Nisekoi Episode 1", url: "https://files.catbox.moe/d4n92d.mkv" },
@@ -1988,6 +2019,7 @@ const seriesDatabase = {
         catalogId: "omar_dan_hana_catalog",
         name: "Omar & Hana",
         poster: "https://i.postimg.cc/T391xsbp/Omar-Dan-Hana-DP.webp",
+        posterShape: "poster",
         description: "Koleksi Episod Omar & Hana.",
         episodes: createEpisodes([
             { title: "Omar & Hana Episode 1.mp4", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad612fa6e979983cdce5e35" },
@@ -2034,6 +2066,7 @@ const seriesDatabase = {
         catalogId: "time_bokan_24_catalog",
         name: "Time Bokan 24",
         poster: "https://i.postimg.cc/YCyfdWrV/Time-Bokan.jpg",
+        posterShape: "poster",
         description: "Koleksi Episod Time Bokan.",
         episodes: createEpisodes([
             { title: "Time Bokan 24 Episode 01", url: "https://files.catbox.moe/n4j8xl.mp4" },
@@ -2066,6 +2099,7 @@ const seriesDatabase = {
         catalogId: "black_bullet_catalog",
         name: "Black Bullet",
         poster: "https://i.postimg.cc/bwTrP5nN/Black-Bullet-DP.jpg",
+        posterShape: "poster",
         description: "Koleksi Episod Black Bullet.",
         episodes: createEpisodes([
             { title: "Black Bullet Episod 01", url: "https://files.catbox.moe/cejcsb.mp4" },
@@ -2088,6 +2122,7 @@ const seriesDatabase = {
         catalogId: "one_punch_man_catalog",
         name: "One Punch Man",
         poster: "https://i.postimg.cc/x12rFDXF/One-Punch-Man.jpg",
+        posterShape: "poster",
         description: "Koleksi Episod One Punch Man.",
         episodes: createEpisodes([
             { title: "One Punch Man Episode 01", url: "https://files.catbox.moe/2ieuyd.mp4" },
@@ -2109,6 +2144,7 @@ const seriesDatabase = {
         catalogId: "high_rise_invasion_catalog",
         name: "High Rise Invasion",
         poster: "https://i.postimg.cc/sgcxzLWB/High-Rise-Invasion-DP.jpg",
+        posterShape: "poster",
         description: "Koleksi Episod High Rise Invasion.",
         episodes: createEpisodes([
             { title: "High-Rise Invasion Episode 1", url: "https://files.catbox.moe/vi2vel.mp4" },
@@ -2130,6 +2166,7 @@ const seriesDatabase = {
         catalogId: "demon_slayer_catalog",
         name: "Demon Slayer",
         poster: "https://i.postimg.cc/pTC0CTKZ/Demon-Slayer-DP.jpg",
+        posterShape: "poster",
         description: "Koleksi Episod Demon Slayer.",
         episodes: createEpisodes([
             { title: "Demon Slayer Episode 01", url: "https://files.catbox.moe/ymknn9.mkv" },
@@ -2165,6 +2202,7 @@ const seriesDatabase = {
         catalogId: "gundam_catalog",
         name: "Gundam Build Fighter",
         poster: "https://i.postimg.cc/hjsCsjV5/Gundam-Build-Fighter-DP.png",
+        posterShape: "poster",
         description: "Koleksi Episod Gundam Build Fighter.",
         episodes: createEpisodes([
             { title: "Gundam Build Fighter Episode 1", url: "https://files.catbox.moe/vzkag2.mp4" },
@@ -2188,6 +2226,7 @@ const seriesDatabase = {
         catalogId: "naruto_1-220_catalog",
         name: "Naruto",
         poster: "https://i.postimg.cc/vB6mWzW6/Naruto-DP.jpg",
+        posterShape: "poster",
         description: "Koleksi Episod Naruto.",
         episodes: createEpisodes([
             { title: "Episod 1: Masuk! Uzumaki Naruto!", url: "https://files.catbox.moe/l9l4vb.mp4" },
@@ -2417,6 +2456,7 @@ const seriesDatabase = {
         catalogId: "boruto_catalog",
         name: "Boruto Next Generation",
         poster: "https://i.postimg.cc/1tBWBtDc/Boruto-DP.jpg",
+        posterShape: "poster",
         description: "Koleksi Episod Boruto.",
         episodes: createEpisodes([
             { title: "Episode 1", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acca26e6e979983cdce59d3" },
@@ -2615,6 +2655,7 @@ const seriesDatabase = {
         catalogId: "jjk_catalog",
         name: "Jujutsu Kaisen",
         poster: "https://i.postimg.cc/nz2d2zvt/Jujutsu-Kaisen-DP.jpg",
+        posterShape: "poster",
         description: "Koleksi Episod Jujutsu Kaisen.",
         episodes: createEpisodes([
             { title: "Episode 1", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acca8136e979983cdce5a4d" },
@@ -2648,6 +2689,7 @@ const seriesDatabase = {
         catalogId: "doraemon_catalog",
         name: "Doraemon",
         poster: "https://i.postimg.cc/XYbMDSrm/Doraemon.jpg",
+        posterShape: "poster",
         description: "Koleksi Episod Doraemon Bahasa Melayu.",
         episodes: createEpisodes([
             "https://files.catbox.moe/oycp0l.mp4", "https://files.catbox.moe/y2jnzp.mp4", "https://files.catbox.moe/0rhjn1.mp4", "https://files.catbox.moe/j5bb72.mp4", "https://files.catbox.moe/tx56z3.mp4",
@@ -2669,6 +2711,7 @@ const seriesDatabase = {
         catalogId: "pokemon_catalog",
         name: "Pokemon Journeys The Series",
         poster: "https://i.postimg.cc/Ls9SCKJX/Pokemon.jpg",
+        posterShape: "poster",
         description: "Koleksi Episod Pokemon Journeys Bahasa Melayu.",
         episodes: createEpisodes([
             "https://files.catbox.moe/9l6811.mp4", "https://files.catbox.moe/f2adj4.mp4", "https://files.catbox.moe/bnoev9.mp4", "https://files.catbox.moe/64ntqo.mp4", "https://files.catbox.moe/83f07d.mp4",
@@ -2687,6 +2730,7 @@ const seriesDatabase = {
         catalogId: "midori_days_catalog",
         name: "Midori Days",
         poster: "https://i.postimg.cc/P5zgg3D9/Midori-Days.jpg",
+        posterShape: "poster",
         description: "Koleksi Episod Midori Days Bahasa Melayu.",
         episodes: createEpisodes([
             "https://files.catbox.moe/17w3pa.mp4", "https://files.catbox.moe/k27qz0.mp4", "https://files.catbox.moe/17jqa4.mp4", "https://files.catbox.moe/yezp6w.mp4", "https://files.catbox.moe/a5bwab.mp4",
@@ -2699,6 +2743,7 @@ const seriesDatabase = {
         catalogId: "anak_sidek_catalog",
         name: "Anak-Anak Sidek",
         poster: "https://i.postimg.cc/25kYcR11/Anak-Anak-Sidek.jpg",
+        posterShape: "poster",
         description: "Koleksi Episod Anak-Anak Sidek.",
         episodes: createEpisodes([
             "https://files.catbox.moe/0ts7am.mp4", "https://files.catbox.moe/lpswls.mp4", "https://files.catbox.moe/lbmnel.mp4", "https://files.catbox.moe/eligd9.mp4", "https://files.catbox.moe/khs41p.mp4",
@@ -2717,6 +2762,7 @@ const seriesDatabase = {
         catalogId: "ueki_catalog",
         name: "The Law of Ueki",
         poster: "https://i.postimg.cc/Sx7BBT9v/The-Law-Of-Ueki.jpg",
+        posterShape: "poster",
         description: "Koleksi Episod The Law of Ueki Bahasa Melayu.",
         episodes: createEpisodes([
             "https://files.catbox.moe/8kj5ks.mp4", "https://files.catbox.moe/z0g9yg.mp4", "https://files.catbox.moe/08sesz.mp4", "https://files.catbox.moe/6md76n.mp4", "https://files.catbox.moe/807ppt.mp4",
@@ -2737,6 +2783,7 @@ const seriesDatabase = {
         catalogId: "tomjerry_catalog",
         name: "Tom & Jerry",
         poster: "https://i.postimg.cc/Gm5JwFbK/Tom-And-Jerry.jpg",
+        posterShape: "poster",
         description: "Koleksi Episod Tom & Jerry.",
         episodes: createEpisodes([
             { title: "Fine Feathered Friend", url: "https://filestreambot-production-bef2.up.railway.app/dl/6accc4506e979983cdce5ad0" },
@@ -2999,6 +3046,7 @@ const seriesDatabase = {
         catalogId: "conan_catalog",
         name: "Detective Conan",
         poster: "https://i.postimg.cc/zvFTPwSK/Detective-Conan-DP.jpg",
+        posterShape: "poster",
         description: "Koleksi Episod Detective Conan.",
         episodes: createEpisodes([
             { title: "Episode 100 Bahagian 1", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ace686f6e979983cdce5dde" },
@@ -3155,8 +3203,19 @@ const seriesDatabase = {
         catalogId: "kaito_kid_catalog",
         name: "Kaito Kid",
         poster: "https://i.postimg.cc/QdrhJ0Zx/Kaito-Kid.webp",
+        posterShape: "poster",
         description: "Koleksi Episod Kaito Kid.",
         episodes: createEpisodes([
+            { title: "Episode 1", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ace5b546e979983cdce5d04" },
+            { title: "Episode 2", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ace5b546e979983cdce5d05" },
+            { title: "Episode 3", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ace5b546e979983cdce5d07" },
+            { title: "Episode 5", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ace5b546e979983cdce5d08" },
+            { title: "Episode 6", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ace5b546e979983cdce5d03" },
+            { title: "Episode 7", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ace5b546e979983cdce5d06" },
+            { title: "Episode 9", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ace5b5c6e979983cdce5d09" },
+            { title: "Episode 10", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ace5b5c6e979983cdce5d0a" },
+            { title: "Episode 11", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ace5b5c6e979983cdce5d0b" },
+            { title: "Episode 12", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ace5b5c6e979983cdce5d0c" },
         ])
     },
     "magic_kaito_catalog": {
@@ -3164,6 +3223,7 @@ const seriesDatabase = {
         catalogId: "magic_kaito_catalog",
         name: "Magic Kaito",
         poster: "https://i.postimg.cc/MpsRk2Gn/Magic-Kaito.jpg",
+        posterShape: "poster",
         description: "Koleksi Episod Magic Kaito.",
         episodes: createEpisodes([
             { title: "Magic Kaito (MK) Ep 1", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ace688a6e979983cdce5de3" },
@@ -3197,6 +3257,7 @@ const seriesDatabase = {
         catalogId: "ginban_catalog",
         name: "Ginban Kaleidoscope",
         poster: "https://i.postimg.cc/x1ywwxmB/Ginban-Kaleidoscope.jpg",
+        posterShape: "poster",
         description: "Koleksi Episod Ginban Kaleidoscope Bahasa Melayu.",
         episodes: createEpisodes([
             "https://files.catbox.moe/5je70q.flv", "https://files.catbox.moe/l4dsxu.flv", "https://files.catbox.moe/0pffen.flv", "https://files.catbox.moe/v67xcz.mp4",
@@ -3209,6 +3270,7 @@ const seriesDatabase = {
         catalogId: "black_cat_catalog",
         name: "Black Cat",
         poster: "https://i.postimg.cc/fRjGG2dF/Black-Cat.jpg",
+        posterShape: "poster",
         description: "Koleksi Episod Black Cat Bahasa Melayu.",
         episodes: createEpisodes([
             "https://files.catbox.moe/xt0a0n.mp4", "https://files.catbox.moe/k1wxy6.mp4", "https://files.catbox.moe/npays5.mp4", "https://files.catbox.moe/vr6t77.mp4", "https://files.catbox.moe/rtp95u.mp4",
@@ -3223,6 +3285,7 @@ const seriesDatabase = {
         catalogId: "digimon_savers_catalog",
         name: "Digimon Savers",
         poster: "https://i.postimg.cc/pLHN1bms/Digimon-Savers.jpg",
+        posterShape: "poster",
         description: "Koleksi Episod Digimon Savers Bahasa Melayu.",
         episodes: createEpisodes([
             "https://files.catbox.moe/pjuq4v.mp4", "https://files.catbox.moe/2xj9b9.mp4", "https://files.catbox.moe/qwdfom.mp4", "https://files.catbox.moe/0rcnrs.mp4", "https://files.catbox.moe/dcum9s.mp4",
@@ -3242,6 +3305,7 @@ const seriesDatabase = {
         catalogId: "digimon_01_catalog",
         name: "Digimon Adventure 01",
         poster: "https://i.postimg.cc/T368HMKn/Digimon-01.jpg",
+        posterShape: "poster",
         description: "Koleksi Episod Digimon Adventure 01 Bahasa Melayu.",
         episodes: createEpisodes([
             "https://files.catbox.moe/e0rqpf.mkv", "https://files.catbox.moe/2hou0p.mkv", "https://files.catbox.moe/e9v6wa.mkv", "https://files.catbox.moe/gu2sos.mkv", "https://files.catbox.moe/n6rsk2.mkv",
@@ -3262,6 +3326,7 @@ const seriesDatabase = {
         catalogId: "digimon_02_catalog",
         name: "Digimon Adventure 02",
         poster: "https://i.postimg.cc/qvzyZG3C/Digimon-Adventure-02-DP.webp",
+        posterShape: "poster",
         description: "Koleksi Episod Digimon Adventure 02.",
         episodes: createEpisodes([
             { title: "Digimon Adventure Zero Two Episode 01", url: "https://files.catbox.moe/zt1oss.mkv" },
@@ -3321,6 +3386,7 @@ const seriesDatabase = {
         catalogId: "digimon_03_catalog",
         name: "Digimon Adventure Tri",
         poster: "https://i.postimg.cc/XqWMwdLJ/Digimon-Tri.jpg",
+        posterShape: "poster",
         description: "Koleksi Episod Digimon Adventure Tri.",
         episodes: createEpisodes([
         ])
@@ -3330,6 +3396,7 @@ const seriesDatabase = {
         catalogId: "digimon_adventure2020_catalog",
         name: "Digimon Adventure 2020",
         poster: "https://i.postimg.cc/43ww8tX4/Digimon-Adventure-2020.jpg",
+        posterShape: "poster",
         description: "Koleksi Episod Digimon Adventure 2020.",
         episodes: createEpisodes([
             { title: "Digimon Adventure Episode 01", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad75d6e6e979983cdce5ff6" },
@@ -3406,6 +3473,7 @@ const seriesDatabase = {
         catalogId: "digimon_tamers_catalog",
         name: "Digimon Tamers",
         poster: "https://i.postimg.cc/NMwXFqPf/Digimon-Tamers-DP.webp",
+        posterShape: "poster",
         description: "Koleksi Episod Digimon Tamers.",
         episodes: createEpisodes([
             { title: "Digimon Tamers 1.avi", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad76add6e979983cdce6002" },
@@ -3466,6 +3534,7 @@ const seriesDatabase = {
         catalogId: "digimon_frontier_catalog",
         name: "Digimon Frontier",
         poster: "https://i.postimg.cc/y8PxKGRc/Digimon-Frontier-DP.jpg",
+        posterShape: "poster",
         description: "Koleksi Episod Digimon Frontier.",
         episodes: createEpisodes([
             { title: "Digimon Frontier Episode 5", url: "https://files.catbox.moe/d1rk16.mp4" },
@@ -3508,6 +3577,7 @@ const seriesDatabase = {
         catalogId: "chiquititas_song_catalog",
         name: "Chiquititas Song",
         poster: "https://i.postimg.cc/vZCqkvy4/Chiquititas-Tilin-Tilin-DP.png",
+        posterShape: "poster",
         description: "Koleksi Lagu Chiquititas Vol 6.",
         episodes: createEpisodes([
             { title: "Abre Entra", url: "https://files.catbox.moe/37g4sv.mp4" },
@@ -3526,17 +3596,133 @@ const seriesDatabase = {
         catalogId: "chiquititas_catalog",
         name: "Chiquititas",
         poster: "https://i.postimg.cc/vZCqkvy4/Chiquititas-Tilin-Tilin-DP.png",
+        posterShape: "poster",
         description: "Koleksi Episod Chiquititas.",
         episodes: createEpisodes([
-            { title: "Episode 1", url: "https://files.catbox.moe/dxha0o.mp4" },
-            { title: "Episode 2", url: "https://files.catbox.moe/5vmic5.mp4" },
-            { title: "Episode 3", url: "https://files.catbox.moe/0u0uul.mp4" },
-            { title: "Episode 4", url: "https://files.catbox.moe/mbenfh.mp4" },
-            { title: "Episode 5", url: "https://files.catbox.moe/01oyw1.mp4" },
-            { title: "Episode 6", url: "https://files.catbox.moe/y8hzxl.mp4" },
-            { title: "Episode 7", url: "https://files.catbox.moe/pqncav.mp4" },
-            { title: "Episode 9", url: "https://files.catbox.moe/51rx52.mp4" },
-            { title: "Episode 10", url: "https://files.catbox.moe/5uu54o.mp4" }
+            { title: "Episode 1", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c1db6e979983cdce60fd" },
+            { title: "Episode 2", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c1db6e979983cdce60f9" },
+            { title: "Episode 3", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c1db6e979983cdce60fb" },
+            { title: "Episode 4", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c1db6e979983cdce60fa" },
+            { title: "Episode 5", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c1db6e979983cdce60fc" },
+            { title: "Episode 6", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c1db6e979983cdce60f8" },
+            { title: "Episode 7", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c1e36e979983cdce60fe" },
+            { title: "Episode 9", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c1e56e979983cdce60ff" },
+            { title: "Episode 10", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c1e56e979983cdce6101" },
+            { title: "Episode 11", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c1e56e979983cdce6100" },
+            { title: "Episode 12", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c2356e979983cdce6103" },
+            { title: "Episode 13", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c2356e979983cdce6102" },
+            { title: "Episode 14", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c2356e979983cdce6106" },
+            { title: "Episode 15", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c2356e979983cdce6105" },
+            { title: "Episode 16", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c2356e979983cdce6107" },
+            { title: "Episode 17", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c2356e979983cdce6104" },
+            { title: "Episode 18", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c23d6e979983cdce6108" },
+            { title: "Episode 19", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c23d6e979983cdce6109" },
+            { title: "Episode 20", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c23d6e979983cdce610a" },
+            { title: "Episode 21", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c23d6e979983cdce610b" },
+            { title: "Episode 22", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c2976e979983cdce610e" },
+            { title: "Episode 23", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c2976e979983cdce610d" },
+            { title: "Episode 24", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c2976e979983cdce610f" },
+            { title: "Episode 25", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c2976e979983cdce6110" },
+            { title: "Episode 26", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c2976e979983cdce610c" },
+            { title: "Episode 28", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c2976e979983cdce6111" },
+            { title: "Episode 29", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c2a06e979983cdce6112" },
+            { title: "Episode 30", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c2a06e979983cdce6114" },
+            { title: "Episode 31", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c2a06e979983cdce6113" },
+            { title: "Episode 32", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c2a06e979983cdce6115" },
+            { title: "Episode 34", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c2e56e979983cdce611a" },
+            { title: "Episode 35", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c2e56e979983cdce6117" },
+            { title: "Episode 36", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c2e56e979983cdce6116" },
+            { title: "Episode 37", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c2e56e979983cdce6118" },
+            { title: "Episode 38", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c2e56e979983cdce611b" },
+            { title: "Episode 39", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c2e56e979983cdce6119" },
+            { title: "Episode 40", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c2ee6e979983cdce611c" },
+            { title: "Episode 41", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c2ee6e979983cdce611d" },
+            { title: "Episode 42", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c2ee6e979983cdce611f" },
+            { title: "Episode 43", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c2ee6e979983cdce611e" },
+            { title: "Episode 44", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c3286e979983cdce6122" },
+            { title: "Episode 45", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c3286e979983cdce6125" },
+            { title: "Episode 46", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c3286e979983cdce6121" },
+            { title: "Episode 47", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c3286e979983cdce6124" },
+            { title: "Episode 48", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c3286e979983cdce6120" },
+            { title: "Episode 49", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c3286e979983cdce6123" },
+            { title: "Episode 50", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c3306e979983cdce6126" },
+            { title: "Episode 51", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c3326e979983cdce6127" },
+            { title: "Episode 52", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c3326e979983cdce6128" },
+            { title: "Episode 53", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c3326e979983cdce6129" },
+            { title: "Episode 54", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c35c6e979983cdce612b" },
+            { title: "Episode 55", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c35c6e979983cdce612a" },
+            { title: "Episode 56", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c35c6e979983cdce612d" },
+            { title: "Episode 58", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c35c6e979983cdce612c" },
+            { title: "Episode 59", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c35c6e979983cdce612f" },
+            { title: "Episode 60", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c35c6e979983cdce612e" },
+            { title: "Episode 61", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c36c6e979983cdce6130" },
+            { title: "Episode 62", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c36e6e979983cdce6132" },
+            { title: "Episode 63", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c36e6e979983cdce6131" },
+            { title: "Episode 64", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c36e6e979983cdce6133" },
+            { title: "Episode 66", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c39e6e979983cdce6137" },
+            { title: "Episode 67", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c39e6e979983cdce6134" },
+            { title: "Episode 68", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c39e6e979983cdce6138" },
+            { title: "Episode 69", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c39e6e979983cdce6135" },
+            { title: "Episode 70", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c39e6e979983cdce6136" },
+            { title: "Episode 71", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c39e6e979983cdce6139" },
+            { title: "Episode 73", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c3a76e979983cdce613a" },
+            { title: "Episode 74", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c3ac6e979983cdce613c" },
+            { title: "Episode 75", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c3ac6e979983cdce613b" },
+            { title: "Episode 76", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c3b16e979983cdce613d" },
+            { title: "Episode 77", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c3ec6e979983cdce6142" },
+            { title: "Episode 78", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c3ec6e979983cdce613f" },
+            { title: "Episode 79", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c3ec6e979983cdce6141" },
+            { title: "Episode 80", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c3ec6e979983cdce6140" },
+            { title: "Episode 81", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c3ec6e979983cdce6143" },
+            { title: "Episode 82", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c3ec6e979983cdce613e" },
+            { title: "Episode 83", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c3f46e979983cdce6145" },
+            { title: "Episode 84", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c3f46e979983cdce6144" },
+            { title: "Episode 85", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c3f46e979983cdce6147" },
+            { title: "Episode 86", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c3f46e979983cdce6146" },
+            { title: "Episode 87", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c4386e979983cdce614b" },
+            { title: "Episode 88", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c4386e979983cdce6148" },
+            { title: "Episode 89", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c4386e979983cdce614c" },
+            { title: "Episode 90", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c4386e979983cdce614a" },
+            { title: "Episode 91", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c4386e979983cdce614d" },
+            { title: "Episode 92", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c4386e979983cdce6149" },
+            { title: "Episode 93", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c4406e979983cdce614e" },
+            { title: "Episode 94", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c4406e979983cdce614f" },
+            { title: "Episode 97", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c4406e979983cdce6150" },
+            { title: "Episode 98", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c4406e979983cdce6151" },
+            { title: "Episode 101", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c4846e979983cdce6156" },
+            { title: "Episode 103", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c4846e979983cdce6153" },
+            { title: "Episode 104", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c4846e979983cdce6155" },
+            { title: "Episode 105", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c4846e979983cdce6157" },
+            { title: "Episode 107", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c4846e979983cdce6152" },
+            { title: "Episode 108", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c4846e979983cdce6154" },
+            { title: "Episode 109", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c48c6e979983cdce6158" },
+            { title: "Episode 110", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c48c6e979983cdce615b" },
+            { title: "Episode 111", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c48c6e979983cdce6159" },
+            { title: "Episode 112", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c48c6e979983cdce615a" },
+            { title: "Episode 114", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c4cc6e979983cdce6160" },
+            { title: "Episode 115", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c4cc6e979983cdce615e" },
+            { title: "Episode 117", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c4cc6e979983cdce615c" },
+            { title: "Episode 118", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c4cc6e979983cdce615d" },
+            { title: "Episode 120", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c4cc6e979983cdce6161" },
+            { title: "Episode 121", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c4cc6e979983cdce615f" },
+            { title: "Episode 122", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c4d46e979983cdce6162" },
+            { title: "Episode 123", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c4d66e979983cdce6163" },
+            { title: "Episode 124", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c4d66e979983cdce6164" },
+            { title: "Episode 125", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c4d66e979983cdce6165" },
+            { title: "Episode 126", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c5206e979983cdce616b" },
+            { title: "Episode 127", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c5206e979983cdce6168" },
+            { title: "Episode 128", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c5206e979983cdce616a" },
+            { title: "Episode 130", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c5206e979983cdce6166" },
+            { title: "Episode 131", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c5206e979983cdce6169" },
+            { title: "Episode 132", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c5206e979983cdce6167" },
+            { title: "Episode 134", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c5296e979983cdce616c" },
+            { title: "Episode 135", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c5296e979983cdce616e" },
+            { title: "Episode 136", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c5296e979983cdce616d" },
+            { title: "Episode 139", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c5296e979983cdce616f" },
+            { title: "Episode 140", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c53a6e979983cdce6173" },
+            { title: "Episode 141", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c53a6e979983cdce6172" },
+            { title: "Episode 142", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c53a6e979983cdce6171" },
+            { title: "Episode 143", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad8c53a6e979983cdce6170" }
         ])
     },
     "shin_chan_catalog": {
@@ -3544,6 +3730,7 @@ const seriesDatabase = {
         catalogId: "shin_chan_catalog",
         name: "Crayon Shin Chan",
         poster: "https://i.postimg.cc/kGTdXWdR/Shin-Chan.jpg",
+        posterShape: "poster",
         description: "Koleksi Episod Crayon Shin Chan Bahasa Melayu.",
         episodes: createEpisodes([
             "https://files.catbox.moe/b9vevt.mp4", "https://files.catbox.moe/7rag9o.mp4", "https://files.catbox.moe/m0edfm.mp4", "https://files.catbox.moe/pynt42.mp4", "https://files.catbox.moe/7yvdbd.mp4",
@@ -3558,6 +3745,7 @@ const seriesDatabase = {
         catalogId: "siri_sirah_catalog",
         name: "Siri Sirah",
         poster: "https://i.postimg.cc/TPYrCJfc/Siri_SIrah.jpg",
+        posterShape: "poster",
         description: "Koleksi Episod Siri Sirah.",
         episodes: createEpisodes([
             { title: "Episode 3391", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad7801b6e979983cdce6076" },
@@ -3627,6 +3815,7 @@ const seriesDatabase = {
         catalogId: "akhir_zaman_catalog",
         name: "Kisah Hidup Akhir Zaman",
         poster: "https://i.postimg.cc/rynQfgCF/Akhir-Zaman.jpg",
+        posterShape: "poster",
         description: "Koleksi Episod Kisah Hidup Akhir Zaman.",
         episodes: createEpisodes([
             "https://files.catbox.moe/dmr7ys.mp4", "https://files.catbox.moe/c05jnq.mp4", "https://files.catbox.moe/sakwy1.mp4", "https://files.catbox.moe/8jcm2b.mp4", "https://files.catbox.moe/fcw4me.mp4",
@@ -3649,6 +3838,7 @@ const seriesDatabase = {
         catalogId: "hada_kiddy_catalog",
         name: "HaDa Kiddy",
         poster: "https://i.postimg.cc/8C8hy9ms/Ha-Da-Kiddy.jpg",
+        posterShape: "poster",
         description: "Koleksi Episod HaDa Kiddy Bahasa Melayu.",
         episodes: createEpisodes([
             { title: "Nabi Adam AS - Manusia Pertama Di Bumi", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ad727eb6e979983cdce5f8d" },
@@ -3672,6 +3862,7 @@ const seriesDatabase = {
         catalogId: "kd_malay_catalog",
         name: "Kids Delights (Malay Vers)",
         poster: "https://i.postimg.cc/FsKg8hfM/KD.jpg",
+        posterShape: "poster",
         description: "Koleksi Episod Kids Delights Bahasa Melayu.",
         episodes: createEpisodes([
             { title: "Nabi Nuh AS - Bahtera Penyelamat", poster: "https://i.postimg.cc/qMvTZV7c/Kisah-Nabi-Nuh.jpg", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ace52a16e979983cdce5cf3" },
@@ -3688,6 +3879,7 @@ const seriesDatabase = {
         catalogId: "kd_eng_catalog",
         name: "Kids Delights (Eng Vers)",
         poster: "https://i.postimg.cc/FsKg8hfM/KD.jpg",
+        posterShape: "poster",
         description: "Koleksi Episod Kids Delights English Version.",
         episodes: createEpisodes([
             { title: "Prophet Nuh AS - The Ark Of Safety", poster: "https://i.postimg.cc/qMvTZV7c/Kisah-Nabi-Nuh.jpg", url: "https://filestreambot-production-bef2.up.railway.app/dl/6ace53996e979983cdce5cf9" },
