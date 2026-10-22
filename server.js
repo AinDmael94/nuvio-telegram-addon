@@ -137,7 +137,7 @@ const seriesDatabase = {
         name: "Runningman 1-324",
         poster: "https://i.postimg.cc/wMYXFx0G/RM-2.jpg",
         background: "https://i.postimg.cc/L6JMMw55/RM-WP.jpg",
-        posterShape: "landscape",
+        logo: "https://i.postimg.cc/L6JMMw55/RM-WP.jpg",
         description: "Koleksi Episod Running Man (Episod 1 - 324).",
         episodes: createEpisodes([
             { title: "Episod 1: Times Square", description: "Lee Hyori and Hwang Jung Eum join the casts for their first run. 2 teams are created 'Expensive' and 'Cheap' teams.", url: "https://filestreambot-production-bef2.up.railway.app/dl/6acbff846e979983cdce555e" },
